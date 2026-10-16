@@ -62,7 +62,7 @@ rockbase=make_material('Rock base','#9A9AA6')
 rounded_box('Rock base',(0,-3.70,0),(19.4,.60,19.4),.15,rockbase,sides)
 # One exact flat disk: Water surface y=-.15, no raised bevel.
 waterverts=[(5,-.15,5)]+[(5+3.5*math.cos(i*math.tau/80),-.15,5+3.5*math.sin(i*math.tau/80)) for i in range(80)]
-mesh('Water surface',waterverts,[(0,i+1,(i+1)%80+1) for i in range(80)],watermat,water,False)
+mesh('Water surface',waterverts,[(0,(i+1)%80+1,i+1) for i in range(80)],watermat,water,False)
 
 # Squat rounded volcano with an inset orange crater.
 cone('Volcano',(-8,.70,-8),1.5,.58,1.4,volcanomat,deco,24,.18)

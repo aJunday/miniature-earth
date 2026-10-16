@@ -1,0 +1,3 @@
+import {chromium} from '@playwright/test';import assert from 'node:assert/strict';
+const browser=await chromium.launch({headless:true,args:['--single-process','--no-zygote']});
+try{const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://127.0.0.1:5181');await page.getByRole('button',{name:'Future',exact:true}).first().click();await page.getByRole('button',{name:/Exploit/,exact:false}).click();await page.waitForTimeout(1600);await page.screenshot({path:'qa/shots/future-exploit.png'});assert.deepEqual(errors,[]);console.log('PASS future tint render');}finally{await browser.close()}

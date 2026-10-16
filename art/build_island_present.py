@@ -62,7 +62,7 @@ rockbase=make_material('Rock base','#9A9AA6')
 rounded_box('Rock base',(0,-3.70,0),(19.4,.60,19.4),.15,rockbase,sides)
 # One exact flat disk: Water surface y=-.15, no raised bevel.
 waterverts=[(5,-.15,5)]+[(5+3.5*math.cos(i*math.tau/80),-.15,5+3.5*math.sin(i*math.tau/80)) for i in range(80)]
-mesh('Water surface',waterverts,[(0,i+1,(i+1)%80+1) for i in range(80)],watermat,water,False)
+mesh('Water surface',waterverts,[(0,(i+1)%80+1,i+1) for i in range(80)],watermat,water,False)
 
 # Decorative edge stacks leave the central placement field open.
 for x,z,h in [(-8,-8,1.3),(-8,6,.8),(8,-8,1.0),(-2,-8.8,.6)]:

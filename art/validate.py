@@ -126,6 +126,10 @@ for name in sorted(BUDGETS):
                 assert primitive.get('mode',4)==4
                 positions=accessor(doc,blob,primitive['attributes']['POSITION'])
                 indices=accessor(doc,blob,primitive['indices'])
+                if node['name']=='Water':
+                    normals=accessor(doc,blob,primitive['attributes']['NORMAL'])
+                    assert all(sum(world[1][j]*n[j] for j in range(3))>.99 for n in normals),'Water normals must face upward'
+
                 assert all(0<=i[0]<len(positions) for i in indices)
                 triangles+=len(indices)//3
                 for p in positions:
@@ -147,7 +151,7 @@ for name in sorted(BUDGETS):
         dimension=max(high[i]-low[i] for i in range(3)) if name in SIZES else high[1]-low[1]
         target=SIZES.get(name,HEIGHTS.get(name))
         assert abs(dimension/target-1)<.05,(name,dimension,target)
-        if name=='org_stegosaurus':
+        if {'Head','Body','Tail'}<=set(bypart):
             mean=lambda part:sum(p[2] for p in bypart[part])/len(bypart[part])
             assert mean('Head')>mean('Body')>mean('Tail'), 'Wrong forward direction'
     else:
@@ -164,4 +168,5 @@ for name in sorted(BUDGETS):
 (BASE/'art/reports/validation.json').write_text(json.dumps(results,indent=2)+'\n')
 manifest=[{'id':k.removeprefix('org_'),'file':'/models/'+k+'.glb','icon':'/icons/'+k+'.png','heightUnits':v['height'],'triangles':v['triangles'],'parts':[n.strip() for n in v['node_tree']]} for k,v in results.items()]
 (BASE/'public/models/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
-print('PASS built-model contract; MISSING entries remain explicit until Phase I.')
+assert len(results)==len(BUDGETS), 'Missing required models'
+print('PASS complete model contract: '+str(len(results))+' models, no missing entries.')

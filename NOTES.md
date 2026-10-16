@@ -99,3 +99,5 @@
 - The 56-model contact sheet uses a labelled grid so every asset remains visible; all icons are Cycles CPU transparent PNGs.
 - Audio is quiet procedural tones with era-specific ambience; no external audio files. Demo steps use wall-clock time and cancel immediately on pointer or keyboard input.
 - Phase K fixes include full-page sky blending, direct touch placement coordinates, translucent placement ghosts, per-individual motion phase, soft fossil colour transitions, and retained animal instances for shrink-out deaths.
+- Phase L screenshot review requires actual upward water normals even though two-sided Blender renders had hidden the winding error; the GLB validator now checks this explicitly and checks forward direction for every animal with Head/Body/Tail.
+- Official Playwright Chromium runs with --single-process --no-zygote on this Mac; no sandbox policy is changed. Browser smoke and separate touch/keyboard checks pass.

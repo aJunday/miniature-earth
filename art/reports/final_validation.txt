@@ -566,4 +566,4 @@ PASS org_wildflower: 1100 triangles / 1500; bounds [-0.173031747341156, 0.0, -0.
 Root
   Foliage
 PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 50055
-PASS built-model contract; MISSING entries remain explicit until Phase I.
+PASS complete model contract: 56 models, no missing entries.
