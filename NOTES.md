@@ -136,3 +136,13 @@
 - Reef gardens use at most 96 candidate colonies across three coastal patches, filtered to submerged habitat; four instanced shapes bound draw calls independently of colony count.
 - Coastline distance now interpolates from a nonuniform 72×72 water grid; the centre receives more vertices than the distant ocean. Terrain grid 128×128; rocks use one icosphere subdivision.
 - The future drying tint is a material uniform instead of a terrain reconstruction for each timeline tick. Lagoon opacity is handled separately from clear coastal reef water.
+
+- New master-prompt scope: stop after one present-day visual milestone for review; historical default-fauna expansion and advanced behavior remain later work.
+- Representative setting is a stylized woodland/meadow/reef habitat mosaic, not a geographically exact community; no new biological claims or external assets are introduced.
+- Modern/Holocene horizontal scale is 1.5 (approximately 2.25× land area); older geological landscapes retain their original scale. Modern saved placements migrate once via landscapeVersion 2.
+- Ten resident population groups enter at the 2026 showcase date and participate in the existing deterministic ecology. They are regenerated independently of saved player additions; reset restores this baseline.
+- Resident grass/oak/flowers/seagrass populations support the food web; environmental vegetation represents these resources visually and does not track each simulated plant one-to-one.
+- Close wildlife keeps named joint animation; distant vertex-painted parts merge into a single draw per species, retaining whole-body breathing and movement. No source GLBs are modified.
+- Visual refinements after actual screenshots: widened the river's flat bed to remove terrain clipping, clustered flowers/grass, added exposed summit rocks and wetland reeds, increased reef silhouettes, reduced repeated surface sparkles, and extended/fogged the ocean to remove its visible mobile boundary.
+- Existing hand-authored model assets and procedural materials remain original. Reference images from mininature earth (2).docx guided rounded forms, habitat grouping, turquoise shallows and warm lighting; reference assets were not copied into the game.
+- Remaining visual limitations: distant small-animal joint animation is omitted, freshwater/salinity is not simulated, there is no physical refraction, cliffs/waterfalls and richer bird behavior remain future work, and physical-device frame-rate validation is outstanding.

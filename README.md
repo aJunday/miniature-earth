@@ -30,7 +30,7 @@ Search or filter the catalogue, drag a card onto the island or ocean, or select 
 
 Drag the timeline, choose a geological period, zoom into its interval, or enter a year (negative for BCE). Arrow keys move five years in recent history; Shift moves ten. Deep-time arrow keys move one or ten simulation ticks. Space toggles playback. Drag the world to orbit when no species is selected; scroll/pinch to zoom. The population panel shows species totals. Life’s story explores a sourced whale lineage without transforming your organisms.
 
-At 2060 switch Protect/Exploit to compare placements. Watch demo runs a captioned 60-second tour; pointer or keyboard input cancels it. Saves stay in localStorage. Reset clears the world.
+At 2060 switch Protect/Exploit to compare placements. Watch demo runs a captioned 60-second tour; pointer or keyboard input cancels it. Saves stay in localStorage. Reset removes player additions and restores the curated present-day resident community. Residents enter at the 2026 showcase date; earlier-era default fauna are a later milestone. Modern saves migrate to the expanded footprint once.
 
 ## How the simulation works
 
@@ -70,3 +70,8 @@ Inherited variation is a teaching model of three thermal-tolerance variants, not
 Screen-size model selection uses distant variants below 40 projected pixels and full detail above 52, with a 44px initial choice. The gap prevents rapid switching near a threshold. Geometry, joint names and vertex paint are validated offline. All catalogue organisms now use one material per animated part. Repeated reef colonies use four instanced geometry families; Hadean and glacial showcases omit reefs, and early eras avoid modern coral silhouettes.
 
 The water shader computes coastline distance per vertex on a grid concentrated near the island. Shallow water reveals reef colours while the lagoon retains a stronger turquoise tint. Future ground tint is a shader uniform, so scrubbing recent years no longer rebuilds the terrain mesh on each tick. Terrain, river and procedural-texture resources are released when replaced.
+
+### Present-day visual review milestone
+The modern island uses a 1.5× horizontal footprint, a rocky summit, a wider river valley, an irregular pond with reeds, clustered meadow planting and three shallow reef gardens. Ten baseline populations include deer, rabbits, foxes, bees, reef fish, turtles and their plant resources. The initial view is alive without placement; player events still branch and replay deterministically.
+
+Distant vertex-painted organism parts merge into one instanced draw per species. Zoom restores the existing full jointed models when their projected size crosses the detail threshold. Ocean geometry extends beyond the mobile view and fades into atmospheric colour. See `qa/VISUAL_MILESTONE_REVIEW.md` for checks, screenshots and limitations. This milestone stops for visual review before further historical ecosystem work.

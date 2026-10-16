@@ -17,3 +17,7 @@ html,body,#root{height:100%;overflow:hidden}*{box-sizing:border-box}button{font:
 .science-details{border-top:1px solid #bed5c4;margin:12px 0;padding-top:10px;font-size:13px}.science-details summary{cursor:pointer;font-weight:800;color:#286348}.science-details dt{font-weight:800;margin-top:9px}.science-details dd{margin:2px 0;color:#49645b}.science-details a,.science-details small{display:block;margin-top:9px}.trait-group{background:#e9f2e7;border-radius:12px;padding:10px;margin:10px 0}.trait-group label{display:flex;align-items:center;gap:7px;font-size:12px}.trait-group meter{flex:1;width:60px;accent-color:#4f9e74}.trait-group label span{width:40px;text-align:right}
 
 .organism-open .world-card{visibility:hidden}
+
+/* Keep the title readable over both deep water and pale historical skies. */
+.masthead > div:first-child { background: #fff9eee8; border-radius: 18px; padding: 10px 16px; box-shadow: 0 4px 20px #123d4310; }
+@media (max-width: 800px) { .masthead > div:first-child { padding: 7px 9px; border-radius: 12px; } }

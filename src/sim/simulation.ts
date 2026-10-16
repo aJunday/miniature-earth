@@ -8,7 +8,7 @@ import {habitatAt} from '../world/terrain';
 import type {Species,Placement,Scenario,SimState} from './types';
 export const species=raw as Species[];
 export const byId=Object.fromEntries(species.map(s=>[s.id,s]));
-interface GroupState {id:string;speciesId:string;population:number;x:number;z:number;tick:number;traits?:InheritedTraits|undefined}
+interface GroupState {id:string;origin?:'resident';speciesId:string;population:number;x:number;z:number;tick:number;traits?:InheritedTraits|undefined}
 const clone=(g:GroupState):GroupState=>({...g,traits:g.traits?{...g.traits,frequencies:[...g.traits.frequencies]}:undefined});
 const sum=(groups:GroupState[])=>groups.reduce<Record<string,number>>((p,g)=>{p[g.speciesId]=(p[g.speciesId]??0)+g.population;return p},{});
 export function createWorld(seed=42){let events:Placement[]=[];const cache=new Map<string,GroupState[]>();const asteroid=yearToTick(-66e6),permian=yearToTick(-252e6);
