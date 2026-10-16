@@ -61,6 +61,20 @@
     ]
   },
   {
+    "id": "ammonite",
+    "file": "/models/org_ammonite.glb",
+    "icon": "/icons/org_ammonite.png",
+    "heightUnits": 0.6999999582767487,
+    "triangles": 2748,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head"
+    ]
+  },
+  {
     "id": "amurleopard",
     "file": "/models/org_amurleopard.glb",
     "icon": "/icons/org_amurleopard.png",
@@ -77,6 +91,20 @@
       "Leg_FL",
       "Leg_FR",
       "Tail"
+    ]
+  },
+  {
+    "id": "anomalocaris",
+    "file": "/models/org_anomalocaris.glb",
+    "icon": "/icons/org_anomalocaris.png",
+    "heightUnits": 0.6499999761581421,
+    "triangles": 2722,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head"
     ]
   },
   {
@@ -294,6 +322,25 @@
     ]
   },
   {
+    "id": "dimetrodon",
+    "file": "/models/org_dimetrodon.glb",
+    "icon": "/icons/org_dimetrodon.png",
+    "heightUnits": 1.299999862909317,
+    "triangles": 2754,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
     "id": "dodo",
     "file": "/models/org_dodo.glb",
     "icon": "/icons/org_dodo.png",
@@ -403,6 +450,25 @@
     ]
   },
   {
+    "id": "groundsloth",
+    "file": "/models/org_groundsloth.glb",
+    "icon": "/icons/org_groundsloth.png",
+    "heightUnits": 1.7999998927116394,
+    "triangles": 2734,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
     "id": "honeybee",
     "file": "/models/org_honeybee.glb",
     "icon": "/icons/org_honeybee.png",
@@ -417,6 +483,18 @@
       "Tail",
       "Wing_L",
       "Wing_R"
+    ]
+  },
+  {
+    "id": "horsetail",
+    "file": "/models/org_horsetail.glb",
+    "icon": "/icons/org_horsetail.png",
+    "heightUnits": 1.100000023841858,
+    "triangles": 1356,
+    "parts": [
+      "Root",
+      "Foliage",
+      "Trunk"
     ]
   },
   {
@@ -472,6 +550,18 @@
       "Leg_FL",
       "Leg_FR",
       "Tail"
+    ]
+  },
+  {
+    "id": "lycophyte",
+    "file": "/models/org_lycophyte.glb",
+    "icon": "/icons/org_lycophyte.png",
+    "heightUnits": 2.7999999336898327,
+    "triangles": 1356,
+    "parts": [
+      "Root",
+      "Foliage",
+      "Trunk"
     ]
   },
   {
@@ -619,6 +709,22 @@
       "Leg_FL",
       "Leg_FR",
       "Tail"
+    ]
+  },
+  {
+    "id": "pteranodon",
+    "file": "/models/org_pteranodon.glb",
+    "icon": "/icons/org_pteranodon.png",
+    "heightUnits": 0.800000011920929,
+    "triangles": 1934,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Wing_L",
+      "Wing_R"
     ]
   },
   {
@@ -913,6 +1019,25 @@
     "icon": "/icons/org_tiger.png",
     "heightUnits": 0.7261876463890076,
     "triangles": 2710,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
+    "id": "triceratops",
+    "file": "/models/org_triceratops.glb",
+    "icon": "/icons/org_triceratops.png",
+    "heightUnits": 1.600000023841858,
+    "triangles": 2738,
     "parts": [
       "Root",
       "Body",

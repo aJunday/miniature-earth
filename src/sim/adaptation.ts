@@ -1,19 +1,22 @@
 import {rangeFit} from './fitness';
 import type {Species} from './types';
-/** Teaching model of standing heritable variation, not measured genetics or speciation. */
+/** Teaching model of heritable variation, not measured genetics or speciation. */
 export interface InheritedTraits {frequencies:[number,number,number];births:number;turnover:number}
+export const mutationRate=.002; // Illustrative per-offspring probability, not measured biology.
 export const traitOffsets=[-2,0,2] as const;
 export const adaptedSpecies=new Set(['deer','rabbit','redfox','mammoth']);
 export const initialTraits=():InheritedTraits=>({frequencies:[.25,.5,.25],births:0,turnover:0});
 export function variantFitness(s:Species,temp:number){return traitOffsets.map(offset=>rangeFit(temp,s.temp?.map(v=>v+offset)??null,5))}
 export function inheritedFitness(s:Species,temp:number,traits:InheritedTraits){return variantFitness(s,temp).reduce((total,f,i)=>total+f*traits.frequencies[i],0)}
 /** Offspring retain parental variant; mortality is weighted toward poorly suited variants.
- * No mutation: a missing variant cannot appear. Population size remains governed by ecology. */
-export function inherit(traits:InheritedTraits,oldPopulation:number,nextPopulation:number,births:number,fit:number[]):InheritedTraits{
+ * Optional symmetric mutation redistributes offspring only. Population size stays ecological. */
+export function inherit(traits:InheritedTraits,oldPopulation:number,nextPopulation:number,births:number,fit:number[],mutation=0):InheritedTraits{
  if(oldPopulation<=0||nextPopulation<=0)return {...traits,frequencies:[0,0,0]};
  const weights=traits.frequencies.map((p,i)=>p*fit[i]);const weight=weights.reduce((a,b)=>a+b,0);
  const offspring=weights.map((w,i)=>births*(weight?w/weight:traits.frequencies[i]));
- const cohorts=traits.frequencies.map((p,i)=>oldPopulation*p+offspring[i]);
+ const rate=Math.max(0,Math.min(1,mutation));
+ const mutated=offspring.map((n,i)=>n*(1-rate)+rate*(offspring[(i+1)%3]+offspring[(i+2)%3])/2);
+ const cohorts=traits.frequencies.map((p,i)=>oldPopulation*p+mutated[i]);
  let deaths=Math.max(0,oldPopulation+births-nextPopulation);
  // Redistribute capped deaths so no cohort can become negative.
  for(let pass=0;pass<3&&deaths>1e-9;pass++){

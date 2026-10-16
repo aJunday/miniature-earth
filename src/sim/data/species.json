@@ -1586,5 +1586,205 @@
     "habitatSensitivity": 0.5,
     "threats": [],
     "selfSufficient": true
+  },
+  {
+    "id": "anomalocaris",
+    "name": "Anomalocaris",
+    "era": "Cambrian",
+    "zone": "sea",
+    "diet": "carnivore",
+    "eats": [
+      "trilobite"
+    ],
+    "temp": [
+      10,
+      36
+    ],
+    "rain": null,
+    "height": 0.65,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.04,
+    "K": 40,
+    "need": 0.025,
+    "m": 0.04,
+    "fact": "Swimming lobes and grasping frontal appendages distinguish this Cambrian radiodont.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": false
+  },
+  {
+    "id": "ammonite",
+    "name": "Ammonoid",
+    "era": "Jurassic",
+    "zone": "sea",
+    "diet": "carnivore",
+    "eats": [],
+    "temp": [
+      10,
+      36
+    ],
+    "rain": null,
+    "height": 0.7,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.04,
+    "K": 40,
+    "need": 0.025,
+    "m": 0.04,
+    "fact": "Ammonoids were marine cephalopods; this model represents the coiled-shell group, not one species.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": true
+  },
+  {
+    "id": "dimetrodon",
+    "name": "Dimetrodon",
+    "era": "Permian",
+    "zone": "land",
+    "diet": "carnivore",
+    "eats": [],
+    "temp": [
+      10,
+      36
+    ],
+    "rain": null,
+    "height": 1.3,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.04,
+    "K": 40,
+    "need": 0.025,
+    "m": 0.04,
+    "fact": "A sail-backed synapsid from the Permian, not a dinosaur.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": true
+  },
+  {
+    "id": "triceratops",
+    "name": "Triceratops",
+    "era": "Cretaceous",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [
+      "fern",
+      "horsetail"
+    ],
+    "temp": [
+      10,
+      36
+    ],
+    "rain": null,
+    "height": 1.6,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.04,
+    "K": 40,
+    "need": 0.025,
+    "m": 0.04,
+    "fact": "Three horns and a broad frill distinguish this late-Cretaceous herbivore.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": false
+  },
+  {
+    "id": "pteranodon",
+    "name": "Pteranodon",
+    "era": "Cretaceous",
+    "zone": "land",
+    "diet": "carnivore",
+    "eats": [],
+    "temp": [
+      10,
+      36
+    ],
+    "rain": null,
+    "height": 0.8,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.04,
+    "K": 40,
+    "need": 0.025,
+    "m": 0.04,
+    "fact": "Pterosaurs were flying reptiles, separate from dinosaurs.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": true
+  },
+  {
+    "id": "groundsloth",
+    "name": "Giant ground sloth",
+    "era": "Pleistocene",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [
+      "fern",
+      "horsetail"
+    ],
+    "temp": [
+      -5,
+      32
+    ],
+    "rain": null,
+    "height": 1.8,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.04,
+    "K": 40,
+    "need": 0.025,
+    "m": 0.04,
+    "fact": "Ground sloths were diverse large-bodied mammals; this broad-group miniature has stout limbs and curved claws.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": false
+  },
+  {
+    "id": "lycophyte",
+    "name": "Tree lycophyte",
+    "era": "Carboniferous",
+    "zone": "land",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      10,
+      36
+    ],
+    "rain": null,
+    "height": 2.8,
+    "hardy": true,
+    "tier": 1,
+    "r": 0.06,
+    "K": 160,
+    "need": 0.025,
+    "m": 0.04,
+    "fact": "Tree-sized lycophytes helped form ancient swamp forests; this is a broad-group miniature.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": false
+  },
+  {
+    "id": "horsetail",
+    "name": "Ancient horsetail",
+    "era": "Carboniferous",
+    "zone": "land",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      10,
+      36
+    ],
+    "rain": null,
+    "height": 1.1,
+    "hardy": true,
+    "tier": 1,
+    "r": 0.06,
+    "K": 160,
+    "need": 0.025,
+    "m": 0.04,
+    "fact": "Jointed stems and whorled branches distinguish horsetails, represented here as an ancient group.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": false
   }
 ]

@@ -153,3 +153,11 @@
 - Water effects are inexpensive approximations: animated flow highlights and surf bands, clearer shallow-water transparency, animated seabed light patterns, and GPU-swaying grass; there is no physical refraction or fluid simulation.
 - Performance work removes the invisible placement-grid draw while preserving raycasts, precomputes static coast/lagoon distances, reduces tiny flower/coral-tip triangles, adds canopy detail hysteresis (near above zoom 28, far below 22), and uses diffuse lighting for vegetation/reef batches while retaining terrain/animal materials.
 - Performance comparison uses the same viewport, seed, player placements, resident population and adaptive resolution settings before/after; headless software-browser timings do not establish physical-device 60 fps.
+
+- Continuous completion request supersedes the earlier pause-for-review step; no push or deployment is authorized.
+- Historical resident windows describe selected representative communities, not precise first/last taxon occurrences; players remain free to experiment outside those windows.
+- Added eight original rounded historical assets instead of importing external models; taxonomy is only populated when an exact GBIF match is returned.
+- Mutation uses an illustrative 0.2% per-offspring redistribution among thermal variants; it does not change adult individuals or claim measured genetics.
+- Three lineage chapters describe branching relationships, not direct ancestor chains. Broad-group ground sloths and plants deliberately retain unknown precise range fields.
+- Rendered historical plants and large animals are capped more tightly to preserve open space. An animated bald-eagle pair joins the modern baseline.
+- Behavior steering is visual; the deterministic ecological model alone changes population totals, preventing duplicate predation or reproduction accounting.

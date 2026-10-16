@@ -14,6 +14,16 @@
       "Tail"
     ]
   },
+  "org_ammonite": {
+    "full": 2748,
+    "distant": 1318,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head"
+    ]
+  },
   "org_amurleopard": {
     "full": 2668,
     "distant": 1280,
@@ -27,6 +37,16 @@
       "Leg_FL",
       "Leg_FR",
       "Tail"
+    ]
+  },
+  "org_anomalocaris": {
+    "full": 2722,
+    "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head"
     ]
   },
   "org_arthropleura": {
@@ -191,6 +211,21 @@
       "Tail"
     ]
   },
+  "org_dimetrodon": {
+    "full": 2754,
+    "distant": 1324,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
   "org_dodo": {
     "full": 2724,
     "distant": 1298,
@@ -272,6 +307,21 @@
       "Foliage"
     ]
   },
+  "org_groundsloth": {
+    "full": 2734,
+    "distant": 1318,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
   "org_honeybee": {
     "full": 2726,
     "distant": 1300,
@@ -283,6 +333,14 @@
       "Tail",
       "Wing_L",
       "Wing_R"
+    ]
+  },
+  "org_horsetail": {
+    "full": 1356,
+    "distant": 648,
+    "parts": [
+      "Foliage",
+      "Trunk"
     ]
   },
   "org_humpback": {
@@ -326,6 +384,14 @@
       "Leg_FL",
       "Leg_FR",
       "Tail"
+    ]
+  },
+  "org_lycophyte": {
+    "full": 1356,
+    "distant": 648,
+    "parts": [
+      "Foliage",
+      "Trunk"
     ]
   },
   "org_mammoth": {
@@ -441,6 +507,18 @@
       "Leg_FL",
       "Leg_FR",
       "Tail"
+    ]
+  },
+  "org_pteranodon": {
+    "full": 1934,
+    "distant": 924,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Wing_L",
+      "Wing_R"
     ]
   },
   "org_rabbit": {
@@ -668,6 +746,21 @@
   "org_tiger": {
     "full": 2710,
     "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_triceratops": {
+    "full": 2738,
+    "distant": 1320,
     "parts": [
       "Body",
       "Eye_L",

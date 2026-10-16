@@ -1671,5 +1671,260 @@
       }
     ],
     "checked": "2026-10-16"
+  },
+  "anomalocaris": {
+    "commonName": "Anomalocaris",
+    "scientificName": "Anomalocaris Whiteaves, 1892",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+    ],
+    "sources": [
+      {
+        "field": "historical context",
+        "url": "https://ocean.si.edu/through-time/ocean-through-time",
+        "label": "Museum / public scientific reference"
+      },
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Anomalocaris&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "ammonite": {
+    "commonName": "Ammonoid",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+    ],
+    "sources": [
+      {
+        "field": "historical context",
+        "url": "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html",
+        "label": "Museum / public scientific reference"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "dimetrodon": {
+    "commonName": "Dimetrodon",
+    "scientificName": "Dimetrodon Cope, 1878",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+    ],
+    "sources": [
+      {
+        "field": "historical context",
+        "url": "https://www.si.edu/object/nmnhpaleobiology_3451032",
+        "label": "Museum / public scientific reference"
+      },
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Dimetrodon&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "triceratops": {
+    "commonName": "Triceratops",
+    "scientificName": "Triceratops Marsh, 1889",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+    ],
+    "sources": [
+      {
+        "field": "historical context",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+        "label": "Museum / public scientific reference"
+      },
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Triceratops&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "pteranodon": {
+    "commonName": "Pteranodon",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+    ],
+    "sources": [
+      {
+        "field": "historical context",
+        "url": "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html",
+        "label": "Museum / public scientific reference"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "groundsloth": {
+    "commonName": "Giant ground sloth",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+    ],
+    "sources": [
+      {
+        "field": "historical context",
+        "url": "https://www.floridamuseum.ufl.edu/vertpaleo/aucilla-river-prehistory-project/",
+        "label": "Museum / public scientific reference"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "lycophyte": {
+    "commonName": "Tree lycophyte",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+    ],
+    "sources": [
+      {
+        "field": "historical context",
+        "url": "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
+        "label": "Museum / public scientific reference"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "horsetail": {
+    "commonName": "Ancient horsetail",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+    ],
+    "sources": [
+      {
+        "field": "historical context",
+        "url": "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
+        "label": "Museum / public scientific reference"
+      }
+    ],
+    "checked": "2026-10-16"
   }
 }

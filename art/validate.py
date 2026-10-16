@@ -23,7 +23,7 @@ for item in json.loads((BASE/'src/sim/data/species.json').read_text()):
     if key not in HEIGHTS and key not in SIZES: HEIGHTS[key]=item['height']
 EXPECTED={'island_'+era:['Top','Sides','Water','Deco'] for era in ['precambrian','jurassic','present']}
 EXPECTED.update({'org_fern':['Foliage'],'org_stegosaurus':['Body','Head','Eye_L','Eye_R','Leg_FL','Leg_FR','Leg_BL','Leg_BR','Tail']})
-PLANTS={'stromatolite','charnia','fern','cycad','conifer','grass','oak','wildflower','seagrass','elkhorncoral'}
+PLANTS={'stromatolite','charnia','fern','cycad','conifer','grass','oak','wildflower','seagrass','elkhorncoral','lycophyte','horsetail'}
 BUDGETS={name:(15000 if name.startswith('island_') else 1500 if name[4:] in PLANTS else 3000) for name in set(EXPECTED)|set(HEIGHTS)|set(SIZES)}
 
 def glb(path):
