@@ -1,0 +1,116 @@
+[
+  {
+    "url": "https://www.worldwildlife.org/species/amur-leopard/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/sumatran-orangutan/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/sumatran-rhino/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/hawksbill-turtle/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/pangolin/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/african-forest-elephant/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/tiger/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/red-panda/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/blue-whale/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/mountain-gorilla/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/asian-elephant/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/whale-shark/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/african-wild-dog/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/giant-panda/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/snow-leopard/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/polar-bear/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.worldwildlife.org/species/cheetah/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.fisheries.noaa.gov/species/vaquita",
+    "final": "https://www.fisheries.noaa.gov/species/vaquita",
+    "ok": true,
+    "chars": 27304
+  },
+  {
+    "url": "https://www.fisheries.noaa.gov/species/north-atlantic-right-whale",
+    "final": "https://www.fisheries.noaa.gov/species/north-atlantic-right-whale",
+    "ok": true,
+    "chars": 73850
+  },
+  {
+    "url": "https://www.fisheries.noaa.gov/species/sea-otter",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.fisheries.noaa.gov/species/humpback-whale",
+    "final": "https://www.fisheries.noaa.gov/species/humpback-whale",
+    "ok": true,
+    "chars": 51355
+  },
+  {
+    "url": "https://www.fisheries.noaa.gov/species/elkhorn-coral",
+    "final": "https://www.fisheries.noaa.gov/species/elkhorn-coral",
+    "ok": true,
+    "chars": 34690
+  }
+]

@@ -1,0 +1,747 @@
+{
+  "amurleopard": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/amur-leopard/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "sumatranorangutan": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/orangutan/sumatran-orangutan/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "vaquita": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "bycatch",
+      "pollution"
+    ],
+    "hope": "",
+    "sources": [
+      "https://iucn-csg.org/red-list-status-of-cetaceans/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "kakapo": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": {
+      "text": "325 in the managed recovery population",
+      "year": 2026
+    },
+    "keyMoments": [
+      {
+        "year": 1995,
+        "text": "Recovery programme began with 51 birds."
+      },
+      {
+        "year": 2022,
+        "text": "Population reached 252."
+      },
+      {
+        "year": 2026,
+        "text": "Official count reached 325 after the breeding season."
+      }
+    ],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "disease"
+    ],
+    "hope": "Intensive conservation has rebuilt this carefully managed population.",
+    "sources": [
+      "https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "axolotl": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "pollution"
+    ],
+    "hope": "",
+    "sources": [
+      "https://www.iucnredlist.org/es/species/1095/53947343",
+      "https://apnews.com/article/8a640ea69b30b5e1b9aacaa527740625"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "sumatranrhino": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/rhino/sumatran-rhino/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "rightwhale": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "bycatch",
+      "pollution"
+    ],
+    "hope": "",
+    "sources": [
+      "https://iucn-csg.org/red-list-status-of-cetaceans/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "seaturtle": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "bycatch",
+      "pollution"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/sea-turtle/hawksbill-turtle/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "pangolin": {
+    "status": "CR",
+    "assessmentYear": 2019,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://doi.org/10.2305/IUCN.UK.2019-3.RLTS.T12763A123584856.en",
+      "https://www.worldwildlife.org/species/pangolin/",
+      "https://www.nparks.gov.sg/florafaunaweb/fauna/2/1/212"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "philippineeagle": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss"
+    ],
+    "hope": "",
+    "sources": [
+      "https://pia.gov.ph/news/denr-10-boosts-protection-efforts-for-critically-endangered-philippine-eagle/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "condor": {
+    "status": "CR",
+    "assessmentYear": 2020,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": 1967,
+        "text": "US federal endangered listing."
+      },
+      {
+        "year": 1987,
+        "text": "All remaining wild birds brought into conservation breeding."
+      },
+      {
+        "year": 2008,
+        "text": "More birds flying free than in captivity."
+      }
+    ],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "pollution"
+    ],
+    "hope": "Conservation breeding and reintroduction brought condors back to the wild.",
+    "sources": [
+      "https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T22697636A181151405.en",
+      "https://www.fws.gov/program/california-condor-recovery"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "forestelephant": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/elephant/african-elephant/african-forest-elephant/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "elkhorncoral": {
+    "status": "CR",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "warming",
+      "pollution",
+      "disease"
+    ],
+    "hope": "",
+    "sources": [
+      "https://iucn.org/press-release/202411/over-40-coral-species-face-extinction-iucn-red-list"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "tiger": {
+    "status": "EN",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/tiger/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "redpanda": {
+    "status": "EN",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/red-panda/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "bluewhale": {
+    "status": "EN",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "bycatch",
+      "pollution"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/whale/blue-whale/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "mountaingorilla": {
+    "status": "EN",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/gorilla/mountain-gorilla/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "asianelephant": {
+    "status": "EN",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/elephant/asian-elephant/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "whaleshark": {
+    "status": "EN",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "bycatch",
+      "pollution"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/shark/whale-shark/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "seaotter": {
+    "status": "EN",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "pollution",
+      "disease"
+    ],
+    "hope": "",
+    "sources": [
+      "https://www.otterspecialistgroup.org/otter-species/enhydra-lutris/",
+      "https://www.iucnosgbull.org/Volume41/Iversen_et_al_2024.html"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "ringtailedlemur": {
+    "status": "EN",
+    "assessmentYear": 2018,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "",
+    "sources": [
+      "https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T11496A115565760.en"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "wilddog": {
+    "status": "EN",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/african-wild-dog/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "giantpanda": {
+    "status": "VU",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/giant-panda/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "snowleopard": {
+    "status": "VU",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/snow-leopard/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "polarbear": {
+    "status": "VU",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "warming"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/polar-bear/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "koala": {
+    "status": "VU",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "warming",
+      "disease"
+    ],
+    "hope": "",
+    "sources": [
+      "https://www.wwf.org.uk/learn/fascinating-facts/koala",
+      "https://www.dcceew.gov.au/environment/biodiversity/threatened/species/koala"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "cheetah": {
+    "status": "VU",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "habitat loss",
+      "poaching"
+    ],
+    "hope": "Protect habitat and reduce the pressures described by conservation researchers.",
+    "sources": [
+      "https://www.worldwildlife.org/species/cheetah/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "emperorpenguin": {
+    "status": "EN",
+    "assessmentYear": 2026,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": 2016,
+        "text": "Antarctic sea ice began reaching record lows."
+      },
+      {
+        "year": 2026,
+        "text": "IUCN category changed to Endangered."
+      }
+    ],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "warming"
+    ],
+    "hope": "",
+    "sources": [
+      "https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn?language=en"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "mammoth": {
+    "status": "EX",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": -20000,
+        "text": "Woolly mammoths still widespread."
+      },
+      {
+        "year": -10000,
+        "text": "Survival increasingly limited to island populations."
+      },
+      {
+        "year": -2000,
+        "text": "Last populations gone around 4,000 years ago."
+      }
+    ],
+    "extinctionYear": -2000,
+    "memorial": "We remember the Woolly mammoth, and the world it belonged to.",
+    "threats": [],
+    "hope": "",
+    "sources": [
+      "https://www.nhm.ac.uk/discover/last-mammoths.html"
+    ],
+    "checked": "2026-10-16",
+    "note": "Approximate 2000 BCE gameplay boundary; the source says around 4,000 years ago, not an exact year."
+  },
+  "stellerseacow": {
+    "status": "EX",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": 1741,
+        "text": "Described from the Commander Islands."
+      },
+      {
+        "year": 1768,
+        "text": "Hunted to extinction."
+      }
+    ],
+    "extinctionYear": 1768,
+    "memorial": "We remember the Steller's sea cow, and the world it belonged to.",
+    "threats": [],
+    "hope": "",
+    "sources": [
+      "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "dodo": {
+    "status": "EX",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": 1598,
+        "text": "Dutch sailors reached Mauritius."
+      },
+      {
+        "year": 1662,
+        "text": "Last reliable sighting; exact extinction date is uncertain."
+      },
+      {
+        "year": 1865,
+        "text": "Mare aux Songes fossil site discovered."
+      }
+    ],
+    "extinctionYear": 1662,
+    "memorial": "We remember the Dodo, and the world it belonged to.",
+    "threats": [],
+    "hope": "",
+    "sources": [
+      "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html"
+    ],
+    "checked": "2026-10-16",
+    "note": "1662 is the last reliable sighting, used as a gameplay boundary; extinction may have been later."
+  },
+  "passengerpigeon": {
+    "status": "EX",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": 1850,
+        "text": "Vast flocks still crossed North American forests."
+      },
+      {
+        "year": 1914,
+        "text": "Martha, the last known individual, died on 1 September."
+      }
+    ],
+    "extinctionYear": 1914,
+    "memorial": "We remember the Passenger pigeon, and the world it belonged to.",
+    "threats": [],
+    "hope": "",
+    "sources": [
+      "https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "thylacine": {
+    "status": "EX",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": 1903,
+        "text": "Thylacines displayed at Washington National Zoo."
+      },
+      {
+        "year": 1936,
+        "text": "Last officially recorded captive individual died in Hobart."
+      }
+    ],
+    "extinctionYear": 1936,
+    "memorial": "We remember the Thylacine (Tasmanian tiger), and the world it belonged to.",
+    "threats": [],
+    "hope": "",
+    "sources": [
+      "https://www.nhm.ac.uk/discover/remembering-tasmanian-tiger-thylacine.html"
+    ],
+    "checked": "2026-10-16",
+    "note": "1936 is the last recorded captive death, not a confirmed final wild extinction date."
+  },
+  "pintatortoise": {
+    "status": "EX",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": 1971,
+        "text": "Lonesome George found on Pinta."
+      },
+      {
+        "year": 1972,
+        "text": "Moved to protected care on Santa Cruz."
+      },
+      {
+        "year": 2012,
+        "text": "George, the last known Pinta tortoise, died."
+      }
+    ],
+    "extinctionYear": 2012,
+    "memorial": "We remember the Pinta Island tortoise (Lonesome George), and the world it belonged to.",
+    "threats": [],
+    "hope": "",
+    "sources": [
+      "https://www.galapagos.org/about_galapagos/lonesome-george/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "humpback": {
+    "status": "LC",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "bycatch",
+      "pollution"
+    ],
+    "hope": "",
+    "sources": [
+      "https://iucn-csg.org/red-list-status-of-cetaceans/"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  },
+  "baldeagle": {
+    "status": "LC",
+    "assessmentYear": null,
+    "wildPopulation": null,
+    "keyMoments": [
+      {
+        "year": 1985,
+        "text": "California captive breeding programme began."
+      },
+      {
+        "year": 2007,
+        "text": "Removed from the US federal endangered species list."
+      }
+    ],
+    "extinctionYear": null,
+    "memorial": "",
+    "threats": [
+      "pollution"
+    ],
+    "hope": "Legal protection and recovery work helped the bald eagle return.",
+    "sources": [
+      "https://wildlife.ca.gov/Conservation/Birds/Bald-Eagle"
+    ],
+    "checked": "2026-10-16",
+    "note": "Empty fields are unconfirmed; game parameters are not measured species estimates."
+  }
+}

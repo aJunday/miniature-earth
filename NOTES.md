@@ -89,3 +89,9 @@
 - Strict TypeScript remains enabled; unchecked indexed access is omitted for numeric tables whose lengths are validated by tests.
 
 - Playwright is added as a development-only dependency because phases G/L/M explicitly require real browser interaction and screenshots.
+
+- IUCN 9 April 2026 update confirms Emperor penguin EN (was NT in AGENTS); use EN.
+- Impact ecology parameters and broad ranges are game balancing assumptions, not empirical species measurements; most added animals are habitat-supported to avoid inventing missing food species.
+- Historical dates before 1800 require fractional positions within the specified slider segment (one integer tick spans ~82,500 years there). Preserve fractional query/event endpoints for dodo 1500/1600 while integer ticks remain the ecology steps.
+- Dodo 1662 is the last reliable sighting, thylacine 1936 the last recorded captive death, mammoth ~2000 BCE an approximate boundary; the story cards explicitly disclose these uncertainties.
+- Research fallback: direct HTTP profiles often return 403, IUCN DOI pages time out or deny access; search-indexed official profiles and reputable museum/government pages were checked. Unconfirmed assessment years, dated populations, and extra key moments remain empty rather than invented.
