@@ -1,0 +1,8 @@
+{
+  "medianMs": 50,
+  "p95Ms": 66.69999999999982,
+  "calls": 37,
+  "triangles": 129714,
+  "geometries": 37,
+  "frameMs": 50.299999952316284
+}

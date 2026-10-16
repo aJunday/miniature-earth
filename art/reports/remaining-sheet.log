@@ -4,416 +4,437 @@
      Line: 155
 RENDER CYCLES CPU samples=32 denoising=OPENIMAGEDENOISE transparent=False
 Blender 3.6.23 (hash e467db79ca8c built 2025-06-17 01:31:24)
-Fra:1 Mem:117.63M (Peak 117.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deco
-Fra:1 Mem:117.63M (Peak 117.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deco.002
-Fra:1 Mem:119.32M (Peak 119.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sides.002
-Fra:1 Mem:119.21M (Peak 119.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Water.002
-Fra:1 Mem:119.62M (Peak 119.62M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_L
-Fra:1 Mem:120.09M (Peak 120.08M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_R
-Fra:1 Mem:119.95M (Peak 120.08M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body
-Fra:1 Mem:120.13M (Peak 120.13M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L
-Fra:1 Mem:120.17M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR
-Fra:1 Mem:119.82M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail
-Fra:1 Mem:119.48M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.001
-Fra:1 Mem:119.64M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.001
-Fra:1 Mem:119.66M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.001
-Fra:1 Mem:119.70M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.001
-Fra:1 Mem:119.80M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.001
-Fra:1 Mem:119.40M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.001
-Fra:1 Mem:119.74M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL
-Fra:1 Mem:119.64M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR
-Fra:1 Mem:119.56M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label island_jurassic
-Fra:1 Mem:119.64M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.001
-Fra:1 Mem:119.74M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label island_precambrian
-Fra:1 Mem:119.70M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.002
-Fra:1 Mem:119.71M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label island_present
-Fra:1 Mem:119.96M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.003
-Fra:1 Mem:120.11M (Peak 120.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_allosaurus
-Fra:1 Mem:120.26M (Peak 120.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_amurleopard
-Fra:1 Mem:120.42M (Peak 120.42M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.003
-Fra:1 Mem:120.36M (Peak 120.42M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_arthropleura
-Fra:1 Mem:120.61M (Peak 120.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.003
-Fra:1 Mem:120.37M (Peak 120.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_asianelephant
-Fra:1 Mem:120.38M (Peak 120.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_axolotl
-Fra:1 Mem:120.28M (Peak 120.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.002
-Fra:1 Mem:120.37M (Peak 120.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.002
-Fra:1 Mem:120.47M (Peak 120.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_baldeagle
-Fra:1 Mem:120.53M (Peak 120.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.001
-Fra:1 Mem:120.76M (Peak 120.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_bluewhale
-Fra:1 Mem:120.82M (Peak 120.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.001
-Fra:1 Mem:120.94M (Peak 120.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_brachiosaurus
-Fra:1 Mem:120.98M (Peak 120.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_charnia
-Fra:1 Mem:121.06M (Peak 121.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.002
-Fra:1 Mem:120.95M (Peak 121.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_cheetah
-Fra:1 Mem:121.10M (Peak 121.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.004
-Fra:1 Mem:121.23M (Peak 121.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_condor
-Fra:1 Mem:121.36M (Peak 121.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.004
-Fra:1 Mem:121.40M (Peak 121.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.003
-Fra:1 Mem:121.36M (Peak 121.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.003
-Fra:1 Mem:121.37M (Peak 121.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.002
-Fra:1 Mem:121.31M (Peak 121.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.005
-Fra:1 Mem:121.44M (Peak 121.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.005
-Fra:1 Mem:121.40M (Peak 121.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_cycad
-Fra:1 Mem:121.44M (Peak 121.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.003
-Fra:1 Mem:121.49M (Peak 121.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.003
-Fra:1 Mem:121.47M (Peak 121.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_deer
-Fra:1 Mem:121.56M (Peak 121.56M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.004
-Fra:1 Mem:121.60M (Peak 121.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L
-Fra:1 Mem:121.77M (Peak 121.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_dickinsonia
-Fra:1 Mem:121.86M (Peak 121.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R
-Fra:1 Mem:121.95M (Peak 121.95M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_dodo
-Fra:1 Mem:121.98M (Peak 121.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.006
-Fra:1 Mem:121.96M (Peak 121.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.006
-Fra:1 Mem:121.96M (Peak 121.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_elkhorncoral
-Fra:1 Mem:122.54M (Peak 122.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_emperorpenguin
-Fra:1 Mem:122.55M (Peak 122.55M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R
-Fra:1 Mem:122.80M (Peak 122.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.006
-Fra:1 Mem:122.79M (Peak 122.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.005
-Fra:1 Mem:122.72M (Peak 122.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_forestelephant
-Fra:1 Mem:122.92M (Peak 122.92M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_giantpanda
-Fra:1 Mem:123.00M (Peak 123.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.007
-Fra:1 Mem:122.76M (Peak 123.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.007
-Fra:1 Mem:122.79M (Peak 123.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_grass
-Fra:1 Mem:122.94M (Peak 123.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.007
-Fra:1 Mem:123.00M (Peak 123.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_honeybee
-Fra:1 Mem:123.14M (Peak 123.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_humpback
-Fra:1 Mem:123.21M (Peak 123.21M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.007
-Fra:1 Mem:123.17M (Peak 123.21M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.004
-Fra:1 Mem:123.21M (Peak 123.21M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.004
-Fra:1 Mem:123.46M (Peak 123.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.006
-Fra:1 Mem:123.35M (Peak 123.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage
-Fra:1 Mem:123.17M (Peak 123.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_koala
-Fra:1 Mem:123.23M (Peak 123.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.008
-Fra:1 Mem:123.37M (Peak 123.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_mammoth
-Fra:1 Mem:123.49M (Peak 123.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.008
-Fra:1 Mem:123.39M (Peak 123.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_mountaingorilla
-Fra:1 Mem:123.41M (Peak 123.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.005
-Fra:1 Mem:123.71M (Peak 123.71M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_oak
-Fra:1 Mem:123.94M (Peak 123.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_pangolin
-Fra:1 Mem:123.98M (Peak 123.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_passengerpigeon
-Fra:1 Mem:124.12M (Peak 124.12M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_philippineeagle
-Fra:1 Mem:124.16M (Peak 124.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.005
-Fra:1 Mem:124.24M (Peak 124.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.007
-Fra:1 Mem:124.19M (Peak 124.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.009
-Fra:1 Mem:124.29M (Peak 124.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_pintatortoise
-Fra:1 Mem:124.66M (Peak 124.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.009
-Fra:1 Mem:124.76M (Peak 124.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.009
-Fra:1 Mem:124.77M (Peak 124.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.006
-Fra:1 Mem:124.77M (Peak 124.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.006
-Fra:1 Mem:124.72M (Peak 124.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.008
-Fra:1 Mem:124.93M (Peak 124.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_rabbit
-Fra:1 Mem:124.75M (Peak 124.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_redfox
-Fra:1 Mem:124.84M (Peak 124.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.001
-Fra:1 Mem:124.99M (Peak 124.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.001
-Fra:1 Mem:124.91M (Peak 124.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_redpanda
-Fra:1 Mem:124.87M (Peak 124.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.001
-Fra:1 Mem:124.72M (Peak 124.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.002
-Fra:1 Mem:124.79M (Peak 124.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trunk.001
-Fra:1 Mem:124.89M (Peak 124.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_reeffish
-Fra:1 Mem:125.05M (Peak 125.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.010
-Fra:1 Mem:125.18M (Peak 125.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_rightwhale
-Fra:1 Mem:125.38M (Peak 125.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.010
-Fra:1 Mem:125.35M (Peak 125.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.010
-Fra:1 Mem:125.54M (Peak 125.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.006
-Fra:1 Mem:125.56M (Peak 125.56M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.006
-Fra:1 Mem:125.94M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_seagrass
-Fra:1 Mem:125.81M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.007
-Fra:1 Mem:125.72M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.007
-Fra:1 Mem:125.75M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.011
-Fra:1 Mem:125.78M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.011
-Fra:1 Mem:125.78M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.011
-Fra:1 Mem:125.85M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.010
-Fra:1 Mem:125.89M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.012
-Fra:1 Mem:125.88M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.012
-Fra:1 Mem:125.89M (Peak 125.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.012
-Fra:1 Mem:126.13M (Peak 126.13M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.012
-Fra:1 Mem:126.16M (Peak 126.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.008
-Fra:1 Mem:126.17M (Peak 126.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_snowleopard
-Fra:1 Mem:126.32M (Peak 126.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.008
-Fra:1 Mem:126.33M (Peak 126.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_stegosaurus
-Fra:1 Mem:126.44M (Peak 126.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.011
-Fra:1 Mem:126.47M (Peak 126.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.002
-Fra:1 Mem:126.34M (Peak 126.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_stellerseacow
-Fra:1 Mem:126.36M (Peak 126.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.002
-Fra:1 Mem:127.03M (Peak 127.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_stromatolite
-Fra:1 Mem:126.99M (Peak 127.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.013
-Fra:1 Mem:127.05M (Peak 127.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.013
-Fra:1 Mem:127.26M (Peak 127.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.009
-Fra:1 Mem:127.19M (Peak 127.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.009
-Fra:1 Mem:127.15M (Peak 127.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.012
-Fra:1 Mem:127.10M (Peak 127.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_sumatranrhino
-Fra:1 Mem:127.23M (Peak 127.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.003
-Fra:1 Mem:127.20M (Peak 127.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.004
-Fra:1 Mem:127.59M (Peak 127.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.014
-Fra:1 Mem:127.62M (Peak 127.62M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.014
-Fra:1 Mem:127.52M (Peak 127.62M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.014
-Fra:1 Mem:127.53M (Peak 127.62M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.007
-Fra:1 Mem:127.74M (Peak 127.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_tiger
-Fra:1 Mem:127.79M (Peak 127.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.007
-Fra:1 Mem:127.88M (Peak 127.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.010
-Fra:1 Mem:127.91M (Peak 127.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_trilobite
-Fra:1 Mem:127.85M (Peak 127.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_vaquita
-Fra:1 Mem:127.85M (Peak 127.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_whaleshark
-Fra:1 Mem:128.04M (Peak 128.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.010
-Fra:1 Mem:128.19M (Peak 128.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_wilddog
-Fra:1 Mem:128.10M (Peak 128.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.015
-Fra:1 Mem:128.04M (Peak 128.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.015
-Fra:1 Mem:128.06M (Peak 128.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.015
-Fra:1 Mem:128.09M (Peak 128.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_wildflower
-Fra:1 Mem:128.20M (Peak 128.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.015
-Fra:1 Mem:128.17M (Peak 128.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.008
-Fra:1 Mem:128.18M (Peak 128.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plane
-Fra:1 Mem:128.25M (Peak 128.25M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.011
-Fra:1 Mem:128.28M (Peak 128.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.009
-Fra:1 Mem:128.30M (Peak 128.30M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.014
-Fra:1 Mem:128.44M (Peak 128.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.005
-Fra:1 Mem:128.60M (Peak 128.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.016
-Fra:1 Mem:128.64M (Peak 128.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.016
-Fra:1 Mem:128.65M (Peak 128.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.016
-Fra:1 Mem:128.77M (Peak 128.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.016
-Fra:1 Mem:128.76M (Peak 128.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.015
-Fra:1 Mem:129.07M (Peak 129.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.004
-Fra:1 Mem:128.97M (Peak 129.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.004
-Fra:1 Mem:128.95M (Peak 129.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.017
-Fra:1 Mem:128.64M (Peak 129.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.017
-Fra:1 Mem:128.72M (Peak 129.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.017
-Fra:1 Mem:128.68M (Peak 129.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.016
-Fra:1 Mem:128.82M (Peak 129.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.018
-Fra:1 Mem:129.11M (Peak 129.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.018
-Fra:1 Mem:129.11M (Peak 129.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.018
-Fra:1 Mem:129.02M (Peak 129.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.018
-Fra:1 Mem:128.83M (Peak 129.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.012
-Fra:1 Mem:128.92M (Peak 129.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.043
-Fra:1 Mem:129.17M (Peak 129.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.017
-Fra:1 Mem:129.12M (Peak 129.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.031
-Fra:1 Mem:129.16M (Peak 129.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.005
-Fra:1 Mem:129.15M (Peak 129.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.019
-Fra:1 Mem:129.21M (Peak 129.21M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.019
-Fra:1 Mem:129.34M (Peak 129.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.019
-Fra:1 Mem:129.12M (Peak 129.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.031
-Fra:1 Mem:129.04M (Peak 129.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.019
-Fra:1 Mem:129.11M (Peak 129.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.009
-Fra:1 Mem:129.30M (Peak 129.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.009
-Fra:1 Mem:129.38M (Peak 129.37M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.013
-Fra:1 Mem:129.40M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.013
-Fra:1 Mem:129.18M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.027
-Fra:1 Mem:129.21M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.018
-Fra:1 Mem:129.16M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.020
-Fra:1 Mem:129.23M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.020
-Fra:1 Mem:129.24M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.020
-Fra:1 Mem:129.16M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.020
-Fra:1 Mem:129.16M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.010
-Fra:1 Mem:129.27M (Peak 129.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.014
-Fra:1 Mem:129.45M (Peak 129.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.014
-Fra:1 Mem:129.43M (Peak 129.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.019
-Fra:1 Mem:129.42M (Peak 129.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_R.001
-Fra:1 Mem:129.94M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.021
-Fra:1 Mem:129.83M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.021
-Fra:1 Mem:129.85M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.021
-Fra:1 Mem:129.85M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.011
-Fra:1 Mem:129.87M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.011
-Fra:1 Mem:129.77M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.015
-Fra:1 Mem:129.64M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.015
-Fra:1 Mem:129.69M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.022
-Fra:1 Mem:129.71M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.022
-Fra:1 Mem:129.71M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.045
-Fra:1 Mem:129.68M (Peak 129.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.012
-Fra:1 Mem:130.00M (Peak 130.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.012
-Fra:1 Mem:130.23M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.016
-Fra:1 Mem:130.05M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.016
-Fra:1 Mem:130.11M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.021
-Fra:1 Mem:130.24M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.023
-Fra:1 Mem:130.18M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.045
-Fra:1 Mem:130.22M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.023
-Fra:1 Mem:130.11M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.023
-Fra:1 Mem:130.21M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.023
-Fra:1 Mem:130.02M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.045
-Fra:1 Mem:130.11M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.017
-Fra:1 Mem:130.05M (Peak 130.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.017
-Fra:1 Mem:130.25M (Peak 130.25M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.022
-Fra:1 Mem:130.34M (Peak 130.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.006
-Fra:1 Mem:130.46M (Peak 130.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.006
-Fra:1 Mem:130.43M (Peak 130.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.024
-Fra:1 Mem:130.44M (Peak 130.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.024
-Fra:1 Mem:130.30M (Peak 130.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.024
-Fra:1 Mem:130.46M (Peak 130.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.018
-Fra:1 Mem:130.75M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.023
-Fra:1 Mem:130.73M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.007
-Fra:1 Mem:130.59M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.007
-Fra:1 Mem:130.46M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.042
-Fra:1 Mem:130.44M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.025
-Fra:1 Mem:130.56M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.025
-Fra:1 Mem:130.47M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.044
-Fra:1 Mem:130.47M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.025
-Fra:1 Mem:130.57M (Peak 130.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.013
-Fra:1 Mem:130.89M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.007
-Fra:1 Mem:130.89M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.013
-Fra:1 Mem:130.77M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.019
-Fra:1 Mem:130.67M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.019
-Fra:1 Mem:130.60M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.026
-Fra:1 Mem:130.68M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.044
-Fra:1 Mem:130.85M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.026
-Fra:1 Mem:130.87M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.026
-Fra:1 Mem:130.73M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.020
-Fra:1 Mem:130.68M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.025
-Fra:1 Mem:130.79M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.027
-Fra:1 Mem:130.78M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.027
-Fra:1 Mem:130.79M (Peak 130.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.027
-Fra:1 Mem:131.01M (Peak 131.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.027
-Fra:1 Mem:130.98M (Peak 131.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.015
-Fra:1 Mem:130.97M (Peak 131.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.021
-Fra:1 Mem:131.06M (Peak 131.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.021
-Fra:1 Mem:131.08M (Peak 131.08M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.026
-Fra:1 Mem:131.07M (Peak 131.08M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.028
-Fra:1 Mem:131.20M (Peak 131.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.028
-Fra:1 Mem:131.47M (Peak 131.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.028
-Fra:1 Mem:131.40M (Peak 131.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.028
-Fra:1 Mem:131.42M (Peak 131.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.016
-Fra:1 Mem:131.48M (Peak 131.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.022
-Fra:1 Mem:131.50M (Peak 131.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.022
-Fra:1 Mem:131.52M (Peak 131.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.027
-Fra:1 Mem:131.63M (Peak 131.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.029
-Fra:1 Mem:131.61M (Peak 131.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.029
-Fra:1 Mem:131.78M (Peak 131.78M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.029
-Fra:1 Mem:131.97M (Peak 131.97M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.029
-Fra:1 Mem:131.89M (Peak 131.97M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.017
-Fra:1 Mem:132.00M (Peak 132.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.017
-Fra:1 Mem:131.80M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.023
-Fra:1 Mem:131.87M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.023
-Fra:1 Mem:131.60M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.028
-Fra:1 Mem:131.60M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.030
-Fra:1 Mem:131.89M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L.002
-Fra:1 Mem:131.94M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.002
-Fra:1 Mem:131.94M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.029
-Fra:1 Mem:131.91M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.031
-Fra:1 Mem:131.95M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.043
-Fra:1 Mem:131.85M (Peak 132.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.003
-Fra:1 Mem:132.10M (Peak 132.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.031
-Fra:1 Mem:132.22M (Peak 132.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.030
-Fra:1 Mem:132.37M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_L.002
-Fra:1 Mem:132.32M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_R.002
-Fra:1 Mem:132.28M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.032
-Fra:1 Mem:132.17M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.032
-Fra:1 Mem:132.09M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.032
-Fra:1 Mem:132.28M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.032
-Fra:1 Mem:132.30M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.018
-Fra:1 Mem:132.37M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.024
-Fra:1 Mem:132.31M (Peak 132.37M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.007
-Fra:1 Mem:132.49M (Peak 132.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_L.003
-Fra:1 Mem:132.50M (Peak 132.50M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_R.003
-Fra:1 Mem:132.67M (Peak 132.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.033
-Fra:1 Mem:132.55M (Peak 132.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.033
-Fra:1 Mem:132.61M (Peak 132.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.033
-Fra:1 Mem:132.59M (Peak 132.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.006
-Fra:1 Mem:132.37M (Peak 132.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.033
-Fra:1 Mem:132.47M (Peak 132.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.019
-Fra:1 Mem:132.46M (Peak 132.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.019
-Fra:1 Mem:132.71M (Peak 132.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L.006
-Fra:1 Mem:132.66M (Peak 132.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.034
-Fra:1 Mem:132.69M (Peak 132.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.004
-Fra:1 Mem:132.56M (Peak 132.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.034
-Fra:1 Mem:132.74M (Peak 132.74M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.043
-Fra:1 Mem:132.87M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.020
-Fra:1 Mem:132.70M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.020
-Fra:1 Mem:132.66M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.033
-Fra:1 Mem:132.76M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.035
-Fra:1 Mem:132.77M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.035
-Fra:1 Mem:132.85M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.035
-Fra:1 Mem:132.77M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.035
-Fra:1 Mem:132.85M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.025
-Fra:1 Mem:132.87M (Peak 132.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.043
-Fra:1 Mem:132.98M (Peak 132.98M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.025
-Fra:1 Mem:133.00M (Peak 133.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.034
-Fra:1 Mem:132.92M (Peak 133.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.036
-Fra:1 Mem:132.84M (Peak 133.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.043
-Fra:1 Mem:132.99M (Peak 133.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.022
-Fra:1 Mem:133.16M (Peak 133.16M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.022
-Fra:1 Mem:133.51M (Peak 133.51M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.026
-Fra:1 Mem:133.79M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.035
-Fra:1 Mem:133.58M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.026
-Fra:1 Mem:133.36M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.037
-Fra:1 Mem:133.41M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.037
-Fra:1 Mem:133.20M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L.005
-Fra:1 Mem:133.57M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.042
-Fra:1 Mem:133.56M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.037
-Fra:1 Mem:133.56M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.036
-Fra:1 Mem:133.33M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.008
-Fra:1 Mem:133.25M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.038
-Fra:1 Mem:133.35M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.038
-Fra:1 Mem:133.38M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.038
-Fra:1 Mem:133.73M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.023
-Fra:1 Mem:133.69M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.023
-Fra:1 Mem:133.70M (Peak 133.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.027
-Fra:1 Mem:133.81M (Peak 133.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.042
-Fra:1 Mem:133.69M (Peak 133.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.027
-Fra:1 Mem:133.59M (Peak 133.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.037
-Fra:1 Mem:133.66M (Peak 133.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.039
-Fra:1 Mem:133.97M (Peak 133.97M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.024
-Fra:1 Mem:133.99M (Peak 133.99M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.024
-Fra:1 Mem:134.03M (Peak 134.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.042
-Fra:1 Mem:133.94M (Peak 134.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.028
-Fra:1 Mem:133.94M (Peak 134.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.028
-Fra:1 Mem:133.91M (Peak 134.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.038
-Fra:1 Mem:133.94M (Peak 134.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.040
-Fra:1 Mem:133.98M (Peak 134.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.040
-Fra:1 Mem:133.94M (Peak 134.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.040
-Fra:1 Mem:133.97M (Peak 134.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.040
-Fra:1 Mem:134.07M (Peak 134.07M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.025
-Fra:1 Mem:134.24M (Peak 134.24M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.025
-Fra:1 Mem:134.44M (Peak 134.44M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.029
-Fra:1 Mem:134.47M (Peak 134.47M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.029
-Fra:1 Mem:134.60M (Peak 134.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.039
-Fra:1 Mem:134.67M (Peak 134.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.041
-Fra:1 Mem:134.63M (Peak 134.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.041
-Fra:1 Mem:134.66M (Peak 134.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.041
-Fra:1 Mem:134.50M (Peak 134.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.041
-Fra:1 Mem:134.57M (Peak 134.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.026
-Fra:1 Mem:134.72M (Peak 134.72M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.026
-Fra:1 Mem:134.76M (Peak 134.76M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.030
-Fra:1 Mem:134.85M (Peak 134.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.030
-Fra:1 Mem:134.73M (Peak 134.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.040
-Fra:1 Mem:134.29M (Peak 134.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
-Fra:1 Mem:91.68M (Peak 134.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
-Fra:1 Mem:91.69M (Peak 134.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
-Fra:1 Mem:91.69M (Peak 134.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
-Fra:1 Mem:91.69M (Peak 134.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
-Fra:1 Mem:91.73M (Peak 134.85M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Procedurals
-Fra:1 Mem:91.73M (Peak 134.85M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Background
-Fra:1 Mem:91.73M (Peak 134.85M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Camera
-Fra:1 Mem:91.73M (Peak 134.85M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes Flags
-Fra:1 Mem:91.73M (Peak 134.85M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects
-Fra:1 Mem:91.73M (Peak 134.85M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
-Fra:1 Mem:91.83M (Peak 134.85M) | Time:00:00.03 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
-Fra:1 Mem:91.83M (Peak 134.85M) | Time:00:00.03 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems
-Fra:1 Mem:91.83M (Peak 134.85M) | Time:00:00.03 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
-Fra:1 Mem:91.83M (Peak 134.85M) | Time:00:00.03 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Meshes
-Fra:1 Mem:95.14M (Peak 134.85M) | Time:00:00.03 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Computing attributes
-Fra:1 Mem:99.29M (Peak 134.85M) | Time:00:00.04 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
-Fra:1 Mem:99.19M (Peak 134.85M) | Time:00:00.04 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Scene BVH | Building
-Fra:1 Mem:99.20M (Peak 134.85M) | Time:00:00.04 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH
-Fra:1 Mem:99.20M (Peak 134.85M) | Time:00:00.04 | Mem:10.81M, Peak:10.81M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
-Fra:1 Mem:99.20M (Peak 134.85M) | Time:00:00.04 | Mem:18.01M, Peak:24.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
-Fra:1 Mem:99.20M (Peak 134.85M) | Time:00:00.04 | Mem:18.01M, Peak:24.63M | Scene, ViewLayer | Updating Mesh | Computing normals
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:18.01M, Peak:24.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Objects Flags
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Primitive Offsets
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Images
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Camera Volume
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Lookup Tables
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Lights
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Lights | Computing distribution
-Fra:1 Mem:109.87M (Peak 134.85M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Lights | Computing tree
-Fra:1 Mem:109.88M (Peak 134.85M) | Time:00:00.05 | Mem:28.70M, Peak:28.70M | Scene, ViewLayer | Updating Integrator
-Fra:1 Mem:110.88M (Peak 134.85M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Updating Film
-Fra:1 Mem:110.88M (Peak 134.85M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Updating Lookup Tables
-Fra:1 Mem:110.88M (Peak 134.85M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Updating Baking
-Fra:1 Mem:110.88M (Peak 134.85M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Updating Device | Writing constant memory
-Fra:1 Mem:110.89M (Peak 134.85M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Sample 0/32
-Fra:1 Mem:354.47M (Peak 354.47M) | Time:00:00.56 | Remaining:00:15.91 | Mem:273.23M, Peak:273.23M | Scene, ViewLayer | Sample 1/32
-Fra:1 Mem:457.01M (Peak 610.82M) | Time:00:17.44 | Mem:273.23M, Peak:273.23M | Scene, ViewLayer | Sample 32/32
-Fra:1 Mem:457.01M (Peak 610.82M) | Time:00:17.44 | Mem:273.23M, Peak:273.23M | Scene, ViewLayer | Finished
+Fra:1 Mem:117.75M (Peak 117.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deco
+Fra:1 Mem:117.75M (Peak 117.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label island_jurassic
+Fra:1 Mem:117.93M (Peak 117.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label island_precambrian
+Fra:1 Mem:118.05M (Peak 118.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label island_present
+Fra:1 Mem:118.13M (Peak 118.13M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_allosaurus
+Fra:1 Mem:118.27M (Peak 118.27M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_amurleopard
+Fra:1 Mem:118.38M (Peak 118.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_arthropleura
+Fra:1 Mem:118.53M (Peak 118.53M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_asianelephant
+Fra:1 Mem:118.69M (Peak 118.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_axolotl
+Fra:1 Mem:118.75M (Peak 118.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_baldeagle
+Fra:1 Mem:118.86M (Peak 118.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_bluewhale
+Fra:1 Mem:118.94M (Peak 118.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_brachiosaurus
+Fra:1 Mem:119.07M (Peak 119.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_charnia
+Fra:1 Mem:119.16M (Peak 119.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_cheetah
+Fra:1 Mem:119.24M (Peak 119.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_condor
+Fra:1 Mem:119.31M (Peak 119.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_conifer
+Fra:1 Mem:119.38M (Peak 119.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_cycad
+Fra:1 Mem:119.43M (Peak 119.43M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_deer
+Fra:1 Mem:119.42M (Peak 119.43M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_dickinsonia
+Fra:1 Mem:119.48M (Peak 119.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_dodo
+Fra:1 Mem:119.58M (Peak 119.58M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_elkhorncoral
+Fra:1 Mem:119.69M (Peak 119.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_emperorpenguin
+Fra:1 Mem:119.97M (Peak 119.97M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_fern
+Fra:1 Mem:120.02M (Peak 120.02M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_forestelephant
+Fra:1 Mem:120.21M (Peak 120.21M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_giantpanda
+Fra:1 Mem:120.36M (Peak 120.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_grass
+Fra:1 Mem:120.22M (Peak 120.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_honeybee
+Fra:1 Mem:120.38M (Peak 120.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_humpback
+Fra:1 Mem:120.30M (Peak 120.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sides
+Fra:1 Mem:120.30M (Peak 120.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deco.001
+Fra:1 Mem:120.50M (Peak 120.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_koala
+Fra:1 Mem:120.72M (Peak 120.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_mammoth
+Fra:1 Mem:120.81M (Peak 120.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_mountaingorilla
+Fra:1 Mem:120.94M (Peak 120.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_oak
+Fra:1 Mem:121.20M (Peak 121.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_pangolin
+Fra:1 Mem:121.29M (Peak 121.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_passengerpigeon
+Fra:1 Mem:121.51M (Peak 121.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_philippineeagle
+Fra:1 Mem:121.64M (Peak 121.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_pintatortoise
+Fra:1 Mem:121.47M (Peak 121.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_polarbear
+Fra:1 Mem:121.60M (Peak 121.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_rabbit
+Fra:1 Mem:121.54M (Peak 121.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_redfox
+Fra:1 Mem:121.67M (Peak 121.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_redpanda
+Fra:1 Mem:121.76M (Peak 121.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_reeffish
+Fra:1 Mem:121.84M (Peak 121.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_rightwhale
+Fra:1 Mem:121.96M (Peak 121.96M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_ringtailedlemur
+Fra:1 Mem:122.27M (Peak 122.27M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_seagrass
+Fra:1 Mem:122.39M (Peak 122.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_seaotter
+Fra:1 Mem:122.48M (Peak 122.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_seaturtle
+Fra:1 Mem:122.57M (Peak 122.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_snowleopard
+Fra:1 Mem:122.67M (Peak 122.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_stegosaurus
+Fra:1 Mem:122.60M (Peak 122.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_stellerseacow
+Fra:1 Mem:123.01M (Peak 123.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_stromatolite
+Fra:1 Mem:123.15M (Peak 123.15M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_sumatranorangutan
+Fra:1 Mem:123.36M (Peak 123.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_sumatranrhino
+Fra:1 Mem:123.33M (Peak 123.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_thylacine
+Fra:1 Mem:123.39M (Peak 123.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_tiger
+Fra:1 Mem:123.35M (Peak 123.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_trilobite
+Fra:1 Mem:123.42M (Peak 123.42M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_vaquita
+Fra:1 Mem:123.50M (Peak 123.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_whaleshark
+Fra:1 Mem:123.58M (Peak 123.58M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sides.001
+Fra:1 Mem:123.61M (Peak 123.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_wilddog
+Fra:1 Mem:123.72M (Peak 123.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top.001
+Fra:1 Mem:123.93M (Peak 123.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Label org_wildflower
+Fra:1 Mem:124.30M (Peak 124.30M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plane
+Fra:1 Mem:124.52M (Peak 124.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.009
+Fra:1 Mem:124.22M (Peak 124.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Water.001
+Fra:1 Mem:124.43M (Peak 124.52M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deco.002
+Fra:1 Mem:124.68M (Peak 124.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sides.002
+Fra:1 Mem:124.68M (Peak 124.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Top.002
+Fra:1 Mem:124.45M (Peak 124.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Water.002
+Fra:1 Mem:124.63M (Peak 124.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_L
+Fra:1 Mem:124.85M (Peak 124.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_R
+Fra:1 Mem:124.75M (Peak 124.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body
+Fra:1 Mem:124.60M (Peak 124.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L
+Fra:1 Mem:125.31M (Peak 125.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R
+Fra:1 Mem:125.48M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head
+Fra:1 Mem:125.07M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL
+Fra:1 Mem:125.07M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR
+Fra:1 Mem:124.82M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail
+Fra:1 Mem:124.87M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.001
+Fra:1 Mem:124.81M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.001
+Fra:1 Mem:124.76M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.043
+Fra:1 Mem:124.76M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.001
+Fra:1 Mem:124.99M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.031
+Fra:1 Mem:125.02M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.001
+Fra:1 Mem:125.04M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.001
+Fra:1 Mem:125.12M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.031
+Fra:1 Mem:125.22M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL
+Fra:1 Mem:125.11M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.027
+Fra:1 Mem:125.14M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR
+Fra:1 Mem:125.02M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.001
+Fra:1 Mem:125.03M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.002
+Fra:1 Mem:124.91M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.027
+Fra:1 Mem:125.07M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.002
+Fra:1 Mem:125.45M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.045
+Fra:1 Mem:125.48M (Peak 125.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.002
+Fra:1 Mem:125.68M (Peak 125.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.003
+Fra:1 Mem:125.88M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.003
+Fra:1 Mem:125.36M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.003
+Fra:1 Mem:125.53M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.002
+Fra:1 Mem:125.57M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.002
+Fra:1 Mem:125.67M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.001
+Fra:1 Mem:125.57M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.001
+Fra:1 Mem:125.52M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.045
+Fra:1 Mem:125.56M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.002
+Fra:1 Mem:125.61M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.004
+Fra:1 Mem:125.79M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.045
+Fra:1 Mem:125.85M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.004
+Fra:1 Mem:125.82M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.045
+Fra:1 Mem:125.76M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.004
+Fra:1 Mem:125.78M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.002
+Fra:1 Mem:125.83M (Peak 125.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.005
+Fra:1 Mem:125.89M (Peak 125.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.005
+Fra:1 Mem:126.05M (Peak 126.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.005
+Fra:1 Mem:126.26M (Peak 126.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.005
+Fra:1 Mem:125.97M (Peak 126.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.003
+Fra:1 Mem:126.01M (Peak 126.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L
+Fra:1 Mem:126.04M (Peak 126.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.006
+Fra:1 Mem:126.41M (Peak 126.41M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.006
+Fra:1 Mem:126.45M (Peak 126.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.006
+Fra:1 Mem:126.47M (Peak 126.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.044
+Fra:1 Mem:126.51M (Peak 126.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L
+Fra:1 Mem:126.57M (Peak 126.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R
+Fra:1 Mem:126.42M (Peak 126.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.005
+Fra:1 Mem:126.58M (Peak 126.58M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.007
+Fra:1 Mem:126.85M (Peak 126.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.007
+Fra:1 Mem:126.84M (Peak 126.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.004
+Fra:1 Mem:126.95M (Peak 126.95M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.007
+Fra:1 Mem:126.46M (Peak 126.95M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.004
+Fra:1 Mem:127.01M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L.007
+Fra:1 Mem:126.85M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.004
+Fra:1 Mem:126.45M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.004
+Fra:1 Mem:126.42M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.008
+Fra:1 Mem:126.60M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.008
+Fra:1 Mem:126.61M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.044
+Fra:1 Mem:126.68M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.008
+Fra:1 Mem:126.73M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.005
+Fra:1 Mem:126.79M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.005
+Fra:1 Mem:126.73M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.044
+Fra:1 Mem:126.69M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.007
+Fra:1 Mem:126.85M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.009
+Fra:1 Mem:126.86M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.009
+Fra:1 Mem:126.90M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.009
+Fra:1 Mem:126.97M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.006
+Fra:1 Mem:126.93M (Peak 127.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.044
+Fra:1 Mem:127.20M (Peak 127.20M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.006
+Fra:1 Mem:127.48M (Peak 127.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.008
+Fra:1 Mem:127.31M (Peak 127.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.001
+Fra:1 Mem:127.30M (Peak 127.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.001
+Fra:1 Mem:127.34M (Peak 127.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trunk.001
+Fra:1 Mem:127.38M (Peak 127.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.010
+Fra:1 Mem:127.51M (Peak 127.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.010
+Fra:1 Mem:127.61M (Peak 127.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.010
+Fra:1 Mem:127.71M (Peak 127.71M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.010
+Fra:1 Mem:128.08M (Peak 128.08M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.006
+Fra:1 Mem:128.17M (Peak 128.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.006
+Fra:1 Mem:128.29M (Peak 128.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.007
+Fra:1 Mem:128.11M (Peak 128.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.009
+Fra:1 Mem:128.16M (Peak 128.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.011
+Fra:1 Mem:128.19M (Peak 128.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.011
+Fra:1 Mem:128.12M (Peak 128.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.011
+Fra:1 Mem:128.34M (Peak 128.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.011
+Fra:1 Mem:128.61M (Peak 128.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.010
+Fra:1 Mem:128.68M (Peak 128.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.012
+Fra:1 Mem:128.69M (Peak 128.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.012
+Fra:1 Mem:128.54M (Peak 128.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.008
+Fra:1 Mem:128.41M (Peak 128.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.008
+Fra:1 Mem:128.68M (Peak 128.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.011
+Fra:1 Mem:128.67M (Peak 128.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.002
+Fra:1 Mem:128.88M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.002
+Fra:1 Mem:128.76M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.003
+Fra:1 Mem:128.79M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.013
+Fra:1 Mem:128.82M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.013
+Fra:1 Mem:128.66M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.013
+Fra:1 Mem:128.59M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.013
+Fra:1 Mem:128.45M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.009
+Fra:1 Mem:128.58M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.009
+Fra:1 Mem:128.46M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.012
+Fra:1 Mem:128.29M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.003
+Fra:1 Mem:128.22M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.003
+Fra:1 Mem:128.24M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.041
+Fra:1 Mem:128.34M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.004
+Fra:1 Mem:128.43M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.014
+Fra:1 Mem:128.39M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.043
+Fra:1 Mem:128.32M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.014
+Fra:1 Mem:128.43M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.014
+Fra:1 Mem:128.49M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.007
+Fra:1 Mem:128.58M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.007
+Fra:1 Mem:128.63M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.010
+Fra:1 Mem:128.70M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.010
+Fra:1 Mem:128.73M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.015
+Fra:1 Mem:128.88M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.015
+Fra:1 Mem:128.84M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.006
+Fra:1 Mem:128.74M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.015
+Fra:1 Mem:128.70M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.008
+Fra:1 Mem:128.70M (Peak 128.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L.006
+Fra:1 Mem:128.89M (Peak 128.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.008
+Fra:1 Mem:128.91M (Peak 128.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.011
+Fra:1 Mem:128.81M (Peak 128.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.016
+Fra:1 Mem:128.77M (Peak 128.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.043
+Fra:1 Mem:128.79M (Peak 128.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.016
+Fra:1 Mem:128.89M (Peak 128.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.016
+Fra:1 Mem:129.05M (Peak 129.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.016
+Fra:1 Mem:129.22M (Peak 129.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.004
+Fra:1 Mem:129.17M (Peak 129.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.004
+Fra:1 Mem:129.08M (Peak 129.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.017
+Fra:1 Mem:129.17M (Peak 129.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.017
+Fra:1 Mem:129.31M (Peak 129.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.017
+Fra:1 Mem:129.34M (Peak 129.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.043
+Fra:1 Mem:129.45M (Peak 129.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L.001
+Fra:1 Mem:129.39M (Peak 129.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.016
+Fra:1 Mem:129.22M (Peak 129.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.018
+Fra:1 Mem:129.14M (Peak 129.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.018
+Fra:1 Mem:129.31M (Peak 129.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.018
+Fra:1 Mem:129.48M (Peak 129.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.018
+Fra:1 Mem:129.50M (Peak 129.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.012
+Fra:1 Mem:129.59M (Peak 129.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.043
+Fra:1 Mem:129.59M (Peak 129.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.017
+Fra:1 Mem:129.66M (Peak 129.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.005
+Fra:1 Mem:129.63M (Peak 129.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.005
+Fra:1 Mem:129.70M (Peak 129.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.019
+Fra:1 Mem:129.70M (Peak 129.70M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.019
+Fra:1 Mem:129.58M (Peak 129.70M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.019
+Fra:1 Mem:129.61M (Peak 129.70M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.019
+Fra:1 Mem:129.57M (Peak 129.70M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.009
+Fra:1 Mem:129.71M (Peak 129.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.009
+Fra:1 Mem:129.83M (Peak 129.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.013
+Fra:1 Mem:129.85M (Peak 129.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.013
+Fra:1 Mem:129.80M (Peak 129.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.020
+Fra:1 Mem:129.80M (Peak 129.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.010
+Fra:1 Mem:129.77M (Peak 129.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.010
+Fra:1 Mem:129.81M (Peak 129.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.014
+Fra:1 Mem:129.96M (Peak 129.96M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.014
+Fra:1 Mem:130.10M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.019
+Fra:1 Mem:130.02M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_L.001
+Fra:1 Mem:129.99M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_R.001
+Fra:1 Mem:129.95M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.042
+Fra:1 Mem:130.04M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.021
+Fra:1 Mem:129.93M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.021
+Fra:1 Mem:129.95M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.021
+Fra:1 Mem:129.96M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.021
+Fra:1 Mem:130.03M (Peak 130.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.011
+Fra:1 Mem:130.21M (Peak 130.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.042
+Fra:1 Mem:130.19M (Peak 130.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.011
+Fra:1 Mem:130.25M (Peak 130.25M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.015
+Fra:1 Mem:130.25M (Peak 130.25M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.042
+Fra:1 Mem:130.17M (Peak 130.25M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.006
+Fra:1 Mem:130.28M (Peak 130.28M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trunk.002
+Fra:1 Mem:130.33M (Peak 130.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.022
+Fra:1 Mem:130.30M (Peak 130.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.022
+Fra:1 Mem:130.43M (Peak 130.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.022
+Fra:1 Mem:130.74M (Peak 130.74M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.022
+Fra:1 Mem:130.74M (Peak 130.74M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.012
+Fra:1 Mem:130.64M (Peak 130.74M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.012
+Fra:1 Mem:130.85M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.016
+Fra:1 Mem:130.72M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.021
+Fra:1 Mem:130.79M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.023
+Fra:1 Mem:130.73M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.023
+Fra:1 Mem:130.77M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.023
+Fra:1 Mem:130.71M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.017
+Fra:1 Mem:130.75M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.022
+Fra:1 Mem:130.78M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_L.006
+Fra:1 Mem:130.81M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.006
+Fra:1 Mem:130.85M (Peak 130.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.024
+Fra:1 Mem:130.98M (Peak 130.97M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.024
+Fra:1 Mem:130.94M (Peak 130.97M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.024
+Fra:1 Mem:130.90M (Peak 130.97M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.024
+Fra:1 Mem:130.87M (Peak 130.97M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.018
+Fra:1 Mem:130.89M (Peak 130.97M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.018
+Fra:1 Mem:131.27M (Peak 131.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.023
+Fra:1 Mem:131.17M (Peak 131.27M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wing_R.007
+Fra:1 Mem:131.35M (Peak 131.35M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.025
+Fra:1 Mem:131.44M (Peak 131.44M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.025
+Fra:1 Mem:131.38M (Peak 131.44M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.025
+Fra:1 Mem:131.56M (Peak 131.56M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.025
+Fra:1 Mem:131.66M (Peak 131.66M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.013
+Fra:1 Mem:131.67M (Peak 131.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.013
+Fra:1 Mem:131.84M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.019
+Fra:1 Mem:131.45M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.019
+Fra:1 Mem:131.31M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.024
+Fra:1 Mem:131.26M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.026
+Fra:1 Mem:131.37M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.026
+Fra:1 Mem:131.47M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.026
+Fra:1 Mem:131.43M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.026
+Fra:1 Mem:131.39M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.014
+Fra:1 Mem:131.39M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.020
+Fra:1 Mem:131.41M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.027
+Fra:1 Mem:131.43M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.027
+Fra:1 Mem:131.39M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.027
+Fra:1 Mem:131.41M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.027
+Fra:1 Mem:131.59M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.015
+Fra:1 Mem:131.58M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.026
+Fra:1 Mem:131.65M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.028
+Fra:1 Mem:131.59M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.028
+Fra:1 Mem:131.52M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.028
+Fra:1 Mem:131.58M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.028
+Fra:1 Mem:131.58M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.030
+Fra:1 Mem:131.70M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.030
+Fra:1 Mem:131.78M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.016
+Fra:1 Mem:131.82M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.016
+Fra:1 Mem:131.82M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.026
+Fra:1 Mem:131.76M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.026
+Fra:1 Mem:131.75M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.022
+Fra:1 Mem:131.77M (Peak 131.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.022
+Fra:1 Mem:131.92M (Peak 131.92M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.027
+Fra:1 Mem:132.04M (Peak 132.04M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.041
+Fra:1 Mem:131.92M (Peak 132.04M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.029
+Fra:1 Mem:131.98M (Peak 132.04M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.029
+Fra:1 Mem:132.04M (Peak 132.04M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.017
+Fra:1 Mem:132.05M (Peak 132.05M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.017
+Fra:1 Mem:132.13M (Peak 132.13M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.023
+Fra:1 Mem:132.15M (Peak 132.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.023
+Fra:1 Mem:132.22M (Peak 132.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.028
+Fra:1 Mem:132.65M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.030
+Fra:1 Mem:132.40M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.030
+Fra:1 Mem:132.41M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.030
+Fra:1 Mem:132.20M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.029
+Fra:1 Mem:132.21M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.031
+Fra:1 Mem:132.26M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.031
+Fra:1 Mem:132.37M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.031
+Fra:1 Mem:132.39M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L.003
+Fra:1 Mem:132.49M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.003
+Fra:1 Mem:132.56M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.041
+Fra:1 Mem:132.58M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_L.002
+Fra:1 Mem:132.44M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_R.002
+Fra:1 Mem:132.52M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.032
+Fra:1 Mem:132.48M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.032
+Fra:1 Mem:132.48M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.032
+Fra:1 Mem:132.48M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.041
+Fra:1 Mem:132.64M (Peak 132.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.018
+Fra:1 Mem:132.81M (Peak 132.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.018
+Fra:1 Mem:132.71M (Peak 132.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.024
+Fra:1 Mem:132.75M (Peak 132.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.024
+Fra:1 Mem:132.71M (Peak 132.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.031
+Fra:1 Mem:132.82M (Peak 132.82M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.007
+Fra:1 Mem:132.98M (Peak 132.98M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.033
+Fra:1 Mem:132.87M (Peak 132.98M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.033
+Fra:1 Mem:132.92M (Peak 132.98M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.033
+Fra:1 Mem:132.88M (Peak 132.98M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.033
+Fra:1 Mem:133.05M (Peak 133.05M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.019
+Fra:1 Mem:133.12M (Peak 133.12M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.019
+Fra:1 Mem:133.10M (Peak 133.12M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.032
+Fra:1 Mem:133.18M (Peak 133.18M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.034
+Fra:1 Mem:133.07M (Peak 133.18M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.039
+Fra:1 Mem:133.22M (Peak 133.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.034
+Fra:1 Mem:133.33M (Peak 133.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.004
+Fra:1 Mem:133.24M (Peak 133.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.029
+Fra:1 Mem:133.21M (Peak 133.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.034
+Fra:1 Mem:133.07M (Peak 133.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.033
+Fra:1 Mem:133.17M (Peak 133.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.035
+Fra:1 Mem:133.21M (Peak 133.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.035
+Fra:1 Mem:133.29M (Peak 133.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.035
+Fra:1 Mem:133.60M (Peak 133.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.021
+Fra:1 Mem:133.56M (Peak 133.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.029
+Fra:1 Mem:133.80M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.021
+Fra:1 Mem:133.40M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.025
+Fra:1 Mem:133.46M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.034
+Fra:1 Mem:133.48M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.036
+Fra:1 Mem:133.57M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.025
+Fra:1 Mem:133.55M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.022
+Fra:1 Mem:133.63M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.022
+Fra:1 Mem:133.67M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.026
+Fra:1 Mem:133.47M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.035
+Fra:1 Mem:133.51M (Peak 133.80M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.025
+Fra:1 Mem:133.95M (Peak 133.95M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.037
+Fra:1 Mem:133.89M (Peak 133.95M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.040
+Fra:1 Mem:133.93M (Peak 133.95M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.037
+Fra:1 Mem:134.01M (Peak 134.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.037
+Fra:1 Mem:134.00M (Peak 134.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_L.005
+Fra:1 Mem:133.78M (Peak 134.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fin_R.005
+Fra:1 Mem:134.01M (Peak 134.01M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage.008
+Fra:1 Mem:134.14M (Peak 134.14M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_L.004
+Fra:1 Mem:134.07M (Peak 134.14M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Arm_R.004
+Fra:1 Mem:134.01M (Peak 134.14M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.038
+Fra:1 Mem:134.14M (Peak 134.14M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.040
+Fra:1 Mem:134.26M (Peak 134.26M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.038
+Fra:1 Mem:134.29M (Peak 134.29M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.023
+Fra:1 Mem:134.11M (Peak 134.29M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.040
+Fra:1 Mem:134.27M (Peak 134.29M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.023
+Fra:1 Mem:134.22M (Peak 134.29M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.027
+Fra:1 Mem:134.22M (Peak 134.29M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Body.039
+Fra:1 Mem:134.32M (Peak 134.32M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_L.039
+Fra:1 Mem:134.32M (Peak 134.32M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Eye_R.039
+Fra:1 Mem:134.39M (Peak 134.39M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Head.039
+Fra:1 Mem:134.45M (Peak 134.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BL.024
+Fra:1 Mem:134.41M (Peak 134.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_BR.024
+Fra:1 Mem:134.36M (Peak 134.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FL.028
+Fra:1 Mem:134.35M (Peak 134.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Leg_FR.028
+Fra:1 Mem:134.61M (Peak 134.61M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail.038
+Fra:1 Mem:134.29M (Peak 134.61M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:91.69M (Peak 134.61M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:91.69M (Peak 134.61M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:91.69M (Peak 134.61M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:91.69M (Peak 134.61M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:91.73M (Peak 134.61M) | Time:00:00.04 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:91.73M (Peak 134.61M) | Time:00:00.04 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:91.73M (Peak 134.61M) | Time:00:00.04 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:91.73M (Peak 134.61M) | Time:00:00.04 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:91.73M (Peak 134.61M) | Time:00:00.04 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:91.73M (Peak 134.61M) | Time:00:00.04 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:91.83M (Peak 134.61M) | Time:00:00.04 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:91.83M (Peak 134.61M) | Time:00:00.04 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:91.83M (Peak 134.61M) | Time:00:00.04 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:91.83M (Peak 134.61M) | Time:00:00.04 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:95.14M (Peak 134.61M) | Time:00:00.04 | Mem:0.14M, Peak:0.14M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:99.29M (Peak 134.61M) | Time:00:00.04 | Mem:0.18M, Peak:0.18M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:99.19M (Peak 134.61M) | Time:00:00.04 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:99.20M (Peak 134.61M) | Time:00:00.04 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:99.20M (Peak 134.61M) | Time:00:00.04 | Mem:10.81M, Peak:10.81M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:99.20M (Peak 134.61M) | Time:00:00.05 | Mem:18.01M, Peak:24.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:99.20M (Peak 134.61M) | Time:00:00.05 | Mem:18.01M, Peak:24.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:18.01M, Peak:24.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:1 Mem:109.87M (Peak 134.61M) | Time:00:00.05 | Mem:28.69M, Peak:28.69M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:109.88M (Peak 134.61M) | Time:00:00.05 | Mem:28.70M, Peak:28.70M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:110.88M (Peak 134.61M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:110.88M (Peak 134.61M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:110.88M (Peak 134.61M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:110.88M (Peak 134.61M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:110.89M (Peak 134.61M) | Time:00:00.05 | Mem:29.70M, Peak:29.70M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:354.47M (Peak 354.47M) | Time:00:00.56 | Remaining:00:15.80 | Mem:273.23M, Peak:273.23M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:457.01M (Peak 610.82M) | Time:00:18.61 | Mem:273.23M, Peak:273.23M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:457.01M (Peak 610.82M) | Time:00:18.62 | Mem:273.23M, Peak:273.23M | Scene, ViewLayer | Finished
 Saved: '/Users/arnavjunday/Documents/GitHub/miniature-earth/art/previews/contact_sheet.png'
- Time: 00:17.62 (Saving: 00:00.16)
+ Time: 00:18.82 (Saving: 00:00.19)
 
 Data are loaded, start creating Blender stuff
 glTF import finished in 0.01s
@@ -428,21 +449,21 @@ glTF import finished in 0.00s
 Data are loaded, start creating Blender stuff
 glTF import finished in 0.00s
 Data are loaded, start creating Blender stuff
-glTF import finished in 0.00s
+glTF import finished in 0.01s
 Data are loaded, start creating Blender stuff
-glTF import finished in 0.00s
-Data are loaded, start creating Blender stuff
-glTF import finished in 0.00s
-Data are loaded, start creating Blender stuff
-glTF import finished in 0.00s
-Data are loaded, start creating Blender stuff
-glTF import finished in 0.00s
+glTF import finished in 0.01s
 Data are loaded, start creating Blender stuff
 glTF import finished in 0.00s
 Data are loaded, start creating Blender stuff
 glTF import finished in 0.01s
 Data are loaded, start creating Blender stuff
 glTF import finished in 0.01s
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.01s
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
 Data are loaded, start creating Blender stuff
 glTF import finished in 0.00s
 Data are loaded, start creating Blender stuff

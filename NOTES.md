@@ -132,3 +132,7 @@
 - Remaining-polish assumption: preserve the twelve approved-for-review showcase builds; refine all other 44 organisms through their existing scripts and retain named joints, dimensions and budgets.
 - Reef decoration is an illustrative miniature habitat, not a species-accurate reconstruction: early microbial mounds, Paleozoic sponge-like forms and later branched/plate corals use era-specific layouts.
 - Continue using original procedural geometry and vertex paint; no external models, textures or licences are introduced.
+- Final rendering constants: distant mesh initial threshold 44 projected pixels, switch down below 40 and up above 52; distant parts decimated to approximately 48% of full triangles, preserving small parts and all joint transforms.
+- Reef gardens use at most 96 candidate colonies across three coastal patches, filtered to submerged habitat; four instanced shapes bound draw calls independently of colony count.
+- Coastline distance now interpolates from a nonuniform 72×72 water grid; the centre receives more vertices than the distant ocean. Terrain grid 128×128; rocks use one icosphere subdivision.
+- The future drying tint is a material uniform instead of a terrain reconstruction for each timeline tick. Lagoon opacity is handled separately from clear coastal reef water.

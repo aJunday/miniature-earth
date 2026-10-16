@@ -27,6 +27,9 @@ def refine_animal(id,family,coat,cream,mark,body,head,tail):
             for sign in [-1,1]:
                 for i in range(3):ball('Forehead rosette',(sign*(.08+i*.075),1.08-i*.04,.74),(.033,.03,.014),mark,head)
         if id=='cheetah':reshape('Plump body',(.85,.9,1.15));reshape('Thick foot',(.8,1.05,1))
+    if id=='thylacine':
+        for o in bpy.context.scene.objects:
+            if o.name.startswith('geo_Stripe'):o.location.y=.45+(o.location.y-.42)*.45
     if id in ['wilddog','thylacine']:
         reshape('Round ear',(1.25,1.25,1));reshape('Plump body',(1,.9,1.1))
         ball('White chest',(0,.55,.45),(.18,.22,.12),cream,body)
@@ -84,6 +87,7 @@ def refine_animal(id,family,coat,cream,mark,body,head,tail):
         ball('Nose',(0,.43,.79),(.05,.04,.025),mark,head)
         ball('Held clam',(0,.53,.18),(.10,.045,.08),cream,body)
     if family=='bird':
+        if id=='condor':remove_named('Big bird head')
         # Individually shaped silhouettes, painted feather tips and toes.
         if id=='emperorpenguin':reshape('Plump bird',(.85,1.2,.9));reshape('Folded wing',(.7,1.3,.75))
         if id=='passengerpigeon':reshape('Plump bird',(.8,.9,1.1));reshape('Tail feather',(.8,.8,1.7))

@@ -1,0 +1,13 @@
+import {chromium,expect} from '@playwright/test';
+import fs from 'node:fs';
+const browser=await chromium.launch({headless:true,args:['--single-process','--no-zygote']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[],models=[],checks=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',e=>{if(e.type()==='error')errors.push(e.text())});page.on('response',r=>{if(r.url().includes('/models/'))models.push(r.url())});
+await page.addInitScript(()=>localStorage.setItem('miniature-earth-v1',JSON.stringify({seed:42,placements:[{tick:3869.230769230769,speciesId:'deer',count:12,x:0,z:0},{tick:3869.230769230769,speciesId:'reeffish',count:9,x:16,z:0}]})));
+await page.goto('http://127.0.0.1:5182/?profile');await page.waitForTimeout(2500);
+expect(models.some(u=>u.endsWith('/models/lod/org_deer.glb'))).toBe(true);checks.push('distant deer loads lower-detail GLB');await page.screenshot({path:'qa/shots/reef-present.png'});
+await page.mouse.move(700,450);for(let i=0;i<20;i++)await page.mouse.wheel(0,-100);await page.waitForTimeout(2000);expect(models.some(u=>u.endsWith('/models/org_deer.glb'))).toBe(true);checks.push('zoom restores full-detail deer without runtime errors');await page.screenshot({path:'qa/shots/reef-zoom.png'});
+for(let i=0;i<20;i++)await page.mouse.wheel(0,100);await page.waitForTimeout(900);
+for(const era of ['cambrian','archean','pleistocene','present']){await page.getByLabel('Geological period').selectOption(era);await page.waitForTimeout(650);await page.screenshot({path:`qa/shots/reef-${era}-return.png`})}checks.push('reef era switching and return to present');
+await page.getByLabel('Search organisms').fill('Whale shark');await page.getByRole('button',{name:'Learn about Whale shark',exact:true}).click();await expect(page.locator('.organism-detail img')).toHaveAttribute('src','/icons/org_whaleshark.png');checks.push('refined marine icon loads in organism card');
+expect(errors).toEqual([]);fs.writeFileSync('qa/reef-results.json',JSON.stringify({checks,errors,models},null,2));console.log({checks,errors});await browser.close();

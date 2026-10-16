@@ -38,3 +38,11 @@ No push or deployment. Original .gitignore modification from before this work wa
 - PASS: headless benchmark median 183.4ms → 66.6ms, p95 66.7ms; 34 draws and 162,186 triangles after retaining rounded tree crowns. Same 12-deer/12-fish scene and viewport. Headless results do not establish ordinary-device 60fps.
 - Applied visual improvements: distinct mammal silhouettes and animal appendages; single painted material per part for richer colour without per-colour draws; improved sheet spacing and restored round runtime tree crowns. Source/trait panels no longer show the world card through their background.
 - Scientific records cover every entry with evidence or explicit unknowns. Detailed occurrence dates/diets/thermal thresholds are not fully researched. Freshwater chemistry and Charnia's game-growth abstraction remain disclosed. Overall art is still more simplified and faceted than the reference games, especially non-showcase assets.
+
+## Remaining assets and reef pass
+
+- PASS: 44 remaining organisms refined, 56 distant variants generated; all 115 GLBs pass inspection/Khronos checks. Full asset contracts and transparent icons pass. Remaining model silhouettes are still intentionally stylized and some retain family ancestry; this is not a claim of reference-game fidelity.
+- PASS: 33 automated tests and 22 browser checks, including zoom-triggered full-detail loading, reef-era transitions, and stable geometry counts during future scrubbing. Zero console/page errors.
+- PASS: inspected complete 1600px-wide contact sheet, whale-shark/condor icons, present reef, zoom and future views. Applied flatter elkhorn forks, vertical shark caudal fin, distinct bird signatures, clearer reef water, smoother underwater colour transitions and restored lagoon blue.
+- PASS: isolated median frame time 66.6 → 50.0ms (~25% reduction), p95 remains 66.7ms. Geometry 162,186 → 129,714 triangles with 37 calls, including four instanced reef families. Hardware/browser differences still require physical-device measurement; 60fps is not claimed.
+- Local build retains the large-chunk warning. Scientific-data and freshwater-salinity limits are unchanged. No push/deploy.

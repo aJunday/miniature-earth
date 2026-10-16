@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "distant deer loads lower-detail GLB",
+    "zoom restores full-detail deer without runtime errors",
+    "reef era switching and return to present",
+    "refined marine icon loads in organism card"
+  ],
+  "errors": [],
+  "models": [
+    "http://127.0.0.1:5182/models/lod/org_deer.glb",
+    "http://127.0.0.1:5182/models/lod/org_reeffish.glb",
+    "http://127.0.0.1:5182/models/org_deer.glb"
+  ]
+}

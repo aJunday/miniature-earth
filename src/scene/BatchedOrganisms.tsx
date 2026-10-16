@@ -1,5 +1,5 @@
-import {useMemo,useRef,useEffect} from 'react';
-import {useFrame} from '@react-three/fiber';
+import {useMemo,useRef,useEffect,useState} from 'react';
+import {useFrame,useThree} from '@react-three/fiber';
 import {useGLTF} from '@react-three/drei';
 import {CanvasTexture,Color,InstancedMesh,Matrix4,Mesh,Object3D} from 'three';
 import {byId} from '../sim/simulation';
@@ -9,11 +9,13 @@ import {useGame} from '../state';
 export interface RenderIndividual {key:string;x:number;z:number;fossil:boolean}
 /** One draw per source primitive, irrespective of the number of animals. */
 export function BatchedOrganisms({id,items,year}:{id:string;items:RenderIndividual[];year:number}){
- const {scene}=useGLTF('/models/org_'+id+'.glb');
+ const camera=useThree(state=>state.camera);const [distant,setDistant]=useState(()=>byId[id].height*camera.zoom<44);
+ useFrame(()=>{const pixels=byId[id].height*camera.zoom;if(distant&&pixels>52)setDistant(false);else if(!distant&&pixels<40)setDistant(true)});
+ const {scene}=useGLTF('/models/'+(distant?'lod/':'')+'org_'+id+'.glb');
  const parts=useMemo(()=>{scene.updateMatrixWorld(true);const parts:{mesh:Mesh;joint:Matrix4;relative:Matrix4;name:string}[]=[];scene.traverse(o=>{if(o instanceof Mesh){let owner:Object3D=o;while(owner.parent&&owner.parent.name!=='Root'&&owner.parent!==scene)owner=owner.parent;parts.push({mesh:o,joint:owner.matrixWorld.clone(),relative:owner.matrixWorld.clone().invert().multiply(o.matrixWorld),name:owner.name})}});return parts},[scene]);
  const contact=useRef<InstancedMesh>(null),contactTransform=useMemo(()=>new Object3D(),[]),shadow=useMemo(()=>{const c=document.createElement('canvas');c.width=c.height=32;const ctx=c.getContext('2d')!,g=ctx.createRadialGradient(16,16,0,16,16,16);g.addColorStop(0,'rgba(25,45,30,.3)');g.addColorStop(1,'rgba(25,45,30,0)');ctx.fillStyle=g;ctx.fillRect(0,0,32,32);return new CanvasTexture(c)},[]);useEffect(()=>()=>shadow.dispose(),[shadow]);
  const refs=useRef<(InstancedMesh|null)[]>([]),births=useRef(new Map<string,number>()),dummy=useMemo(()=>new Object3D(),[]),motion=useMemo(()=>new Object3D(),[]),matrix=useMemo(()=>new Matrix4(),[]),s=byId[id];
- useEffect(()=>{refs.current.forEach(mesh=>{if(!mesh)return;items.forEach((v,i)=>mesh.setColorAt(i,new Color(v.fossil?'#aaa79c':'#ffffff')));if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true})},[items]);
+ useEffect(()=>{refs.current.forEach(mesh=>{if(!mesh)return;items.forEach((v,i)=>mesh.setColorAt(i,new Color(v.fossil?'#aaa79c':'#ffffff')));if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true})},[items,parts]);
  useFrame(({clock})=>{const t=clock.elapsedTime;items.forEach((item,i)=>{if(!births.current.has(item.key))births.current.set(item.key,t);const age=t-births.current.get(item.key)!,u=Math.min(1,age/.35),scale=Math.max(.01,1+2.70158*(u-1)**3+1.70158*(u-1)**2);const phase=i*1.713;
  let x=item.x,z=item.z,heading=0;
  if(s.diet!=='producer'&&!item.fossil){const wx=x+Math.sin(t*.4+phase)*.65,wz=z+Math.cos(t*.4+phase)*.65;if(inZone(wx,wz,s.zone,year)){x=wx;z=wz;heading=Math.atan2(Math.cos(t*.4+phase),-Math.sin(t*.4+phase))}}

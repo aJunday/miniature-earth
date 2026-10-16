@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "future tint responds during repeated year changes",
+    "geometry count stable across future scrubbing"
+  ],
+  "geometries": {
+    "before": 20,
+    "after": 20
+  },
+  "errors": []
+}
