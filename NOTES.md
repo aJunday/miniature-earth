@@ -87,3 +87,5 @@
 - Simulation assumption: the explicit out-of-time scenario requires an era-niche penalty beyond temperature alone; modern Jurassic hardy plants receive fitness ×0.04, and modern dinosaurs ×0. Event mortality 0.14/tick makes the specified extinction story visible within the 40-tick event.
 - Final simulation constants: producers r=.08 K=200; herbivores r=.05 K=60 need=.05 m=.04; carnivores r=.02 K=8 need=.025 m=.05. Nonviable producers lose .025 N per tick; seeded growth noise is 0–5%.
 - Strict TypeScript remains enabled; unchecked indexed access is omitted for numeric tables whose lengths are validated by tests.
+
+- Playwright is added as a development-only dependency because phases G/L/M explicitly require real browser interaction and screenshots.

@@ -47,3 +47,6 @@ PASS: pure TypeScript modules, full 18-species and timeline data, checkpoints an
 
 ## Phase D: Game state — DONE
 PASS: Zustand actions, memoized checkpoint simulation, 100ms autoplay and guarded localStorage persistence. Snap/persistence tests and 400 deterministic in-zone positions pass; typecheck, all 15 tests and build pass.
+
+## Phase E: The 3D world — DONE
+PASS: orthographic orbit camera, warm soft-shadow lighting, N8AO/tilt-shift/vignette/SMAA, layered fallback island, GLB boundary, water shimmer and eased era/sky transitions. Live browser has no console errors. Browser review caught and fixed absolute OrbitControls zoom clamping; build and all tests pass.
