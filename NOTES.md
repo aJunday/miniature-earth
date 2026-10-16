@@ -97,3 +97,5 @@
 - Research fallback: direct HTTP profiles often return 403, IUCN DOI pages time out or deny access; search-indexed official profiles and reputable museum/government pages were checked. Unconfirmed assessment years, dated populations, and extra key moments remain empty rather than invented.
 - Phase I visual refinements: removed elephant ears/trunk/tusks from brachiosaurus; authored a striped bee with antennae and broad wings; made Charnia a single feather-like frond; added deer antlers, corrected conifer green, removed dinosaur ears, and gave sea otter a back-floating pose with clasped paws.
 - The 56-model contact sheet uses a labelled grid so every asset remains visible; all icons are Cycles CPU transparent PNGs.
+- Audio is quiet procedural tones with era-specific ambience; no external audio files. Demo steps use wall-clock time and cancel immediately on pointer or keyboard input.
+- Phase K fixes include full-page sky blending, direct touch placement coordinates, translucent placement ghosts, per-individual motion phase, soft fossil colour transitions, and retained animal instances for shrink-out deaths.
