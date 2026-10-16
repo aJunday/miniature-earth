@@ -1,0 +1,1149 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/brecht/dev/build_darwin/deps/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 155
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.01s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Tiny arm
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Tiny arm.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.004
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.006
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.012
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.009
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Swept tail
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.007668256759643555 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Sphere.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.004
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.006
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.043
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg.002
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.011
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Swept tail
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.0069980621337890625 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: leg
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.021
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.023
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: antenna
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.004712104797363281 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Sphere.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.004
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.006
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Curled trunk
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.015
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.018
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.021
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.024
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Swept tail
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.007279157638549805 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Sphere.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.004
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.006
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Feathery gill
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg.002
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.011
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Ribbon tail
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.006880044937133789 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Sphere
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.003
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.005
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.011
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.008
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Toe.003
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.012
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.015
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.018
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.006919145584106445 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Cone
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.003
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.005
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.007
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.009
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Little smile
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.008
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.006150960922241211 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Sphere.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.004
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.006
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Little smile
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg.002
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.011
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Swept tail
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.0071790218353271484 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Central stalk
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.002492189407348633 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Sphere.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.004
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.006
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.031
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg.002
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.011
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Short leg.001
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Swept tail
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.0070037841796875 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Sphere
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.003
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.005
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.012
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.008
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Toe.003
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.013
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.016
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Sphere.019
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.0071871280670166016 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Sphere.015
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Cone
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.002773761749267578 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:32 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:32 | INFO: Starting glTF 2.0 export
+22:44:32 | INFO: Extracting primitive: Cycad leaflet
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Extracting primitive: Cone
+22:44:32 | INFO: Primitives created: 1
+22:44:32 | INFO: Finished glTF 2.0 export in 0.002644062042236328 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.009
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Antler
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.013
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Leg.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.012
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.015
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.007315874099731445 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.014
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.016
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.013
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.005403995513916016 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.008
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Toe.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.013
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.016
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.019
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.007344961166381836 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Broad antler
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.0014598369598388672 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.012
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.008
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Toe.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.014
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.017
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.020
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.011230945587158203 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.002429962158203125 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.006
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Curled trunk
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.015
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.018
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.021
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.024
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Swept tail
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.007316112518310547 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.006
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.018
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.016
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.007164955139160156 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Curved leaf
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.0016150474548339844 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Antenna
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.015
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.009
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.012
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.006222963333129883 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Cone
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.009
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.008
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.006062030792236328 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.008
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Toe.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.014
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.017
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.020
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.00678706169128418 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.006
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.017
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.015
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.006915092468261719 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.009
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.021
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.026
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.013
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.017
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.029
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.006875038146972656 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.017
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Long arm.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.006
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.019
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.014
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.0076868534088134766 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Branch
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.0029687881469726562 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Little smile
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.012
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Swept tail
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.006605863571166992 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.008
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Toe.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.012
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.015
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.018
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.0068700313568115234 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.008
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Toe.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.019
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.022
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.025
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.006724834442138672 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.009
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Little smile
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.012
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.014
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.016
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.017
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.015
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.006954193115234375 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.006
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.016
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.014
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.006940126419067383 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.009
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.019
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Leg.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.017
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.018
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.021
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.007144927978515625 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.009
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.013
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Leg.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.012
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Bushy sweep
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.00719904899597168 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.006
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.020
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Swept tail
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.007444858551025391 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: fin
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: fin.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Gill
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.0064580440521240234 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.005
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.007
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.009
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.008
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.00595402717590332 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.020
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Long arm.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.006
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Little smile
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.011
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Short leg.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.022
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.0076830387115478516 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Curved leaf
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.0016760826110839844 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Paws together
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Paws together.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.004
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.006
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.003
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.008
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.010
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Otter tail
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.007143259048461914 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:33 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:33 | INFO: Starting glTF 2.0 export
+22:44:33 | INFO: Extracting primitive: Sphere.002
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.014
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.016
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Swept paddle
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Swept paddle.001
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.012
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.018
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Sphere.019
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Extracting primitive: Tail
+22:44:33 | INFO: Primitives created: 1
+22:44:33 | INFO: Finished glTF 2.0 export in 0.00722813606262207 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Sphere.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.004
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.006
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.043
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.002
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.011
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Swept tail
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.007133960723876953 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Back plate
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.011
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.013
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.006
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.004
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.026
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.002
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.003
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Curved tail
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.006864309310913086 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Sphere.002
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.003
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.005
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.007
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.009
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Little smile
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.008
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.005920886993408203 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Cone
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.0024347305297851562 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Sphere.018
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Long arm.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.004
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.006
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.020
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.002
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.011
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.014
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.007751941680908203 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Sphere.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.004
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.006
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Cone
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.002
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.011
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Swept tail
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.007025957107543945 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Sphere.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.005
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.007
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Little smile
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.002
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.012
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Swept tail
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.007033824920654297 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Sphere.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.004
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.006
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.025
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.002
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.011
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Swept tail
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.007049083709716797 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: leg
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.017
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.019
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Genal spine
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.004684925079345703 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Cone
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.003
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.005
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.007
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.009
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.011
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.008
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.006433010101318359 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Dorsal sail
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.003
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.005
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.007
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.009
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Little smile
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Lower caudal
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.0062351226806640625 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Sphere.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.005
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.007
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.031
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.002
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.012
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Short leg.001
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Extracting primitive: Sphere.033
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.006911039352416992 s
+
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.00s
+22:44:34 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+22:44:34 | INFO: Starting glTF 2.0 export
+22:44:34 | INFO: Extracting primitive: Sphere.005
+22:44:34 | INFO: Primitives created: 1
+22:44:34 | INFO: Finished glTF 2.0 export in 0.002492189407348633 s
+
+Blender 3.6.23 (hash e467db79ca8c built 2025-06-17 01:31:24)
+
+Blender quit

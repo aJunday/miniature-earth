@@ -6,7 +6,7 @@ from lib.common import *
 bpy.ops.wm.read_factory_settings(use_empty=True)
 paths=sorted((BASE/'public/models').glob('*.glb'))
 columns=min(6,len(paths));rows=math.ceil(len(paths)/columns)
-scene=setup_render(1600,max(650,rows*170),False)
+scene=setup_render(1600,max(650,rows*210),False)
 paths=sorted((BASE/'public/models').glob('*.glb'))
 right=Vector((.841,.541,0))
 forward=Vector((.541,-.841,0))
@@ -20,7 +20,7 @@ for index,path in enumerate(paths):
     center=(low+high)/2
     width=max(high.x-low.x,high.y-low.y)
     scale=3.05/width if 'island' in path.stem else min(2.75/width,1.8/(high.z-low.z))
-    position=right*((index%columns-(columns-1)/2)*3.8)+forward*((index//columns-(rows-1)/2)*4.6)
+    position=right*((index%columns-(columns-1)/2)*3.8)+forward*((index//columns-(rows-1)/2)*5.8)
     for obj in meshes:
         matrix=obj.matrix_world.copy()
         obj.parent=None
@@ -36,11 +36,11 @@ floor=make_material('Neutral cream floor','#F3EFE6')
 bpy.ops.mesh.primitive_plane_add(size=200,location=(0,0,-.02))
 bpy.context.object.data.materials.append(floor)
 target=Vector((0,0,.6))
-bpy.ops.object.camera_add(location=target+Vector((9,-14,10)))
+bpy.ops.object.camera_add(location=target+Vector((27,-42,30)))
 camera=bpy.context.object
 camera.rotation_euler=(target-camera.location).to_track_quat('-Z','Y').to_euler()
 camera.data.type='ORTHO'
-camera.data.ortho_scale=max(columns*4.1/(1600/max(650,rows*170)),rows*2.8+3)
+camera.data.ortho_scale=max(columns*4.1/(1600/max(650,rows*210)),rows*3.4+4)
 scene.camera=camera
 ink=make_material('Label ink','#465248')
 for label,position in groups:

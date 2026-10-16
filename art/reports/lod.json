@@ -1,0 +1,741 @@
+{
+  "org_allosaurus": {
+    "full": 2722,
+    "distant": 1298,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Tail"
+    ]
+  },
+  "org_amurleopard": {
+    "full": 2668,
+    "distant": 1280,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_arthropleura": {
+    "full": 2690,
+    "distant": 1290,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head"
+    ]
+  },
+  "org_asianelephant": {
+    "full": 2718,
+    "distant": 1298,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_axolotl": {
+    "full": 2706,
+    "distant": 1306,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_baldeagle": {
+    "full": 2714,
+    "distant": 1290,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail",
+      "Wing_L",
+      "Wing_R"
+    ]
+  },
+  "org_bluewhale": {
+    "full": 2832,
+    "distant": 1352,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_brachiosaurus": {
+    "full": 2746,
+    "distant": 1308,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_charnia": {
+    "full": 1362,
+    "distant": 652,
+    "parts": [
+      "Foliage"
+    ]
+  },
+  "org_cheetah": {
+    "full": 2724,
+    "distant": 1308,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_condor": {
+    "full": 2724,
+    "distant": 1298,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail",
+      "Wing_L",
+      "Wing_R"
+    ]
+  },
+  "org_conifer": {
+    "full": 1368,
+    "distant": 656,
+    "parts": [
+      "Foliage",
+      "Trunk"
+    ]
+  },
+  "org_cycad": {
+    "full": 1248,
+    "distant": 598,
+    "parts": [
+      "Foliage",
+      "Trunk"
+    ]
+  },
+  "org_deer": {
+    "full": 2706,
+    "distant": 1292,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_dickinsonia": {
+    "full": 2688,
+    "distant": 1286,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_dodo": {
+    "full": 2724,
+    "distant": 1298,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail",
+      "Wing_L",
+      "Wing_R"
+    ]
+  },
+  "org_elkhorncoral": {
+    "full": 352,
+    "distant": 168,
+    "parts": [
+      "Foliage"
+    ]
+  },
+  "org_emperorpenguin": {
+    "full": 2726,
+    "distant": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail",
+      "Wing_L",
+      "Wing_R"
+    ]
+  },
+  "org_fern": {
+    "full": 1354,
+    "distant": 648,
+    "parts": [
+      "Foliage"
+    ]
+  },
+  "org_forestelephant": {
+    "full": 2718,
+    "distant": 1298,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_giantpanda": {
+    "full": 2742,
+    "distant": 1306,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_grass": {
+    "full": 528,
+    "distant": 252,
+    "parts": [
+      "Foliage"
+    ]
+  },
+  "org_honeybee": {
+    "full": 2726,
+    "distant": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Tail",
+      "Wing_L",
+      "Wing_R"
+    ]
+  },
+  "org_humpback": {
+    "full": 2748,
+    "distant": 1314,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_kakapo": {
+    "full": 2726,
+    "distant": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail",
+      "Wing_L",
+      "Wing_R"
+    ]
+  },
+  "org_koala": {
+    "full": 2714,
+    "distant": 1296,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_mammoth": {
+    "full": 2730,
+    "distant": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_mountaingorilla": {
+    "full": 2720,
+    "distant": 1290,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_oak": {
+    "full": 1358,
+    "distant": 650,
+    "parts": [
+      "Foliage",
+      "Trunk"
+    ]
+  },
+  "org_pangolin": {
+    "full": 2740,
+    "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_passengerpigeon": {
+    "full": 2734,
+    "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail",
+      "Wing_L",
+      "Wing_R"
+    ]
+  },
+  "org_philippineeagle": {
+    "full": 2712,
+    "distant": 1292,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail",
+      "Wing_L",
+      "Wing_R"
+    ]
+  },
+  "org_pintatortoise": {
+    "full": 2746,
+    "distant": 1308,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_polarbear": {
+    "full": 2724,
+    "distant": 1298,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_rabbit": {
+    "full": 2740,
+    "distant": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_redfox": {
+    "full": 2732,
+    "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_redpanda": {
+    "full": 2732,
+    "distant": 1298,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_reeffish": {
+    "full": 2992,
+    "distant": 1428,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_rightwhale": {
+    "full": 2736,
+    "distant": 1306,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_ringtailedlemur": {
+    "full": 2724,
+    "distant": 1298,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_seagrass": {
+    "full": 528,
+    "distant": 252,
+    "parts": [
+      "Foliage"
+    ]
+  },
+  "org_seaotter": {
+    "full": 2900,
+    "distant": 1384,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Tail"
+    ]
+  },
+  "org_seaturtle": {
+    "full": 2746,
+    "distant": 1348,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Tail"
+    ]
+  },
+  "org_snowleopard": {
+    "full": 2668,
+    "distant": 1280,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_stegosaurus": {
+    "full": 2686,
+    "distant": 1280,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_stellerseacow": {
+    "full": 2232,
+    "distant": 1064,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_stromatolite": {
+    "full": 1368,
+    "distant": 656,
+    "parts": [
+      "Foliage"
+    ]
+  },
+  "org_sumatranorangutan": {
+    "full": 2732,
+    "distant": 1300,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_sumatranrhino": {
+    "full": 2744,
+    "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_thylacine": {
+    "full": 2728,
+    "distant": 1316,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_tiger": {
+    "full": 2710,
+    "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_trilobite": {
+    "full": 2704,
+    "distant": 1294,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head"
+    ]
+  },
+  "org_vaquita": {
+    "full": 2948,
+    "distant": 1408,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_whaleshark": {
+    "full": 2700,
+    "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_wilddog": {
+    "full": 2722,
+    "distant": 1298,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_wildflower": {
+    "full": 1358,
+    "distant": 650,
+    "parts": [
+      "Foliage"
+    ]
+  }
+}

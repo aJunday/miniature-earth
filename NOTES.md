@@ -129,3 +129,6 @@
 - Continuation assumption: inherited temperature variation is demonstrated on deer, rabbit, red fox and mammoth; it is a deterministic teaching model of standing variation, without mutation or speciation.
 - Final constants: inherited thermal offsets −2/0/+2°C; initial frequencies 0.25/0.50/0.25; mortality weighting 1+2×(1−fitness). These are game choices, not empirical measurements.
 - Water limitation: axolotl metadata explicitly says freshwater; current water placement has no salinity model. Hawksbill food-web seagrass support remains a simplified ecological link, with the real sponge-rich diet shown in field notes.
+- Remaining-polish assumption: preserve the twelve approved-for-review showcase builds; refine all other 44 organisms through their existing scripts and retain named joints, dimensions and budgets.
+- Reef decoration is an illustrative miniature habitat, not a species-accurate reconstruction: early microbial mounds, Paleozoic sponge-like forms and later branched/plate corals use era-specific layouts.
+- Continue using original procedural geometry and vertex paint; no external models, textures or licences are introduced.

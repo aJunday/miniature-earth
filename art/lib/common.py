@@ -314,6 +314,19 @@ def render_icon(path):
     scene.render.filepath=str(path)
     bpy.ops.render.render(write_still=True)
 
+def bake_palette():
+    """Bake solid paint into corner colours, retaining one material per animated joint."""
+    surface=make_material('Painted miniature','#FFFFFF')
+    node=surface.node_tree.nodes.new('ShaderNodeVertexColor');node.layer_name='Paint'
+    surface.node_tree.links.new(node.outputs['Color'],surface.node_tree.nodes.get('Principled BSDF').inputs['Base Color'])
+    for obj in PARTS:
+        attr=obj.data.color_attributes.get('Paint') or obj.data.color_attributes.new(name='Paint',type='FLOAT_COLOR',domain='CORNER')
+        for poly in obj.data.polygons:
+            color=obj.data.materials[poly.material_index].diffuse_color
+            for li in poly.loop_indices:attr.data[li].color=color
+            poly.material_index=0
+        obj.data.materials.clear();obj.data.materials.append(surface)
+
 def deliver():
     export_glb(BASE/'public/models'/f'{MODEL_ID}.glb')
     render_icon(BASE/'public/icons'/f'{MODEL_ID}.png')

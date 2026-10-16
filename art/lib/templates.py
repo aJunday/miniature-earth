@@ -37,7 +37,7 @@ def eyes(head,at,span=.20,size=.09):
 
 def animal(id,template,size,height=False):
     clear_scene('org_'+id,3000)
-    a,b,c=PALETTES[id];coat=make_material('Coat',a);cream=make_material('Accent','#FFF9EE');mark=make_material('Markings',c)
+    a,b,c=PALETTES[id];coat=make_material('Coat',a);cream=make_material('Accent',b);mark=make_material('Markings',c)
     body=add_part('Body',joint=(0,.55,0));head=add_part('Head',joint=(0,.75,.48));tail=add_part('Tail',joint=(0,.6,-.55))
     family=template
     if id=='dickinsonia':
@@ -195,11 +195,13 @@ def animal(id,template,size,height=False):
         # Coral has the plant hierarchy, authored by plant() below.
         raise ValueError('Use plant builder for coral')
     else:raise ValueError(family)
+    from .refinements import refine_animal
+    refine_animal(id,family,coat,cream,mark,body,head,tail)
     # Every impact model is fitted to its longest dimension, base models to height.
     for obj in list(bpy.context.scene.objects):
         if obj.type in {'MESH','CURVE'}:apply_modifiers(obj)
     low,high=bounds([o for o in bpy.context.scene.objects if o.type=='MESH']);target=size if height else size*(high.z-low.z)/max(high-low)
-    finish_model(height=target);deliver()
+    finish_model(height=target);bake_palette();deliver()
 
 def plant(id,height):
     clear_scene('org_'+id,1500);green=make_material('Foliage','#4FA84E' if id in ['oak','grass','wildflower','seagrass'] else '#2F7A4A' if id=='conifer' else '#6FB34A');wood=make_material('Trunk','#8B5E3C');cream=make_material('Accent','#D8B58C');fol=add_part('Foliage');trunk=None
@@ -240,9 +242,11 @@ def plant(id,height):
         pink=make_material('Petals','#F7A8C4');yellow=make_material('Flower centre','#FFD45C');capsule('Stem',(0,0,0),(0,.4,0),.025,green,fol,8,2)
         for i in range(5):ball('Petal',(math.sin(i*math.tau/5)*.12,.4,math.cos(i*math.tau/5)*.12),(.10,.04,.1),pink,fol)
         ball('Centre',(0,.43,0),(.065,.04,.065),yellow,fol)
+    from .refinements import refine_plant
+    refine_plant(id,green,wood,cream,fol,trunk)
     if id=='elkhorncoral':
         low,high=bounds([o for o in bpy.context.scene.objects if o.type=='MESH']);height=height*(high.z-low.z)/max(high-low)
-    finish_model(height=height);deliver()
+    finish_model(height=height);bake_palette();deliver()
 
 # Named template entry points keep species scripts small and reusable.
 def bigcat(id,size,height=False):animal(id,'bigcat',size,height)

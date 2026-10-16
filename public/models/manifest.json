@@ -46,7 +46,7 @@
     "file": "/models/org_allosaurus.glb",
     "icon": "/icons/org_allosaurus.png",
     "heightUnits": 1.7999999523162842,
-    "triangles": 2828,
+    "triangles": 2722,
     "parts": [
       "Root",
       "Arm_L",
@@ -65,7 +65,7 @@
     "file": "/models/org_amurleopard.glb",
     "icon": "/icons/org_amurleopard.png",
     "heightUnits": 0.5586059093475342,
-    "triangles": 2718,
+    "triangles": 2668,
     "parts": [
       "Root",
       "Body",
@@ -98,7 +98,7 @@
     "file": "/models/org_asianelephant.glb",
     "icon": "/icons/org_asianelephant.png",
     "heightUnits": 1.124418020248413,
-    "triangles": 2756,
+    "triangles": 2718,
     "parts": [
       "Root",
       "Body",
@@ -116,8 +116,8 @@
     "id": "axolotl",
     "file": "/models/org_axolotl.glb",
     "icon": "/icons/org_axolotl.png",
-    "heightUnits": 0.20001637935638428,
-    "triangles": 2732,
+    "heightUnits": 0.17517736554145813,
+    "triangles": 2706,
     "parts": [
       "Root",
       "Body",
@@ -136,7 +136,7 @@
     "file": "/models/org_baldeagle.glb",
     "icon": "/icons/org_baldeagle.png",
     "heightUnits": 0.8999999761581421,
-    "triangles": 2904,
+    "triangles": 2714,
     "parts": [
       "Root",
       "Body",
@@ -154,8 +154,8 @@
     "id": "bluewhale",
     "file": "/models/org_bluewhale.glb",
     "icon": "/icons/org_bluewhale.png",
-    "heightUnits": 1.2780269384384155,
-    "triangles": 2612,
+    "heightUnits": 1.2149497270584106,
+    "triangles": 2832,
     "parts": [
       "Root",
       "Body",
@@ -171,8 +171,8 @@
     "id": "brachiosaurus",
     "file": "/models/org_brachiosaurus.glb",
     "icon": "/icons/org_brachiosaurus.png",
-    "heightUnits": 3.0,
-    "triangles": 2736,
+    "heightUnits": 2.9999999403953552,
+    "triangles": 2746,
     "parts": [
       "Root",
       "Body",
@@ -190,8 +190,8 @@
     "id": "charnia",
     "file": "/models/org_charnia.glb",
     "icon": "/icons/org_charnia.png",
-    "heightUnits": 0.8999999612569809,
-    "triangles": 1368,
+    "heightUnits": 0.8999999668449163,
+    "triangles": 1362,
     "parts": [
       "Root",
       "Foliage"
@@ -201,8 +201,8 @@
     "id": "cheetah",
     "file": "/models/org_cheetah.glb",
     "icon": "/icons/org_cheetah.png",
-    "heightUnits": 0.6144664883613586,
-    "triangles": 2716,
+    "heightUnits": 0.6184307932853699,
+    "triangles": 2724,
     "parts": [
       "Root",
       "Body",
@@ -221,7 +221,7 @@
     "file": "/models/org_condor.glb",
     "icon": "/icons/org_condor.png",
     "heightUnits": 0.8999999761581421,
-    "triangles": 2744,
+    "triangles": 2724,
     "parts": [
       "Root",
       "Body",
@@ -239,8 +239,8 @@
     "id": "conifer",
     "file": "/models/org_conifer.glb",
     "icon": "/icons/org_conifer.png",
-    "heightUnits": 2.5999998450279236,
-    "triangles": 1354,
+    "heightUnits": 2.5999999046325684,
+    "triangles": 1368,
     "parts": [
       "Root",
       "Foliage",
@@ -251,8 +251,8 @@
     "id": "cycad",
     "file": "/models/org_cycad.glb",
     "icon": "/icons/org_cycad.png",
-    "heightUnits": 1.0000000557629392,
-    "triangles": 1346,
+    "heightUnits": 1.0000000052968971,
+    "triangles": 1248,
     "parts": [
       "Root",
       "Foliage",
@@ -282,8 +282,8 @@
     "id": "dickinsonia",
     "file": "/models/org_dickinsonia.glb",
     "icon": "/icons/org_dickinsonia.png",
-    "heightUnits": 0.30000001192092896,
-    "triangles": 2758,
+    "heightUnits": 0.30000007152557373,
+    "triangles": 2688,
     "parts": [
       "Root",
       "Body",
@@ -297,8 +297,8 @@
     "id": "dodo",
     "file": "/models/org_dodo.glb",
     "icon": "/icons/org_dodo.png",
-    "heightUnits": 0.6893129944801331,
-    "triangles": 2744,
+    "heightUnits": 0.6974351108074188,
+    "triangles": 2724,
     "parts": [
       "Root",
       "Body",
@@ -316,8 +316,8 @@
     "id": "elkhorncoral",
     "file": "/models/org_elkhorncoral.glb",
     "icon": "/icons/org_elkhorncoral.png",
-    "heightUnits": 0.628885378013365,
-    "triangles": 928,
+    "heightUnits": 0.5022300127893686,
+    "triangles": 352,
     "parts": [
       "Root",
       "Foliage"
@@ -327,8 +327,8 @@
     "id": "emperorpenguin",
     "file": "/models/org_emperorpenguin.glb",
     "icon": "/icons/org_emperorpenguin.png",
-    "heightUnits": 0.800000011920929,
-    "triangles": 2740,
+    "heightUnits": 0.7999999523162842,
+    "triangles": 2726,
     "parts": [
       "Root",
       "Body",
@@ -358,7 +358,7 @@
     "file": "/models/org_forestelephant.glb",
     "icon": "/icons/org_forestelephant.png",
     "heightUnits": 1.0307165384292603,
-    "triangles": 2756,
+    "triangles": 2718,
     "parts": [
       "Root",
       "Body",
@@ -376,8 +376,8 @@
     "id": "giantpanda",
     "file": "/models/org_giantpanda.glb",
     "icon": "/icons/org_giantpanda.png",
-    "heightUnits": 1.2000000476837158,
-    "triangles": 2748,
+    "heightUnits": 1.1999999582767487,
+    "triangles": 2742,
     "parts": [
       "Root",
       "Body",
@@ -396,7 +396,7 @@
     "file": "/models/org_grass.glb",
     "icon": "/icons/org_grass.png",
     "heightUnits": 0.3000000026077032,
-    "triangles": 396,
+    "triangles": 528,
     "parts": [
       "Root",
       "Foliage"
@@ -424,7 +424,7 @@
     "file": "/models/org_humpback.glb",
     "icon": "/icons/org_humpback.png",
     "heightUnits": 0.994020938873291,
-    "triangles": 2752,
+    "triangles": 2748,
     "parts": [
       "Root",
       "Body",
@@ -440,8 +440,8 @@
     "id": "kakapo",
     "file": "/models/org_kakapo.glb",
     "icon": "/icons/org_kakapo.png",
-    "heightUnits": 0.6000000238418579,
-    "triangles": 2740,
+    "heightUnits": 0.5917430520057678,
+    "triangles": 2726,
     "parts": [
       "Root",
       "Body",
@@ -460,7 +460,7 @@
     "file": "/models/org_koala.glb",
     "icon": "/icons/org_koala.png",
     "heightUnits": 0.6000000238418579,
-    "triangles": 2740,
+    "triangles": 2714,
     "parts": [
       "Root",
       "Body",
@@ -497,8 +497,8 @@
     "id": "mountaingorilla",
     "file": "/models/org_mountaingorilla.glb",
     "icon": "/icons/org_mountaingorilla.png",
-    "heightUnits": 1.2999999523162842,
-    "triangles": 2748,
+    "heightUnits": 1.2777864933013916,
+    "triangles": 2720,
     "parts": [
       "Root",
       "Arm_L",
@@ -530,8 +530,8 @@
     "id": "pangolin",
     "file": "/models/org_pangolin.glb",
     "icon": "/icons/org_pangolin.png",
-    "heightUnits": 0.3500274419784546,
-    "triangles": 2710,
+    "heightUnits": 0.31423473358154297,
+    "triangles": 2740,
     "parts": [
       "Root",
       "Body",
@@ -549,8 +549,8 @@
     "id": "passengerpigeon",
     "file": "/models/org_passengerpigeon.glb",
     "icon": "/icons/org_passengerpigeon.png",
-    "heightUnits": 0.48134326934814453,
-    "triangles": 2904,
+    "heightUnits": 0.4277188181877136,
+    "triangles": 2734,
     "parts": [
       "Root",
       "Body",
@@ -569,7 +569,7 @@
     "file": "/models/org_philippineeagle.glb",
     "icon": "/icons/org_philippineeagle.png",
     "heightUnits": 0.8999999761581421,
-    "triangles": 2722,
+    "triangles": 2712,
     "parts": [
       "Root",
       "Body",
@@ -588,7 +588,7 @@
     "file": "/models/org_pintatortoise.glb",
     "icon": "/icons/org_pintatortoise.png",
     "heightUnits": 0.31823205947875977,
-    "triangles": 2744,
+    "triangles": 2746,
     "parts": [
       "Root",
       "Body",
@@ -606,8 +606,8 @@
     "id": "polarbear",
     "file": "/models/org_polarbear.glb",
     "icon": "/icons/org_polarbear.png",
-    "heightUnits": 1.1005916595458984,
-    "triangles": 2726,
+    "heightUnits": 1.0508475303649902,
+    "triangles": 2724,
     "parts": [
       "Root",
       "Body",
@@ -664,7 +664,7 @@
     "file": "/models/org_redpanda.glb",
     "icon": "/icons/org_redpanda.png",
     "heightUnits": 0.391024112701416,
-    "triangles": 2718,
+    "triangles": 2732,
     "parts": [
       "Root",
       "Body",
@@ -699,7 +699,7 @@
     "id": "rightwhale",
     "file": "/models/org_rightwhale.glb",
     "icon": "/icons/org_rightwhale.png",
-    "heightUnits": 0.8893871307373047,
+    "heightUnits": 0.8818774819374084,
     "triangles": 2736,
     "parts": [
       "Root",
@@ -716,8 +716,8 @@
     "id": "ringtailedlemur",
     "file": "/models/org_ringtailedlemur.glb",
     "icon": "/icons/org_ringtailedlemur.png",
-    "heightUnits": 0.391024112701416,
-    "triangles": 2720,
+    "heightUnits": 0.6012702584266663,
+    "triangles": 2724,
     "parts": [
       "Root",
       "Arm_L",
@@ -738,7 +738,7 @@
     "file": "/models/org_seagrass.glb",
     "icon": "/icons/org_seagrass.png",
     "heightUnits": 0.4000000033993274,
-    "triangles": 396,
+    "triangles": 528,
     "parts": [
       "Root",
       "Foliage"
@@ -748,8 +748,8 @@
     "id": "seaotter",
     "file": "/models/org_seaotter.glb",
     "icon": "/icons/org_seaotter.png",
-    "heightUnits": 0.19660577178001404,
-    "triangles": 2700,
+    "heightUnits": 0.1960422843694687,
+    "triangles": 2900,
     "parts": [
       "Root",
       "Arm_L",
@@ -787,7 +787,7 @@
     "file": "/models/org_snowleopard.glb",
     "icon": "/icons/org_snowleopard.png",
     "heightUnits": 0.6144664883613586,
-    "triangles": 2718,
+    "triangles": 2668,
     "parts": [
       "Root",
       "Body",
@@ -824,7 +824,7 @@
     "id": "stellerseacow",
     "file": "/models/org_stellerseacow.glb",
     "icon": "/icons/org_stellerseacow.png",
-    "heightUnits": 0.7623318433761597,
+    "heightUnits": 0.8004483580589294,
     "triangles": 2232,
     "parts": [
       "Root",
@@ -841,8 +841,8 @@
     "id": "stromatolite",
     "file": "/models/org_stromatolite.glb",
     "icon": "/icons/org_stromatolite.png",
-    "heightUnits": 0.6000000163912773,
-    "triangles": 1424,
+    "heightUnits": 0.6000000089406967,
+    "triangles": 1368,
     "parts": [
       "Root",
       "Foliage"
@@ -852,8 +852,8 @@
     "id": "sumatranorangutan",
     "file": "/models/org_sumatranorangutan.glb",
     "icon": "/icons/org_sumatranorangutan.png",
-    "heightUnits": 1.100000023841858,
-    "triangles": 2744,
+    "heightUnits": 1.0812039375305176,
+    "triangles": 2732,
     "parts": [
       "Root",
       "Arm_L",
@@ -873,8 +873,8 @@
     "id": "sumatranrhino",
     "file": "/models/org_sumatranrhino.glb",
     "icon": "/icons/org_sumatranrhino.png",
-    "heightUnits": 0.7156593799591064,
-    "triangles": 2740,
+    "heightUnits": 0.7931890487670898,
+    "triangles": 2744,
     "parts": [
       "Root",
       "Body",
@@ -892,8 +892,8 @@
     "id": "thylacine",
     "file": "/models/org_thylacine.glb",
     "icon": "/icons/org_thylacine.png",
-    "heightUnits": 0.5167071223258972,
-    "triangles": 2742,
+    "heightUnits": 0.5302498936653137,
+    "triangles": 2728,
     "parts": [
       "Root",
       "Body",
@@ -912,7 +912,7 @@
     "file": "/models/org_tiger.glb",
     "icon": "/icons/org_tiger.png",
     "heightUnits": 0.7261876463890076,
-    "triangles": 2716,
+    "triangles": 2710,
     "parts": [
       "Root",
       "Body",
@@ -944,7 +944,7 @@
     "id": "vaquita",
     "file": "/models/org_vaquita.glb",
     "icon": "/icons/org_vaquita.png",
-    "heightUnits": 0.3661768436431885,
+    "heightUnits": 0.3839353322982788,
     "triangles": 2948,
     "parts": [
       "Root",
@@ -961,8 +961,8 @@
     "id": "whaleshark",
     "file": "/models/org_whaleshark.glb",
     "icon": "/icons/org_whaleshark.png",
-    "heightUnits": 1.0985305309295654,
-    "triangles": 2694,
+    "heightUnits": 1.415305495262146,
+    "triangles": 2700,
     "parts": [
       "Root",
       "Body",
@@ -978,8 +978,8 @@
     "id": "wilddog",
     "file": "/models/org_wilddog.glb",
     "icon": "/icons/org_wilddog.png",
-    "heightUnits": 0.49128854274749756,
-    "triangles": 2710,
+    "heightUnits": 0.4935483932495117,
+    "triangles": 2722,
     "parts": [
       "Root",
       "Body",
@@ -998,7 +998,7 @@
     "file": "/models/org_wildflower.glb",
     "icon": "/icons/org_wildflower.png",
     "heightUnits": 0.4000000059604645,
-    "triangles": 1100,
+    "triangles": 1358,
     "parts": [
       "Root",
       "Foliage"
