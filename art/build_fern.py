@@ -3,7 +3,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from lib.common import *
 
-clear_scene('org_fern',3000)
+clear_scene('org_fern',1500)
 green=make_material('Fern green','#4E9A3A')
 part=add_part('Foliage',joint=(0,0,0))
 for j in range(7):

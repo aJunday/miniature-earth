@@ -190,6 +190,15 @@ def finish_model(height=None):
     for obj in list(bpy.context.scene.objects):
         if obj.type in {'MESH','CURVE'}:
             apply_modifiers(obj)
+    # Collapse within each material/part before joining; retain the animated joints.
+    meshes=[o for o in bpy.context.scene.objects if o.type=='MESH']
+    total=sum(len(o.data.loop_triangles) or (o.data.calc_loop_triangles() or len(o.data.loop_triangles)) for o in meshes)
+    if total>BUDGET:
+        ratio=BUDGET*.92/total
+        for obj in meshes:
+            mod=obj.modifiers.new('Silhouette budget','DECIMATE')
+            mod.ratio=ratio
+            apply_modifiers(obj)
     if height is not None:
         fit_height(height)
     final_parts=[]

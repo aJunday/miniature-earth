@@ -3,13 +3,24 @@ import json, math, struct, zlib
 from pathlib import Path
 
 BASE=Path(__file__).resolve().parent.parent
-EXPECTED={
-    'island_jurassic': ['Ground','Soil','Water','Deco'],
-    'org_fern':['Foliage'],
-    'org_stegosaurus':['Body','Head','Eye_L','Eye_R','Leg_FL','Leg_FR','Leg_BL','Leg_BR','Tail'],
-}
-BUDGETS={'island_jurassic':12000,'org_fern':3000,'org_stegosaurus':8000}
-HEIGHTS={'org_fern':.6,'org_stegosaurus':1.6}
+import re
+SPEC=(BASE/'AGENTS.md').read_text()
+HEIGHTS={}
+for line in SPEC.splitlines():
+    cells=[v.strip() for v in line.split('|')]
+    if len(cells)==13 and cells[1] not in ('id','---'):
+        try: HEIGHTS['org_'+cells[1]]=float(cells[9])
+        except ValueError: pass
+SIZES={}
+for line in SPEC.splitlines():
+    if line.startswith('- ') and ' | ' in line:
+        cells=line[2:].split(' | ')
+        if len(cells)==8:
+            SIZES['org_'+cells[0]]=float(cells[6])
+EXPECTED={'island_'+era:['Top','Sides','Water','Deco'] for era in ['precambrian','jurassic','present']}
+EXPECTED.update({'org_fern':['Foliage'],'org_stegosaurus':['Body','Head','Eye_L','Eye_R','Leg_FL','Leg_FR','Leg_BL','Leg_BR','Tail']})
+PLANTS={'stromatolite','charnia','fern','cycad','conifer','grass','oak','wildflower','seagrass','elkhorncoral'}
+BUDGETS={name:(15000 if name.startswith('island_') else 1500 if name[4:] in PLANTS else 3000) for name in set(EXPECTED)|set(HEIGHTS)|set(SIZES)}
 
 def glb(path):
     raw=path.read_bytes()
@@ -82,8 +93,11 @@ def validate_png(path):
     return {'width':w,'height':h,'alpha_range':[min(alpha),max(alpha)],'transparent_pixels':alpha.count(0)}
 
 results={}
-for name,expected in EXPECTED.items():
+for name in sorted(BUDGETS):
+    expected=EXPECTED.get(name)
     path=BASE/'public/models'/f'{name}.glb'
+    if not path.exists():
+        print('MISSING '+name); continue
     doc,blob=glb(path)
     assert not doc.get('cameras') and 'KHR_lights_punctual' not in doc.get('extensions',{})
     assert 'KHR_draco_mesh_compression' not in doc.get('extensionsUsed',[])
@@ -93,7 +107,12 @@ for name,expected in EXPECTED.items():
         assert abs(pbr.get('roughnessFactor',1)-.7)<1e-5
         assert pbr.get('metallicFactor',1)==0
     names=[node.get('name') for node in doc['nodes']]
-    assert sorted(names)==sorted(['Root']+expected),names
+    if expected is not None: assert sorted(names)==sorted(['Root']+expected),names
+    else:
+        expected=[n for n in names if n!='Root']
+        allowed={'Body','Head','Eye_L','Eye_R','Leg_FL','Leg_FR','Leg_BL','Leg_BR','Tail','Arm_L','Arm_R','Wing_L','Wing_R','Fin_L','Fin_R','Trunk','Foliage'}
+        assert set(expected)<=allowed,names
+        assert ('Foliage' in names) if name[4:] in PLANTS else {'Body','Head','Eye_L','Eye_R'}<=set(names)
     allpoints=[]; bypart={}; tree=[]; triangles=0
     def visit(index,parent,depth):
         global triangles
@@ -122,23 +141,27 @@ for name,expected in EXPECTED.items():
     for index in scene['nodes']: visit(index,identity(),0)
     low=[min(p[i] for p in allpoints) for i in range(3)]
     high=[max(p[i] for p in allpoints) for i in range(3)]
-    assert triangles<BUDGETS[name]
-    if name in HEIGHTS:
+    assert triangles<=BUDGETS[name]
+    if name.startswith('org_'):
         assert abs(low[1])<=.01
-        assert abs((high[1]-low[1])/HEIGHTS[name]-1)<.05
+        dimension=max(high[i]-low[i] for i in range(3)) if name in SIZES else high[1]-low[1]
+        target=SIZES.get(name,HEIGHTS.get(name))
+        assert abs(dimension/target-1)<.05,(name,dimension,target)
         if name=='org_stegosaurus':
             mean=lambda part:sum(p[2] for p in bypart[part])/len(bypart[part])
             assert mean('Head')>mean('Body')>mean('Tail'), 'Wrong forward direction'
     else:
         assert all(abs(low[i]+10)<1e-5 and abs(high[i]-10)<1e-5 for i in [0,2])
-        assert abs(max(p[1] for p in bypart['Ground']))<1e-5
+        assert abs(max(p[1] for p in bypart['Top']))<1e-5
         assert abs(low[1]+4)<1e-5
         assert all(abs(p[1]+.15)<1e-5 for p in bypart['Water'])
         assert all(abs(min(p[i] for p in bypart['Water'])-1.5)<1e-5 and abs(max(p[i] for p in bypart['Water'])-8.5)<1e-5 for i in [0,2])
     png=validate_png(BASE/'public/icons'/f'{name}.png')
-    results[name]={'triangles':triangles,'provisional_budget':BUDGETS[name],'bounds_min':low,'bounds_max':high,'height':high[1]-low[1],'node_tree':tree,'icon':png}
-    print(f'PASS {name}: {triangles} triangles / provisional {BUDGETS[name]}; bounds {low} to {high}; height {high[1]-low[1]:.6f}')
+    results[name]={'triangles':triangles,'budget':BUDGETS[name],'bounds_min':low,'bounds_max':high,'height':high[1]-low[1],'node_tree':tree,'icon':png}
+    print(f'PASS {name}: {triangles} triangles / {BUDGETS[name]}; bounds {low} to {high}; height {high[1]-low[1]:.6f}')
     print('\n'.join(tree))
     print(f'PASS icon RGBA 256x256: alpha {png["alpha_range"]}, transparent pixels {png["transparent_pixels"]}')
 (BASE/'art/reports/validation.json').write_text(json.dumps(results,indent=2)+'\n')
-print('AGENTS.md compliance: UNVERIFIED (file absent); provisional budget and part checks only.')
+manifest=[{'id':k.removeprefix('org_'),'file':'/models/'+k+'.glb','icon':'/icons/'+k+'.png','heightUnits':v['height'],'triangles':v['triangles'],'parts':[n.strip() for n in v['node_tree']]} for k,v in results.items()]
+(BASE/'public/models/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+print('PASS built-model contract; MISSING entries remain explicit until Phase I.')

@@ -1,0 +1,77 @@
+PASS island_jurassic: 3196 triangles / 15000; bounds [-10.0, -4.0, -10.0] to [10.0, 1.434999942779541, 10.0]; height 5.435000
+Root
+  Deco
+  Sides
+  Top
+  Water
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48534
+MISSING island_precambrian
+MISSING island_present
+MISSING org_allosaurus
+MISSING org_amurleopard
+MISSING org_asianelephant
+MISSING org_axolotl
+MISSING org_baldeagle
+MISSING org_bluewhale
+MISSING org_brachiosaurus
+MISSING org_charnia
+MISSING org_cheetah
+MISSING org_condor
+MISSING org_conifer
+MISSING org_cycad
+MISSING org_deer
+MISSING org_dickinsonia
+MISSING org_dodo
+MISSING org_elkhorncoral
+MISSING org_emperorpenguin
+PASS org_fern: 1334 triangles / 1500; bounds [-0.6880025267601013, 0.0, -0.6717583537101746] to [0.7528769969940186, 0.6000000350177288, 0.7988801598548889]; height 0.600000
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 55215
+MISSING org_forestelephant
+MISSING org_giantpanda
+MISSING org_grass
+MISSING org_honeybee
+MISSING org_humpback
+MISSING org_kakapo
+MISSING org_koala
+MISSING org_mammoth
+MISSING org_mountaingorilla
+MISSING org_oak
+MISSING org_pangolin
+MISSING org_passengerpigeon
+MISSING org_philippineeagle
+MISSING org_pintatortoise
+MISSING org_polarbear
+MISSING org_rabbit
+MISSING org_redfox
+MISSING org_redpanda
+MISSING org_rightwhale
+MISSING org_ringtailedlemur
+MISSING org_seagrass
+MISSING org_seaotter
+MISSING org_seaturtle
+MISSING org_snowleopard
+PASS org_stegosaurus: 2718 triangles / 3000; bounds [-0.6208624839782715, 0.0, -1.7631242275238037] to [0.6208624839782715, 1.600000023841858, 1.5815428495407104]; height 1.600000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45172
+MISSING org_stellerseacow
+MISSING org_stromatolite
+MISSING org_sumatranorangutan
+MISSING org_sumatranrhino
+MISSING org_thylacine
+MISSING org_tiger
+MISSING org_vaquita
+MISSING org_whaleshark
+MISSING org_wilddog
+MISSING org_wildflower
+PASS built-model contract; MISSING entries remain explicit until Phase I.

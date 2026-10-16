@@ -73,3 +73,13 @@
 - Missing specification content includes the exact species table, triangle budgets, part contracts, timeline segments/anchors, population rules, scenario tests 1–8, and the authoritative endangered/lost/hope roster. These cannot be certified by inventing replacement tests.
 - Blender is still absent at /Applications/Blender.app/Contents/MacOS/Blender; the existing smoke-test binary remains available in the earlier workspace as an explicit fallback.
 - Fonts are bundled in src/assets/fonts; reference folders sim/data, state, scene, ui, and audio are present. Installed client libraries include Zustand, Framer Motion, Recharts, and post-processing, but their game features are not implemented yet.
+
+## Current run assumptions
+- The complete AGENTS.md supersedes earlier missing-spec notes; the user authorizes the whole project and local commits only.
+- Blender startup uses --gpu-backend opengl to avoid Metal initialization crashes; every render still uses Cycles CPU, 32 samples and denoising.
+- Impact animals use longest dimension from the impact table; the hawksbill uses its impact size rather than the base height.
+
+## Style notes
+- Preserve chunky silhouettes with material-aware mesh simplification to 1,500 plant / 3,000 animal triangles.
+- Use black low-set eyes with small white highlights, generous rounded heads, and short sturdy limbs.
+- Use the exact era and soil palettes, four island parts, clear empty centres, and consistent three-quarter icon framing.

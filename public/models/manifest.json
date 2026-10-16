@@ -1,0 +1,46 @@
+[
+  {
+    "id": "island_jurassic",
+    "file": "/models/island_jurassic.glb",
+    "icon": "/icons/island_jurassic.png",
+    "heightUnits": 5.434999942779541,
+    "triangles": 3196,
+    "parts": [
+      "Root",
+      "Deco",
+      "Sides",
+      "Top",
+      "Water"
+    ]
+  },
+  {
+    "id": "fern",
+    "file": "/models/org_fern.glb",
+    "icon": "/icons/org_fern.png",
+    "heightUnits": 0.6000000350177288,
+    "triangles": 1334,
+    "parts": [
+      "Root",
+      "Foliage"
+    ]
+  },
+  {
+    "id": "stegosaurus",
+    "file": "/models/org_stegosaurus.glb",
+    "icon": "/icons/org_stegosaurus.png",
+    "heightUnits": 1.600000023841858,
+    "triangles": 2718,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  }
+]

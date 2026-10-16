@@ -3,7 +3,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from lib.common import *
 
-clear_scene('org_stegosaurus',8000)
+clear_scene('org_stegosaurus',3000)
 green=make_material('Sage green','#6FAF6A')
 cream=make_material('Cream belly','#F5E6BD')
 orange=make_material('Apricot plates','#F2A65A')
@@ -26,7 +26,7 @@ blob('Big head',(0,.85,.99),(.39,.33,.46),green,head)
 blob('Round muzzle',(0,.74,1.28),(.34,.21,.27),green,head,16,10)
 blob('Chin',(0,.635,1.20),(.255,.07,.22),cream,head,12,8)
 for sign,part in [(1,eye_l),(-1,eye_r)]:
-    blob('Eye white',(sign*.305,.88,1.135),(.115,.145,.12),white,part,16,10)
+    blob('Eye white',(sign*.305,.88,1.135),(.115,.145,.12),dark,part,16,10)
     blob('Pupil',(sign*.354,.875,1.213),(.06,.085,.052),dark,part,12,8)
     blob('Catchlight',(sign*.366,.910,1.252),(.021,.027,.015),white,part,8,6)
     blob('Nostril',(sign*.13,.80,1.511),(.023,.016,.009),dark,head,8,6)

@@ -8,8 +8,8 @@ from pathlib import Path
 
 base=Path(__file__).resolve().parent.parent
 parser=argparse.ArgumentParser()
-parser.add_argument('--blender',default='/Applications/Blender.app/Contents/MacOS/Blender')
-parser.add_argument('--gpu-backend',default=None,help='Optional Blender startup backend; rendering always uses Cycles CPU.')
+parser.add_argument('--blender',default='/Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/MacOS/Blender')
+parser.add_argument('--gpu-backend',default='opengl',help='Optional Blender startup backend; rendering always uses Cycles CPU.')
 args=parser.parse_args()
 if not Path(args.blender).is_file():
     parser.error('Blender executable not found: '+args.blender+'; supply --blender with an existing executable.')

@@ -1,7 +1,7 @@
 {
   "island_jurassic": {
-    "triangles": 3008,
-    "provisional_budget": 12000,
+    "triangles": 3196,
+    "budget": 15000,
     "bounds_min": [
       -10.0,
       -4.0,
@@ -16,8 +16,8 @@
     "node_tree": [
       "Root",
       "  Deco",
-      "  Ground",
-      "  Soil",
+      "  Sides",
+      "  Top",
       "  Water"
     ],
     "icon": {
@@ -27,23 +27,23 @@
         0,
         255
       ],
-      "transparent_pixels": 48609
+      "transparent_pixels": 48534
     }
   },
   "org_fern": {
-    "triangles": 2604,
-    "provisional_budget": 3000,
+    "triangles": 1334,
+    "budget": 1500,
     "bounds_min": [
-      -0.6887942552566528,
+      -0.6880025267601013,
       0.0,
-      -0.6726487874984741
+      -0.6717583537101746
     ],
     "bounds_max": [
-      0.7536551356315613,
-      0.6000000238418579,
-      0.7996482253074646
+      0.7528769969940186,
+      0.6000000350177288,
+      0.7988801598548889
     ],
-    "height": 0.6000000238418579,
+    "height": 0.6000000350177288,
     "node_tree": [
       "Root",
       "  Foliage"
@@ -55,21 +55,21 @@
         0,
         255
       ],
-      "transparent_pixels": 54663
+      "transparent_pixels": 55215
     }
   },
   "org_stegosaurus": {
-    "triangles": 6348,
-    "provisional_budget": 8000,
+    "triangles": 2718,
+    "budget": 3000,
     "bounds_min": [
-      -0.6204719543457031,
+      -0.6208624839782715,
       0.0,
-      -1.7612646222114563
+      -1.7631242275238037
     ],
     "bounds_max": [
-      0.6204719543457031,
+      0.6208624839782715,
       1.600000023841858,
-      1.5827091932296753
+      1.5815428495407104
     ],
     "height": 1.600000023841858,
     "node_tree": [
@@ -91,7 +91,7 @@
         0,
         255
       ],
-      "transparent_pixels": 45059
+      "transparent_pixels": 45172
     }
   }
 }
