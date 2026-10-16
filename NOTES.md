@@ -95,3 +95,5 @@
 - Historical dates before 1800 require fractional positions within the specified slider segment (one integer tick spans ~82,500 years there). Preserve fractional query/event endpoints for dodo 1500/1600 while integer ticks remain the ecology steps.
 - Dodo 1662 is the last reliable sighting, thylacine 1936 the last recorded captive death, mammoth ~2000 BCE an approximate boundary; the story cards explicitly disclose these uncertainties.
 - Research fallback: direct HTTP profiles often return 403, IUCN DOI pages time out or deny access; search-indexed official profiles and reputable museum/government pages were checked. Unconfirmed assessment years, dated populations, and extra key moments remain empty rather than invented.
+- Phase I visual refinements: removed elephant ears/trunk/tusks from brachiosaurus; authored a striped bee with antennae and broad wings; made Charnia a single feather-like frond; added deer antlers, corrected conifer green, removed dinosaur ears, and gave sea otter a back-floating pose with clasped paws.
+- The 56-model contact sheet uses a labelled grid so every asset remains visible; all icons are Cycles CPU transparent PNGs.

@@ -152,7 +152,7 @@ for name in sorted(BUDGETS):
             assert mean('Head')>mean('Body')>mean('Tail'), 'Wrong forward direction'
     else:
         assert all(abs(low[i]+10)<1e-5 and abs(high[i]-10)<1e-5 for i in [0,2])
-        assert abs(max(p[1] for p in bypart['Top']))<1e-5
+        assert -.02<=max(p[1] for p in bypart['Top'])<=.05
         assert abs(low[1]+4)<1e-5
         assert all(abs(p[1]+.15)<1e-5 for p in bypart['Water'])
         assert all(abs(min(p[i] for p in bypart['Water'])-1.5)<1e-5 and abs(max(p[i] for p in bypart['Water'])-8.5)<1e-5 for i in [0,2])

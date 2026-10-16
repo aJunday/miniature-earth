@@ -1,0 +1,59 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/brecht/dev/build_darwin/deps/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 155
+TRIANGLES org_elkhorncoral: 928 / 1500
+20:50:59 | INFO: Draco mesh compression is available, use library at /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/Resources/3.6/python/lib/python3.10/site-packages/libextern_draco.dylib
+20:51:00 | INFO: Starting glTF 2.0 export
+20:51:00 | INFO: Extracting primitive: Antler branch
+20:51:00 | INFO: Primitives created: 1
+20:51:00 | INFO: Finished glTF 2.0 export in 0.002460002899169922 s
+
+RENDER CYCLES CPU samples=32 denoising=OPENIMAGEDENOISE transparent=True
+Blender 3.6.23 (hash e467db79ca8c built 2025-06-17 01:31:24)
+Fra:1 Mem:9.25M (Peak 9.25M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foliage
+Fra:1 Mem:9.29M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:9.08M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:9.10M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:9.10M (Peak 9.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:9.10M (Peak 9.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:9.10M (Peak 9.29M) | Time:00:00.00 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:9.10M (Peak 9.29M) | Time:00:00.00 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:9.10M (Peak 9.29M) | Time:00:00.00 | Mem:0.07M, Peak:0.10M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:9.10M (Peak 9.29M) | Time:00:00.00 | Mem:0.07M, Peak:0.10M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.07M, Peak:0.10M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:9.14M (Peak 9.29M) | Time:00:00.00 | Mem:0.10M, Peak:0.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:10.14M (Peak 10.14M) | Time:00:00.00 | Mem:1.10M, Peak:1.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:10.14M (Peak 10.14M) | Time:00:00.00 | Mem:1.10M, Peak:1.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:10.14M (Peak 10.14M) | Time:00:00.00 | Mem:1.11M, Peak:1.11M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:10.14M (Peak 10.14M) | Time:00:00.00 | Mem:1.11M, Peak:1.11M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:10.14M (Peak 10.14M) | Time:00:00.00 | Mem:1.11M, Peak:1.11M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:14.94M (Peak 14.94M) | Time:00:00.00 | Remaining:00:00.09 | Mem:5.86M, Peak:5.86M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:16.94M (Peak 18.94M) | Time:00:00.12 | Mem:5.86M, Peak:5.86M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:16.94M (Peak 18.94M) | Time:00:00.12 | Mem:5.86M, Peak:5.86M | Scene, ViewLayer | Finished
+Saved: '/Users/arnavjunday/Documents/GitHub/miniature-earth/public/icons/org_elkhorncoral.png'
+ Time: 00:00.13 (Saving: 00:00.01)
+
+
+Blender quit
