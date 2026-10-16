@@ -1,0 +1,25 @@
+# Assumptions and decisions
+- AGENTS.md is absent from this workspace and all files discoverable under Documents/Codex; its palette, species table, exact part conventions, and budgets cannot be verified.
+- The user's explicit requirements are the source of truth until AGENTS.md is supplied.
+- NOTES.md belongs in art/ because only art/, public/models/, and public/icons/ are assigned to this task.
+- Model space is glTF Y-up; +Z is forward; Blender uses (x, -z, y) internally and the glTF exporter converts back to Y-up.
+- Root is at ground level (0, 0, 0), identity rotation and scale; named movable parts are direct mesh children with origins at their joints.
+- Assumed triangle limits are 12000 for island_jurassic, 3000 for org_fern, and 8000 for org_stegosaurus; these are provisional, not AGENTS.md budgets.
+- Assumed island part names are Ground, Soil, Water, and Deco under Root, since no island part list was provided.
+- Assumed island-side colours are warm soil #B98B68, clay #CFAB83, and deep soil #90694F; cream belly is #F5E6BD, eye white #FFF8E9, pupil #30382C, lava #FFAC66.
+- Species heights are the explicitly requested 0.6 for fern and 1.6 for stegosaurus; no separate species table is available.
+- The island top is a flat plateau at y=0 with a gently undulating bevel shoulder; the lower soil base reaches y=-4.
+- The lagoon is recessed with a flat Water disk at y=-0.15, radius 3.5, centred at (x,z)=(5,5).
+- Fern radial symmetry has no biological facing; its longest frond points +Z to establish the model's canonical forward direction.
+- Lava glow uses a low emission strength on the same flat orange material without textures; emissive materials do not add exported lights.
+- The contact sheet uses individually framed display groups on one floor so the 20-unit island does not make the organisms illegible; model files retain their true scales.
+- User correction supersedes the initial renderer assumption: Cycles CPU is now mandatory for every render, with 32 samples, OpenImageDenoise, and transparent icon film; there is no renderer fallback.
+- Blender 3.6.23 from the smoke test is used with --gpu-backend opengl because this Mac's sandboxed Metal startup crashes.
+- Visual review improvement 1: lowered area-light energy by about 90% to retain the intended flat pastel colours instead of clipped highlights and washed-out soil layers.
+- Visual review improvement 2: narrowed fern midribs, broadened the paired pinnae, and arched the seven fronds outward to replace the initial thorny upright silhouette with a fern rosette.
+- Visual review improvement 3: fit icons to projected mesh vertices instead of loose bounding boxes, recentered the silhouettes, and moved the contact-sheet camera further right to show the stegosaurus body and tail.
+- Exact part naming is protected by prefixing temporary geometry names with geo_; this fixes the discovered Body.001 collision.
+- Final review refinement: six pairs of rounded pinnae per frond, a slightly brighter ambient fill, and contact-sheet labels moved clear of the island's front edge.
+- Unused UV coordinates are omitted from the GLBs because all materials are flat colours with no textures.
+- glTF Transform CLI is pinned to 4.5.1 for reproducible inspection; its npm cache is kept inside art/ to respect directory ownership.
+- User correction sets the default executable to /Applications/Blender.app/Contents/MacOS/Blender; it is still absent on this host, so verification explicitly selects the existing smoke-test binary without writing outside the assigned directories.

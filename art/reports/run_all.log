@@ -1,0 +1,43 @@
+RUN /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/MacOS/Blender --background --factory-startup --gpu-backend opengl --python-exit-code 1 --python /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/art/build_island_jurassic.py
+TRIANGLES island_jurassic: 3008 / 12000
+Saved: '/Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/public/icons/island_jurassic.png'
+RUN /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/MacOS/Blender --background --factory-startup --gpu-backend opengl --python-exit-code 1 --python /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/art/build_fern.py
+TRIANGLES org_fern: 2604 / 3000
+Saved: '/Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/public/icons/org_fern.png'
+RUN /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/MacOS/Blender --background --factory-startup --gpu-backend opengl --python-exit-code 1 --python /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/art/build_stegosaurus.py
+TRIANGLES org_stegosaurus: 6348 / 8000
+Saved: '/Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/public/icons/org_stegosaurus.png'
+RUN /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/work/blender36/Blender/Blender.app/Contents/MacOS/Blender --background --factory-startup --gpu-backend opengl --python-exit-code 1 --python /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/art/render_contact_sheet.py
+Saved: '/Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/art/previews/contact_sheet.png'
+CONTACT_SHEET /Users/arnavjunday/Documents/Codex/2026-10-16/run-blender-in-background-mode-from/art/previews/contact_sheet.png
+All three models, icons, and contact sheet rendered with Cycles CPU
+PASS island_jurassic: 3008 triangles / provisional 12000; bounds [-10.0, -4.0, -10.0] to [10.0, 1.434999942779541, 10.0]; height 5.435000
+Root
+  Deco
+  Ground
+  Soil
+  Water
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48609
+PASS org_fern: 2604 triangles / provisional 3000; bounds [-0.6887942552566528, 0.0, -0.6726487874984741] to [0.7536551356315613, 0.6000000238418579, 0.7996482253074646]; height 0.600000
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 54663
+PASS org_stegosaurus: 6348 triangles / provisional 8000; bounds [-0.6204719543457031, 0.0, -1.7612646222114563] to [0.6204719543457031, 1.600000023841858, 1.5827091932296753]; height 1.600000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45059
+AGENTS.md compliance: UNVERIFIED (file absent); provisional budget and part checks only.
+PASS inspect: island_jurassic.glb
+PASS validate: island_jurassic.glb
+PASS inspect: org_fern.glb
+PASS validate: org_fern.glb
+PASS inspect: org_stegosaurus.glb
+PASS validate: org_stegosaurus.glb

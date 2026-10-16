@@ -1,0 +1,6 @@
+ ArchWarn: ARCH_CACHE_LINE_SIZE != Arch_ObtainCacheLineSize()
+ Function: Arch_ValidateAssumptions
+     File: /Users/brecht/dev/build_darwin/deps/build/usd/src/external_usd/pxr/base/arch/assumptions.cpp
+     Line: 155
+TRIANGLES org_fern: 1708 / 3000
+Blender 3.6.23 (hash e467db79ca8c built 2025-06-17 01:31:24)

@@ -1,0 +1,97 @@
+{
+  "island_jurassic": {
+    "triangles": 3008,
+    "provisional_budget": 12000,
+    "bounds_min": [
+      -10.0,
+      -4.0,
+      -10.0
+    ],
+    "bounds_max": [
+      10.0,
+      1.434999942779541,
+      10.0
+    ],
+    "height": 5.434999942779541,
+    "node_tree": [
+      "Root",
+      "  Deco",
+      "  Ground",
+      "  Soil",
+      "  Water"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 48609
+    }
+  },
+  "org_fern": {
+    "triangles": 2604,
+    "provisional_budget": 3000,
+    "bounds_min": [
+      -0.6887942552566528,
+      0.0,
+      -0.6726487874984741
+    ],
+    "bounds_max": [
+      0.7536551356315613,
+      0.6000000238418579,
+      0.7996482253074646
+    ],
+    "height": 0.6000000238418579,
+    "node_tree": [
+      "Root",
+      "  Foliage"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 54663
+    }
+  },
+  "org_stegosaurus": {
+    "triangles": 6348,
+    "provisional_budget": 8000,
+    "bounds_min": [
+      -0.6204719543457031,
+      0.0,
+      -1.7612646222114563
+    ],
+    "bounds_max": [
+      0.6204719543457031,
+      1.600000023841858,
+      1.5827091932296753
+    ],
+    "height": 1.600000023841858,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 45059
+    }
+  }
+}

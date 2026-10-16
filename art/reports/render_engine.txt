@@ -1,0 +1,1 @@
+CYCLES CPU; samples=32; denoising=OPENIMAGEDENOISE

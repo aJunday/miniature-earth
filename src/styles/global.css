@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+  --color-sky: #bfe3f5;
+  --color-forest: #294f42;
+  --font-display: "Baloo 2", ui-rounded, system-ui, sans-serif;
+  --font-sans: "Nunito", system-ui, sans-serif;
+}
+
+:root {
+  font-family: var(--font-sans);
+  color: var(--color-forest);
+  background: var(--color-sky);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+canvas { display: block; }
+
+::selection { background: #8cc15255; }

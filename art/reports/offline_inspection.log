@@ -1,0 +1,6 @@
+PASS inspect: island_jurassic.glb
+PASS validate: island_jurassic.glb
+PASS inspect: org_fern.glb
+PASS validate: org_fern.glb
+PASS inspect: org_stegosaurus.glb
+PASS validate: org_stegosaurus.glb
