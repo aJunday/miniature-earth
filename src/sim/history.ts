@@ -1,0 +1,1 @@
+import type {Scenario} from './types';import {createWorld} from './simulation';export function populationSeries(world:ReturnType<typeof createWorld>,end:number,scenario:Scenario){const rows=[];for(let tick=0;tick<=end;tick+=20){const s=world.getStateAt(tick,scenario);rows.push({tick,...s.populations})}return rows;}

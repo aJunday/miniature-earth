@@ -1,0 +1,13 @@
+
+> miniature-earth@0.1.0 sim:report
+> SIM_REPORT=1 vitest run src/sim/report.test.ts
+
+
+ RUN  v5.0.5 /Users/arnavjunday/Documents/GitHub/miniature-earth
+
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  13:37:40
+   Duration  281ms (environment 69%, tests 16%, setup 13%, transform 1%, worker 1%)
+

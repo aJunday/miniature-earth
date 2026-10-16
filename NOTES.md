@@ -83,3 +83,7 @@
 - Preserve chunky silhouettes with material-aware mesh simplification to 1,500 plant / 3,000 animal triangles.
 - Use black low-set eyes with small white highlights, generous rounded heads, and short sturdy limbs.
 - Use the exact era and soil palettes, four island parts, clear empty centres, and consistent three-quarter icon framing.
+
+- Simulation assumption: the explicit out-of-time scenario requires an era-niche penalty beyond temperature alone; modern Jurassic hardy plants receive fitness ×0.04, and modern dinosaurs ×0. Event mortality 0.14/tick makes the specified extinction story visible within the 40-tick event.
+- Final simulation constants: producers r=.08 K=200; herbivores r=.05 K=60 need=.05 m=.04; carnivores r=.02 K=8 need=.025 m=.05. Nonviable producers lose .025 N per tick; seeded growth noise is 0–5%.
+- Strict TypeScript remains enabled; unchecked indexed access is omitted for numeric tables whose lengths are validated by tests.

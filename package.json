@@ -11,7 +11,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "sim:report": "SIM_REPORT=1 vitest run src/sim/report.test.ts"
   },
   "dependencies": {
     "@react-three/drei": "10.7.9",

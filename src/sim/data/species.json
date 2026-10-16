@@ -1,0 +1,478 @@
+[
+  {
+    "id": "stromatolite",
+    "name": "Stromatolite",
+    "era": "Precambrian",
+    "zone": "sea",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      15.0,
+      40.0
+    ],
+    "rain": null,
+    "height": 0.6,
+    "hardy": true,
+    "tier": 1,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "Microbial mats build these layered mounds; fossil ones are among the oldest signs of life, about 3.5 billion years old.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "charnia",
+    "name": "Charnia",
+    "era": "Precambrian",
+    "zone": "sea",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      12.0,
+      30.0
+    ],
+    "rain": null,
+    "height": 0.9,
+    "hardy": false,
+    "tier": 2,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "A frond-shaped Ediacaran organism that stood anchored to the sea floor.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "dickinsonia",
+    "name": "Dickinsonia",
+    "era": "Precambrian",
+    "zone": "sea",
+    "diet": "herbivore",
+    "eats": [
+      "stromatolite"
+    ],
+    "temp": [
+      12.0,
+      30.0
+    ],
+    "rain": null,
+    "height": 0.3,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "A flat oval creature from about 560 million years ago; chemical traces in its fossils show it was an animal.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "fern",
+    "name": "Fern",
+    "era": "Jurassic",
+    "zone": "land",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      12.0,
+      34.0
+    ],
+    "rain": [
+      0.4,
+      1.0
+    ],
+    "height": 0.6,
+    "hardy": true,
+    "tier": 1,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "After the dinosaur-ending asteroid, ferns were among the first plants to bounce back, a 'fern spike' seen in rocks worldwide.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "cycad",
+    "name": "Cycad",
+    "era": "Jurassic",
+    "zone": "land",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      16.0,
+      36.0
+    ],
+    "rain": [
+      0.3,
+      0.9
+    ],
+    "height": 1.0,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "Cycads were common in dinosaur times; today they are one of the most threatened plant groups.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "conifer",
+    "name": "Araucaria conifer",
+    "era": "Jurassic",
+    "zone": "land",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      8.0,
+      32.0
+    ],
+    "rain": [
+      0.3,
+      1.0
+    ],
+    "height": 2.6,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "Relatives of today's monkey puzzle tree grew in Jurassic forests.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "stegosaurus",
+    "name": "Stegosaurus",
+    "era": "Jurassic",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [
+      "fern",
+      "cycad"
+    ],
+    "temp": [
+      22.0,
+      36.0
+    ],
+    "rain": [
+      0.3,
+      1.0
+    ],
+    "height": 1.6,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "Stegosaurus lived about 150 million years ago, so T. rex lived closer in time to us than to Stegosaurus.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "brachiosaurus",
+    "name": "Brachiosaurus",
+    "era": "Jurassic",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [
+      "conifer",
+      "cycad"
+    ],
+    "temp": [
+      22.0,
+      36.0
+    ],
+    "rain": [
+      0.3,
+      1.0
+    ],
+    "height": 3.0,
+    "hardy": false,
+    "tier": 2,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "Long front legs and a long neck let it browse treetops like a giant giraffe.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "allosaurus",
+    "name": "Allosaurus",
+    "era": "Jurassic",
+    "zone": "land",
+    "diet": "carnivore",
+    "eats": [
+      "stegosaurus",
+      "brachiosaurus"
+    ],
+    "temp": [
+      22.0,
+      36.0
+    ],
+    "rain": [
+      0.3,
+      1.0
+    ],
+    "height": 1.8,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.02,
+    "K": 8,
+    "need": 0.025,
+    "m": 0.05,
+    "fact": "A top Jurassic predator; one Allosaurus bone has a wound matching a Stegosaurus tail spike.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "grass",
+    "name": "Grass",
+    "era": "Present",
+    "zone": "land",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      5.0,
+      38.0
+    ],
+    "rain": [
+      0.2,
+      0.9
+    ],
+    "height": 0.3,
+    "hardy": true,
+    "tier": 1,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "Grasses lived alongside late dinosaurs, but wide grasslands spread much later.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "oak",
+    "name": "Oak",
+    "era": "Present",
+    "zone": "land",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      5.0,
+      28.0
+    ],
+    "rain": [
+      0.4,
+      1.0
+    ],
+    "height": 2.4,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "A single oak can support hundreds of insect species.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "wildflower",
+    "name": "Wildflower",
+    "era": "Present",
+    "zone": "land",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      8.0,
+      32.0
+    ],
+    "rain": [
+      0.3,
+      0.9
+    ],
+    "height": 0.4,
+    "hardy": false,
+    "tier": 2,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "Flowering plants appeared in the Cretaceous and now make up most plant species on Earth.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "seagrass",
+    "name": "Seagrass",
+    "era": "Present",
+    "zone": "sea",
+    "diet": "producer",
+    "eats": [],
+    "temp": [
+      12.0,
+      32.0
+    ],
+    "rain": null,
+    "height": 0.4,
+    "hardy": false,
+    "tier": 2,
+    "r": 0.08,
+    "K": 200,
+    "need": 0,
+    "m": 0,
+    "fact": "Seagrass meadows store carbon and feed sea turtles.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit",
+    "era": "Present",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [
+      "grass",
+      "wildflower"
+    ],
+    "temp": [
+      5.0,
+      30.0
+    ],
+    "rain": [
+      0.2,
+      1.0
+    ],
+    "height": 0.5,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "Rabbits can have several litters a year, so their numbers rebound fast.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "deer",
+    "name": "Deer",
+    "era": "Present",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [
+      "grass",
+      "oak"
+    ],
+    "temp": [
+      0.0,
+      30.0
+    ],
+    "rain": [
+      0.3,
+      1.0
+    ],
+    "height": 1.3,
+    "hardy": false,
+    "tier": 2,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "Without predators, deer numbers can grow until they over-browse young trees.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "redfox",
+    "name": "Red fox",
+    "era": "Present",
+    "zone": "land",
+    "diet": "carnivore",
+    "eats": [
+      "rabbit"
+    ],
+    "temp": [
+      -5.0,
+      32.0
+    ],
+    "rain": [
+      0.1,
+      1.0
+    ],
+    "height": 0.7,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.02,
+    "K": 8,
+    "need": 0.025,
+    "m": 0.05,
+    "fact": "The red fox has the widest range of any wild carnivore on Earth.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "honeybee",
+    "name": "Honeybee",
+    "era": "Present",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [
+      "wildflower"
+    ],
+    "temp": [
+      10.0,
+      32.0
+    ],
+    "rain": [
+      0.3,
+      0.9
+    ],
+    "height": 0.35,
+    "hardy": false,
+    "tier": 2,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "Bees and other pollinators help produce a large share of the crops people eat.",
+    "habitatSensitivity": 0,
+    "threats": []
+  },
+  {
+    "id": "seaturtle",
+    "name": "Hawksbill turtle",
+    "era": "Present",
+    "zone": "sea",
+    "diet": "herbivore",
+    "eats": [
+      "seagrass"
+    ],
+    "temp": [
+      18.0,
+      32.0
+    ],
+    "rain": null,
+    "height": 0.5,
+    "hardy": false,
+    "tier": 2,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "Nest temperature sets a hatchling's sex: warmer sand produces more females.",
+    "habitatSensitivity": 0,
+    "threats": []
+  }
+]
