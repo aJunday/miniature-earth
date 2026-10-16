@@ -14,7 +14,21 @@ export function reefLayout(era:EraProfile):ReefColony[]{
   const a=random()*Math.PI*2,r=Math.sqrt(random())*3.1,x=(cx+Math.cos(a)*r)*scale,z=(cz+Math.sin(a)*r)*scale;
   const d=islandDistance(x,z,era.snap),y=terrainHeight(x,z,era.snap);if(d<.25||d>4.2||y>-.45)continue;
   const kind:ReefKind=microbial?'mound':modern?(['branch','plate','sponge','mound'] as const)[i%4]:i%3?'sponge':'mound';
-  colonies.push({kind,x,y:y+.05,z,scale:(.65+random()*.8)*(scale>1?1.25:1),rotation:random()*Math.PI*2,color:palette[i%palette.length]});
+  colonies.push({kind,x,y:y+.05,z,scale:Math.min((.65+random()*.8)*(scale>1?1.25:1),(-y-.14)/1.3),rotation:random()*Math.PI*2,color:palette[i%palette.length]});
  }
  return colonies;
+}
+
+export interface MarinePlant {x:number;y:number;z:number;height:number;rotation:number}
+/** Modern seagrass pockets only; never substitute flowering plants in ancient seas. */
+export function marineMeadowLayout(era:EraProfile):MarinePlant[]{
+ if(!['present','future'].includes(era.id))return [];
+ const random=mulberry32(284),plants:MarinePlant[]=[];
+ for(const colony of reefLayout(era))for(let i=0;i<3;i++){
+  const a=random()*Math.PI*2,r=.7+random()*.9,x=colony.x+Math.cos(a)*r,z=colony.z+Math.sin(a)*r;
+  const y=terrainHeight(x,z,era.snap),depth=-y;
+  if(depth<.5||depth>2.8||islandDistance(x,z,era.snap)<.2)continue;
+  plants.push({x,y:y+.015,z,height:Math.min(.55+random()*.5,depth-.15),rotation:a});
+ }
+ return plants;
 }

@@ -1,0 +1,13 @@
+import {chromium,expect} from '@playwright/test';
+import fs from 'node:fs';
+const browser=await chromium.launch({headless:true,args:['--single-process','--no-zygote']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[],checks=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',e=>{if(e.type()==='error')errors.push(e.text())});
+await page.goto('http://127.0.0.1:5182/?profile');await page.waitForTimeout(5000);
+await page.screenshot({path:'qa/shots/water-overview.png'});
+await page.mouse.move(940,650);await page.mouse.down({button:'right'});await page.mouse.move(710,430,{steps:12});await page.mouse.up({button:'right'});
+for(let i=0;i<14;i++){await page.mouse.wheel(0,-100);await page.waitForTimeout(60)}await page.waitForTimeout(1500);
+await page.screenshot({path:'qa/shots/water-reef-detail.png'});const a=await page.screenshot({clip:{x:1150,y:420,width:200,height:150}});await page.waitForTimeout(900);const b=await page.screenshot({clip:{x:1150,y:420,width:200,height:150}});expect(a.equals(b)).toBe(false);checks.push('open-water highlights animate between frames');
+for(const era of ['archean','cambrian','jurassic','pleistocene','present']){await page.getByLabel('Geological period').selectOption(era);await page.waitForTimeout(500)}checks.push('water and habitat era switching has no errors');
+await page.setViewportSize({width:390,height:844});await page.reload();await page.waitForTimeout(2500);await page.screenshot({path:'qa/shots/water-mobile.png'});expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);checks.push('mobile fits viewport');
+expect(errors).toEqual([]);fs.writeFileSync('qa/water-results.json',JSON.stringify({checks,errors},null,2));console.log({checks,errors});await browser.close();

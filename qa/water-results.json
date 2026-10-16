@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "open-water highlights animate between frames",
+    "water and habitat era switching has no errors",
+    "mobile fits viewport"
+  ],
+  "errors": []
+}
