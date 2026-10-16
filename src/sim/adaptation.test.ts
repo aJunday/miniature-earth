@@ -10,3 +10,12 @@ it('neutral reproduction preserves proportions; absent variants cannot be invent
 it('selection changes ecological temperature fitness and cannot resurrect extinction',()=>{const s=byId.deer,temp=s.temp![1]+3,initial=initialTraits();const fit=variantFitness(s,temp),adapted=inherit(initial,100,90,20,fit);expect(inheritedFitness(s,temp,adapted)).toBeGreaterThan(inheritedFitness(s,temp,initial));expect(inherit(initial,10,0,0,fit).frequencies).toEqual([0,0,0]);expect(inherit(initial,0,10,0,fit).frequencies).toEqual([0,0,0])});
 it('replay, cache isolation and earlier branches preserve inherited state',()=>{const w=createWorld(),tick=yearToTick(2026),placement={tick,speciesId:'deer',count:12,x:0,z:0};w.place(placement);const end=w.getStateAt(4000);expect(end.groups![0].traits!.births).toBeGreaterThan(0);w.getStateAt(tick);expect(w.getStateAt(4000)).toEqual(end);const exposed=w.getStateAt(3900);exposed.groups![0].traits!.frequencies[0]=999;expect(w.getStateAt(3900).groups![0].traits!.frequencies[0]).toBeLessThanOrEqual(1);const extra={...placement,tick:tick+2,count:5};w.place(extra);const fresh=createWorld();fresh.setPlacements([placement,extra]);expect(w.getStateAt(4000)).toEqual(fresh.getStateAt(4000));expect(w.getStateAt(4000).groups).toHaveLength(2)});
 it('ecological heat stress selects inherited variants in a real world replay',()=>{const w=createWorld();const event=yearToTick(-252e6);w.place({tick:event-3,speciesId:'deer',count:40,x:0,z:0});const before=w.getStateAt(event-1).groups![0],after=w.getStateAt(event+2).groups![0];expect(after.population).toBeGreaterThan(0);expect(after.traits!.frequencies[2]).toBeGreaterThan(before.traits!.frequencies[2]);expect(after.traits!.frequencies[0]).toBeLessThan(before.traits!.frequencies[0]);expect(after.population).toBeLessThan(before.population)});
+
+it('mutation introduces rare offspring variants, never transforms parents or resurrects groups',()=>{
+ const baseline={...initialTraits(),frequencies:[0,1,0] as [number,number,number]};
+ const child=inherit(baseline,100,110,10,[1,1,1],.002);
+ expect(child.frequencies[0]).toBeCloseTo(.01/110);expect(child.frequencies[2]).toBeCloseTo(.01/110);
+ expect(child.frequencies.reduce((a,b)=>a+b)).toBeCloseTo(1);
+ expect(inherit(baseline,100,100,0,[1,1,1],.002)).toEqual(baseline);
+ expect(inherit(baseline,0,0,0,[1,1,1],.002).frequencies).toEqual([0,0,0]);
+});
