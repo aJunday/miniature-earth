@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "scientific name search and per-group inherited traits",
+    "advancing time produces inherited reproductive history",
+    "rewind restores inherited state",
+    "source-linked food correction and explicit uncertain measurements",
+    "expanded scientific panel stays within mobile viewport"
+  ],
+  "errors": []
+}

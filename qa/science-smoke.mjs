@@ -1,0 +1,16 @@
+import {chromium,expect} from '@playwright/test';
+import fs from 'node:fs';
+const browser=await chromium.launch({headless:true,args:['--single-process','--no-zygote']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[],checks=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',e=>{if(e.type()==='error')errors.push(e.text())});
+await page.addInitScript(()=>localStorage.setItem('miniature-earth-v1',JSON.stringify({seed:42,placements:[{tick:3869.230769230769,speciesId:'deer',count:12,x:0,z:0}]})));
+await page.goto('http://127.0.0.1:5182');await page.getByLabel('Search organisms').fill('Cervidae');await page.getByRole('button',{name:'Learn about Deer',exact:true}).click();
+await expect(page.getByText('Inherited variation',{exact:true})).toBeVisible();await expect(page.getByText('Group 1 · 12 animals')).toBeVisible();checks.push('scientific name search and per-group inherited traits');
+await page.getByLabel('Go to year (negative for BCE)').fill('2060');await page.getByLabel('Go to year',{exact:true}).click();
+const detail=page.locator('.organism-detail');await expect(detail.getByText(/simulated births/)).not.toContainText('0.0 simulated births');const future=await detail.locator('.trait-group').innerText();checks.push('advancing time produces inherited reproductive history');
+await page.getByLabel('Go to year (negative for BCE)').fill('2026');await page.getByLabel('Go to year',{exact:true}).click();await expect(page.getByText('Group 1 · 12 animals')).toBeVisible();
+await page.getByLabel('Go to year (negative for BCE)').fill('2060');await page.getByLabel('Go to year',{exact:true}).click();expect(await detail.locator('.trait-group').innerText()).toBe(future);checks.push('rewind restores inherited state');
+await page.screenshot({path:'qa/shots/inherited-variation.png'});await page.getByLabel('Close organism').click();
+await page.getByLabel('Search organisms').fill('Hawksbill');await page.getByRole('button',{name:/Learn about Hawksbill/}).click();await page.getByText('Field notes & evidence',{exact:true}).click();await expect(detail.getByText('Omnivorous; sponges are a preferred food')).toBeVisible();await expect(detail.getByRole('link',{name:/NOAA Fisheries/})).toHaveAttribute('href','https://www.fisheries.noaa.gov/species/hawksbill-turtle');checks.push('source-linked food correction and explicit uncertain measurements');await page.screenshot({path:'qa/shots/scientific-metadata.png'});
+await page.setViewportSize({width:390,height:844});await page.waitForTimeout(400);expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);checks.push('expanded scientific panel stays within mobile viewport');
+expect(errors).toEqual([]);fs.writeFileSync('qa/science-results.json',JSON.stringify({checks,errors},null,2));console.log({checks,errors});await browser.close();

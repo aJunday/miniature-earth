@@ -123,3 +123,9 @@
 - Three new original models use the existing 3,000-triangle animal budget and Cycles CPU icon pipeline.
 - Continuation showcase roster: deer, redfox, rabbit, honeybee, seaturtle, stegosaurus, mammoth, reeffish, trilobite, arthropleura, fern and oak; covers mammals, reptiles, arthropods, fish and plants.
 - Performance measurement uses the same 1280×800 headless Chromium scene with 12 deer and 12 fish; this is a reproducible software-renderer comparison, not a claim about every device.
+
+- Continuation assumption: scientific completeness means every catalogue record exposes a value or explicit evidence gap; no precision is invented for fossil dates, genetic parameters or oxygen thresholds.
+- Continuation assumption: reef fish is represented by Amphiprion ocellaris; its group placement is a game default, not a universal schooling claim.
+- Continuation assumption: inherited temperature variation is demonstrated on deer, rabbit, red fox and mammoth; it is a deterministic teaching model of standing variation, without mutation or speciation.
+- Final constants: inherited thermal offsets −2/0/+2°C; initial frequencies 0.25/0.50/0.25; mortality weighting 1+2×(1−fitness). These are game choices, not empirical measurements.
+- Water limitation: axolotl metadata explicitly says freshwater; current water placement has no salinity model. Hawksbill food-web seagrass support remains a simplified ecological link, with the real sponge-rich diet shown in field notes.

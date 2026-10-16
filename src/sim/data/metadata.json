@@ -1,0 +1,1675 @@
+{
+  "stromatolite": {
+    "commonName": "Stromatolite",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Ecological group or microbial community; not a single taxonomic species."
+    ],
+    "sources": [],
+    "checked": "2026-10-16"
+  },
+  "charnia": {
+    "commonName": "Charnia",
+    "scientificName": "Charnia",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a genus; dates and biology must not be read as those of one species.",
+      "Rangeomorph animal; feeding remains uncertain. Producer-style game growth does not imply photosynthesis."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Charnia&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "dickinsonia": {
+    "commonName": "Dickinsonia",
+    "scientificName": "Dickinsonia",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a genus; dates and biology must not be read as those of one species.",
+      "Ediacaran animal; ecological details remain debated."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Dickinsonia&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "fern": {
+    "commonName": "Fern",
+    "scientificName": "Polypodiopsida",
+    "taxonomicRank": "class",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a class; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Polypodiopsida&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "cycad": {
+    "commonName": "Cycad",
+    "scientificName": "Cycadales",
+    "taxonomicRank": "order",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a order; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Cycadales&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "conifer": {
+    "commonName": "Araucaria conifer",
+    "scientificName": "Araucaria",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a genus; dates and biology must not be read as those of one species.",
+      "Araucaria is the chosen representative, not a name for all conifers."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Araucaria&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "stegosaurus": {
+    "commonName": "Stegosaurus",
+    "scientificName": "Stegosaurus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": -152000000.0,
+    "lastOccurrence": -145000000.0,
+    "dateBasis": "Approximate fossil range; not exact origination or extinction dates",
+    "habitat": "Terrestrial; low vegetation",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "terrestrial",
+    "food": "Herbivorous",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a genus; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Stegosaurus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources; fossil range",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/Stegosaurus.html",
+        "label": "Natural History Museum"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "brachiosaurus": {
+    "commonName": "Brachiosaurus",
+    "scientificName": "Brachiosaurus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": -152000000.0,
+    "lastOccurrence": -145000000.0,
+    "dateBasis": "Approximate fossil range; not exact origination or extinction dates",
+    "habitat": "Terrestrial; wooded landscapes",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "terrestrial",
+    "food": "High browsing herbivore",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a genus; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Brachiosaurus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources; fossil range",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+        "label": "Natural History Museum"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "allosaurus": {
+    "commonName": "Allosaurus",
+    "scientificName": "Allosaurus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": -152000000.0,
+    "lastOccurrence": -145000000.0,
+    "dateBasis": "Approximate fossil range; not exact origination or extinction dates",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "terrestrial",
+    "food": "Carnivorous",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a genus; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Allosaurus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources; fossil range",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+        "label": "Natural History Museum"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "grass": {
+    "commonName": "Grass",
+    "scientificName": "Poaceae",
+    "taxonomicRank": "family",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a family; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Poaceae&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "oak": {
+    "commonName": "Oak",
+    "scientificName": "Quercus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a genus; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Quercus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "wildflower": {
+    "commonName": "Wildflower",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Ecological group or microbial community; not a single taxonomic species."
+    ],
+    "sources": [],
+    "checked": "2026-10-16"
+  },
+  "seagrass": {
+    "commonName": "Seagrass",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Ecological group or microbial community; not a single taxonomic species."
+    ],
+    "sources": [],
+    "checked": "2026-10-16"
+  },
+  "rabbit": {
+    "commonName": "Rabbit",
+    "scientificName": "Oryctolagus cuniculus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Oryctolagus+cuniculus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "deer": {
+    "commonName": "Deer",
+    "scientificName": "Cervidae",
+    "taxonomicRank": "family",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a family; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Cervidae&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "redfox": {
+    "commonName": "Red fox",
+    "scientificName": "Vulpes vulpes",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Vulpes+vulpes&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "honeybee": {
+    "commonName": "Honeybee",
+    "scientificName": "Apis mellifera",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Apis+mellifera&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "seaturtle": {
+    "commonName": "Hawksbill turtle",
+    "scientificName": "Eretmochelys imbricata",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Tropical and subtropical marine reefs",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "marine",
+    "food": "Omnivorous; sponges are a preferred food",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "The game food-web link to seagrass simplifies habitat support; hawksbills are not seagrass specialists."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Eretmochelys+imbricata&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources",
+        "url": "https://www.fisheries.noaa.gov/species/hawksbill-turtle",
+        "label": "NOAA Fisheries"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "amurleopard": {
+    "commonName": "Amur leopard",
+    "scientificName": "Panthera pardus orientalis",
+    "taxonomicRank": "subspecies",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a subspecies; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Panthera+pardus+orientalis&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "sumatranorangutan": {
+    "commonName": "Sumatran orangutan",
+    "scientificName": "Pongo abelii",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Pongo+abelii&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "vaquita": {
+    "commonName": "Vaquita",
+    "scientificName": "Phocoena sinus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Phocoena+sinus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "kakapo": {
+    "commonName": "Kakapo",
+    "scientificName": "Strigops habroptila",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Strigops+habroptila&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "axolotl": {
+    "commonName": "Axolotl",
+    "scientificName": "Ambystoma mexicanum",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Freshwater; remnant lakes and canals in Mexico",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "freshwater",
+    "food": "Carnivorous",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "The current water placement system approximates aquatic habitat and does not model salinity; real axolotls cannot live in seawater."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Ambystoma+mexicanum&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources",
+        "url": "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html",
+        "label": "Natural History Museum"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "sumatranrhino": {
+    "commonName": "Sumatran rhino",
+    "scientificName": "Dicerorhinus sumatrensis",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Dicerorhinus+sumatrensis&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "rightwhale": {
+    "commonName": "North Atlantic right whale",
+    "scientificName": "Eubalaena glacialis",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [
+      "Baleen whales within Cetacea, nested in the even-toed mammal lineage"
+    ],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Eubalaena+glacialis&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "evolutionary relationship",
+        "url": "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
+        "label": "Smithsonian"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "pangolin": {
+    "commonName": "Sunda pangolin",
+    "scientificName": "Manis javanica",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Sunda pangolin is the chosen representative, not all pangolins."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Manis+javanica&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "philippineeagle": {
+    "commonName": "Philippine eagle",
+    "scientificName": "Pithecophaga jefferyi",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Pithecophaga+jefferyi&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "condor": {
+    "commonName": "California condor",
+    "scientificName": "Gymnogyps californianus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Gymnogyps+californianus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "forestelephant": {
+    "commonName": "African forest elephant",
+    "scientificName": "Loxodonta cyclotis",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Loxodonta+cyclotis&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "elkhorncoral": {
+    "commonName": "Elkhorn coral",
+    "scientificName": "Acropora palmata",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Acropora+palmata&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "tiger": {
+    "commonName": "Tiger",
+    "scientificName": "Panthera tigris",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Panthera+tigris&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "redpanda": {
+    "commonName": "Red panda",
+    "scientificName": "Ailurus fulgens",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Ailurus+fulgens&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "bluewhale": {
+    "commonName": "Blue whale",
+    "scientificName": "Balaenoptera musculus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [
+      "Baleen whales within Cetacea, nested in the even-toed mammal lineage"
+    ],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Balaenoptera+musculus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "evolutionary relationship",
+        "url": "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
+        "label": "Smithsonian"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "mountaingorilla": {
+    "commonName": "Mountain gorilla",
+    "scientificName": "Gorilla beringei beringei",
+    "taxonomicRank": "subspecies",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a subspecies; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Gorilla+beringei+beringei&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "asianelephant": {
+    "commonName": "Asian elephant",
+    "scientificName": "Elephas maximus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Elephas+maximus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "whaleshark": {
+    "commonName": "Whale shark",
+    "scientificName": "Rhincodon typus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Rhincodon+typus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "seaotter": {
+    "commonName": "Sea otter",
+    "scientificName": "Enhydra lutris",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Enhydra+lutris&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "ringtailedlemur": {
+    "commonName": "Ring-tailed lemur",
+    "scientificName": "Lemur catta",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Lemur+catta&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "wilddog": {
+    "commonName": "African wild dog",
+    "scientificName": "Lycaon pictus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Lycaon+pictus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "giantpanda": {
+    "commonName": "Giant panda",
+    "scientificName": "Ailuropoda melanoleuca",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Ailuropoda+melanoleuca&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "snowleopard": {
+    "commonName": "Snow leopard",
+    "scientificName": "Panthera uncia",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "SYNONYM",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Panthera+uncia&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "polarbear": {
+    "commonName": "Polar bear",
+    "scientificName": "Ursus maritimus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Ursus+maritimus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "koala": {
+    "commonName": "Koala",
+    "scientificName": "Phascolarctos cinereus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Phascolarctos+cinereus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "cheetah": {
+    "commonName": "Cheetah",
+    "scientificName": "Acinonyx jubatus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Acinonyx+jubatus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "emperorpenguin": {
+    "commonName": "Emperor penguin",
+    "scientificName": "Aptenodytes forsteri",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Aptenodytes+forsteri&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "mammoth": {
+    "commonName": "Woolly mammoth",
+    "scientificName": "Mammuthus primigenius",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": -2000,
+    "dateBasis": "Approximate last isolated mammoth populations, about 4,000 years ago",
+    "habitat": "Cold open grassland",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "terrestrial",
+    "food": "Grasses and other vegetation",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Mammuthus+primigenius&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources",
+        "url": "https://www.nhm.ac.uk/our-science/research/projects/mammoth-evolution-model-species-origins.html",
+        "label": "Natural History Museum"
+      },
+      {
+        "field": "last occurrence",
+        "url": "https://www.nhm.ac.uk/discover/news/2024/july/woolly-mammoth-genome-rebuilt-from-freeze-dried-skin.html",
+        "label": "Natural History Museum"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "stellerseacow": {
+    "commonName": "Steller's sea cow",
+    "scientificName": "Hydrodamalis gigas",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Hydrodamalis+gigas&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "dodo": {
+    "commonName": "Dodo",
+    "scientificName": "Raphus cucullatus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Raphus+cucullatus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "passengerpigeon": {
+    "commonName": "Passenger pigeon",
+    "scientificName": "Ectopistes migratorius",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Ectopistes+migratorius&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "thylacine": {
+    "commonName": "Thylacine (Tasmanian tiger)",
+    "scientificName": "Thylacinus cynocephalus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Thylacinus+cynocephalus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "pintatortoise": {
+    "commonName": "Pinta Island tortoise (Lonesome George)",
+    "scientificName": "Chelonoidis abingdonii",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Chelonoidis+abingdonii&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "humpback": {
+    "commonName": "Humpback whale",
+    "scientificName": "Megaptera novaeangliae",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Marine",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [
+      "Baleen whales within Cetacea, nested in the even-toed mammal lineage"
+    ],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Megaptera+novaeangliae&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "evolutionary relationship",
+        "url": "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
+        "label": "Smithsonian"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "baldeagle": {
+    "commonName": "Bald eagle",
+    "scientificName": "Haliaeetus leucocephalus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Terrestrial",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": null,
+    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Haliaeetus+leucocephalus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "reeffish": {
+    "commonName": "Reef fish",
+    "scientificName": "Amphiprion ocellaris",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Shallow tropical marine reefs; associated with anemones",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "marine",
+    "food": "Algae and small invertebrates",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Clown anemonefish is the representative for this stylized reef-fish model. Group size is a game setting, not a claim about schooling."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Amphiprion+ocellaris&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources",
+        "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+        "label": "Florida Museum"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "trilobite": {
+    "commonName": "Trilobite",
+    "scientificName": "Trilobita",
+    "taxonomicRank": "class",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": -520000000.0,
+    "lastOccurrence": -252000000.0,
+    "dateBasis": "Approximate fossil range; not exact origination or extinction dates",
+    "habitat": "Marine; diverse seafloor habitats",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "marine",
+    "food": "Varied among species; no single diet for the class",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a class; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Trilobita&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources; fossil range",
+        "url": "https://www.nhm.ac.uk/discover/how-trilobites-conquered-prehistoric-oceans.html",
+        "label": "Natural History Museum"
+      },
+      {
+        "field": "last occurrence",
+        "url": "https://www.nhm.ac.uk/schools/teaching-resources/big-ideas-in-science-evolution/trilobite-fossils-resources-and-class-activities.html",
+        "label": "Natural History Museum"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "arthropleura": {
+    "commonName": "Arthropleura",
+    "scientificName": "Arthropleura",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": -346000000.0,
+    "lastOccurrence": -290000000.0,
+    "dateBasis": "Approximate fossil range; not exact origination or extinction dates",
+    "habitat": "Terrestrial; ancient swamp forests",
+    "habitatEvidence": "source-linked",
+    "waterDomain": "terrestrial",
+    "food": "Uncertain; plant feeding is a gameplay assumption",
+    "foodEvidence": "source-linked",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Represents a genus; dates and biology must not be read as those of one species."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Arthropleura&strict=true",
+        "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "habitat and resources; fossil range",
+        "url": "https://www.nhm.ac.uk/discover/news/2024/october/largest-ever-millipede-head-revealed.html",
+        "label": "Natural History Museum"
+      }
+    ],
+    "checked": "2026-10-16"
+  }
+}

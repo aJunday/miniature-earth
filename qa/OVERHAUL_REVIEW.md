@@ -29,3 +29,12 @@ Sky and water colour ease between profiles; terrain topology still changes immed
 - Scientific data: incomplete dates/tolerances remain null or explicitly labelled gameplay assumptions. Freshwater vs marine chemistry and legacy Charnia feeding are unresolved; see docs/OVERHAUL_REFERENCES.md.
 
 No push or deployment. Original .gitignore modification from before this work was left unstaged.
+
+## Continuation verification (supersedes the earlier incomplete list)
+
+- PASS: 30 tests, strict typecheck and production build. Added evidence coverage and inherited variation tests, including reproduction, differential survival, ecological heat-stress selection, cache isolation and deterministic branches.
+- PASS: 11 original overhaul browser checks plus five new science UI checks; zero console/page errors. Expanded panels fit a 390px viewport; trait histories restore after rewind.
+- PASS: twelve bespoke showcase models, all 59 asset contracts and twelve Khronos validations. Current triangle counts are recorded in art/reports/validation.json. Reviewed the final sheet and representative individual icons. Original procedural source and no external model licences required.
+- PASS: headless benchmark median 183.4ms → 66.6ms, p95 66.7ms; 34 draws and 162,186 triangles after retaining rounded tree crowns. Same 12-deer/12-fish scene and viewport. Headless results do not establish ordinary-device 60fps.
+- Applied visual improvements: distinct mammal silhouettes and animal appendages; single painted material per part for richer colour without per-colour draws; improved sheet spacing and restored round runtime tree crowns. Source/trait panels no longer show the world card through their background.
+- Scientific records cover every entry with evidence or explicit unknowns. Detailed occurrence dates/diets/thermal thresholds are not fully researched. Freshwater chemistry and Charnia's game-growth abstraction remain disclosed. Overall art is still more simplified and faceted than the reference games, especially non-showcase assets.
