@@ -1,0 +1,27 @@
+
+> miniature-earth@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 606 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                           0.73 kB │ gzip:   0.46 kB
+dist/assets/nunito-700-DcuS2A2O.ttf     125.46 kB
+dist/assets/nunito-400-mBGGtOB5.ttf     125.52 kB
+dist/assets/nunito-600-BEWhRPhZ.ttf     125.53 kB
+dist/assets/nunito-500-af__4zX9.ttf     125.65 kB
+dist/assets/baloo-2-800-BViOhZJ6.ttf    417.56 kB
+dist/assets/baloo-2-700-BreeFivU.ttf    417.96 kB
+dist/assets/baloo-2-600-DKNv9FOM.ttf    418.08 kB
+dist/assets/baloo-2-500-C6EBQ3EU.ttf    418.16 kB
+dist/assets/index-C3qZ4URT.css           31.00 kB │ gzip:   7.92 kB
+dist/assets/index-BxxxibK_.js         1,565.69 kB │ gzip: 467.64 kB
+
+✓ built in 342ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

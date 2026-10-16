@@ -958,5 +958,50 @@
       "Root",
       "Foliage"
     ]
+  },
+  {
+    "id": "reeffish",
+    "file": "/models/org_reeffish.glb",
+    "icon": "/icons/org_reeffish.png",
+    "heightUnits": 0.55,
+    "triangles": 2564,
+    "parts": [
+      "Root",
+      "Body",
+      "Head",
+      "Tail",
+      "Fin_L",
+      "Fin_R",
+      "Eye_L",
+      "Eye_R"
+    ]
+  },
+  {
+    "id": "trilobite",
+    "file": "/models/org_trilobite.glb",
+    "icon": "/icons/org_trilobite.png",
+    "heightUnits": 0.42,
+    "triangles": 2724,
+    "parts": [
+      "Root",
+      "Body",
+      "Head",
+      "Eye_L",
+      "Eye_R"
+    ]
+  },
+  {
+    "id": "arthropleura",
+    "file": "/models/org_arthropleura.glb",
+    "icon": "/icons/org_arthropleura.png",
+    "heightUnits": 0.48,
+    "triangles": 2698,
+    "parts": [
+      "Root",
+      "Body",
+      "Head",
+      "Eye_L",
+      "Eye_R"
+    ]
   }
 ]

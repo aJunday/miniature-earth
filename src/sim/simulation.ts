@@ -1,11 +1,19 @@
-import raw from './data/species.json';import storyData from './data/stories.json';
-const stories=storyData as Record<string,{extinctionYear:number|null;memorial:string}>;import {mulberry32} from './rng';import {tickToYear,formatYear,eraName,yearToTick} from './timeline';import {envAt} from './environment';import {stepPopulation} from './population';import type {Species,Placement,Scenario,SimState} from './types';
-export const species=raw as Species[];export const byId=Object.fromEntries(species.map(s=>[s.id,s]));
-export function createWorld(seed=42){let events:Placement[]=[];const cache=new Map<string,{p:Record<string,number>;zones:Record<string,boolean>}>();const asteroid=yearToTick(-66e6);function setPlacements(v:Placement[]){events=v.slice().sort((a,b)=>a.tick-b.tick);cache.clear();}
-function place(e:Placement){events.push(e);events.sort((a,b)=>a.tick-b.tick);for(const key of cache.keys())if(Number(key.split(':')[1])>=e.tick)cache.delete(key);}
-function getStateAt(tick:number,scenario:Scenario='Protect'):SimState{tick=Math.max(0,Math.min(4000,tick));let start=0,p:Record<string,number>={},zones:Record<string,boolean>={};for(let t=Math.floor(tick/100)*100;t>0;t-=100){const c=cache.get(scenario+':'+t);if(c){p={...c.p};zones={...c.zones};start=t+1;break;}}
-for(let t=start;t<=tick;t++){const year=tickToYear(t);for(const e of events)if(e.tick<=t&&e.tick>t-1){p[e.speciesId]=(p[e.speciesId]??0)+e.count;zones[e.speciesId]=byId[e.speciesId]?.zone===((e.x-5)**2+(e.z-5)**2<=3.5**2?'sea':'land');}if(t>0)p=stepPopulation(species,p,envAt(year,scenario,t>=asteroid&&t<asteroid+40),t>=asteroid&&t<asteroid+40,year,scenario,mulberry32(seed+t*7919),zones);for(const [id,story] of Object.entries(stories))if(story.extinctionYear!==null&&year>=story.extinctionYear&&id in p)p[id]=0;if(t%100===0)cache.set(scenario+':'+t,{p:{...p},zones:{...zones}});}
-for(const e of events)if(e.tick>Math.floor(tick)&&e.tick<=tick){p[e.speciesId]=(p[e.speciesId]??0)+e.count;}
-const year=tickToYear(tick);for(const [id,story] of Object.entries(stories))if(story.extinctionYear!==null&&year>=story.extinctionYear&&id in p)p[id]=0;
-const extinct=Object.keys(p).filter(id=>p[id]===0);return {tick,year,yearLabel:formatYear(year),eraName:eraName(year),env:envAt(year,scenario,tick>=asteroid&&tick<asteroid+40),populations:p,extinct,happenings:[...Object.entries(stories).filter(([id,s])=>s.extinctionYear!==null&&year>=s.extinctionYear&&tickToYear(Math.max(0,tick-1))<s.extinctionYear&&id in p).map(([id])=>'memorial:'+id),...(tick>=asteroid&&tick<asteroid+40?['asteroid']:[])]};}
-return {place,setPlacements,getStateAt,get placements(){return events}};}
+import raw from './data/species.json';
+import {mulberry32} from './rng';
+import {tickToYear,formatYear,eraName,yearToTick} from './timeline';
+import {envAt} from './environment';
+import {stepPopulation} from './population';
+import {habitatAt} from '../world/terrain';
+import type {Species,Placement,Scenario,SimState} from './types';
+export const species=raw as Species[];
+export const byId=Object.fromEntries(species.map(s=>[s.id,s]));
+interface GroupState {id:string;speciesId:string;population:number;x:number;z:number;tick:number}
+const sum=(groups:GroupState[])=>groups.reduce<Record<string,number>>((p,g)=>{p[g.speciesId]=(p[g.speciesId]??0)+g.population;return p},{});
+export function createWorld(seed=42){let events:Placement[]=[];const cache=new Map<string,GroupState[]>();const asteroid=yearToTick(-66e6),permian=yearToTick(-252e6);
+function setPlacements(v:Placement[]){events=v.slice().sort((a,b)=>a.tick-b.tick);cache.clear()}
+function place(e:Placement){events.push(e);events.sort((a,b)=>a.tick-b.tick);for(const key of cache.keys())if(Number(key.split(':')[1])>=e.tick)cache.delete(key)}
+function getStateAt(tick:number,scenario:Scenario='Protect'):SimState{tick=Math.max(0,Math.min(4000,tick));let start=0,groups:GroupState[]=[];for(let t=Math.floor(tick/100)*100;t>0;t-=100){const c=cache.get(scenario+':'+t);if(c){groups=c.map(g=>({...g}));start=t+1;break}}
+const add=(e:Placement,i:number)=>groups.push({...e,id:'group-'+i,population:e.count});
+for(let t=start;t<=Math.floor(tick);t++){const year=tickToYear(t);events.forEach((e,i)=>{if(e.tick<=t&&e.tick>t-1)add(e,i)});if(t>0&&groups.length){const zones:Record<string,boolean>={};for(const g of groups){if(habitatAt(g.x,g.z,year)!==byId[g.speciesId].zone)g.population*=.8;zones[g.speciesId]=true}const p=sum(groups);const impact=t>=asteroid&&t<asteroid+40,volcanism=t>=permian&&t<permian+35;const env=envAt(year,scenario,impact);if(volcanism){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}const next=stepPopulation(species,p,env,impact||volcanism,year,scenario,mulberry32(seed+t*7919),zones);for(const g of groups){g.population=p[g.speciesId]>0?g.population*(next[g.speciesId]??0)/p[g.speciesId]:0;if(g.population<2)g.population=0}}if(t%100===0)cache.set(scenario+':'+t,groups.map(g=>({...g})))}
+events.forEach((e,i)=>{if(e.tick>Math.floor(tick)&&e.tick<=tick)add(e,i)});const year=tickToYear(tick),p=sum(groups),impact=tick>=asteroid&&tick<asteroid+40,volcanism=tick>=permian&&tick<permian+35;const env=envAt(year,scenario,impact);if(volcanism){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}return {tick,year,yearLabel:formatYear(year),eraName:eraName(year),env,populations:p,groups,extinct:Object.keys(p).filter(id=>p[id]===0),happenings:[...(impact?['asteroid']:[]),...(volcanism?['end-permian']:[])]}}
+return {place,setPlacements,getStateAt,get placements(){return events}}}

@@ -1,0 +1,2 @@
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch({headless:true,args:['--single-process','--no-zygote']});const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',e=>{if(e.type()==='error')errors.push(e.text())});await page.goto('http://127.0.0.1:5182');await page.waitForTimeout(3000);await page.screenshot({path:'qa/shots/overhaul-first.png'});console.log(JSON.stringify(errors));await browser.close();

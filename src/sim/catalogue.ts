@@ -1,0 +1,8 @@
+import {eraAt} from '../world/eras';
+import type {Species} from './types';
+export type Category='Animals'|'Plants'|'Algae & microbes';
+const names:Record<string,string>={deer:'Cervidae',rabbit:'Oryctolagus cuniculus',redfox:'Vulpes vulpes',tiger:'Panthera tigris',seaturtle:'Eretmochelys imbricata',bluewhale:'Balaenoptera musculus',stegosaurus:'Stegosaurus',brachiosaurus:'Brachiosaurus',mammoth:'Mammuthus primigenius',arthropleura:'Arthropleura',trilobite:'Trilobita',reeffish:'Amphiprioninae',dickinsonia:'Dickinsonia',charnia:'Charnia',elkhorncoral:'Acropora palmata'};
+export function categoryOf(s:Species):Category{return s.id==='stromatolite'?'Algae & microbes':['charnia','dickinsonia','elkhorncoral'].includes(s.id)?'Animals':s.diet==='producer'?'Plants':'Animals'}
+export function metadata(s:Species){return {scientificName:names[s.id]??null,category:categoryOf(s),habitat:s.id==='axolotl'?'Freshwater':s.zone==='sea'?'Marine':'Terrestrial',firstAppearance:null,lastOccurrence:null,temperature:s.temp,temperatureEvidence:'Gameplay tolerance; not an empirical measurement',oxygenRequirement:s.id==='stromatolite'?'Microbial community; oxygen needs vary':'Aerobic metabolism; exact threshold not quantified',resourceRequirements:s.eats,defaultGroup:groupSize(s)}}
+export function groupSize(s:Species){return s.id==='reeffish'?9:s.diet==='producer'?(['oak','conifer','cycad'].includes(s.id)?5:12):s.diet==='carnivore'?3:(s.size??s.height)>1.2?4:6}
+export function suitability(s:Species,year:number){const era=eraAt(year);if(era.oxygenFit<.2&&s.id!=='stromatolite')return 'Very low oxygen — rapid decline';if(era.vegetation===0&&s.zone==='land'&&s.diet!=='producer')return 'Little food or terrestrial habitat';return 'Experiment here · food and climate matter'}

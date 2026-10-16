@@ -102,3 +102,22 @@
 - Phase L screenshot review requires actual upward water normals even though two-sided Blender renders had hidden the winding error; the GLB validator now checks this explicitly and checks forward direction for every animal with Head/Body/Tail.
 - Official Playwright Chromium runs with --single-process --no-zygote on this Mac; no sandbox policy is changed. Browser smoke and separate touch/keyboard checks pass.
 - Vercel CLI 64.4.0 deployment reaches a real login blocker after using a writable --global-config directory; no existing credentials are available. No temporary deployment is substituted for the requested authenticated production deployment.
+
+## Overhaul assumptions
+- The October overhaul request supersedes the original flat 20×20 platform, fixed roughness, era gate and forced-extinction rules where they conflict.
+- Preserve React/Three.js, all existing assets and local saves; migrate legacy group placement coordinates without deleting user data.
+- Use original procedural environment geometry and textures; supplied screenshots are visual references only, with no copied proprietary assets.
+- Environmental profiles represent selected miniature habitats, not exact global reconstructions; climate and oxygen suitability indices are gameplay approximations.
+- Preserve the pre-existing uncommitted .gitignore addition for .vercel; do not deploy or push in this overhaul.
+
+## Overhaul assumptions and final constants
+- The latest comprehensive overhaul supersedes the old flat 20×20 terrain, no-texture and date-forced-extinction rules.
+- The island is one representative changing biome, not a reconstruction of Earth's entire geography.
+- Procedural texture noise and original authored assets avoid external game asset licensing dependencies.
+- Oxygen suitability uses a qualitative 0–1 gameplay index; no precise ancient oxygen measurements are claimed.
+- Modern background woodland supplies 0.8 × vegetation-cover browsing suitability; added food still contributes.
+- Physically unsuitable habitat removes 20% of a group's population per simulation tick; groups below two become extinct.
+- Group sizes are gameplay defaults (trees 5, plants 12, fish 9, large animals 4, small animals 6, predators 3).
+- Deep-time simulation ticks are not literal years or generations; inherited traits are deferred rather than misrepresented.
+- Catalogue occurrence dates remain null unless separately verified; no exact dates were invented to complete fields.
+- Three new original models use the existing 3,000-triangle animal budget and Cycles CPU icon pipeline.

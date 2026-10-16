@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "deer drag places one herd",
+    "fish drag places a school in ocean",
+    "fish dry-land drop rejected",
+    "hadean renders",
+    "cambrian renders",
+    "carboniferous renders",
+    "jurassic renders",
+    "pleistocene renders",
+    "early Earth placement explains oxygen stress",
+    "curated whale lineage navigates time",
+    "mobile has no horizontal overflow"
+  ],
+  "errors": []
+}

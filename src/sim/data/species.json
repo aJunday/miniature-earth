@@ -1508,5 +1508,83 @@
     "template": "bird",
     "group": "Hope",
     "selfSufficient": true
+  },
+  {
+    "id": "reeffish",
+    "name": "Reef fish",
+    "era": "Present",
+    "zone": "sea",
+    "diet": "herbivore",
+    "eats": [
+      "seagrass"
+    ],
+    "temp": [
+      14,
+      32
+    ],
+    "rain": null,
+    "height": 0.55,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "A stylised anemonefish-inspired reef fish; schooling here is a gameplay convention.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": true
+  },
+  {
+    "id": "trilobite",
+    "name": "Trilobite",
+    "era": "Cambrian",
+    "zone": "sea",
+    "diet": "herbivore",
+    "eats": [
+      "stromatolite"
+    ],
+    "temp": [
+      14,
+      32
+    ],
+    "rain": null,
+    "height": 0.42,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "Trilobites were marine arthropods. This broad-group model is not a species reconstruction.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": true
+  },
+  {
+    "id": "arthropleura",
+    "name": "Arthropleura",
+    "era": "Carboniferous",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [
+      "fern"
+    ],
+    "temp": [
+      14,
+      32
+    ],
+    "rain": null,
+    "height": 0.48,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.05,
+    "K": 60,
+    "need": 0.05,
+    "m": 0.04,
+    "fact": "Arthropleura was a giant millipede-like arthropod, not a spider.",
+    "habitatSensitivity": 0.5,
+    "threats": [],
+    "selfSufficient": true
   }
 ]
