@@ -19,6 +19,8 @@ def build(id):
         for sign,name in [(-1,'L'),(1,'R')]:
             fin=c.add_part('Fin_'+name,joint=(sign*.14,.24,.08))
             c.tapered_blade('fin',[(sign*.14,.24,.08),(sign*.32,.17,-.07),(sign*.26,.14,-.2)],[.04,.11,.005],.025,orange,fin)
+        c.tapered_blade('Dorsal fin',[(0,.49,.22),(0,.66,.03),(0,.49,-.3)],[.015,.07,.005],.025,orange,body)
+        c.stroke('Gill',[(.176,.39,.23),(.19,.3,.19),(.17,.2,.23)],.012,cream,head)
         height=.55
     else:
         segments=10 if id=='arthropleura' else 8
@@ -30,6 +32,9 @@ def build(id):
             c.blob('ridge',(0,.32,z),(.09,.04,.09),cream,body,10,6)
             for sign in [-1,1]:
                 c.capsule('leg',(sign*width*.65,.13,z),(sign*(width+.13),.035,z-.05),.025,dark,body,6,2)
+                if id=='arthropleura':c.capsule('Second leg',(sign*width*.65,.12,z+.05),(sign*(width+.12),.025,z+.025),.018,dark,body,6,2)
+        if id=='trilobite':
+            for sign in [-1,1]:c.tapered_blade('Genal spine',[(sign*.34,.19,.58),(sign*.49,.14,.37),(sign*.46,.09,.12)],[.06,.04,.003],.035,teal,head)
         c.blob('head',(0,.21,.57),(.28 if id=='arthropleura' else .43,.18,.22),mat,head,16,10)
         if id=='arthropleura':
             for sign in [-1,1]:

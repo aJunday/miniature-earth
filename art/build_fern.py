@@ -5,14 +5,15 @@ from lib.common import *
 
 clear_scene('org_fern',1500)
 green=make_material('Fern green','#4E9A3A')
+light=make_material('New growth','#7EBC58')
 part=add_part('Foliage',joint=(0,0,0))
 for j in range(7):
     angle=j*math.tau/7
     length=[.60,.54,.58,.51,.56,.53,.56][j]
     points=[]
     widths=[]
-    for i in range(10):
-        t=i/9
+    for i in range(5):
+        t=i/4
         distance=length*t
         points.append((math.sin(angle)*distance,.02+.40*math.sin(t*math.pi*.85),math.cos(angle)*distance))
         widths.append(.004+.012*math.sin(math.pi*t)**.8)
@@ -21,8 +22,8 @@ for j in range(7):
     # Six pairs of rounded pinnae per frond; one continuous silhouette.
     radial=Vector((math.sin(angle),0,math.cos(angle)))
     side=Vector((math.cos(angle),0,-math.sin(angle)))
-    for k in range(6):
-        t=.20+k*.12
+    for k in range(4):
+        t=.18+k*.18
         center=radial*(length*t)+Vector((0,.02+.40*math.sin(t*math.pi*.85),0))
         leaf_length=.23*(1-.65*t)
         for sign in [-1,1]:
@@ -32,7 +33,11 @@ for j in range(7):
             mid=center+direction*leaf_length*.54
             vertices=[center,center+direction*leaf_length*.22+across*.75,center+direction*leaf_length*.50+across,center+direction*leaf_length*.78+across*.65,tip,center+direction*leaf_length*.78-across*.65,center+direction*leaf_length*.50-across,center+direction*leaf_length*.22-across*.75,mid+Vector((0,.009,0)),mid-Vector((0,.006,0))]
             faces=[(i,(i+1)%8,8) for i in range(8)]+[((i+1)%8,i,9) for i in range(8)]
-            mesh('Pinna',vertices,faces,green,part)
+            mesh('Pinna',vertices,faces,light if j%3==0 else green,part)
 blob('Crown',(0,.045,0),(.065,.045,.065),green,part,12,8)
+for sign in [-1,1]:
+    curl=stroke('Unfurling fiddlehead',[(sign*.03,.02,0),(sign*.07,.21,.02),(sign*.10,.27,.04),(sign*.14,.24,.04),(sign*.11,.20,.04)],.012,light,part)
+    curl.data.resolution_u=3
+    curl.data.bevel_resolution=0
 finish_model(height=.6)
 deliver()

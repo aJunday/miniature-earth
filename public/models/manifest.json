@@ -84,7 +84,7 @@
     "file": "/models/org_arthropleura.glb",
     "icon": "/icons/org_arthropleura.png",
     "heightUnits": 0.47999998927116394,
-    "triangles": 2698,
+    "triangles": 2690,
     "parts": [
       "Root",
       "Body",
@@ -264,7 +264,7 @@
     "file": "/models/org_deer.glb",
     "icon": "/icons/org_deer.png",
     "heightUnits": 1.2999999523162842,
-    "triangles": 2726,
+    "triangles": 2706,
     "parts": [
       "Root",
       "Body",
@@ -346,8 +346,8 @@
     "id": "fern",
     "file": "/models/org_fern.glb",
     "icon": "/icons/org_fern.png",
-    "heightUnits": 0.6000000350177288,
-    "triangles": 1334,
+    "heightUnits": 0.6000000238418579,
+    "triangles": 1354,
     "parts": [
       "Root",
       "Foliage"
@@ -407,7 +407,7 @@
     "file": "/models/org_honeybee.glb",
     "icon": "/icons/org_honeybee.png",
     "heightUnits": 0.3499999940395355,
-    "triangles": 2584,
+    "triangles": 2726,
     "parts": [
       "Root",
       "Body",
@@ -478,8 +478,8 @@
     "id": "mammoth",
     "file": "/models/org_mammoth.glb",
     "icon": "/icons/org_mammoth.png",
-    "heightUnits": 1.218119502067566,
-    "triangles": 2726,
+    "heightUnits": 1.5764509439468384,
+    "triangles": 2730,
     "parts": [
       "Root",
       "Body",
@@ -519,7 +519,7 @@
     "file": "/models/org_oak.glb",
     "icon": "/icons/org_oak.png",
     "heightUnits": 2.4000000953674316,
-    "triangles": 692,
+    "triangles": 1358,
     "parts": [
       "Root",
       "Foliage",
@@ -625,8 +625,8 @@
     "id": "rabbit",
     "file": "/models/org_rabbit.glb",
     "icon": "/icons/org_rabbit.png",
-    "heightUnits": 0.5000000149011612,
-    "triangles": 2748,
+    "heightUnits": 0.5,
+    "triangles": 2740,
     "parts": [
       "Root",
       "Body",
@@ -645,7 +645,7 @@
     "file": "/models/org_redfox.glb",
     "icon": "/icons/org_redfox.png",
     "heightUnits": 0.699999988079071,
-    "triangles": 2748,
+    "triangles": 2732,
     "parts": [
       "Root",
       "Body",
@@ -682,8 +682,8 @@
     "id": "reeffish",
     "file": "/models/org_reeffish.glb",
     "icon": "/icons/org_reeffish.png",
-    "heightUnits": 0.5499999821186066,
-    "triangles": 2564,
+    "heightUnits": 0.5500000417232513,
+    "triangles": 2992,
     "parts": [
       "Root",
       "Body",
@@ -767,8 +767,8 @@
     "id": "seaturtle",
     "file": "/models/org_seaturtle.glb",
     "icon": "/icons/org_seaturtle.png",
-    "heightUnits": 0.23867404460906982,
-    "triangles": 2744,
+    "heightUnits": 0.20236515998840332,
+    "triangles": 2746,
     "parts": [
       "Root",
       "Body",
@@ -806,7 +806,7 @@
     "file": "/models/org_stegosaurus.glb",
     "icon": "/icons/org_stegosaurus.png",
     "heightUnits": 1.600000023841858,
-    "triangles": 2718,
+    "triangles": 2686,
     "parts": [
       "Root",
       "Body",
@@ -931,7 +931,7 @@
     "file": "/models/org_trilobite.glb",
     "icon": "/icons/org_trilobite.png",
     "heightUnits": 0.41999998688697815,
-    "triangles": 2724,
+    "triangles": 2704,
     "parts": [
       "Root",
       "Body",

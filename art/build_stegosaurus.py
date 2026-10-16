@@ -49,5 +49,8 @@ points=[(0,.70,-.58),(0,.65,-.91),(0,.55,-1.22),(0,.48,-1.51),(0,.50,-1.73)]
 tapered_blade('Curved tail',points,[.25,.22,.16,.10,.016],.17,green,tail)
 for x,y,z,dx in [(.09,.53,-1.35,.22),(-.09,.53,-1.35,-.22),(.06,.52,-1.57,.17),(-.06,.52,-1.57,-.17)]:
     tapered_blade('Tail spike',[(x,y,z),(x+dx*.55,y+.13,z-.04),(x+dx,y+.23,z-.09)],[.065,.045,.003],.045,cream,tail)
+for name,x,z in [('Leg_FL',.40,.46),('Leg_FR',-.40,.46),('Leg_BL',.40,-.47),('Leg_BR',-.40,-.47)]:
+    for k in [-1,0,1]:blob('Rounded toe',(x+k*.10,.13,z+.24),(.035,.04,.025),cream,legs[name],8,6)
+for sign in [-1,1]:blob('Cheek',(sign*.30,.74,1.29),(.075,.035,.035),orange,head,10,6)
 finish_model(height=1.6)
 deliver()

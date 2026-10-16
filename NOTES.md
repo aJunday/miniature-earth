@@ -121,3 +121,5 @@
 - Deep-time simulation ticks are not literal years or generations; inherited traits are deferred rather than misrepresented.
 - Catalogue occurrence dates remain null unless separately verified; no exact dates were invented to complete fields.
 - Three new original models use the existing 3,000-triangle animal budget and Cycles CPU icon pipeline.
+- Continuation showcase roster: deer, redfox, rabbit, honeybee, seaturtle, stegosaurus, mammoth, reeffish, trilobite, arthropleura, fern and oak; covers mammals, reptiles, arthropods, fish and plants.
+- Performance measurement uses the same 1280×800 headless Chromium scene with 12 deer and 12 fish; this is a reproducible software-renderer comparison, not a claim about every device.
