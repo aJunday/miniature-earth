@@ -101,3 +101,4 @@
 - Phase K fixes include full-page sky blending, direct touch placement coordinates, translucent placement ghosts, per-individual motion phase, soft fossil colour transitions, and retained animal instances for shrink-out deaths.
 - Phase L screenshot review requires actual upward water normals even though two-sided Blender renders had hidden the winding error; the GLB validator now checks this explicitly and checks forward direction for every animal with Head/Body/Tail.
 - Official Playwright Chromium runs with --single-process --no-zygote on this Mac; no sandbox policy is changed. Browser smoke and separate touch/keyboard checks pass.
+- Vercel CLI 64.4.0 deployment reaches a real login blocker after using a writable --global-config directory; no existing credentials are available. No temporary deployment is substituted for the requested authenticated production deployment.

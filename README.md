@@ -1,40 +1,60 @@
 # Miniature Earth
 
-A Vite, React, and strict TypeScript starter with a React Three Fiber preview, Tailwind CSS, and Vitest.
+Build a world. Play with time.
+
+A browser toy diorama spanning four billion years to 2060. Place plants and animals, explore food webs and extinction, and compare two simplified futures. Includes 53 organisms, three islands, 36 conservation stories and a one-minute guided demo.
+
+## Run
+
+Use Node 24 (or a version matching package.json), then:
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Open http://127.0.0.1:5173. Baloo 2 and Nunito are bundled locally from Google Fonts with their OFL licenses. The procedural rounded box rotates continuously unless the visitor prefers reduced motion.
+Open the URL Vite prints. To check or serve production:
 
 ```sh
 npm run typecheck
 npm test
 npm run build
-npm run preview
+npm run preview -- --port 5181
 ```
 
-The production build is written to `dist/`. Vite copies existing public assets into that build without modifying the originals.
+In a second terminal, `npx playwright install chromium` then `node qa/smoke.mjs` runs the production browser checks. The test expects port 5181; screenshots and results go to qa/. `QUICK=1` skips the 60-second demo for layout iterations only.
 
-## Structure
+## Play
 
-```text
-src/
-  app/                 App composition and page smoke test
-  components/scene/    React Three Fiber preview
-  config/              Shared constants
-  hooks/               Reduced-motion preference subscription
-  lib/                 Reserved utility module
-  pages/               Placeholder home page
-  styles/              Tailwind theme and base styles
-  test/                Vitest setup
-  types/               Reserved domain types
+Choose a card, then tap the island. Land animals need land; sea animals need the lagoon. Selecting an impact animal also opens its sourced story; close the card to place it. Tap the selected-species pill to stop placing. Tap a creature to learn about it.
+
+Drag the timeline, use era snaps, or press left/right arrows (Shift moves 25 ticks). Space plays or pauses. Speed buttons select 1×, 4× or 16×. Drag the island to orbit and scroll/pinch to zoom. The population panel shows the living balance. The field journal remembers discoveries locally. Reset clears the world. Sound starts only after a gesture and can be muted.
+
+At 2060 switch Protect/Exploit to compare the same placements. Watch demo runs a captioned 60-second tour; any pointer or keyboard input cancels it.
+
+## How the simulation works
+
+This is a game simulation, not a forecast. Populations are aggregate numbers, not individual biological agents. Events are replayed deterministically from a seed across 4,000 nonlinear timeline ticks, with cached checkpoints. Temperature, rain, habitat, sunlight, food availability and seeded growth variation shape logistic growth and mortality. Bees assist flowers; turtle births respond to nest temperatures. Impact species have simplified threat and habitat sensitivity parameters. Many added species use habitat-supported capacity instead of an invented complete food web.
+
+The asteroid disrupts temperature and sunlight for 40 game ticks; hardy plants retain a seed-bank floor. An explicit temporal-niche penalty and event mortality were added to make the requested scenarios work. Their values, including tuned predator constants, are in NOTES.md. These are authored gameplay assumptions, not scientific estimates. The eight specified scenarios and deterministic replay have automated tests.
+
+Real science informs the asteroid, fern recovery and turtle nest-temperature relationship. Conservation stories link to IUCN, government, conservation organisations and museums. Unconfirmed population estimates, assessment years and dates are deliberately omitted. Many entries still lack a complete dated history. Dodo 1662 means the last reliable sighting, thylacine 1936 the last recorded captive death, and the mammoth boundary is approximate. These dates simplify complex histories. Emperor penguin status follows the IUCN April 2026 Endangered update.
+
+## Art pipeline
+
+Python is used only for offline Blender asset generation, not the game runtime. The verified local Blender path is in AGENTS.md. Run each art/build_<id>.py with `--background --factory-startup --gpu-backend opengl --python-exit-code 1 --python`. All renders use Cycles CPU, 32 samples and denoising. `python3 art/build_all.py` builds groups; `python3 art/run_all.py` rebuilds the three original samples. `python3 art/validate.py` checks actual exported geometry, materials, dimensions, hierarchy, budgets and PNG transparency and regenerates the manifest. `python3 art/inspect_all.py` runs glTF Transform inspection and Khronos validation. Render the labelled sheet with art/render_contact_sheet.py through Blender.
+
+## Stack and credits
+
+React, strict TypeScript, Vite, Three.js, React Three Fiber, Drei, React Three Postprocessing, Zustand, Tailwind CSS, Recharts, Framer Motion and Vitest. Playwright is a development-only QA dependency. Audio is synthesised with Web Audio. No backend, accounts, model APIs or analytics; saves remain in localStorage.
+
+Original procedural toy geometry is generated by the included Blender scripts. Baloo 2 and Nunito are bundled Google Fonts; their OFL licences are included with the font assets. Conservation source URLs are stored in src/sim/data/stories.json and exposed on each card. See PROGRESS.md for phase history and research limitations.
+
+## Deploy
+
+```sh
+npm run build
+npx vercel --prod
 ```
 
-Every source directory has an `index.ts`. The structure is provisional because CLAUDE.md and AGENTS.md were unavailable; see NOTES.md for assumptions and verification. This scaffold leaves `art/`, `public/models/`, and `public/icons/` unchanged.
-
-Unit tests run in jsdom and substitute the canvas; real WebGL rendering and animation are verified separately in the browser. This distinction prevents a DOM-only test from falsely claiming to test a GPU renderer.
-
-Setup references: [Tailwind's Vite integration](https://tailwindcss.com/docs/installation/using-vite) and [React Three Fiber's React compatibility guidance](https://r3f.docs.pmnd.rs/getting-started/installation). Exact dependency versions are pinned in package.json and package-lock.json.
+Vercel uses the Vite preset and dist output. Authenticate with `npx vercel login` if requested. Git commits are local; no push is performed by this workflow.
