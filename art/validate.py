@@ -17,6 +17,10 @@ for line in SPEC.splitlines():
         cells=line[2:].split(' | ')
         if len(cells)==8:
             SIZES['org_'+cells[0]]=float(cells[6])
+# The expanded catalogue may add species beyond the original AGENTS roster.
+for item in json.loads((BASE/'src/sim/data/species.json').read_text()):
+    key='org_'+item['id']
+    if key not in HEIGHTS and key not in SIZES: HEIGHTS[key]=item['height']
 EXPECTED={'island_'+era:['Top','Sides','Water','Deco'] for era in ['precambrian','jurassic','present']}
 EXPECTED.update({'org_fern':['Foliage'],'org_stegosaurus':['Body','Head','Eye_L','Eye_R','Leg_FL','Leg_FR','Leg_BL','Leg_BR','Tail']})
 PLANTS={'stromatolite','charnia','fern','cycad','conifer','grass','oak','wildflower','seagrass','elkhorncoral'}

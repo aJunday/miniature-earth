@@ -16,3 +16,4 @@ it('historical extinction dates do not force transplanted populations to vanish'
 
 it('modern deer can browse the background woodland',()=>{const p=garden(['deer'],2026).getStateAt(4000).populations;expect(p.deer).toBeGreaterThan(6)});
 it('rewind restores groups without duplicates and dead groups stay dead after reintroduction',()=>{const w=garden(['deer'],-3e9);const early=yearToTick(-3e9);w.place({tick:yearToTick(2026),speciesId:'deer',count:4,x:0,z:0});const later=w.getStateAt(4000);expect(later.groups).toHaveLength(2);expect(later.groups![0].population).toBe(0);w.getStateAt(early+20);expect(w.getStateAt(4000)).toEqual(later)});
+it('fine geological selections preserve requested years',()=>{for(const year of [-40000,-600000,-150e6,1850,2026])expect(tickToYear(yearToTick(year))).toBeCloseTo(year,3)});

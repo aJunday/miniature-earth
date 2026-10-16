@@ -164,6 +164,37 @@
       "transparent_pixels": 46286
     }
   },
+  "org_arthropleura": {
+    "triangles": 2698,
+    "budget": 3000,
+    "bounds_min": [
+      -0.4540596306324005,
+      0.0,
+      -1.4217848777770996
+    ],
+    "bounds_max": [
+      0.4540596306324005,
+      0.47999998927116394,
+      1.0893865823745728
+    ],
+    "height": 0.47999998927116394,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 54475
+    }
+  },
   "org_asianelephant": {
     "triangles": 2756,
     "budget": 3000,
@@ -1327,6 +1358,40 @@
       "transparent_pixels": 45448
     }
   },
+  "org_reeffish": {
+    "triangles": 2564,
+    "budget": 3000,
+    "bounds_min": [
+      -0.44540053606033325,
+      0.0,
+      -0.8884615898132324
+    ],
+    "bounds_max": [
+      0.44540053606033325,
+      0.5499999821186066,
+      0.581730842590332
+    ],
+    "height": 0.5499999821186066,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Fin_L",
+      "  Fin_R",
+      "  Head",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 45093
+    }
+  },
   "org_rightwhale": {
     "triangles": 2736,
     "budget": 3000,
@@ -1777,6 +1842,37 @@
         255
       ],
       "transparent_pixels": 46014
+    }
+  },
+  "org_trilobite": {
+    "triangles": 2724,
+    "budget": 3000,
+    "bounds_min": [
+      -0.5922839045524597,
+      0.0,
+      -0.3000228703022003
+    ],
+    "bounds_max": [
+      0.5922839045524597,
+      0.41999998688697815,
+      0.8020714521408081
+    ],
+    "height": 0.41999998688697815,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 48130
     }
   },
   "org_vaquita": {

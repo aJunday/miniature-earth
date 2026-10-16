@@ -80,6 +80,20 @@
     ]
   },
   {
+    "id": "arthropleura",
+    "file": "/models/org_arthropleura.glb",
+    "icon": "/icons/org_arthropleura.png",
+    "heightUnits": 0.47999998927116394,
+    "triangles": 2698,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head"
+    ]
+  },
+  {
     "id": "asianelephant",
     "file": "/models/org_asianelephant.glb",
     "icon": "/icons/org_asianelephant.png",
@@ -665,6 +679,23 @@
     ]
   },
   {
+    "id": "reeffish",
+    "file": "/models/org_reeffish.glb",
+    "icon": "/icons/org_reeffish.png",
+    "heightUnits": 0.5499999821186066,
+    "triangles": 2564,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  {
     "id": "rightwhale",
     "file": "/models/org_rightwhale.glb",
     "icon": "/icons/org_rightwhale.png",
@@ -896,6 +927,20 @@
     ]
   },
   {
+    "id": "trilobite",
+    "file": "/models/org_trilobite.glb",
+    "icon": "/icons/org_trilobite.png",
+    "heightUnits": 0.41999998688697815,
+    "triangles": 2724,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head"
+    ]
+  },
+  {
     "id": "vaquita",
     "file": "/models/org_vaquita.glb",
     "icon": "/icons/org_vaquita.png",
@@ -957,51 +1002,6 @@
     "parts": [
       "Root",
       "Foliage"
-    ]
-  },
-  {
-    "id": "reeffish",
-    "file": "/models/org_reeffish.glb",
-    "icon": "/icons/org_reeffish.png",
-    "heightUnits": 0.55,
-    "triangles": 2564,
-    "parts": [
-      "Root",
-      "Body",
-      "Head",
-      "Tail",
-      "Fin_L",
-      "Fin_R",
-      "Eye_L",
-      "Eye_R"
-    ]
-  },
-  {
-    "id": "trilobite",
-    "file": "/models/org_trilobite.glb",
-    "icon": "/icons/org_trilobite.png",
-    "heightUnits": 0.42,
-    "triangles": 2724,
-    "parts": [
-      "Root",
-      "Body",
-      "Head",
-      "Eye_L",
-      "Eye_R"
-    ]
-  },
-  {
-    "id": "arthropleura",
-    "file": "/models/org_arthropleura.glb",
-    "icon": "/icons/org_arthropleura.png",
-    "heightUnits": 0.48,
-    "triangles": 2698,
-    "parts": [
-      "Root",
-      "Body",
-      "Head",
-      "Eye_L",
-      "Eye_R"
     ]
   }
 ]
