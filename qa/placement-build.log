@@ -1,0 +1,22 @@
+
+> miniature-earth@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 648 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                           0.73 kB │ gzip:   0.45 kB
+dist/assets/nunito-700-DcuS2A2O.ttf     125.46 kB
+dist/assets/nunito-400-mBGGtOB5.ttf     125.52 kB
+dist/assets/nunito-600-BEWhRPhZ.ttf     125.53 kB
+dist/assets/nunito-500-af__4zX9.ttf     125.65 kB
+dist/assets/baloo-2-800-BViOhZJ6.ttf    417.56 kB
+dist/assets/baloo-2-700-BreeFivU.ttf    417.96 kB
+dist/assets/baloo-2-600-DKNv9FOM.ttf    418.08 kB
+dist/assets/baloo-2-500-C6EBQ3EU.ttf    418.16 kB
+dist/assets/index-B71SqH5U.css           46.08 kB │ gzip:  10.85 kB
+dist/assets/index-BH_HxA6h.js         1,761.08 kB │ gzip: 433.20 kB
+
+✓ built in 646ms

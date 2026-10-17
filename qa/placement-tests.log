@@ -1,0 +1,17 @@
+
+> miniature-earth@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/arnavjunday/Documents/GitHub/miniature-earth
+
+
+ Test Files  28 passed (28)
+      Tests  132 passed (132)
+   Start at  11:15:58
+   Duration  4.00s (environment 58%, tests 22%, setup 11%, import 5%, transform 3%, worker 1%)
+
+Environment  jsdom was created 28 times · 18.01s total, 58% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+

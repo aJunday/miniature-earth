@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "K -600000000: temporary preview",
+    "K -505000000: temporary preview",
+    "K -200000000: temporary preview",
+    "K -150000000: temporary preview",
+    "K -100000000: temporary preview",
+    "K -66000000: temporary preview",
+    "K -10000000: temporary preview",
+    "K -1000000: temporary preview",
+    "K 2026: persistent model",
+    "K 2050: persistent model",
+    "K 2100: persistent model"
+  ],
+  "errors": []
+}

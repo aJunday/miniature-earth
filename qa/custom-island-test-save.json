@@ -1,0 +1,54 @@
+{
+  "tick": 3869.230769230769,
+  "region": "North America",
+  "placements": [
+    {
+      "tick": 3869.230769230769,
+      "speciesId": "deer",
+      "count": 4,
+      "x": 1.3823824307406483,
+      "z": 1.3655815162931404
+    },
+    {
+      "tick": 3869.230769230769,
+      "speciesId": "deer",
+      "count": 4,
+      "x": -4.499653038831411,
+      "z": -2.9996033560078104
+    },
+    {
+      "tick": 3869.230769230769,
+      "speciesId": "deer",
+      "count": 4,
+      "x": -7.501788832502129,
+      "z": -3.002045683093179
+    }
+  ],
+  "interventions": [
+    {
+      "year": 2026,
+      "temperature": 0,
+      "resources": 1
+    }
+  ],
+  "seed": 42,
+  "scenario": "Protect",
+  "start": 2026,
+  "preset": "Empty Island",
+  "temperature": 0,
+  "resources": 1,
+  "initial": {
+    "tick": 3869.230769230769,
+    "region": "North America",
+    "placements": [],
+    "interventions": [
+      {
+        "year": 2026,
+        "temperature": 0,
+        "resources": 1
+      }
+    ],
+    "seed": 42,
+    "scenario": "Protect"
+  }
+}

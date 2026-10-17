@@ -1,0 +1,360 @@
+[
+  {
+    "save": {
+      "tick": 3869.230769230769,
+      "region": "North America",
+      "placements": [
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "oak",
+          "count": 5,
+          "x": -3.0140152851534303,
+          "z": 4.454348830792554
+        }
+      ],
+      "interventions": [
+        {
+          "year": 2026,
+          "temperature": 0,
+          "resources": 1
+        }
+      ],
+      "seed": 42,
+      "scenario": "Protect",
+      "start": 2026,
+      "preset": "Empty Island",
+      "temperature": 0,
+      "resources": 1,
+      "initial": {
+        "tick": 3869.230769230769,
+        "region": "North America",
+        "placements": [],
+        "interventions": [
+          {
+            "year": 2026,
+            "temperature": 0,
+            "resources": 1
+          }
+        ],
+        "seed": 42,
+        "scenario": "Protect"
+      }
+    },
+    "metrics": {
+      "calls": 13,
+      "triangles": 23332,
+      "geometries": 18,
+      "textures": 5,
+      "frameMs": 18.30000001192093,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "year": 2026,
+      "populations": {
+        "oak": 5
+      },
+      "individuals": []
+    }
+  },
+  {
+    "save": {
+      "tick": 3869.230769230769,
+      "region": "North America",
+      "placements": [
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "oak",
+          "count": 5,
+          "x": -3.0140152851534303,
+          "z": 4.454348830792554
+        },
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "deer",
+          "count": 4,
+          "x": -2.9177934179949006,
+          "z": -0.04339699575753997
+        }
+      ],
+      "interventions": [
+        {
+          "year": 2026,
+          "temperature": 0,
+          "resources": 1
+        }
+      ],
+      "seed": 42,
+      "scenario": "Protect",
+      "start": 2026,
+      "preset": "Empty Island",
+      "temperature": 0,
+      "resources": 1,
+      "initial": {
+        "tick": 3869.230769230769,
+        "region": "North America",
+        "placements": [],
+        "interventions": [
+          {
+            "year": 2026,
+            "temperature": 0,
+            "resources": 1
+          }
+        ],
+        "seed": 42,
+        "scenario": "Protect"
+      }
+    },
+    "metrics": {
+      "calls": 15,
+      "triangles": 27214,
+      "geometries": 20,
+      "textures": 6,
+      "frameMs": 20.30000001192093,
+      "rendered": 3,
+      "inFrame": 3,
+      "animalsInFrame": 3,
+      "bySpecies": {
+        "deer": 3
+      },
+      "year": 2026,
+      "populations": {
+        "oak": 5,
+        "deer": 4
+      },
+      "individuals": [
+        {
+          "key": "group-1:50053:0:0",
+          "id": "deer",
+          "x": -3.1694549444678315,
+          "z": -0.8561036772691824,
+          "screenX": 677.9771765744805,
+          "screenY": 375.8050562596323
+        },
+        {
+          "key": "group-1:50053:0:1",
+          "id": "deer",
+          "x": 0.29143824726710843,
+          "z": -0.6608915212788816,
+          "screenX": 735.1002148098856,
+          "screenY": 405.96305126133075
+        },
+        {
+          "key": "group-1:50053:0:2",
+          "id": "deer",
+          "x": -1.071500195625102,
+          "z": -2.459980337387139,
+          "screenX": 738.7682252135891,
+          "screenY": 375.11341466979803
+        }
+      ]
+    }
+  },
+  {
+    "save": {
+      "tick": 3869.230769230769,
+      "region": "North America",
+      "placements": [
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "oak",
+          "count": 5,
+          "x": -3.0140152851534303,
+          "z": 4.454348830792554
+        },
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "deer",
+          "count": 4,
+          "x": -2.9177934179949006,
+          "z": -0.04339699575753997
+        },
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "deer",
+          "count": 4,
+          "x": 5.679972343124007,
+          "z": 1.2254384781631131
+        }
+      ],
+      "interventions": [
+        {
+          "year": 2026,
+          "temperature": 0,
+          "resources": 1
+        }
+      ],
+      "seed": 42,
+      "scenario": "Protect",
+      "start": 2026,
+      "preset": "Empty Island",
+      "temperature": 0,
+      "resources": 1,
+      "initial": {
+        "tick": 3869.230769230769,
+        "region": "North America",
+        "placements": [],
+        "interventions": [
+          {
+            "year": 2026,
+            "temperature": 0,
+            "resources": 1
+          }
+        ],
+        "seed": 42,
+        "scenario": "Protect"
+      }
+    },
+    "metrics": {
+      "calls": 15,
+      "triangles": 27214,
+      "geometries": 20,
+      "textures": 6,
+      "frameMs": 36.10000002384186,
+      "rendered": 3,
+      "inFrame": 3,
+      "animalsInFrame": 3,
+      "bySpecies": {
+        "deer": 3
+      },
+      "year": 2026,
+      "populations": {
+        "oak": 5,
+        "deer": 8
+      },
+      "individuals": [
+        {
+          "key": "group-2:1168426:0:0",
+          "id": "deer",
+          "x": 4.9257420790201545,
+          "z": 0.7352929823379458,
+          "screenX": 794.3511601939839,
+          "screenY": 461.65041420989274
+        },
+        {
+          "key": "group-1:50053:0:0",
+          "id": "deer",
+          "x": -2.8971997956640614,
+          "z": -1.7959416051745896,
+          "screenX": 696.9820612177928,
+          "screenY": 366.5314393953856
+        },
+        {
+          "key": "group-1:50053:0:1",
+          "id": "deer",
+          "x": 0.34006625004306484,
+          "z": -0.641611685124501,
+          "screenX": 735.6516057752581,
+          "screenY": 407.24875725104584
+        }
+      ]
+    }
+  },
+  {
+    "save": {
+      "tick": 3869.230769230769,
+      "region": "North America",
+      "placements": [
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "oak",
+          "count": 5,
+          "x": -3.0140152851534303,
+          "z": 4.454348830792554
+        },
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "deer",
+          "count": 4,
+          "x": -2.9177934179949006,
+          "z": -0.04339699575753997
+        },
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "deer",
+          "count": 4,
+          "x": 5.679972343124007,
+          "z": 1.2254384781631131
+        },
+        {
+          "tick": 3869.230769230769,
+          "speciesId": "deer",
+          "count": 4,
+          "x": 11.68416736066317,
+          "z": -1.7862965190734386
+        }
+      ],
+      "interventions": [
+        {
+          "year": 2026,
+          "temperature": 0,
+          "resources": 1
+        }
+      ],
+      "seed": 42,
+      "scenario": "Protect",
+      "start": 2026,
+      "preset": "Empty Island",
+      "temperature": 0,
+      "resources": 1,
+      "initial": {
+        "tick": 3869.230769230769,
+        "region": "North America",
+        "placements": [],
+        "interventions": [
+          {
+            "year": 2026,
+            "temperature": 0,
+            "resources": 1
+          }
+        ],
+        "seed": 42,
+        "scenario": "Protect"
+      }
+    },
+    "metrics": {
+      "calls": 15,
+      "triangles": 27214,
+      "geometries": 20,
+      "textures": 6,
+      "frameMs": 34.80000001192093,
+      "rendered": 3,
+      "inFrame": 3,
+      "animalsInFrame": 3,
+      "bySpecies": {
+        "deer": 3
+      },
+      "year": 2026,
+      "populations": {
+        "oak": 5,
+        "deer": 12
+      },
+      "individuals": [
+        {
+          "key": "group-3:4293822784:0:0",
+          "id": "deer",
+          "x": 11.109844899750854,
+          "z": -2.5968903043188587,
+          "screenX": 952.3429772022073,
+          "screenY": 473.79363116300004
+        },
+        {
+          "key": "group-1:50053:0:0",
+          "id": "deer",
+          "x": -3.317455664793308,
+          "z": -2.034705536365501,
+          "screenX": 693.3127806286593,
+          "screenY": 359.19935891565717
+        },
+        {
+          "key": "group-2:1168426:0:0",
+          "id": "deer",
+          "x": 4.850142449457917,
+          "z": 0.5945616361998974,
+          "screenX": 795.1765638829199,
+          "screenY": 459.3453989572311
+        }
+      ]
+    }
+  }
+]

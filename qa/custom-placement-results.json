@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "A modern deer visibly spawned",
+    "G repeated groups visible",
+    "H exported save, clear, imported load and browser reload restore models",
+    "I rewind before introduction hides groups; replay restores identical populations",
+    "J reset restores empty 2026 snapshot",
+    "B supported Cretaceous dinosaur visibly spawned",
+    "D Jurassic placement visibly spawned",
+    "E marine placement appears in water",
+    "freshwater placement appears in the river",
+    "F front-clearing tree visibly spawned",
+    "C incompatible dinosaur preview visible after five seconds, gone by nine, not saved",
+    "travel action changes to supported dinosaur date",
+    "environmental incompatibility produces labelled temporary model",
+    "K -600000000: temporary preview",
+    "K -505000000: temporary preview",
+    "K -200000000: temporary preview",
+    "K -150000000: temporary preview",
+    "K -100000000: temporary preview",
+    "K -66000000: temporary preview",
+    "K -10000000: temporary preview",
+    "K -1000000: temporary preview",
+    "K 2026: temporary preview",
+    "K 2050: persistent model",
+    "K 2100: persistent model"
+  ],
+  "errors": []
+}

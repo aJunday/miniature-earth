@@ -291,3 +291,14 @@
 - Later native measurement succeeded through the existing in-app browser (Apple M5 Metal), despite standalone Chromium Crashpad launch failure. Benchmark the unchanged dbb52e8 source in a temporary work/ copy with only opt-in measurement instrumentation; keep the final app and baseline caches separate.
 - Rendering budget uses shared instanced representatives, 512px static shadows, simpler Lambert ground shading, an 80-cell terrain grid and 56-cell ocean grid. No postprocessing composer is mounted. Default demo animal cohorts share a 40-representative budget; population totals remain unchanged.
 - Conservation browning/haze and vegetation thinning are exaggerated artistic mappings of habitat state, not measured ecosystem colours or atmospheric forecasts.
+
+## Custom placement repair
+- Reproduction found real render/state disagreement: a saved front-clearing oak rendered zero representatives; adding further deer groups left the visible species count at three. Historical showcase placement filters and per-species caps must not suppress authored custom groups.
+- Preserve historical automatic composition; custom groups retain a visible representative at their event anchor, with additional members spaced nearby. Existing simulation population totals remain authoritative.
+- Custom introductions use reviewed global temporal support and local habitat/environment checks; geographic introductions are hypothetical, not edits to historical regional evidence.
+- T. rex is not a playable asset in this catalogue. Test the requested modern out-of-time dinosaur flow with the existing Triceratops model rather than inventing a taxon or adding artwork to a placement repair.
+- Initial environmental rejection uses zero viability in the existing teaching model, not empirical tolerance claims; partial fitness remains eligible for the ordinary ecological simulation. Unknown tolerance fields are not fabricated.
+- Incompatible previews last eight wall-clock seconds (five visible, three fading), stay outside save/population/extinction data, and retain a labelled loading fallback if the GLB has not arrived.
+- Save Island exports the current autosaved project; Load Island validates local JSON before atomically replacing custom state. Reset keeps the original snapshot, and history remains independent.
+- Visual QA found an additional preview defect: converting a single GLB material to an array prevents ungrouped geometry from drawing. Preserve material shape when cloning and fading previews; regression-test this separately from HTML labels.
+- Custom catalogue starts with All organisms so incompatible-date introductions remain discoverable; historical catalogue retains its era filter. Mobile placement locks orbit until cancel to avoid touch gestures moving the camera.
