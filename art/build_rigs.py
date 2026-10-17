@@ -3,6 +3,7 @@ Existing joint meshes and vertex colours are preserved; Body/Head share a neck
 transition, and each appendage has a base and tip bone with graded skin weights.
 """
 import bpy, json, math
+from normalize_rigs import normalize
 from pathlib import Path
 from mathutils import Vector
 BASE=Path(__file__).resolve().parents[1]
@@ -75,6 +76,7 @@ for species in json.loads((BASE/'src/sim/data/species.json').read_text()):
     # Export NLA tracks requires unmuted strips; reset pose above preserves bind pose.
     for track in rig.animation_data.nla_tracks:track.mute=False
     bpy.ops.export_scene.gltf(filepath=str(out/f'org_{ident}.glb'),export_format='GLB',export_yup=True,export_animations=True,export_nla_strips=True,export_skins=True,export_morph=True,export_cameras=False,export_lights=False)
+    normalize(out/f'org_{ident}.glb')
     report.append({'id':ident,'bones':len(arm.bones),'skins':len(meshes),'actions':actions})
 (BASE/'art/reports/rigs.json').write_text(json.dumps(report,indent=2))
 print('RIGGED',len(report))

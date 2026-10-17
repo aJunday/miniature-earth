@@ -1,0 +1,19 @@
+{
+  "rigs": [
+    "org_deer.glb",
+    "org_redfox.glb",
+    "org_baldeagle.glb",
+    "org_reeffish.glb",
+    "org_rabbit.glb",
+    "org_seaturtle.glb",
+    "org_brachiosaurus.glb",
+    "org_allosaurus.glb",
+    "org_stegosaurus.glb"
+  ],
+  "errors": [],
+  "checks": [
+    "nearby skeleton assets load",
+    "animation changes rendered frames",
+    "LOD/era transitions remain error-free"
+  ]
+}

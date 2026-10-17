@@ -1961,7 +1961,7 @@
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
     "lastOccurrence": -2000,
-    "dateBasis": "Approximate last isolated mammoth populations, about 4,000 years ago",
+    "dateBasis": "Documented extinction or last known individual, as cited in the historical record; not a speciation date.",
     "habitat": "Cold open grassland",
     "habitatEvidence": "source-linked",
     "waterDomain": "terrestrial",
@@ -1990,6 +1990,11 @@
         "field": "last occurrence",
         "url": "https://www.nhm.ac.uk/discover/news/2024/july/woolly-mammoth-genome-rebuilt-from-freeze-dried-skin.html",
         "label": "Natural History Museum"
+      },
+      {
+        "field": "historical extinction record",
+        "url": "https://www.nhm.ac.uk/discover/last-mammoths.html",
+        "label": "Historical record source"
       }
     ],
     "checked": "2026-10-16",
@@ -2007,8 +2012,8 @@
     "taxonomicRank": "species",
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
-    "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "lastOccurrence": 1768,
+    "dateBasis": "Documented extinction or last known individual, as cited in the historical record; not a speciation date.",
     "habitat": "Marine",
     "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
@@ -2032,6 +2037,11 @@
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Hydrodamalis_gigas/",
         "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "historical extinction record",
+        "url": "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html",
+        "label": "Historical record source"
       }
     ],
     "checked": "2026-10-16",
@@ -2051,8 +2061,8 @@
     "taxonomicRank": "species",
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
-    "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "lastOccurrence": 1662,
+    "dateBasis": "Documented extinction or last known individual, as cited in the historical record; not a speciation date.",
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
@@ -2076,6 +2086,11 @@
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Raphus_cucullatus/",
         "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "historical extinction record",
+        "url": "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+        "label": "Historical record source"
       }
     ],
     "checked": "2026-10-16",
@@ -2095,8 +2110,8 @@
     "taxonomicRank": "species",
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
-    "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "lastOccurrence": 1914,
+    "dateBasis": "Documented extinction or last known individual, as cited in the historical record; not a speciation date.",
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
@@ -2120,6 +2135,11 @@
         "field": "feeding ecology",
         "url": "https://www.si.edu/spotlight/passenger-pigeon",
         "label": "Smithsonian"
+      },
+      {
+        "field": "historical extinction record",
+        "url": "https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html",
+        "label": "Historical record source"
       }
     ],
     "checked": "2026-10-16",
@@ -2139,8 +2159,8 @@
     "taxonomicRank": "species",
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
-    "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "lastOccurrence": 1936,
+    "dateBasis": "Documented extinction or last known individual, as cited in the historical record; not a speciation date.",
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
@@ -2164,6 +2184,11 @@
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/",
         "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "historical extinction record",
+        "url": "https://www.nhm.ac.uk/discover/remembering-tasmanian-tiger-thylacine.html",
+        "label": "Historical record source"
       }
     ],
     "checked": "2026-10-16",
@@ -2183,8 +2208,8 @@
     "taxonomicRank": "species",
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
-    "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "lastOccurrence": 2012,
+    "dateBasis": "Documented extinction or last known individual, as cited in the historical record; not a speciation date.",
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
@@ -2203,6 +2228,11 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Chelonoidis+abingdonii&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "historical extinction record",
+        "url": "https://www.galapagos.org/about_galapagos/lonesome-george/",
+        "label": "Historical record source"
       }
     ],
     "checked": "2026-10-16",

@@ -14,11 +14,11 @@
   ],
   "errors": [],
   "perf": {
-    "medianMs": 83.29999999999927,
-    "p95Ms": 83.40000000000146,
-    "calls": 36,
-    "triangles": 150274,
-    "geometries": 50,
-    "frameMs": 80.30000001192093
+    "medianMs": 133.39999999999782,
+    "p95Ms": 233.3000000000029,
+    "calls": 37,
+    "triangles": 153596,
+    "geometries": 60,
+    "frameMs": 158.30000001192093
   }
 }

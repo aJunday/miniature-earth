@@ -17,3 +17,7 @@ describe('one coupled ecosystem',()=>{
  it('does not resurrect extinct cohorts; all pools stay finite and bounded',()=>{const s=run([event('rabbit',0)],2100);expect(s.populations.rabbit).toBe(0);for(const value of Object.values(s.pools!)){expect(Number.isFinite(value)).toBe(true);expect(value).toBeGreaterThanOrEqual(0)}});
  it('vegetation is depleted by grazing and changes detritus/nutrients',()=>{const a=run(base,2027),b=run(base.filter(e=>e.speciesId!=='rabbit'),2027);expect(a.populations.grass).toBeLessThan(b.populations.grass);expect(a.pools).not.toEqual(b.pools)});
 });
+
+it('marine plant biomass is replenished by marine producers, separately from woodland browse',()=>{const e=envAt(2026,'Protect'),p=initialPools();const marine=cyclePools(p,e,100,0,0,{},100),land=cyclePools(p,e,100,0,0,{},0);expect(marine.marinePlants).toBeGreaterThan(land.marinePlants);expect(land.browse).toBeGreaterThan(marine.browse)});
+it('current interventions update climate without breeding or killing at the same date',()=>{const neutral=run(base,2026),cold=run(base,2026,-10);expect(cold.env.temp).toBe(neutral.env.temp-10);expect(cold.groups).toEqual(neutral.groups)});
+it('reef structure supports reef fish capacity',()=>{const fish={...event('reeffish',30),x:19,z:11},plants={...event('seagrass',60),x:18,z:12},coral={...event('elkhorncoral',12),x:19,z:13};expect(run([fish,plants,coral]).populations.reeffish).toBeGreaterThan(run([fish]).populations.reeffish)});

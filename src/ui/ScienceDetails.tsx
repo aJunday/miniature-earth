@@ -1,3 +1,4 @@
+import {guildFood} from '../sim/coupled';
 import {useGame} from '../state';
 import {yearToTick} from '../sim/timeline';
 import {historyRecord,eligibility} from '../sim/eligibility';
@@ -15,9 +16,10 @@ export function ScienceDetails({id,sim}:{id:string;sim:SimState}){
  <dt>Last occurrence</dt><dd>{m.lastOccurrence!==null?`≈ ${formatYear(m.lastOccurrence)}`:m.extinctionStatus==='extinct'?'Extinct; date not verified':'Living representatives'}</dd>
  <dt>Date evidence</dt><dd>{m.dateBasis}</dd>
  <dt>Habitat</dt><dd>{m.habitat} ({m.waterDomain}). {m.habitatEvidence}</dd>
+ <dt>Reviewed regions</dt><dd>{history?.regions.join(', ')||'Unresolved at this scope; the mosaic is illustrative'}</dd>
  <dt>Food</dt><dd>{m.food??m.foodEvidence}</dd>
  <dt>Measured tolerances</dt><dd>{m.measurementNote}</dd>
- <dt>In this simulation</dt><dd>Temperature: {m.temperature?.join('–')??'unrestricted'}°C. Food links: {m.resourceRequirements.join(', ')||'background resources'}. {m.oxygenRequirement}.</dd>
+ <dt>In this simulation</dt><dd>Temperature: {m.temperature?.join('–')??'unrestricted'}°C. Food links: {m.resourceRequirements.join(', ')||(guildFood[id]?'Finite '+guildFood[id]+' guild':'Light and nutrients')}. {m.oxygenRequirement}.</dd>
  {m.conservation&&<><dt>Conservation</dt><dd>{m.conservation.status}. {m.conservation.note}</dd></>}
  </dl>{m.notes.map(note=><p key={note}>{note}</p>)}{m.relationships.map(text=><p key={text}>{text}</p>)}
  {m.sources.map((source,i)=><a key={i} href={source.url} target="_blank" rel="noreferrer">{source.label} · {source.field} ↗</a>)}<small>Evidence reviewed {m.checked}. Unknown values are deliberately left unquantified.</small></details>

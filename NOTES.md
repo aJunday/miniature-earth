@@ -192,3 +192,6 @@
 - Original rabbit, deer, fox and mammoth cohorts are bounded to 160 explicitly modeled individuals; all population changes come from the same ecological solver and preserve individual inherited alleles during life.
 - Taxon metadata distinguishes a reviewed functional role from unresolved fossil feeding ecology. Broad native regions do not imply current local occupancy or natural co-occurrence in the mosaic.
 - A reviewed fossil snapshot can be visited directly from its evidence panel. The separate numeric year field uses BCE conventions (1 BCE is astronomical year 0).
+- Coral energy combines a sunlight-supported symbiosis proxy and finite plankton; reef-fish capacity responds to reef/seagrass support. Marine plant biomass is separate from terrestrial browse.
+- Background microbial recycling is always present in a living patch; the visible fungal guild strengthens recycling. Decomposition consumes aquatic oxygen in this normalized teaching model.
+- Final overview geometry uses a 96-cell terrain grid and cheaper distant foliage; close foliage keeps its original resolution. This preserves the art while reducing the measured overview triangle count.
