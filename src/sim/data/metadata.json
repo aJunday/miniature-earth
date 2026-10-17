@@ -11,7 +11,7 @@
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "marine",
     "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "foodEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims.",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -21,7 +21,14 @@
       "Ecological group or microbial community; not a single taxonomic species."
     ],
     "sources": [],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "explicit uncertainty"
+    }
   },
   "charnia": {
     "commonName": "Charnia",
@@ -30,12 +37,12 @@
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
     "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "dateBasis": "Fossil-bearing Charnwood strata, not genus origin/end",
     "habitat": "Marine",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "marine",
     "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "foodEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims.",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -50,9 +57,27 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Charnia&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://earthwise.bgs.ac.uk/index.php/OR/10/041_Guide_to_the_geology_of_Bradgate_Park_and_Swithland_Wood%2C_Charnwood_Forest",
+        "label": "Museum, geological survey or university evidence"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "coverage": [
+      -566000000.0,
+      -560000000.0
+    ],
+    "regions": [
+      "Europe"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "explicit uncertainty"
+    }
   },
   "dickinsonia": {
     "commonName": "Dickinsonia",
@@ -61,12 +86,12 @@
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
     "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "dateBasis": "Dated White Sea occurrence; a snapshot, not a total range",
     "habitat": "Marine",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "marine",
     "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "foodEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims.",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -81,9 +106,27 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Dickinsonia&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://science.anu.edu.au/news-events/news/fat-558-million-years-ago-reveals-earliest-known-animal",
+        "label": "Museum, geological survey or university evidence"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "coverage": [
+      -558000000.0,
+      -558000000.0
+    ],
+    "regions": [
+      "Europe"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "explicit uncertainty"
+    }
   },
   "fern": {
     "commonName": "Fern",
@@ -96,8 +139,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -111,9 +154,21 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Polypodiopsida&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "photosynthetic functional role",
+        "label": "Royal Botanic Gardens, Kew",
+        "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "cycad": {
     "commonName": "Cycad",
@@ -126,8 +181,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -141,9 +196,21 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Cycadales&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "photosynthetic functional role",
+        "label": "Royal Botanic Gardens, Kew",
+        "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "conifer": {
     "commonName": "Conifer woodland proxy",
@@ -156,8 +223,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -168,8 +235,21 @@
       "Araucaria is the chosen representative, not a name for all conifers.",
       "Historical trees are broad conifer proxies, not modern Araucaria species."
     ],
-    "sources": [],
-    "checked": "2026-10-16"
+    "sources": [
+      {
+        "field": "photosynthetic functional role",
+        "label": "Royal Botanic Gardens, Kew",
+        "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      }
+    ],
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "stegosaurus": {
     "commonName": "Stegosaurus",
@@ -204,7 +284,14 @@
         "label": "Natural History Museum"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "brachiosaurus": {
     "commonName": "Brachiosaurus",
@@ -239,7 +326,14 @@
         "label": "Natural History Museum"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "allosaurus": {
     "commonName": "Allosaurus",
@@ -274,7 +368,14 @@
         "label": "Natural History Museum"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "grass": {
     "commonName": "Grass",
@@ -287,8 +388,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -302,9 +403,21 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Poaceae&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "photosynthetic functional role",
+        "label": "Royal Botanic Gardens, Kew",
+        "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "oak": {
     "commonName": "Oak",
@@ -317,8 +430,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -332,9 +445,21 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Quercus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "photosynthetic functional role",
+        "label": "Royal Botanic Gardens, Kew",
+        "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "wildflower": {
     "commonName": "Wildflower",
@@ -347,8 +472,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -357,8 +482,26 @@
     "notes": [
       "Ecological group or microbial community; not a single taxonomic species."
     ],
-    "sources": [],
-    "checked": "2026-10-16"
+    "sources": [
+      {
+        "field": "broad flowering plant scope",
+        "url": "https://www.kew.org/read-and-watch/south-east-asia-early-flowering-plant",
+        "label": "Royal Botanic Gardens, Kew"
+      },
+      {
+        "field": "photosynthetic functional role",
+        "label": "Royal Botanic Gardens, Kew",
+        "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      }
+    ],
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "seagrass": {
     "commonName": "Seagrass",
@@ -371,8 +514,8 @@
     "habitat": "Marine",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -381,8 +524,21 @@
     "notes": [
       "Ecological group or microbial community; not a single taxonomic species."
     ],
-    "sources": [],
-    "checked": "2026-10-16"
+    "sources": [
+      {
+        "field": "marine flowering plant habitat",
+        "label": "NOAA Fisheries",
+        "url": "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/seagrass-west-coast"
+      }
+    ],
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "rabbit": {
     "commonName": "Rabbit",
@@ -393,10 +549,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Grasses, leaves and other plant material",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -408,9 +564,24 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Oryctolagus+cuniculus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Europe",
+      "Africa"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "deer": {
     "commonName": "Deer",
@@ -423,8 +594,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Plant material; exact browse and grazing preferences vary among deer species",
+    "foodEvidence": "Family-level herbivore representation, not one species diet",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -440,7 +611,14 @@
         "label": "GBIF taxonomic backbone"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "redfox": {
     "commonName": "Red fox",
@@ -451,10 +629,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Small mammals, invertebrates, fruit and carrion",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -466,9 +644,26 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Vulpes+vulpes&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Europe",
+      "Asia",
+      "North America",
+      "Africa"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "honeybee": {
     "commonName": "Honeybee",
@@ -479,10 +674,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Flower nectar and pollen",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -494,9 +689,25 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Apis+mellifera&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Apis_mellifera/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "seaturtle": {
     "commonName": "Hawksbill turtle",
@@ -507,18 +718,16 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Tropical and subtropical marine reefs",
-    "habitatEvidence": "source-linked",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": "Omnivorous; sponges are a preferred food",
-    "foodEvidence": "source-linked",
+    "food": "Primarily sponges, plus other reef animals and algae",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [
-      "The game food-web link to seagrass simplifies habitat support; hawksbills are not seagrass specialists."
-    ],
+    "notes": [],
     "sources": [
       {
         "field": "taxonomy",
@@ -529,9 +738,25 @@
         "field": "habitat and resources",
         "url": "https://www.fisheries.noaa.gov/species/hawksbill-turtle",
         "label": "NOAA Fisheries"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Eretmochelys_imbricata/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "amurleopard": {
     "commonName": "Amur leopard",
@@ -542,26 +767,41 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Vertebrate prey; deer and other mammals",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a subspecies; dates and biology must not be read as those of one species."
+      "Represents a subspecies; dates and biology must not be read as those of one species.",
+      "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
     ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Panthera+pardus+orientalis&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Panthera_pardus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "sumatranorangutan": {
     "commonName": "Sumatran orangutan",
@@ -572,24 +812,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mostly fruit, with leaves, bark and some insects",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Pongo+abelii&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Pongo_abelii/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "vaquita": {
     "commonName": "Vaquita",
@@ -600,10 +856,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Fish and squid",
+    "foodEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -615,9 +871,23 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Phocoena+sinus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Phocoena_sinus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Mexico"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "kakapo": {
     "commonName": "Kakapo",
@@ -628,24 +898,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Plant foods including fruit, seeds, shoots and leaves",
+    "foodEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Strigops+habroptila&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Strigops_habroptila/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "New Zealand"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "axolotl": {
     "commonName": "Axolotl",
@@ -656,10 +942,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Freshwater; remnant lakes and canals in Mexico",
-    "habitatEvidence": "source-linked",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "freshwater",
-    "food": "Carnivorous",
-    "foodEvidence": "source-linked",
+    "food": "Aquatic invertebrates and small vertebrates",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -678,9 +964,23 @@
         "field": "habitat and resources",
         "url": "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html",
         "label": "Natural History Museum"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Mexico"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "sumatranrhino": {
     "commonName": "Sumatran rhino",
@@ -691,24 +991,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Leaves, twigs and low vegetation",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Dicerorhinus+sumatrensis&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Dicerorhinus_sumatrensis/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "rightwhale": {
     "commonName": "North Atlantic right whale",
@@ -719,10 +1035,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Zooplankton, especially copepods",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -741,9 +1057,23 @@
         "field": "evolutionary relationship",
         "url": "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
         "label": "Smithsonian"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Eubalaena_glacialis/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Atlantic Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "pangolin": {
     "commonName": "Sunda pangolin",
@@ -754,10 +1084,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Ants and termites",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -771,9 +1101,23 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Manis+javanica&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Manis_javanica/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "philippineeagle": {
     "commonName": "Philippine eagle",
@@ -784,24 +1128,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mammals, birds and reptiles",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Pithecophaga+jefferyi&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Pithecophaga_jefferyi/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "condor": {
     "commonName": "California condor",
@@ -812,10 +1172,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Carrion",
+    "foodEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -827,9 +1187,23 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Gymnogyps+californianus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Gymnogyps_californianus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "forestelephant": {
     "commonName": "African forest elephant",
@@ -840,24 +1214,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Fruit, leaves, bark and twigs",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Loxodonta+cyclotis&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Loxodonta_cyclotis/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Africa"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "elkhorncoral": {
     "commonName": "Elkhorn coral",
@@ -868,10 +1258,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Energy from symbiotic algae plus captured particles and plankton",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -883,9 +1273,23 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Acropora+palmata&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Acropora_palmata/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Atlantic Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "tiger": {
     "commonName": "Tiger",
@@ -896,24 +1300,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mostly ungulates, with smaller vertebrate prey",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Panthera+tigris&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Panthera_tigris/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "redpanda": {
     "commonName": "Red panda",
@@ -924,24 +1344,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mostly bamboo leaves, with other plant and occasional animal foods",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Ailurus+fulgens&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Ailurus_fulgens/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "bluewhale": {
     "commonName": "Blue whale",
@@ -952,10 +1388,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Primarily krill",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -974,9 +1410,25 @@
         "field": "evolutionary relationship",
         "url": "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
         "label": "Smithsonian"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Balaenoptera_musculus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "mountaingorilla": {
     "commonName": "Mountain gorilla",
@@ -987,26 +1439,41 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mostly leaves, stems and other vegetation",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a subspecies; dates and biology must not be read as those of one species."
+      "Represents a subspecies; dates and biology must not be read as those of one species.",
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
     ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Gorilla+beringei+beringei&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Gorilla_beringei/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Africa"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "asianelephant": {
     "commonName": "Asian elephant",
@@ -1017,24 +1484,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Grasses, leaves, fruit and bark",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Elephas+maximus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Elephas_maximus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "whaleshark": {
     "commonName": "Whale shark",
@@ -1045,10 +1528,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Plankton and small swimming animals",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1060,9 +1543,25 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Rhincodon+typus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Rhincodon_typus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "seaotter": {
     "commonName": "Sea otter",
@@ -1073,10 +1572,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Marine invertebrates and some fish",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1088,9 +1587,25 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Enhydra+lutris&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Enhydra_lutris/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "North America",
+      "Asia",
+      "Pacific Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "ringtailedlemur": {
     "commonName": "Ring-tailed lemur",
@@ -1101,24 +1616,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Fruit and other plants, with opportunistic animal foods",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Lemur+catta&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Lemur_catta/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Madagascar"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "wilddog": {
     "commonName": "African wild dog",
@@ -1129,24 +1660,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Primarily ungulate prey, with smaller mammals also taken",
+    "foodEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Lycaon+pictus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Lycaon_pictus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Africa"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "giantpanda": {
     "commonName": "Giant panda",
@@ -1157,24 +1704,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Primarily bamboo",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Ailuropoda+melanoleuca&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Ailuropoda_melanoleuca/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "snowleopard": {
     "commonName": "Snow leopard",
@@ -1187,22 +1750,36 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mountain ungulates and smaller vertebrates",
+    "foodEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Panthera+uncia&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "feeding ecology",
+        "label": "University of Michigan \u00b7 Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Uncia_uncia/"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "polarbear": {
     "commonName": "Polar bear",
@@ -1213,10 +1790,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Primarily seals, plus other animal foods and carrion",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1228,9 +1805,23 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Ursus+maritimus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Ursus_maritimus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Arctic"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "koala": {
     "commonName": "Koala",
@@ -1241,24 +1832,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Primarily selected eucalypt leaves",
+    "foodEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Phascolarctos+cinereus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Phascolarctos_cinereus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Australia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "cheetah": {
     "commonName": "Cheetah",
@@ -1269,24 +1876,41 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mostly small and medium ungulates",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Acinonyx+jubatus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Acinonyx_jubatus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Africa",
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "emperorpenguin": {
     "commonName": "Emperor penguin",
@@ -1297,10 +1921,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Fish, krill and squid",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1312,9 +1936,23 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Aptenodytes+forsteri&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Antarctica"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "mammoth": {
     "commonName": "Woolly mammoth",
@@ -1334,7 +1972,9 @@
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
@@ -1352,7 +1992,14 @@
         "label": "Natural History Museum"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "stellerseacow": {
     "commonName": "Steller's sea cow",
@@ -1363,24 +2010,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mostly kelp and other algae; historical accounts are incomplete",
+    "foodEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Hydrodamalis+gigas&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Hydrodamalis_gigas/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Pacific Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "dodo": {
     "commonName": "Dodo",
@@ -1391,24 +2054,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
     "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "foodEvidence": "Diet remains uncertain: historical descriptions are incomplete and partly contradictory. Browse is a game assumption, not a verified diet.",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Raphus+cucullatus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Raphus_cucullatus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Mauritius"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "explicit uncertainty"
+    }
   },
   "passengerpigeon": {
     "commonName": "Passenger pigeon",
@@ -1421,22 +2100,38 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Forest nuts, seeds and berries",
+    "foodEvidence": "Smithsonian",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Ectopistes+migratorius&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "feeding ecology",
+        "url": "https://www.si.edu/spotlight/passenger-pigeon",
+        "label": "Smithsonian"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "thylacine": {
     "commonName": "Thylacine (Tasmanian tiger)",
@@ -1447,24 +2142,40 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Vertebrate prey; dietary reconstructions remain uncertain",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+    ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Thylacinus+cynocephalus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Australia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "pintatortoise": {
     "commonName": "Pinta Island tortoise (Lonesome George)",
@@ -1478,13 +2189,15 @@
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
     "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "foodEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims.",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+    ],
     "sources": [
       {
         "field": "taxonomy",
@@ -1492,7 +2205,16 @@
         "label": "GBIF taxonomic backbone"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Gal\u00e1pagos"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "explicit uncertainty"
+    }
   },
   "humpback": {
     "commonName": "Humpback whale",
@@ -1503,10 +2225,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Krill and schooling fish",
+    "foodEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1525,9 +2247,24 @@
         "field": "evolutionary relationship",
         "url": "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
         "label": "Smithsonian"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Megaptera_novaeangliae/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Atlantic Ocean",
+      "Pacific Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "baldeagle": {
     "commonName": "Bald eagle",
@@ -1538,10 +2275,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Terrestrial",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Primarily fish, also birds, mammals and carrion",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1553,9 +2290,24 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Haliaeetus+leucocephalus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "North America",
+      "Mexico"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "reeffish": {
     "commonName": "Reef fish",
@@ -1566,10 +2318,10 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Shallow tropical marine reefs; associated with anemones",
-    "habitatEvidence": "source-linked",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
     "waterDomain": "marine",
-    "food": "Algae and small invertebrates",
-    "foodEvidence": "source-linked",
+    "food": "Planktonic animals and algae",
+    "foodEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1588,9 +2340,25 @@
         "field": "habitat and resources",
         "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
         "label": "Florida Museum"
+      },
+      {
+        "field": "range and feeding ecology",
+        "url": "https://animaldiversity.org/accounts/Amphiprion_ocellaris/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [
+      "Asia",
+      "Australia",
+      "Pacific Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "trilobite": {
     "commonName": "Trilobite",
@@ -1630,7 +2398,14 @@
         "label": "Natural History Museum"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "arthropleura": {
     "commonName": "Arthropleura",
@@ -1665,21 +2440,28 @@
         "label": "Natural History Museum"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "anomalocaris": {
     "commonName": "Anomalocaris",
-    "scientificName": "Anomalocaris Whiteaves, 1892",
-    "taxonomicRank": "genus",
+    "scientificName": "Anomalocaris canadensis",
+    "taxonomicRank": "species",
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
     "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "dateBasis": "Burgess Shale occurrence; genus silhouette represents A. canadensis",
     "habitat": "Marine",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "marine",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Mobile marine predator; the exact prey spectrum remains under study",
+    "foodEvidence": "Royal Ontario Museum functional reconstruction",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1698,9 +2480,27 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Anomalocaris&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+        "label": "Museum, geological survey or university evidence"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "coverage": [
+      -505000000.0,
+      -505000000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "ammonite": {
     "commonName": "Ammonoid",
@@ -1714,7 +2514,7 @@
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "marine",
     "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "foodEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims.",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1730,7 +2530,14 @@
         "label": "Museum / public scientific reference"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "explicit uncertainty"
+    }
   },
   "dimetrodon": {
     "commonName": "Dimetrodon",
@@ -1739,12 +2546,12 @@
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
     "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "dateBasis": "Texas occurrence at approximately 275 Ma, not the full genus range",
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Vertebrate predator; game prey guild is a simplified reconstruction",
+    "foodEvidence": "Harvard Museum of Natural History",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1763,9 +2570,32 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Dimetrodon&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "dated occurrence / display coverage",
+        "label": "University of Texas Science & Natural History Museum",
+        "url": "https://sciencemuseum.utexas.edu/exhibit/paleontology-gallery/"
+      },
+      {
+        "field": "feeding ecology",
+        "label": "Harvard Museum of Natural History",
+        "url": "https://whatsinaname.hmnh.harvard.edu/dimetrodon"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "coverage": [
+      -275000000.0,
+      -275000000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "triceratops": {
     "commonName": "Triceratops",
@@ -1778,8 +2608,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Herbivory, probably including low-growing plants",
+    "foodEvidence": "Natural History Museum",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1798,18 +2628,30 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Triceratops&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "feeding ecology",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+        "label": "Natural History Museum"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "pteranodon": {
     "commonName": "Pteranodon",
-    "scientificName": null,
-    "taxonomicRank": "ecological group",
+    "scientificName": "Pteranodon longiceps",
+    "taxonomicRank": "species",
     "taxonomicStatus": null,
     "firstAppearance": null,
     "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "dateBasis": "Kansas occurrence; approximately dated snapshot",
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
@@ -1833,9 +2675,27 @@
         "field": "Late Cretaceous context",
         "url": "https://www.si.edu/object/nmnhpaleobiology_3447928",
         "label": "Smithsonian specimen record"
+      },
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps",
+        "label": "Museum, geological survey or university evidence"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "coverage": [
+      -85000000.0,
+      -85000000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   },
   "groundsloth": {
     "commonName": "Giant ground sloth",
@@ -1848,15 +2708,16 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Plant-based feeding represented at broad-group level; diets varied among extinct sloth species",
+    "foodEvidence": "Natural History Museum",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
     ],
     "sources": [
       {
@@ -1868,9 +2729,21 @@
         "field": "Neogene context",
         "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/sites/mixsons-bone-bed/",
         "label": "Florida Museum \u00b7 Mixson\u2019s Bone Bed"
+      },
+      {
+        "field": "feeding ecology",
+        "url": "https://www.nhm.ac.uk/our-science/services/collections/digital/programme/darwins-ground-sloths.html",
+        "label": "Natural History Museum"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "lycophyte": {
     "commonName": "Tree lycophyte",
@@ -1883,8 +2756,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1898,9 +2771,21 @@
         "field": "historical context",
         "url": "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
         "label": "Museum / public scientific reference"
+      },
+      {
+        "field": "photosynthetic functional role",
+        "label": "Royal Botanic Gardens, Kew",
+        "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "horsetail": {
     "commonName": "Ancient horsetail",
@@ -1913,8 +2798,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Photosynthetic producer; light, water and mineral nutrients support growth",
+    "foodEvidence": "Plant functional role; model uptake rates are teaching parameters",
     "extinctionStatus": "living representatives",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1928,9 +2813,21 @@
         "field": "historical context",
         "url": "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
         "label": "Museum / public scientific reference"
+      },
+      {
+        "field": "photosynthetic functional role",
+        "label": "Royal Botanic Gardens, Kew",
+        "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   },
   "decomposer": {
     "commonName": "Woodland decomposer fungi",
@@ -1961,6 +2858,13 @@
         "label": "Royal Botanic Gardens, Kew"
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "regions": [],
+    "coverageReview": {
+      "taxonomy": "explicit broad group",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
   }
 }

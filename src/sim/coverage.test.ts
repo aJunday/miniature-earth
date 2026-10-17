@@ -1,0 +1,7 @@
+import {it,expect} from 'vitest';
+import {species} from './simulation';
+import {historyRecord,eligibility} from './eligibility';
+import {metadata} from './catalogue';
+it('all 65 catalogue entries have traceable taxonomy, date, habitat, feeding and uncertainty coverage',()=>{expect(species).toHaveLength(65);for(const s of species){const m=metadata(s),h=historyRecord(s.id)!;expect(h,s.id).toBeDefined();expect(h.sources.length,s.id).toBeGreaterThan(0);expect(m.coverageReview).toBeDefined();expect(m.food||m.foodEvidence,s.id).toBeTruthy();expect(m.habitat,s.id).toBeTruthy();const year=h.coverage?.[0]??h.first??(h.living?2026:null);expect(year,s.id).not.toBeNull();expect(eligibility(s.id,year!).allowed,s.id).toBe(true)}});
+it('fossil snapshots do not become fabricated full ranges',()=>{for(const [id,year] of [['anomalocaris',-505e6],['dickinsonia',-558e6],['pteranodon',-85e6],['dimetrodon',-275e6]] as const){expect(eligibility(id,year).allowed,id).toBe(true);expect(eligibility(id,2026).allowed,id).toBe(false);expect(historyRecord(id)!.first).toBeNull()}});
+it('regions use reviewed native-range evidence rather than a universal geography',()=>{expect(eligibility('tiger',2026,undefined,'Asia').allowed).toBe(true);expect(eligibility('tiger',2026,undefined,'Europe').allowed).toBe(false);expect(eligibility('kakapo',2026,undefined,'New Zealand').allowed).toBe(true);expect(eligibility('reeffish',2026,undefined,'Atlantic Ocean').allowed).toBe(false)});

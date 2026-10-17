@@ -27,7 +27,7 @@
     "name": "Charnia",
     "era": "Precambrian",
     "zone": "sea",
-    "diet": "producer",
+    "diet": "filter feeder",
     "eats": [],
     "temp": [
       12.0,
@@ -43,7 +43,8 @@
     "m": 0,
     "fact": "A frond-shaped Ediacaran organism that stood anchored to the sea floor.",
     "habitatSensitivity": 0,
-    "threats": []
+    "threats": [],
+    "selfSufficient": false
   },
   {
     "id": "dickinsonia",
@@ -399,7 +400,7 @@
     "name": "Red fox",
     "era": "Present",
     "zone": "land",
-    "diet": "carnivore",
+    "diet": "omnivore",
     "eats": [
       "rabbit"
     ],
@@ -455,10 +456,8 @@
     "name": "Hawksbill turtle",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
-    "eats": [
-      "seagrass"
-    ],
+    "diet": "omnivore",
+    "eats": [],
     "temp": [
       18.0,
       32.0
@@ -486,8 +485,11 @@
     "name": "Amur leopard",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
-    "eats": [],
+    "diet": "carnivore",
+    "eats": [
+      "deer",
+      "rabbit"
+    ],
     "temp": [
       0,
       35
@@ -509,7 +511,7 @@
     "size": 1.0,
     "template": "bigcat",
     "group": "Critically Endangered",
-    "selfSufficient": true
+    "selfSufficient": false
   },
   {
     "id": "sumatranorangutan",
@@ -546,7 +548,7 @@
     "name": "Vaquita",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -605,7 +607,7 @@
     "name": "Axolotl",
     "era": "Present",
     "zone": "freshwater",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -665,7 +667,7 @@
     "name": "North Atlantic right whale",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -695,7 +697,7 @@
     "name": "Sunda pangolin",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -725,8 +727,11 @@
     "name": "Philippine eagle",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
-    "eats": [],
+    "diet": "carnivore",
+    "eats": [
+      "deer",
+      "rabbit"
+    ],
     "temp": [
       0,
       35
@@ -747,14 +752,14 @@
     "size": 0.9,
     "template": "bird",
     "group": "Critically Endangered",
-    "selfSufficient": true
+    "selfSufficient": false
   },
   {
     "id": "condor",
     "name": "California condor",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -813,7 +818,7 @@
     "name": "Elkhorn coral",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
+    "diet": "mixotroph",
     "eats": [],
     "temp": [
       0,
@@ -844,8 +849,11 @@
     "name": "Tiger",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
-    "eats": [],
+    "diet": "carnivore",
+    "eats": [
+      "deer",
+      "rabbit"
+    ],
     "temp": [
       0,
       35
@@ -867,7 +875,7 @@
     "size": 1.3,
     "template": "bigcat",
     "group": "Endangered",
-    "selfSufficient": true
+    "selfSufficient": false
   },
   {
     "id": "redpanda",
@@ -904,7 +912,7 @@
     "name": "Blue whale",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -994,7 +1002,7 @@
     "name": "Whale shark",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -1024,7 +1032,7 @@
     "name": "Sea otter",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -1054,7 +1062,7 @@
     "name": "Ring-tailed lemur",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
+    "diet": "omnivore",
     "eats": [],
     "temp": [
       0,
@@ -1084,8 +1092,11 @@
     "name": "African wild dog",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
-    "eats": [],
+    "diet": "carnivore",
+    "eats": [
+      "deer",
+      "rabbit"
+    ],
     "temp": [
       0,
       35
@@ -1107,7 +1118,7 @@
     "size": 0.9,
     "template": "canid",
     "group": "Endangered",
-    "selfSufficient": true
+    "selfSufficient": false
   },
   {
     "id": "giantpanda",
@@ -1144,8 +1155,11 @@
     "name": "Snow leopard",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
-    "eats": [],
+    "diet": "carnivore",
+    "eats": [
+      "deer",
+      "rabbit"
+    ],
     "temp": [
       0,
       35
@@ -1167,14 +1181,14 @@
     "size": 1.1,
     "template": "bigcat",
     "group": "Vulnerable",
-    "selfSufficient": true
+    "selfSufficient": false
   },
   {
     "id": "polarbear",
     "name": "Polar bear",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -1234,8 +1248,11 @@
     "name": "Cheetah",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
-    "eats": [],
+    "diet": "carnivore",
+    "eats": [
+      "deer",
+      "rabbit"
+    ],
     "temp": [
       0,
       35
@@ -1257,14 +1274,14 @@
     "size": 1.1,
     "template": "bigcat",
     "group": "Vulnerable",
-    "selfSufficient": true
+    "selfSufficient": false
   },
   {
     "id": "emperorpenguin",
     "name": "Emperor penguin",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -1401,8 +1418,11 @@
     "name": "Thylacine (Tasmanian tiger)",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
-    "eats": [],
+    "diet": "carnivore",
+    "eats": [
+      "deer",
+      "rabbit"
+    ],
     "temp": [
       0,
       35
@@ -1421,7 +1441,7 @@
     "size": 1.0,
     "template": "canid",
     "group": "Lost",
-    "selfSufficient": true
+    "selfSufficient": false
   },
   {
     "id": "pintatortoise",
@@ -1455,7 +1475,7 @@
     "name": "Humpback whale",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -1485,7 +1505,7 @@
     "name": "Bald eagle",
     "era": "Present",
     "zone": "land",
-    "diet": "herbivore",
+    "diet": "carnivore",
     "eats": [],
     "temp": [
       0,
@@ -1514,10 +1534,8 @@
     "name": "Reef fish",
     "era": "Present",
     "zone": "sea",
-    "diet": "herbivore",
-    "eats": [
-      "seagrass"
-    ],
+    "diet": "omnivore",
+    "eats": [],
     "temp": [
       14,
       32
@@ -1807,7 +1825,7 @@
     "tier": 2,
     "r": 0.06,
     "K": 80,
-    "need": 0,
+    "need": 0.08,
     "m": 0.04,
     "fact": "Saprotrophic fungi break down dead organic matter and return nutrients to soil.",
     "habitatSensitivity": 0.5,

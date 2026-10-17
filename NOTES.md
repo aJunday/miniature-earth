@@ -189,3 +189,6 @@
 - Resource pools are finite teaching biomass units, not measured species abundances. Unmodeled prey and specialist browse are labeled guild proxies, not claims about the displayed plant species or geographic co-occurrence.
 - Known dated fossil occurrences may be single-date snapshots; do not turn a rounded fossil age into an invented total species range or confidence interval.
 - Existing historical-reconstruction tests now call historicalState; ecological tests no longer assume a population survives millions of years without finite food/nutrient turnover.
+- Original rabbit, deer, fox and mammoth cohorts are bounded to 160 explicitly modeled individuals; all population changes come from the same ecological solver and preserve individual inherited alleles during life.
+- Taxon metadata distinguishes a reviewed functional role from unresolved fossil feeding ecology. Broad native regions do not imply current local occupancy or natural co-occurrence in the mosaic.
+- A reviewed fossil snapshot can be visited directly from its evidence panel. The separate numeric year field uses BCE conventions (1 BCE is astronomical year 0).

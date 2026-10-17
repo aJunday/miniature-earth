@@ -1,0 +1,202 @@
+{
+  "rabbit": {
+    "url": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "redfox": {
+    "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "honeybee": {
+    "url": "https://animaldiversity.org/accounts/Apis_mellifera/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "seaturtle": {
+    "url": "https://animaldiversity.org/accounts/Eretmochelys_imbricata/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "amurleopard": {
+    "url": "https://animaldiversity.org/accounts/Panthera_pardus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "sumatranorangutan": {
+    "url": "https://animaldiversity.org/accounts/Pongo_abelii/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "vaquita": {
+    "url": "https://animaldiversity.org/accounts/Phocoena_sinus/",
+    "rangeReviewed": true,
+    "foodReviewed": false
+  },
+  "kakapo": {
+    "url": "https://animaldiversity.org/accounts/Strigops_habroptila/",
+    "rangeReviewed": true,
+    "foodReviewed": false
+  },
+  "axolotl": {
+    "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "sumatranrhino": {
+    "url": "https://animaldiversity.org/accounts/Dicerorhinus_sumatrensis/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "rightwhale": {
+    "url": "https://animaldiversity.org/accounts/Eubalaena_glacialis/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "pangolin": {
+    "url": "https://animaldiversity.org/accounts/Manis_javanica/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "philippineeagle": {
+    "url": "https://animaldiversity.org/accounts/Pithecophaga_jefferyi/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "condor": {
+    "url": "https://animaldiversity.org/accounts/Gymnogyps_californianus/",
+    "rangeReviewed": true,
+    "foodReviewed": false
+  },
+  "forestelephant": {
+    "url": "https://animaldiversity.org/accounts/Loxodonta_cyclotis/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "elkhorncoral": {
+    "url": "https://animaldiversity.org/accounts/Acropora_palmata/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "tiger": {
+    "url": "https://animaldiversity.org/accounts/Panthera_tigris/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "redpanda": {
+    "url": "https://animaldiversity.org/accounts/Ailurus_fulgens/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "bluewhale": {
+    "url": "https://animaldiversity.org/accounts/Balaenoptera_musculus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "mountaingorilla": {
+    "url": "https://animaldiversity.org/accounts/Gorilla_beringei/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "asianelephant": {
+    "url": "https://animaldiversity.org/accounts/Elephas_maximus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "whaleshark": {
+    "url": "https://animaldiversity.org/accounts/Rhincodon_typus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "seaotter": {
+    "url": "https://animaldiversity.org/accounts/Enhydra_lutris/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "ringtailedlemur": {
+    "url": "https://animaldiversity.org/accounts/Lemur_catta/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "wilddog": {
+    "url": "https://animaldiversity.org/accounts/Lycaon_pictus/",
+    "rangeReviewed": true,
+    "foodReviewed": false
+  },
+  "giantpanda": {
+    "url": "https://animaldiversity.org/accounts/Ailuropoda_melanoleuca/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "snowleopard": {
+    "url": "https://animaldiversity.org/accounts/Panthera_uncia/",
+    "rangeReviewed": false,
+    "foodReviewed": false
+  },
+  "polarbear": {
+    "url": "https://animaldiversity.org/accounts/Ursus_maritimus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "koala": {
+    "url": "https://animaldiversity.org/accounts/Phascolarctos_cinereus/",
+    "rangeReviewed": true,
+    "foodReviewed": false
+  },
+  "cheetah": {
+    "url": "https://animaldiversity.org/accounts/Acinonyx_jubatus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "emperorpenguin": {
+    "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "mammoth": {
+    "url": "https://animaldiversity.org/accounts/Mammuthus_primigenius/",
+    "rangeReviewed": false,
+    "foodReviewed": false
+  },
+  "stellerseacow": {
+    "url": "https://animaldiversity.org/accounts/Hydrodamalis_gigas/",
+    "rangeReviewed": true,
+    "foodReviewed": false
+  },
+  "dodo": {
+    "url": "https://animaldiversity.org/accounts/Raphus_cucullatus/",
+    "rangeReviewed": true,
+    "foodReviewed": false
+  },
+  "passengerpigeon": {
+    "url": "https://animaldiversity.org/accounts/Ectopistes_migratorius/",
+    "rangeReviewed": false,
+    "foodReviewed": false
+  },
+  "thylacine": {
+    "url": "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "pintatortoise": {
+    "url": "https://animaldiversity.org/accounts/Chelonoidis_abingdonii/",
+    "rangeReviewed": false,
+    "foodReviewed": false
+  },
+  "humpback": {
+    "url": "https://animaldiversity.org/accounts/Megaptera_novaeangliae/",
+    "rangeReviewed": true,
+    "foodReviewed": false
+  },
+  "baldeagle": {
+    "url": "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  },
+  "reeffish": {
+    "url": "https://animaldiversity.org/accounts/Amphiprion_ocellaris/",
+    "rangeReviewed": true,
+    "foodReviewed": true
+  }
+}
