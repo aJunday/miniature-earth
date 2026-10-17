@@ -1128,5 +1128,17 @@
       "Root",
       "Foliage"
     ]
+  },
+  {
+    "id": "decomposer",
+    "file": "/models/org_decomposer.glb",
+    "icon": "/icons/org_decomposer.png",
+    "heightUnits": 0.3,
+    "triangles": 1260,
+    "parts": [
+      "Root",
+      "Trunk",
+      "Foliage"
+    ]
   }
 ]

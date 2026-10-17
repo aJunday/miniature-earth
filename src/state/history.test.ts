@@ -3,14 +3,14 @@ import {residentPlacements} from './residents';
 import {createWorld,byId} from '../sim/simulation';
 import {yearToTick} from '../sim/timeline';
 import {eras} from '../world/eras';
-import {habitatAt} from '../world';
+import {habitatAt,waterHabitatAt} from '../world';
 it('historical scenes have suitable residents without duplicate replay groups',()=>{
  const w=createWorld();w.setPlacements(residentPlacements(true));
  for(const era of eras){const state=w.getStateAt(yearToTick(era.snap));const alive=state.groups?.filter(g=>g.population>=2)??[];
  const expected:Record<string,string>={archean:'stromatolite',ediacaran:'dickinsonia',cambrian:'anomalocaris',carboniferous:'arthropleura',permian:'dimetrodon',triassic:'ammonite',jurassic:'stegosaurus',cretaceous:'triceratops',cenozoic:'groundsloth',pleistocene:'mammoth',present:'deer',future:'deer'};if(expected[era.id])expect(alive.map(g=>g.speciesId),era.id).toContain(expected[era.id]);
  if(!['hadean'].includes(era.id))expect(alive.length,era.id).toBeGreaterThan(0);
  expect(new Set(state.groups?.map(g=>g.id)).size).toBe(state.groups?.length);
- for(const g of alive)expect(habitatAt(g.x,g.z,era.snap)).toBe(byId[g.speciesId].zone);
+ for(const g of alive)expect((byId[g.speciesId].zone==='freshwater'?waterHabitatAt(g.x,g.z,era.snap):habitatAt(g.x,g.z,era.snap))).toBe(byId[g.speciesId].zone);
  const again=w.getStateAt(yearToTick(era.snap));expect(again).toEqual(state);
  }
 });

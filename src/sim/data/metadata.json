@@ -147,8 +147,8 @@
   },
   "conifer": {
     "commonName": "Araucaria conifer",
-    "scientificName": "Araucaria",
-    "taxonomicRank": "genus",
+    "scientificName": "Conifers (broad group)",
+    "taxonomicRank": "clade",
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
     "lastOccurrence": null,
@@ -165,7 +165,8 @@
     "relationships": [],
     "notes": [
       "Represents a genus; dates and biology must not be read as those of one species.",
-      "Araucaria is the chosen representative, not a name for all conifers."
+      "Araucaria is the chosen representative, not a name for all conifers.",
+      "Historical trees are broad conifer proxies, not modern Araucaria species."
     ],
     "sources": [
       {
@@ -1933,6 +1934,37 @@
         "field": "historical context",
         "url": "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
         "label": "Museum / public scientific reference"
+      }
+    ],
+    "checked": "2026-10-16"
+  },
+  "decomposer": {
+    "commonName": "Woodland decomposer fungi",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
+    "taxonomicStatus": null,
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Moist woodland litter",
+    "habitatEvidence": "Kew: saprotrophic fungi break down organic material",
+    "waterDomain": "terrestrial",
+    "food": "Dead organic matter",
+    "foodEvidence": "Kew",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Fruiting bodies represent a saprotrophic guild, not one fungal species.",
+      "Modern-only display coverage; historical species composition is not verified."
+    ],
+    "sources": [
+      {
+        "field": "decomposition",
+        "url": "https://growwild.kew.org/blog/uk-fungi-work",
+        "label": "Royal Botanic Gardens, Kew"
       }
     ],
     "checked": "2026-10-16"

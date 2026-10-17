@@ -604,7 +604,7 @@
     "id": "axolotl",
     "name": "Axolotl",
     "era": "Present",
-    "zone": "sea",
+    "zone": "freshwater",
     "diet": "herbivore",
     "eats": [],
     "temp": [
@@ -1786,5 +1786,34 @@
     "habitatSensitivity": 0.5,
     "threats": [],
     "selfSufficient": false
+  },
+  {
+    "id": "decomposer",
+    "name": "Woodland decomposer fungi",
+    "era": "Present",
+    "zone": "land",
+    "diet": "decomposer",
+    "eats": [],
+    "temp": [
+      5,
+      28
+    ],
+    "rain": [
+      0.4,
+      1
+    ],
+    "height": 0.3,
+    "hardy": false,
+    "tier": 2,
+    "r": 0.06,
+    "K": 80,
+    "need": 0,
+    "m": 0.04,
+    "fact": "Saprotrophic fungi break down dead organic matter and return nutrients to soil.",
+    "habitatSensitivity": 0.5,
+    "threats": [
+      "habitat loss"
+    ],
+    "selfSufficient": true
   }
 ]

@@ -167,3 +167,6 @@ Added bounded turn rates, smooth acceleration, individual separation and loose c
 
 ## Expanded master D — water material refinement
 Added a generated, repeating normal map with two animated sampling directions, view-dependent Fresnel reflection and a restrained specular highlight. Retained depth gradients, turquoise transparent shallows, surf, river flow, seabed caustics, instancing and existing 2.25× modern island area. Texture disposal is explicit. Strict production build passes; browser shader/visual acceptance follows in G.
+
+## Expanded master E — shared life eligibility
+Routed procedural land cover, tree proxies and coral/stromatolite gardens through the historical validator; added reviewed broad-group Jurassic plant, Carboniferous plant and Jurassic ammonite display coverage with source links. Ancient conifers are explicitly broad proxies rather than modern Araucaria species. Added modern saprotrophic fungi with an original GLB/icon/LOD, source-linked guild metadata and a bounded decomposition/nutrient feedback. Added freshwater river habitat for axolotls and freshwater-aware movement. Unknown coverage remains unavailable rather than fabricated. Unit and asset checks run; integrated browser verification continues.

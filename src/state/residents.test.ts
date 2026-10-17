@@ -1,3 +1,4 @@
+import {waterHabitatAt} from '../world/terrain';
 import {expect,it} from 'vitest';
 import {residentPlacements,migratePlacements} from './residents';
 import {habitatAt,terrainHeight} from '../world';
@@ -5,7 +6,7 @@ import {byId,createWorld} from '../sim/simulation';
 import {snapTick} from '../sim/timeline';
 it('resident community starts alive in suitable habitat and is deterministic',()=>{
  const events=residentPlacements();expect(events).toEqual(residentPlacements());
- for(const e of events){expect(byId[e.speciesId]).toBeDefined();expect(habitatAt(e.x,e.z)).toBe(byId[e.speciesId].zone)}
+ for(const e of events){expect(byId[e.speciesId]).toBeDefined();expect((byId[e.speciesId].zone==='freshwater'?waterHabitatAt(e.x,e.z):habitatAt(e.x,e.z))).toBe(byId[e.speciesId].zone)}
  const world=createWorld();world.setPlacements(events);const now=world.getStateAt(snapTick('Present'));
  expect(now.groups).toHaveLength(events.length);expect(now.groups?.every(g=>g.population>0)).toBe(true);
  expect(world.getStateAt(snapTick('Jurassic')).groups).toEqual([]);

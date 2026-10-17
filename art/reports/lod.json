@@ -830,5 +830,13 @@
     "parts": [
       "Foliage"
     ]
+  },
+  "org_decomposer": {
+    "full": 1260,
+    "distant": 604,
+    "parts": [
+      "Foliage",
+      "Trunk"
+    ]
   }
 }

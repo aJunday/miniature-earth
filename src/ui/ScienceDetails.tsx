@@ -1,3 +1,4 @@
+import {historyRecord,eligibility} from '../sim/eligibility';
 import {ecologicalPressures} from '../sim/pressures';
 import {metadata} from '../sim/catalogue';
 import {byId} from '../sim/simulation';
@@ -6,7 +7,7 @@ import type {SimState} from '../sim/types';
 import {adaptedSpecies} from '../sim/adaptation';
 export function ScienceDetails({id,sim}:{id:string;sim:SimState}){
  const m=metadata(byId[id]);const groups=sim.groups?.filter(g=>g.speciesId===id&&g.traits)??[];
- return <><div className="ecological-pressures"><b>Current pressures</b>{ecologicalPressures(id,sim).map(reason=><p key={reason}>{reason}</p>)}</div><details className="science-details"><summary>Field notes & evidence</summary><dl>
+ const history=historyRecord(id);return <><p><b>{eligibility(id,sim.year).reason}</b></p>{history?.coverage&&<p>Reviewed display coverage: ≈ {formatYear(history.coverage[0])} to {formatYear(history.coverage[1])}. Broad-group reconstruction, not exact origin/extinction dates.</p>}{history?.sources.filter(url=>!m.sources.some(s=>s.url===url)).map(url=><a key={url} href={url} target="_blank" rel="noreferrer">Historical coverage source ↗</a>)}<div className="ecological-pressures"><b>Current pressures</b>{ecologicalPressures(id,sim).map(reason=><p key={reason}>{reason}</p>)}</div><details className="science-details"><summary>Field notes & evidence</summary><dl>
  <dt>Represents</dt><dd>{m.scientificName??'Multiple organisms'} · {m.taxonomicRank}</dd>
  <dt>First appearance</dt><dd>{m.firstAppearance!==null?`≈ ${formatYear(m.firstAppearance)}`:'Not verified for this taxon'}</dd>
  <dt>Last occurrence</dt><dd>{m.lastOccurrence!==null?`≈ ${formatYear(m.lastOccurrence)}`:m.extinctionStatus==='extinct'?'Extinct; date not verified':'Living representatives'}</dd>

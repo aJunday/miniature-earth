@@ -1,3 +1,5 @@
+import {eligibility} from '../sim/eligibility';
+import {useGame} from '../state';
 import {useEffect,useMemo,useRef} from 'react';
 import {Color,CylinderGeometry,IcosahedronGeometry,InstancedMesh,Matrix4,MeshLambertMaterial,Object3D,Quaternion,Vector3,type BufferGeometry} from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
@@ -15,6 +17,6 @@ function colonyGeometry(kind:ReefKind){const pieces:BufferGeometry[]=[];
 }
 function Colonies({kind,era}:{kind:ReefKind;era:EraProfile}){const ref=useRef<InstancedMesh>(null),geometry=useMemo(()=>colonyGeometry(kind),[kind]);const items=useMemo(()=>reefLayout(era).filter(c=>c.kind===kind),[era,kind]);const material=useMemo(()=>new MeshLambertMaterial(),[]);
  useEffect(()=>{const mesh=ref.current;if(!mesh)return;const dummy=new Object3D();items.forEach((v,i)=>{dummy.position.set(v.x,v.y,v.z);dummy.scale.setScalar(v.scale);dummy.rotation.y=v.rotation;dummy.updateMatrix();mesh.setMatrixAt(i,dummy.matrix);mesh.setColorAt(i,new Color(v.color))});mesh.instanceMatrix.needsUpdate=true;if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true;mesh.computeBoundingSphere()},[items]);useEffect(()=>()=>{geometry.dispose();material.dispose()},[geometry,material]);
- return items.length?<instancedMesh ref={ref} args={[geometry,material,items.length]} receiveShadow/>:null;
+ return items.length?<instancedMesh ref={ref} args={[geometry,material,items.length]} receiveShadow onClick={e=>{if(!useGame.getState().selectedSpeciesId){e.stopPropagation();useGame.getState().focus(era.snap>=2026?'elkhorncoral':'stromatolite')}}}/>:null;
 }
-export function Reef({era}:{era:EraProfile}){return <group name="Era reef garden">{(['branch','plate','sponge','mound'] as const).map(kind=><Colonies key={kind} kind={kind} era={era}/>)}</group>}
+export function Reef({era,year}:{era:EraProfile;year:number}){const modern=eligibility('elkhorncoral',year).allowed,microbial=eligibility('stromatolite',year).allowed;if(!modern&&!microbial)return null;return <group name="Era reef garden">{(modern?(['branch','plate','sponge','mound'] as const):(['mound'] as const)).map(kind=><Colonies key={kind} kind={kind} era={era}/>)}</group>}
