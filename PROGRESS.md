@@ -221,3 +221,6 @@ Root causes: exact one-year fossil snapshots, absent regional group coverage, li
 
 ## Critical overhaul B — modern continuity corrected
 Reviewed historical/native continental coverage restores the eleven modern resident groups at 1892; passenger pigeon additionally appears before its documented extinction. Starting reconstruction counts are stable across the former 2026 spawn threshold, with no claim of a historical census. Regression distinguishes legitimate extinction from loading discontinuity.
+
+## Critical overhaul C — visibility implementation
+Added wildlife framing on era entry, explicit wildlife view, catalogue focus and live representative-follow camera. Stable live position registry feeds actual in-frustum QA counts; selected instanced organisms tint, and new terrestrial group anchors favor clearings. Build/typecheck pass; ten-date visual audit running and repeated after final assets.

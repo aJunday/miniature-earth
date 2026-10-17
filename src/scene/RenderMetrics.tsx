@@ -1,4 +1,9 @@
 import {useFrame} from '@react-three/fiber';
-declare global {interface Window {__renderMetrics?:{calls:number;triangles:number;geometries:number;frameMs:number}}}
-/** Opt-in QA instrumentation; no timers, storage or telemetry. */
-export function RenderMetrics(){const enabled=new URLSearchParams(location.search).has('profile');useFrame(({gl},dt)=>{if(enabled)window.__renderMetrics={calls:gl.info.render.calls,triangles:gl.info.render.triangles,geometries:gl.info.memory.geometries,frameMs:dt*1000}});return null}
+import {useRef} from 'react';
+import {Frustum,Matrix4,Vector3} from 'three';
+import {useSimState} from '../state';
+import {byId} from '../sim/simulation';
+import {wildlife} from './wildlife';
+declare global {interface Window {__renderMetrics?:{calls:number;triangles:number;geometries:number;textures:number;frameMs:number;rendered:number;inFrame:number;animalsInFrame:number;bySpecies:Record<string,number>;year:number;populations:Record<string,number>}}}
+/** Opt-in QA counts actual loaded live representatives inside the camera frustum. */
+export function RenderMetrics(){const enabled=new URLSearchParams(location.search).has('profile'),sim=useSimState(),last=useRef(0),frustum=useRef(new Frustum()),matrix=useRef(new Matrix4()),point=useRef(new Vector3());useFrame(({gl,camera,clock},dt)=>{if(!enabled||clock.elapsedTime-last.current<.3)return;last.current=clock.elapsedTime;frustum.current.setFromProjectionMatrix(matrix.current.multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse));let inFrame=0,animalsInFrame=0;const bySpecies:Record<string,number>={};for(const v of wildlife.values()){bySpecies[v.id]=(bySpecies[v.id]??0)+1;if(frustum.current.containsPoint(point.current.set(v.x,v.y,v.z))){inFrame++;if(!['producer','decomposer'].includes(byId[v.id].diet))animalsInFrame++}}window.__renderMetrics={calls:gl.info.render.calls,triangles:gl.info.render.triangles,geometries:gl.info.memory.geometries,textures:gl.info.memory.textures,frameMs:dt*1000,rendered:wildlife.size,inFrame,animalsInFrame,bySpecies,year:sim.year,populations:sim.populations}});return null}
