@@ -277,3 +277,6 @@ Assigned deterministic habitat-specific species territories, size-aware individu
 
 ### Demo readability 3 — DONE
 Collapsed the wildlife tray by default, constrained expanded cards, and raised the habitat framing. All nine era/scenario screenshots inspected at 1440×900: dock is 75px (8.3% of height), all rendered representatives are in frame. Central habitat has more than 65% of viewport height. Typecheck passed.
+
+### Demo readability 4 — DONE
+Existing stromatolite assets join the supported Cambrian marine community; dated regional evidence is recorded. Improved marine framing and friendly empty/sparse-coverage text. Visual inspection caught long marine bodies overlapping with height-based spacing; measured horizontal model footprints now drive clearance. Nine captures reviewed, eight focused coverage/layout tests and typecheck passed. Remaining tiny sponge readability is refined with the era presentation pass.

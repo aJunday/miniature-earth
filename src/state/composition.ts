@@ -1,9 +1,10 @@
+import footprints from './modelFootprints.json';
 import {islandDistance,landscapeScale,terrainHeight,waterHabitatAt} from '../world/terrain';
 import {historyRecord} from '../sim/eligibility';
 import species from '../sim/data/species.json';
 const catalogue=Object.fromEntries(species.map(s=>[s.id,s]));
 export const tallPlants=new Set(['conifer','oak','metasequoia','archaeopteris','lycophyte']);
-export function bodyRadius(id:string){const s=catalogue[id];return s.zone==='freshwater'?.36:Math.max(.38,Math.min(1.65,(s.size??s.height)*.65))}
+export function bodyRadius(id:string){const s=catalogue[id];return Math.max(.38,(footprints as Record<string,number>)[id]??(s.size??s.height)*.65)}
 /** Deterministic display territories; population abundance and dates are untouched. */
 export function arrangeCommunities<T extends {speciesId:string;x:number;z:number}>(groups:T[],year:number):T[]{
  const scale=landscapeScale(year),occupied:{x:number;z:number;habitat:string}[]=[],positions=new Map<string,[number,number]>();

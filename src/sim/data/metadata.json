@@ -6,9 +6,9 @@
     "taxonomicStatus": null,
     "firstAppearance": null,
     "lastOccurrence": null,
-    "dateBasis": "No reviewed date estimate in this catalogue",
+    "dateBasis": "Cambrian period-level ecological-group proxy, supported by Early and Late Cambrian North American stromatolite deposits. Not continuous occupation of one locality or a species lifespan.",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Shallow marine microbial mats and layered microbial structures.",
     "waterDomain": "marine",
     "food": null,
     "foodEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims.",
@@ -18,17 +18,36 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Ecological group or microbial community; not a single taxonomic species."
+      "Ecological group or microbial community; not a single taxonomic species.",
+      "Display interval is a coarse period-level teaching proxy. Layered microbial structures span multiple communities; no species-level range or fossil abundance is implied."
     ],
-    "sources": [],
-    "checked": "2026-10-16",
+    "sources": [
+      {
+        "field": "Cambrian regional ecological-group presence",
+        "url": "https://natmus.humboldt.edu/exhibits/life-through-time/visual-timeline/cambrian-period",
+        "label": "Cal Poly Humboldt Natural History Museum: Early Cambrian stromatolites, Midwestern US and Chambless Limestone"
+      },
+      {
+        "field": "Cambrian regional ecological-group presence",
+        "url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/99000631_text",
+        "label": "National Park Service: Petrified Sea Gardens, Late Cambrian stromatolites"
+      }
+    ],
+    "checked": "2026-10-17",
     "regions": [],
     "coverageReview": {
       "taxonomy": "explicit broad group",
-      "dates": "present baseline / historical documentation; origin unknown",
-      "regions": "not resolved at this taxonomic scope",
+      "dates": "source-linked period-level ecological proxy",
+      "regions": "North American Cambrian deposits; continental mosaic",
       "feeding": "explicit uncertainty"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -538800000,
+        "last": -486850000
+      }
+    ]
   },
   "charnia": {
     "commonName": "Charnia",

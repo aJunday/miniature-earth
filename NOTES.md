@@ -285,3 +285,5 @@
 - Default camera frames the habitat rather than one animal; tall plants stay behind the central clearing, with smaller crowns. Explicit close-up/follow controls remain available.
 - Preserve dated regional evidence: Dickinsonia and Charnia are Ediacaran, not Cambrian; use supported Cambrian models and friendly gap labels instead.
 - Native headed Chromium launch fails in macOS Crashpad startup; use identical 1440×900 isolated Chromium software-renderer measurements and report hardware-60fps as unverified.
+- Cambrian North American stromatolites are a period-level ecological-group proxy supported by museum and NPS Early/Late Cambrian deposits, not a continuous species range. Charnia and Dickinsonia remain restricted to their reviewed Ediacaran coverage.
+- Display clearance uses baked horizontal LOD bounds, not height: long low marine animals need more space. These are presentation representatives, not a change to biological population totals.
