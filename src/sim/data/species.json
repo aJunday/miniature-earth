@@ -1930,5 +1930,28 @@
     "fact": "Atlantic menhaden are schooling filter feeders with a dark shoulder spot.",
     "habitatSensitivity": 0.5,
     "threats": []
+  },
+  {
+    "id": "capybara",
+    "name": "Capybara",
+    "era": "Present",
+    "zone": "freshwater",
+    "diet": "herbivore",
+    "eats": [],
+    "temp": [
+      5,
+      30
+    ],
+    "rain": null,
+    "height": 0.7,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.12,
+    "K": 80,
+    "need": 0.25,
+    "m": 0.12,
+    "fact": "Capybaras graze beside South American wetlands; their eyes and small ears sit high on their blunt heads.",
+    "habitatSensitivity": 0.5,
+    "threats": []
   }
 ]

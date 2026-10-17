@@ -1,0 +1,17 @@
+[
+  {
+    "path": "public/models/org_capybara.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "public/models/lod/org_capybara.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "public/models/rigged/org_capybara.glb",
+    "errors": 0,
+    "warnings": 0
+  }
+]

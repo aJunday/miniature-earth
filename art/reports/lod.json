@@ -896,5 +896,19 @@
       "Head",
       "Tail"
     ]
+  },
+  "org_capybara": {
+    "full": 2724,
+    "distant": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR"
+    ]
   }
 }

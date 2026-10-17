@@ -1994,29 +1994,6 @@
     "uncertainty": "Taxonomy verified. Historical range, native habitat and ecological parameters await review; no playable asset is supplied."
   },
   {
-    "id": "gbif-5786666",
-    "scientificName": "Hydrochoerus hydrochaeris",
-    "rank": "SPECIES",
-    "status": "ACCEPTED",
-    "classification": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Rodentia",
-      "family": "Caviidae",
-      "genus": "Hydrochoerus"
-    },
-    "gbifKey": 5786666,
-    "source": "https://www.gbif.org/species/5786666",
-    "reviewed": "2026-10-16",
-    "playable": false,
-    "coverage": null,
-    "region": null,
-    "habitat": null,
-    "diet": null,
-    "uncertainty": "Taxonomy verified. Historical range, native habitat and ecological parameters await review; no playable asset is supplied."
-  },
-  {
     "id": "gbif-2436346",
     "scientificName": "Myrmecophaga tridactyla",
     "rank": "SPECIES",

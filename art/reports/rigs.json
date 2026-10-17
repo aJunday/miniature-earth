@@ -894,5 +894,21 @@
       "Birth",
       "Death"
     ]
+  },
+  {
+    "id": "capybara",
+    "bones": 13,
+    "skins": 8,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
   }
 ]

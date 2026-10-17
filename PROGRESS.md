@@ -209,3 +209,6 @@ Isolated current 11-group regional default: 50.0 ms median / 50.1 ms p95 in Swif
 
 ## Continuation priorities A–E — DONE
 Audited prior commit 15bcc80; preserved existing history, custom worlds and coupled ecology. Fixed immutable custom reset snapshots, finite-date/placement guards, dated regional travel, habitat-specific CTA, and actionable protection defaults. Added deterministic spatial steering with parity tests against the original full scan. Typecheck, 104 tests and production build pass; browser/asset acceptance follows after catalogue work.
+
+## Continuation priority F — DONE
+Promoted capybara from taxonomy reference to complete South American freshwater organism, with reviewed San Diego Zoo habitat/diet/anatomy and existing GBIF identity. Added original model, transparent Cycles CPU icon, LOD, nine-clip deformation rig, finite browse food coupling, timeline/region/habitat metadata. Catalogue: 70 playable, 239 reference-only. Typecheck/build and 105 tests pass; all 73 base models pass contract validation, all 57 rigs pass weight/clip/bounds checks, capybara base/LOD/rig have zero Khronos errors/warnings. Icon opened and inspected.

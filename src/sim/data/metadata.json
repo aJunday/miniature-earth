@@ -3203,5 +3203,55 @@
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
     }
+  },
+  "capybara": {
+    "commonName": "Capybara",
+    "scientificName": "Hydrochoerus hydrochaeris",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "South American riverbanks, marshes and standing freshwater",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
+    "waterDomain": "freshwater",
+    "food": "Grasses and aquatic plants",
+    "foodEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+      "This freshwater game representative stays in shallow wetland habitat; amphibious land-to-water transitions are not modeled. Only the present-day baseline is reviewed, not the species origin."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy, native habitat, feeding and anatomy",
+        "url": "https://animals.sandiegozoo.org/animals/capybara",
+        "label": "San Diego Zoo Wildlife Alliance"
+      },
+      {
+        "field": "high-set eyes, ears and diet",
+        "url": "https://sdzwildlifeexplorers.org/animals/capybara",
+        "label": "San Diego Zoo Wildlife Explorers"
+      },
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Hydrochoerus+hydrochaeris&strict=true",
+        "label": "GBIF accepted species 5786666"
+      }
+    ],
+    "checked": "2026-10-16",
+    "regions": [
+      "South America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
   }
 }

@@ -253,6 +253,24 @@
     ]
   },
   {
+    "id": "capybara",
+    "file": "/models/org_capybara.glb",
+    "icon": "/icons/org_capybara.png",
+    "heightUnits": 0.699999988079071,
+    "triangles": 2724,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR"
+    ]
+  },
+  {
     "id": "charnia",
     "file": "/models/org_charnia.glb",
     "icon": "/icons/org_charnia.png",

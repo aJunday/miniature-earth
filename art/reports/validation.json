@@ -507,6 +507,41 @@
       "transparent_pixels": 48975
     }
   },
+  "org_capybara": {
+    "triangles": 2724,
+    "budget": 3000,
+    "bounds_min": [
+      -0.27085429430007935,
+      0.0,
+      -0.4713567793369293
+    ],
+    "bounds_max": [
+      0.27085429430007935,
+      0.699999988079071,
+      0.6641204953193665
+    ],
+    "height": 0.699999988079071,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 40664
+    }
+  },
   "org_charnia": {
     "triangles": 1362,
     "budget": 1500,

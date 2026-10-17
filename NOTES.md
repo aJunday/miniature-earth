@@ -232,3 +232,5 @@
 - New custom islands retain an immutable starting snapshot; legacy saves without a snapshot reset from their saved region and starting preset because their original population snapshot is unavailable.
 - Explicit hypothetical geographic introductions remain available in custom sandbox mode; historical placement requires reviewed regional evidence.
 - Dated regional coverage takes precedence over an illustrative mosaic when choosing a supported travel destination.
+- Added one complete South American freshwater representative, capybara, rather than marking unreviewed reference taxa playable. Source-reviewed living habitat/diet, no invented fossil origin; rates and 0.7-unit height remain teaching/art parameters.
+- Capybara is represented in shallow freshwater only; amphibious crossing is explicitly not simulated.
