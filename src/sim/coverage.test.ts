@@ -7,3 +7,8 @@ it('fossil snapshots do not become fabricated full ranges',()=>{for(const [id,ye
 it('regions use reviewed native-range evidence rather than a universal geography',()=>{expect(eligibility('tiger',2026,undefined,'Asia').allowed).toBe(true);expect(eligibility('tiger',2026,undefined,'Europe').allowed).toBe(false);expect(eligibility('kakapo',2026,undefined,'New Zealand').allowed).toBe(true);expect(eligibility('reeffish',2026,undefined,'Atlantic Ocean').allowed).toBe(false)});
 
 it('capybara is a regional living freshwater grazer with explicitly unknown ancient origin',()=>{expect(eligibility('capybara',2026,'freshwater','South America').allowed).toBe(true);expect(eligibility('capybara',2026,'marine','South America').category).toBe('habitat');expect(eligibility('capybara',-150e6).category).toBe('uncertain');expect(eligibility('capybara',2026,'freshwater','Europe').category).toBe('region')});
+
+it('regional display intervals cannot borrow a date from another region or broad group range',()=>{
+ expect(eligibility('lycophyte',-320e6,undefined,'North America').allowed).toBe(true);
+ expect(eligibility('lycophyte',-200e6,undefined,'North America').allowed).toBe(false);
+});

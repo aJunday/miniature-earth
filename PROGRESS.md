@@ -247,3 +247,6 @@ Actual SwiftShader measurements are in qa/critical-scenes.json: dense close scen
 
 ## Biodiversity expansion A — DONE
 Audited 24 requested checkpoints plus 23 midpoints against the actual North American default generator. qa/biodiversity-before.json records era bounds, habitat groups, reviewed/model counts, generated populations and per-record exclusion reasons. Identified sparse source windows, missing regional evidence and assets, and a regional temporal eligibility leak. Audit test passes. Renderer visibility will be measured separately during G.
+
+## Biodiversity expansion B — DONE
+Fixed regional temporal coverage borrowing and relocated automatic founding groups through the same habitat-aware placement function as dynamically selected groups. 111 tests pass, including deterministic rewind, custom islands, ecology and new interval rejection. Historical-only generation remains separate from intentionally empty sandbox worlds.

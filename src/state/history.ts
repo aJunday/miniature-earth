@@ -17,7 +17,7 @@ const cache=new Map<string,SimState>();
 export function historicalState(tick:number,region='mosaic',highlight?:string|null):SimState{
  const key=JSON.stringify([tick,region,highlight]);const cached=cache.get(key);if(cached)return cached;
  const year=tickToYear(tick),date=Math.min(2026,year);
- const groups:NonNullable<SimState['groups']>=residentPlacements(true).filter(e=>e.tick<=tick&&(e.untilTick===undefined||tick<e.untilTick)&&eligibility(e.speciesId,date,undefined,region).allowed).map(e=>({...e,id:'historical-'+e.speciesId,population:e.count}));
+ const groups:NonNullable<SimState['groups']>=residentPlacements(true).filter(e=>e.tick<=tick&&(e.untilTick===undefined||tick<e.untilTick)&&eligibility(e.speciesId,date,undefined,region).allowed).map(e=>{const [x,z]=habitatPoint(e.speciesId,year);return {...e,x,z,id:'historical-'+e.speciesId,population:e.count}});
  const existing=new Set(groups.map(g=>g.speciesId));
  const candidates=species.filter(s=>!existing.has(s.id)&&eligibility(s.id,date,undefined,region).allowed);
  candidates.sort((a,b)=>(a.id===highlight?-1:b.id===highlight?1:0));
