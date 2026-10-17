@@ -230,3 +230,6 @@ Added a marine camera view that frames loaded aquatic wildlife and reduces foreg
 
 ## Critical overhaul E — visible conservation outcomes
 Added same-camera baseline/conservation world switching beside the same-founder comparison. Live vegetation now responds to both plant biomass and modeled habitat availability; rivers already track live water and animal instances track surviving populations. Selected-species explanations distinguish local modeled loss from global extinction. No scripted recovery or extinction outcomes added.
+
+## Critical overhaul F — contextual catalogue and immersive controls
+Catalogue defaults to eligible organisms in the selected evidence region; other/all tabs and search preserve experimentation. Added habitat/extant filtering, scientific names and expandable range/habitat/region cards. Existing category, geological-era and conservation filters retained. Immersive mode hides secondary panels while retaining timeline and camera controls. Smaller header/cards leave more world visible.
