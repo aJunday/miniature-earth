@@ -2,14 +2,14 @@ import {residentPlacements} from './residents';
 import {eligibility,historyRecord} from '../sim/eligibility';
 import {tickToYear,formatYear,eraName} from '../sim/timeline';
 import {envAt} from '../sim/environment';
-import {waterHabitatAt,landscapeScale} from '../world/terrain';
+import {waterHabitatAt,landscapeScale,terrainHeight} from '../world/terrain';
 import species from '../sim/data/species.json';
 import type {SimState} from '../sim/types';
 export function habitatPoint(id:string,year:number):[number,number]{
  const habitat=historyRecord(id)?.habitat,scale=landscapeScale(year),hash=Array.from(id).reduce((n,c)=>n+c.charCodeAt(0),0);
  const points:[number,number][]=[];
  for(let z=-8;z<=12;z+=1)for(let x=-14;x<=20;x+=1){if(waterHabitatAt(x*scale,z*scale,year)===habitat)points.push([x*scale,z*scale])}
- const clearings=habitat==='terrestrial'?points.filter(([x,z])=>Math.abs(x)<7*scale&&z> -2*scale&&z<6*scale):[];const chosen=clearings.length?clearings:points;
+ const clearings=habitat==='terrestrial'?points.filter(([x,z])=>Math.abs(x)<7*scale&&z> -2*scale&&z<6*scale):[];const shallow=habitat==='marine'?points.filter(([x,z])=>terrainHeight(x,z,year)>-1.8):[];const chosen=clearings.length?clearings:shallow.length?shallow:points;
  return chosen[hash%Math.max(1,chosen.length)]??[0,0];
 }
 /** Bounded, deterministic evidence reconstruction. Counts are illustrative, never fossil census data. */

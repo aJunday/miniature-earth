@@ -224,3 +224,6 @@ Reviewed historical/native continental coverage restores the eleven modern resid
 
 ## Critical overhaul C — visibility implementation
 Added wildlife framing on era entry, explicit wildlife view, catalogue focus and live representative-follow camera. Stable live position registry feeds actual in-frustum QA counts; selected instanced organisms tint, and new terrestrial group anchors favor clearings. Build/typecheck pass; ten-date visual audit running and repeated after final assets.
+
+## Critical overhaul D — marine presentation
+Added a marine camera view that frames loaded aquatic wildlife and reduces foreground water opacity for aquarium-style inspection. New marine anchors prefer shallow water; trilobites sit on the seafloor. Existing base/LOD/rig assets preserved. Build passes.
