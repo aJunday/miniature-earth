@@ -286,3 +286,6 @@ Cool Jurassic green, warm Cretaceous clearings, rear volcanic landmark, and exis
 
 ### Demo readability 6 — DONE
 Conservation presentation now follows actual simulated habitat: nonlinear vegetation coverage, dry brown ground, subdued animal colour, and visible water/atmospheric haze. Strengthened contrast after the first visual comparison was too subtle. Recaptured and reviewed all nine views; 2100 baseline is visibly dry/hazy and protection is green. Seven conservation/futures tests passed. No new interventions or population rules.
+
+### Demo readability 7 — DONE
+Simplified ground shading, reduced terrain/water geometry, capped shadows at 512px and applied a shared animal display budget; repeated plants remain instanced, postprocessing remains absent. Reviewed all nine final screenshots. Matched SwiftShader median frame time: Modern 66.7→33.3ms, Jurassic 116.6→50ms, Cretaceous 116.7→50ms, Pleistocene 100→50ms; Cambrian505 approximately unchanged. Native Apple M5 in-app browser at 1280×720/DPR1: Modern/Jurassic/Cretaceous 8.3ms median both before/after, p95 below 10ms. No unsupported native speedup claim. Typecheck, 124 tests, build and browser interactions pass. Default tray 75px; unobscured viewport 76.1% at 1440×900. Full evidence in qa/DEMO_READABILITY_REPORT.md. Local commits only; no push/deploy. Unrelated pre-existing .gitignore change excluded.

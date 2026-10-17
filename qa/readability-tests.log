@@ -1,0 +1,20 @@
+
+> miniature-earth@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/arnavjunday/Documents/GitHub/miniature-earth
+
+(node:26573) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+ Test Files  26 passed (26)
+      Tests  124 passed (124)
+   Start at  04:00:36
+   Duration  2.81s (environment 58%, tests 22%, setup 10%, import 5%, transform 4%, worker 1%)
+
+Environment  jsdom was created 26 times · 12.49s total, 58% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+

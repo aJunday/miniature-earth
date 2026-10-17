@@ -1,0 +1,68 @@
+[
+  {
+    "stage": "before",
+    "scene": "modern",
+    "median": 8.300000011920929,
+    "p95": 9.699999988079071,
+    "samples": 120,
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  },
+  {
+    "stage": "before",
+    "scene": "jurassic",
+    "median": 8.300000011920929,
+    "p95": 9.100000023841858,
+    "samples": 120,
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  },
+  {
+    "stage": "before",
+    "scene": "cretaceous",
+    "median": 8.300000011920929,
+    "p95": 9.299999952316284,
+    "samples": 120,
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  },
+  {
+    "stage": "after",
+    "scene": "modern",
+    "median": 8.300000011920929,
+    "p95": 9.199999988079071,
+    "samples": 120,
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  },
+  {
+    "stage": "after",
+    "scene": "jurassic",
+    "median": 8.300000011920929,
+    "p95": 9.100000023841858,
+    "samples": 120,
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  },
+  {
+    "stage": "after",
+    "scene": "cretaceous",
+    "median": 8.300000011920929,
+    "p95": 9.100000023841858,
+    "samples": 120,
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  }
+]

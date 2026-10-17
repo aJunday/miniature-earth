@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "collapsed": true,
+    "expands": true,
+    "collapses": true,
+    "cretaceous": true,
+    "movement": true,
+    "extinction": true,
+    "friendlyGap": true,
+    "sceneArea": 0.7606666666666666
+  },
+  "errors": []
+}
