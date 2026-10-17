@@ -164,3 +164,6 @@ Implemented exact decade controls and playback, extended horizon to 2100 without
 
 ## Expanded master C — movement refinement
 Added bounded turn rates, smooth acceleration, individual separation and loose conspecific cohesion using live rendered positions. Retained deterministic habitat steering, prey avoidance, pursuit, rest/forage, swimming/flying and named-joint movement; walking phase now responds to speed. Browser acceptance remains part of final integrated validation. No new animation dependency or asset purchase.
+
+## Expanded master D — water material refinement
+Added a generated, repeating normal map with two animated sampling directions, view-dependent Fresnel reflection and a restrained specular highlight. Retained depth gradients, turquoise transparent shallows, surf, river flow, seabed caustics, instancing and existing 2.25× modern island area. Texture disposal is explicit. Strict production build passes; browser shader/visual acceptance follows in G.
