@@ -1,0 +1,1105 @@
+{
+  "https://natmus.humboldt.edu/exhibits/life-through-time/visual-timeline/cambrian-period": {
+    "status": 200,
+    "finalUrl": "https://natmus.humboldt.edu/exhibits/life-through-time/visual-timeline/cambrian-period",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/99000631_text": {
+    "status": 200,
+    "finalUrl": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/99000631_text",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Charnia&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Charnia&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://earthwise.bgs.ac.uk/index.php/OR/10/041_Guide_to_the_geology_of_Bradgate_Park_and_Swithland_Wood%2C_Charnwood_Forest": {
+    "status": 200,
+    "finalUrl": "https://earthwise.bgs.ac.uk/index.php/OR/10/041_Guide_to_the_geology_of_Bradgate_Park_and_Swithland_Wood%2C_Charnwood_Forest",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.gov.nl.ca/eccc/natural-areas/wer/r-mpe/": {
+    "status": 200,
+    "finalUrl": "https://www.gov.nl.ca/eccc/natural-areas/wer/r-mpe/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Dickinsonia&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Dickinsonia&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://science.anu.edu.au/news-events/news/fat-558-million-years-ago-reveals-earliest-known-animal": {
+    "status": 200,
+    "finalUrl": "https://science.anu.edu.au/news-events/news/fat-558-million-years-ago-reveals-earliest-known-animal",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Polypodiopsida&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Polypodiopsida&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/articles/000/pennsylvanian-period.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/care/learn/nature/fossils.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/care/learn/nature/fossils.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Cycadales&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Cycadales&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/zion/learn/nature/secrets-of-the-chinle-formation.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/zion/learn/nature/secrets-of-the-chinle-formation.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Stegosaurus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Stegosaurus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/dino-directory/Stegosaurus.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/dino-directory/Stegosaurus.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Brachiosaurus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Brachiosaurus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Allosaurus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Allosaurus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/dino/learn/nature/allosaurus-fragilis.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/dino/learn/nature/allosaurus-fragilis.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Poaceae&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Poaceae&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://api.gbif.org/v1/species/match?name=Quercus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Quercus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://www.floridamuseum.ufl.edu/paleobotany/collecting-fossil-plants-florida/": {
+    "status": 200,
+    "finalUrl": "https://www.floridamuseum.ufl.edu/paleobotany/collecting-fossil-plants-florida/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.kew.org/read-and-watch/south-east-asia-early-flowering-plant": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/seagrass-west-coast": {
+    "status": 200,
+    "finalUrl": "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/seagrass-west-coast",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Oryctolagus+cuniculus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Oryctolagus+cuniculus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Cervidae&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Cervidae&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/jeca/learn/nature/white-tailed-deer-odocoileus-virginianus.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/jeca/learn/nature/white-tailed-deer-odocoileus-virginianus.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://home.nps.gov/yell/learn/nature/upload/Mountain-Ungulates_PART_1.pdf": {
+    "available": false,
+    "error": "HTTP Error 404: Not Found",
+    "checked": "2026-10-17"
+  },
+  "https://api.gbif.org/v1/species/match?name=Vulpes+vulpes&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Vulpes+vulpes&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Vulpes_vulpes/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Apis+mellifera&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Apis+mellifera&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Apis_mellifera/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Apis_mellifera/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Eretmochelys+imbricata&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Eretmochelys+imbricata&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.fisheries.noaa.gov/species/hawksbill-turtle": {
+    "status": 200,
+    "finalUrl": "https://www.fisheries.noaa.gov/species/hawksbill-turtle",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Eretmochelys_imbricata/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Eretmochelys_imbricata/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Panthera+pardus+orientalis&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Panthera+pardus+orientalis&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Panthera_pardus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Panthera_pardus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Pongo+abelii&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Pongo+abelii&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Pongo_abelii/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Pongo_abelii/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Phocoena+sinus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Phocoena+sinus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Phocoena_sinus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Phocoena_sinus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Strigops+habroptila&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Strigops+habroptila&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Strigops_habroptila/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Strigops_habroptila/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Ambystoma+mexicanum&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Ambystoma+mexicanum&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Ambystoma_mexicanum/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Dicerorhinus+sumatrensis&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Dicerorhinus+sumatrensis&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Dicerorhinus_sumatrensis/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Dicerorhinus_sumatrensis/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Eubalaena+glacialis&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Eubalaena+glacialis&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://animaldiversity.org/accounts/Eubalaena_glacialis/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Eubalaena_glacialis/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Manis+javanica&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Manis+javanica&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Manis_javanica/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Manis_javanica/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Pithecophaga+jefferyi&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Pithecophaga+jefferyi&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Pithecophaga_jefferyi/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Pithecophaga_jefferyi/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Gymnogyps+californianus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Gymnogyps+californianus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Gymnogyps_californianus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Gymnogyps_californianus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/redw/learn/nature/condors.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/redw/learn/nature/condors.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Loxodonta+cyclotis&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Loxodonta+cyclotis&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Loxodonta_cyclotis/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Loxodonta_cyclotis/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Acropora+palmata&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Acropora+palmata&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Acropora_palmata/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Acropora_palmata/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Panthera+tigris&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Panthera+tigris&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Panthera_tigris/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Panthera_tigris/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Ailurus+fulgens&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Ailurus+fulgens&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Ailurus_fulgens/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Ailurus_fulgens/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Balaenoptera+musculus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Balaenoptera+musculus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Balaenoptera_musculus/": {
+    "available": false,
+    "error": "<urlopen error timed out>",
+    "checked": "2026-10-17"
+  },
+  "https://api.gbif.org/v1/species/match?name=Gorilla+beringei+beringei&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Gorilla+beringei+beringei&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Gorilla_beringei/": {
+    "available": false,
+    "error": "<urlopen error timed out>",
+    "checked": "2026-10-17"
+  },
+  "https://api.gbif.org/v1/species/match?name=Elephas+maximus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Elephas+maximus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Elephas_maximus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Elephas_maximus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Rhincodon+typus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Rhincodon+typus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Rhincodon_typus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Rhincodon_typus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Enhydra+lutris&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Enhydra+lutris&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Enhydra_lutris/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Enhydra_lutris/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.fws.gov/species/sea-otter-enhydra-lutris": {
+    "status": 200,
+    "finalUrl": "https://www.fws.gov/species/sea-otter-enhydra-lutris",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Lemur+catta&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Lemur+catta&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Lemur_catta/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Lemur_catta/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Lycaon+pictus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Lycaon+pictus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Lycaon_pictus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Lycaon_pictus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Ailuropoda+melanoleuca&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Ailuropoda+melanoleuca&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Ailuropoda_melanoleuca/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Ailuropoda_melanoleuca/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Panthera+uncia&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Panthera+uncia&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Uncia_uncia/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Uncia_uncia/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Ursus+maritimus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Ursus+maritimus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Ursus_maritimus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Ursus_maritimus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Phascolarctos+cinereus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Phascolarctos+cinereus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Phascolarctos_cinereus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Phascolarctos_cinereus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Acinonyx+jubatus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Acinonyx+jubatus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Acinonyx_jubatus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Acinonyx_jubatus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Aptenodytes+forsteri&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Aptenodytes+forsteri&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Aptenodytes_forsteri/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Mammuthus+primigenius&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Mammuthus+primigenius&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/our-science/research/projects/mammoth-evolution-model-species-origins.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/our-science/research/projects/mammoth-evolution-model-species-origins.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/news/2024/july/woolly-mammoth-genome-rebuilt-from-freeze-dried-skin.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/news/2024/july/woolly-mammoth-genome-rebuilt-from-freeze-dried-skin.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/last-mammoths.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/last-mammoths.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/bela/learn/nature/ice-age-mammals.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/bela/learn/nature/ice-age-mammals.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Hydrodamalis+gigas&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Hydrodamalis+gigas&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Hydrodamalis_gigas/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Hydrodamalis_gigas/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Raphus+cucullatus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Raphus+cucullatus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Raphus_cucullatus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Raphus_cucullatus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Ectopistes+migratorius&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Ectopistes+migratorius&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.si.edu/spotlight/passenger-pigeon": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Thylacinus+cynocephalus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Thylacinus+cynocephalus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/remembering-tasmanian-tiger-thylacine.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/remembering-tasmanian-tiger-thylacine.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Chelonoidis+abingdonii&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Chelonoidis+abingdonii&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.galapagos.org/about_galapagos/lonesome-george/": {
+    "status": 200,
+    "finalUrl": "https://www.galapagos.org/about_galapagos/lonesome-george/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Megaptera+novaeangliae&strict=true": {
+    "available": false,
+    "error": "<urlopen error timed out>",
+    "checked": "2026-10-17"
+  },
+  "https://animaldiversity.org/accounts/Megaptera_novaeangliae/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Megaptera_novaeangliae/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Haliaeetus+leucocephalus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Haliaeetus+leucocephalus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus": {
+    "status": 200,
+    "finalUrl": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Amphiprion+ocellaris&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Amphiprion+ocellaris&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/": {
+    "status": 200,
+    "finalUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Amphiprion_ocellaris/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Amphiprion_ocellaris/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Trilobita&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Trilobita&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/how-trilobites-conquered-prehistoric-oceans.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/how-trilobites-conquered-prehistoric-oceans.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/schools/teaching-resources/big-ideas-in-science-evolution/trilobite-fossils-resources-and-class-activities.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/schools/teaching-resources/big-ideas-in-science-evolution/trilobite-fossils-resources-and-class-activities.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://home.nps.gov/grca/learn/nature/fossils.htm": {
+    "status": 200,
+    "finalUrl": "https://home.nps.gov/grca/learn/nature/fossils.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/": {
+    "status": 200,
+    "finalUrl": "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Arthropleura&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Arthropleura&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/news/2024/october/largest-ever-millipede-head-revealed.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/news/2024/october/largest-ever-millipede-head-revealed.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://paleobiodb.org/classic/basicCollectionSearch?collection_no=225177": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://ocean.si.edu/through-time/ocean-through-time": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://api.gbif.org/v1/species/match?name=Anomalocaris&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Anomalocaris&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/": {
+    "status": 200,
+    "finalUrl": "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.si.edu/object/nmnhpaleobiology_3451032": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://api.gbif.org/v1/species/match?name=Dimetrodon&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Dimetrodon&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://sciencemuseum.utexas.edu/exhibit/paleontology-gallery/": {
+    "status": 200,
+    "finalUrl": "https://sciencemuseum.utexas.edu/exhibit/paleontology-gallery/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://whatsinaname.hmnh.harvard.edu/dimetrodon": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Triceratops&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Triceratops&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.si.edu/object/nmnhpaleobiology_3447928": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://www.floridamuseum.ufl.edu/vertpaleo/aucilla-river-prehistory-project/": {
+    "status": 200,
+    "finalUrl": "https://www.floridamuseum.ufl.edu/vertpaleo/aucilla-river-prehistory-project/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/sites/mixsons-bone-bed/": {
+    "status": 200,
+    "finalUrl": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/sites/mixsons-bone-bed/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nhm.ac.uk/our-science/services/collections/digital/programme/darwins-ground-sloths.html": {
+    "status": 200,
+    "finalUrl": "https://www.nhm.ac.uk/our-science/services/collections/digital/programme/darwins-ground-sloths.html",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/eremotherium-eomigrans/": {
+    "status": 200,
+    "finalUrl": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/eremotherium-eomigrans/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/subjects/fossils/plant-fossils.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://growwild.kew.org/blog/uk-fungi-work": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://animaldiversity.org/accounts/Bison_bison/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Bison_bison/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Bison+bison&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Bison+bison&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/parkhistory/online_books/bison/": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/orgs/1220/index.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Canis_lupus/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Canis_lupus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Canis+lupus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Canis+lupus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://home.nps.gov/yell/learn/historyculture/wolf-management.htm": {
+    "status": 200,
+    "finalUrl": "https://home.nps.gov/yell/learn/historyculture/wolf-management.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animaldiversity.org/accounts/Castor_canadensis/": {
+    "status": 200,
+    "finalUrl": "https://animaldiversity.org/accounts/Castor_canadensis/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Castor+canadensis&strict=true": {
+    "available": false,
+    "error": "<urlopen error timed out>",
+    "checked": "2026-10-17"
+  },
+  "https://www.nps.gov/yell/learn/nature/beaver.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/yell/learn/nature/beaver.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.fisheries.noaa.gov/species/atlantic-menhaden": {
+    "status": 200,
+    "finalUrl": "https://www.fisheries.noaa.gov/species/atlantic-menhaden",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Brevoortia+tyrannus&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Brevoortia+tyrannus&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://animals.sandiegozoo.org/animals/capybara": {
+    "status": 200,
+    "finalUrl": "https://animals.sandiegozoo.org/animals/capybara",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://sdzwildlifeexplorers.org/animals/capybara": {
+    "status": 200,
+    "finalUrl": "https://sdzwildlifeexplorers.org/animals/capybara",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://api.gbif.org/v1/species/match?name=Hydrochoerus+hydrochaeris&strict=true": {
+    "status": 200,
+    "finalUrl": "https://api.gbif.org/v1/species/match?name=Hydrochoerus+hydrochaeris&strict=true",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/pefo/learn/pseudosuchians.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/pefo/learn/pseudosuchians.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://burgess-shale.rom.on.ca/fossils/vauxia-gracilenta/": {
+    "status": 200,
+    "finalUrl": "https://burgess-shale.rom.on.ca/fossils/vauxia-gracilenta/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/choh/learn/nature/fossils.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/choh/learn/nature/fossils.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/crinoids/": {
+    "status": 200,
+    "finalUrl": "https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/crinoids/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://nysm.nysed.gov/exhibitions/windows/eurypterid": {
+    "status": 200,
+    "finalUrl": "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360123/": {
+    "status": 200,
+    "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360123/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://doi.org/10.1016/j.revpalbo.2024.105212": {
+    "status": 200,
+    "finalUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0034666724001635",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.cmnh.org/explore/galleries-attractions/visitor-hall": {
+    "status": 200,
+    "finalUrl": "https://www.cmnh.org/explore/galleries-attractions/visitor-hall",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/fobu/learn/fossils-geology.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/fobu/learn/fossils-geology.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/articles/000/battle-of-the-bark.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/articles/000/battle-of-the-bark.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/media/photo/view.htm?id=7f8cefd8-408f-419f-9e11-9a787b4660e2": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/media/photo/view.htm?id=7f8cefd8-408f-419f-9e11-9a787b4660e2",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.floridamuseum.ufl.edu/fossil-horses/gallery/merychippus/": {
+    "status": 200,
+    "finalUrl": "https://www.floridamuseum.ufl.edu/fossil-horses/gallery/merychippus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/subjects/fossils/triassic-dinosaurs.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/subjects/fossils/triassic-dinosaurs.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/dena/learn/nature/edmontonia.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/dena/learn/nature/edmontonia.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/subjects/fossils/vertebrate-fossils.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/subjects/fossils/vertebrate-fossils.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.jsg.utexas.edu/txvp/dilophosaurus/": {
+    "status": 200,
+    "finalUrl": "https://www.jsg.utexas.edu/txvp/dilophosaurus/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nps.gov/dino/learn/nature/camarasaurus-lentus.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/dino/learn/nature/camarasaurus-lentus.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.amnh.org/exhibitions/permanent/saurischian-dinosaurs/deinonychus-cast-link-to-early-birds--amnh": {
+    "available": false,
+    "error": "HTTP Error 403: Forbidden",
+    "checked": "2026-10-17"
+  },
+  "https://www.nps.gov/fobu/learn/nature/fossil-fish.htm": {
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/fobu/learn/nature/fossil-fish.htm",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC5524506/": {
+    "status": 200,
+    "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5524506/",
+    "checked": "2026-10-17",
+    "available": true
+  },
+  "https://www.nature.com/articles/s41467-019-13882-z": {
+    "status": 200,
+    "finalUrl": "https://www.nature.com/articles/s41467-019-13882-z?error=cookies_not_supported&code=36e687f5-2e03-4956-9f3d-6770e5a6b0d5",
+    "checked": "2026-10-17",
+    "available": true
+  }
+}

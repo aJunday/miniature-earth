@@ -1,0 +1,2428 @@
+{
+  "stromatolite": [
+    {
+      "speciesId": "stromatolite",
+      "title": "Cal Poly Humboldt Natural History Museum: Early Cambrian stromatolites, Midwestern US and Chambless Limestone \u2014 Cambrian regional ecological-group presence",
+      "organization": "Cal Poly Humboldt Natural History Museum: Early Cambrian stromatolites, Midwestern US and Chambless Limestone",
+      "type": "website",
+      "url": "https://natmus.humboldt.edu/exhibits/life-through-time/visual-timeline/cambrian-period",
+      "year": null,
+      "description": "Existing catalogue evidence for Cambrian regional ecological-group presence.",
+      "topic": "Cambrian regional ecological-group presence",
+      "scope": "Stromatolite",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "stromatolite",
+      "title": "National Park Service: Petrified Sea Gardens, Late Cambrian stromatolites \u2014 Cambrian regional ecological-group presence",
+      "organization": "National Park Service: Petrified Sea Gardens, Late Cambrian stromatolites",
+      "type": "website",
+      "url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/99000631_text",
+      "year": null,
+      "description": "Existing catalogue evidence for Cambrian regional ecological-group presence.",
+      "topic": "Cambrian regional ecological-group presence",
+      "scope": "Stromatolite",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "charnia": [
+    {
+      "speciesId": "charnia",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Charnia&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Charnia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "charnia",
+      "title": "Museum, geological survey or university evidence \u2014 dated occurrence / display coverage",
+      "organization": "Museum, geological survey or university evidence",
+      "type": "website",
+      "url": "https://earthwise.bgs.ac.uk/index.php/OR/10/041_Guide_to_the_geology_of_Bradgate_Park_and_Swithland_Wood%2C_Charnwood_Forest",
+      "year": null,
+      "description": "Existing catalogue evidence for dated occurrence / display coverage.",
+      "topic": "dated occurrence / display coverage",
+      "scope": "Charnia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "charnia",
+      "title": "Newfoundland and Labrador: Mistaken Point assemblage 580\u2013560 Ma \u2014 regionalCoverage",
+      "organization": "Newfoundland and Labrador: Mistaken Point assemblage 580\u2013560 Ma",
+      "type": "website",
+      "url": "https://www.gov.nl.ca/eccc/natural-areas/wer/r-mpe/",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Charnia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "dickinsonia": [
+    {
+      "speciesId": "dickinsonia",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Dickinsonia&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Dickinsonia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "dickinsonia",
+      "title": "Museum, geological survey or university evidence \u2014 dated occurrence / display coverage",
+      "organization": "Museum, geological survey or university evidence",
+      "type": "website",
+      "url": "https://science.anu.edu.au/news-events/news/fat-558-million-years-ago-reveals-earliest-known-animal",
+      "year": null,
+      "description": "Existing catalogue evidence for dated occurrence / display coverage.",
+      "topic": "dated occurrence / display coverage",
+      "scope": "Dickinsonia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "fern": [
+    {
+      "speciesId": "fern",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Polypodiopsida&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Polypodiopsida",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "fern",
+      "title": "NPS \u00b7 Morrison Formation plant communities (broad group proxies) \u2014 regionalCoverage",
+      "organization": "NPS \u00b7 Morrison Formation plant communities (broad group proxies)",
+      "type": "website",
+      "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Broader Morrison Formation fossil ecosystem, including Jurassic plants",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "fern",
+      "title": "NPS \u00b7 North American Pennsylvanian swamp forest groups \u2014 regionalCoverage",
+      "organization": "NPS \u00b7 North American Pennsylvanian swamp forest groups",
+      "type": "website",
+      "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Broader Pennsylvanian plant communities and geological context",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "fern",
+      "title": "NPS \u00b7 Chinle tropical vegetation \u2014 dated regional display coverage",
+      "organization": "NPS \u00b7 Chinle tropical vegetation",
+      "type": "website",
+      "url": "https://www.nps.gov/care/learn/nature/fossils.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for dated regional display coverage.",
+      "topic": "dated regional display coverage",
+      "scope": "Polypodiopsida",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "cycad": [
+    {
+      "speciesId": "cycad",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Cycadales&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Cycadales",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "cycad",
+      "title": "NPS \u00b7 Morrison Formation plant communities (broad group proxies) \u2014 regionalCoverage",
+      "organization": "NPS \u00b7 Morrison Formation plant communities (broad group proxies)",
+      "type": "website",
+      "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Broader Morrison Formation fossil ecosystem, including Jurassic plants",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "conifer": [
+    {
+      "speciesId": "conifer",
+      "title": "NPS \u00b7 Morrison Formation plant communities (broad group proxies) \u2014 regionalCoverage",
+      "organization": "NPS \u00b7 Morrison Formation plant communities (broad group proxies)",
+      "type": "website",
+      "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Broader Morrison Formation fossil ecosystem, including Jurassic plants",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "conifer",
+      "title": "NPS \u00b7 Chinle conifers \u2014 dated regional display coverage",
+      "organization": "NPS \u00b7 Chinle conifers",
+      "type": "website",
+      "url": "https://www.nps.gov/zion/learn/nature/secrets-of-the-chinle-formation.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for dated regional display coverage.",
+      "topic": "dated regional display coverage",
+      "scope": "Conifer woodland proxy",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "stegosaurus": [
+    {
+      "speciesId": "stegosaurus",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Stegosaurus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Stegosaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "stegosaurus",
+      "title": "Natural History Museum \u2014 habitat and resources; fossil range",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/Stegosaurus.html",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources; fossil range.",
+      "topic": "habitat and resources; fossil range",
+      "scope": "Stegosaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "brachiosaurus": [
+    {
+      "speciesId": "brachiosaurus",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Brachiosaurus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Brachiosaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "brachiosaurus",
+      "title": "Natural History Museum \u2014 habitat and resources; fossil range",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources; fossil range.",
+      "topic": "habitat and resources; fossil range",
+      "scope": "Brachiosaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "allosaurus": [
+    {
+      "speciesId": "allosaurus",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Allosaurus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Allosaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "allosaurus",
+      "title": "Natural History Museum \u2014 habitat and resources; fossil range",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources; fossil range.",
+      "topic": "habitat and resources; fossil range",
+      "scope": "Allosaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "allosaurus",
+      "title": "NPS \u00b7 North American Morrison Formation \u2014 regional distribution",
+      "organization": "NPS \u00b7 North American Morrison Formation",
+      "type": "website",
+      "url": "https://www.nps.gov/dino/learn/nature/allosaurus-fragilis.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regional distribution.",
+      "topic": "regional distribution",
+      "scope": "Allosaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "grass": [
+    {
+      "speciesId": "grass",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Poaceae&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Poaceae",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "oak": [
+    {
+      "speciesId": "oak",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Quercus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Quercus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "oak",
+      "title": "Florida Museum \u00b7 Miocene/Pliocene oak and mixed Pleistocene woods \u2014 regionalCoverage",
+      "organization": "Florida Museum \u00b7 Miocene/Pliocene oak and mixed Pleistocene woods",
+      "type": "website",
+      "url": "https://www.floridamuseum.ufl.edu/paleobotany/collecting-fossil-plants-florida/",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Quercus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "wildflower": [],
+  "seagrass": [
+    {
+      "speciesId": "seagrass",
+      "title": "NOAA Fisheries \u2014 marine flowering plant habitat",
+      "organization": "NOAA Fisheries",
+      "type": "website",
+      "url": "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/seagrass-west-coast",
+      "year": null,
+      "description": "Existing catalogue evidence for marine flowering plant habitat.",
+      "topic": "marine flowering plant habitat",
+      "scope": "Seagrass",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "rabbit": [
+    {
+      "speciesId": "rabbit",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Oryctolagus+cuniculus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Oryctolagus cuniculus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "rabbit",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Oryctolagus cuniculus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "deer": [
+    {
+      "speciesId": "deer",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Cervidae&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Cervidae",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "deer",
+      "title": "NPS \u00b7 North American deer representative \u2014 regionalCoverage",
+      "organization": "NPS \u00b7 North American deer representative",
+      "type": "website",
+      "url": "https://www.nps.gov/jeca/learn/nature/white-tailed-deer-odocoileus-virginianus.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Cervidae",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "redfox": [
+    {
+      "speciesId": "redfox",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Vulpes+vulpes&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Vulpes vulpes",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "redfox",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Vulpes vulpes",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "honeybee": [
+    {
+      "speciesId": "honeybee",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Apis+mellifera&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Apis mellifera",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "honeybee",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Apis_mellifera/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Apis mellifera",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "seaturtle": [
+    {
+      "speciesId": "seaturtle",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Eretmochelys+imbricata&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Eretmochelys imbricata",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "seaturtle",
+      "title": "NOAA Fisheries \u2014 habitat and resources",
+      "organization": "NOAA Fisheries",
+      "type": "website",
+      "url": "https://www.fisheries.noaa.gov/species/hawksbill-turtle",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources.",
+      "topic": "habitat and resources",
+      "scope": "Eretmochelys imbricata",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "seaturtle",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Eretmochelys_imbricata/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Eretmochelys imbricata",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "amurleopard": [
+    {
+      "speciesId": "amurleopard",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Panthera+pardus+orientalis&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Panthera pardus orientalis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "amurleopard",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Panthera_pardus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Panthera pardus orientalis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "sumatranorangutan": [
+    {
+      "speciesId": "sumatranorangutan",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Pongo+abelii&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Pongo abelii",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "sumatranorangutan",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Pongo_abelii/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Pongo abelii",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "vaquita": [
+    {
+      "speciesId": "vaquita",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Phocoena+sinus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Phocoena sinus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "vaquita",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Phocoena_sinus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Phocoena sinus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "kakapo": [
+    {
+      "speciesId": "kakapo",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Strigops+habroptila&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Strigops habroptila",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "kakapo",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Strigops_habroptila/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Strigops habroptila",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "axolotl": [
+    {
+      "speciesId": "axolotl",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Ambystoma+mexicanum&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Ambystoma mexicanum",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "axolotl",
+      "title": "Natural History Museum \u2014 habitat and resources",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources.",
+      "topic": "habitat and resources",
+      "scope": "Ambystoma mexicanum",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "axolotl",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Ambystoma mexicanum",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "sumatranrhino": [
+    {
+      "speciesId": "sumatranrhino",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Dicerorhinus+sumatrensis&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Dicerorhinus sumatrensis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "sumatranrhino",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Dicerorhinus_sumatrensis/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Dicerorhinus sumatrensis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "rightwhale": [
+    {
+      "speciesId": "rightwhale",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Eubalaena+glacialis&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Eubalaena glacialis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "rightwhale",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Eubalaena_glacialis/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Eubalaena glacialis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "pangolin": [
+    {
+      "speciesId": "pangolin",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Manis+javanica&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Manis javanica",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "pangolin",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Manis_javanica/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Manis javanica",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "philippineeagle": [
+    {
+      "speciesId": "philippineeagle",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Pithecophaga+jefferyi&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Pithecophaga jefferyi",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "philippineeagle",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Pithecophaga_jefferyi/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Pithecophaga jefferyi",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "condor": [
+    {
+      "speciesId": "condor",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Gymnogyps+californianus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Gymnogyps californianus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "condor",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Gymnogyps_californianus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Gymnogyps californianus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "condor",
+      "title": "Historical range and living native range review \u2014 historical continuity",
+      "organization": "Historical range and living native range review",
+      "type": "website",
+      "url": "https://www.nps.gov/redw/learn/nature/condors.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for historical continuity.",
+      "topic": "historical continuity",
+      "scope": "Gymnogyps californianus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "forestelephant": [
+    {
+      "speciesId": "forestelephant",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Loxodonta+cyclotis&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Loxodonta cyclotis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "forestelephant",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Loxodonta_cyclotis/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Loxodonta cyclotis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "elkhorncoral": [
+    {
+      "speciesId": "elkhorncoral",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Acropora+palmata&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Acropora palmata",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "elkhorncoral",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Acropora_palmata/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Acropora palmata",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "tiger": [
+    {
+      "speciesId": "tiger",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Panthera+tigris&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Panthera tigris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "tiger",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Panthera_tigris/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Panthera tigris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "redpanda": [
+    {
+      "speciesId": "redpanda",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Ailurus+fulgens&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Ailurus fulgens",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "redpanda",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Ailurus_fulgens/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Ailurus fulgens",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "bluewhale": [
+    {
+      "speciesId": "bluewhale",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Balaenoptera+musculus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Balaenoptera musculus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "mountaingorilla": [
+    {
+      "speciesId": "mountaingorilla",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Gorilla+beringei+beringei&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Gorilla beringei beringei",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "asianelephant": [
+    {
+      "speciesId": "asianelephant",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Elephas+maximus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Elephas maximus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "asianelephant",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Elephas_maximus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Elephas maximus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "whaleshark": [
+    {
+      "speciesId": "whaleshark",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Rhincodon+typus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Rhincodon typus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "whaleshark",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Rhincodon_typus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Rhincodon typus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "seaotter": [
+    {
+      "speciesId": "seaotter",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Enhydra+lutris&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Enhydra lutris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "seaotter",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Enhydra_lutris/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Enhydra lutris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "seaotter",
+      "title": "Historical range and living native range review \u2014 historical continuity",
+      "organization": "Historical range and living native range review",
+      "type": "website",
+      "url": "https://www.fws.gov/species/sea-otter-enhydra-lutris",
+      "year": null,
+      "description": "Existing catalogue evidence for historical continuity.",
+      "topic": "historical continuity",
+      "scope": "Enhydra lutris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "ringtailedlemur": [
+    {
+      "speciesId": "ringtailedlemur",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Lemur+catta&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Lemur catta",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "ringtailedlemur",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Lemur_catta/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Lemur catta",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "wilddog": [
+    {
+      "speciesId": "wilddog",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Lycaon+pictus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Lycaon pictus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "wilddog",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Lycaon_pictus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Lycaon pictus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "giantpanda": [
+    {
+      "speciesId": "giantpanda",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Ailuropoda+melanoleuca&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Ailuropoda melanoleuca",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "giantpanda",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Ailuropoda_melanoleuca/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Ailuropoda melanoleuca",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "snowleopard": [
+    {
+      "speciesId": "snowleopard",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Panthera+uncia&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Panthera uncia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "snowleopard",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Uncia_uncia/",
+      "year": null,
+      "description": "Existing catalogue evidence for feeding ecology.",
+      "topic": "feeding ecology",
+      "scope": "Panthera uncia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "polarbear": [
+    {
+      "speciesId": "polarbear",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Ursus+maritimus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Ursus maritimus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "polarbear",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Ursus_maritimus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Ursus maritimus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "koala": [
+    {
+      "speciesId": "koala",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Phascolarctos+cinereus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Phascolarctos cinereus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "koala",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Phascolarctos_cinereus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Phascolarctos cinereus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "cheetah": [
+    {
+      "speciesId": "cheetah",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Acinonyx+jubatus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Acinonyx jubatus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "cheetah",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Acinonyx_jubatus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Acinonyx jubatus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "emperorpenguin": [
+    {
+      "speciesId": "emperorpenguin",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Aptenodytes+forsteri&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Aptenodytes forsteri",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "emperorpenguin",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Aptenodytes forsteri",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "mammoth": [
+    {
+      "speciesId": "mammoth",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Mammuthus+primigenius&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Mammuthus primigenius",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "mammoth",
+      "title": "Natural History Museum \u2014 habitat and resources",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/our-science/research/projects/mammoth-evolution-model-species-origins.html",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources.",
+      "topic": "habitat and resources",
+      "scope": "Mammuthus primigenius",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "mammoth",
+      "title": "Natural History Museum \u2014 last occurrence",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/news/2024/july/woolly-mammoth-genome-rebuilt-from-freeze-dried-skin.html",
+      "year": null,
+      "description": "Existing catalogue evidence for last occurrence.",
+      "topic": "last occurrence",
+      "scope": "Mammuthus primigenius",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "mammoth",
+      "title": "Historical record source \u2014 historical extinction record",
+      "organization": "Historical record source",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/last-mammoths.html",
+      "year": null,
+      "description": "Existing catalogue evidence for historical extinction record.",
+      "topic": "historical extinction record",
+      "scope": "Mammuthus primigenius",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "mammoth",
+      "title": "NPS \u00b7 Woolly mammoths in Alaska \u2014 regionalCoverage",
+      "organization": "NPS \u00b7 Woolly mammoths in Alaska",
+      "type": "website",
+      "url": "https://www.nps.gov/bela/learn/nature/ice-age-mammals.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Mammuthus primigenius",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "stellerseacow": [
+    {
+      "speciesId": "stellerseacow",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Hydrodamalis+gigas&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Hydrodamalis gigas",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "stellerseacow",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Hydrodamalis_gigas/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Hydrodamalis gigas",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "stellerseacow",
+      "title": "Historical record source \u2014 historical extinction record",
+      "organization": "Historical record source",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html",
+      "year": null,
+      "description": "Existing catalogue evidence for historical extinction record.",
+      "topic": "historical extinction record",
+      "scope": "Hydrodamalis gigas",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "dodo": [
+    {
+      "speciesId": "dodo",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Raphus+cucullatus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Raphus cucullatus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "dodo",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Raphus_cucullatus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Raphus cucullatus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "dodo",
+      "title": "Historical record source \u2014 historical extinction record",
+      "organization": "Historical record source",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+      "year": null,
+      "description": "Existing catalogue evidence for historical extinction record.",
+      "topic": "historical extinction record",
+      "scope": "Raphus cucullatus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "passengerpigeon": [
+    {
+      "speciesId": "passengerpigeon",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Ectopistes+migratorius&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Ectopistes migratorius",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "passengerpigeon",
+      "title": "Historical record source \u2014 historical extinction record",
+      "organization": "Historical record source",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html",
+      "year": null,
+      "description": "Existing catalogue evidence for historical extinction record.",
+      "topic": "historical extinction record",
+      "scope": "Ectopistes migratorius",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "thylacine": [
+    {
+      "speciesId": "thylacine",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Thylacinus+cynocephalus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Thylacinus cynocephalus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "thylacine",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Thylacinus cynocephalus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "thylacine",
+      "title": "Historical record source \u2014 historical extinction record",
+      "organization": "Historical record source",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/remembering-tasmanian-tiger-thylacine.html",
+      "year": null,
+      "description": "Existing catalogue evidence for historical extinction record.",
+      "topic": "historical extinction record",
+      "scope": "Thylacinus cynocephalus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "pintatortoise": [
+    {
+      "speciesId": "pintatortoise",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Chelonoidis+abingdonii&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Chelonoidis abingdonii",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "pintatortoise",
+      "title": "Historical record source \u2014 historical extinction record",
+      "organization": "Historical record source",
+      "type": "website",
+      "url": "https://www.galapagos.org/about_galapagos/lonesome-george/",
+      "year": null,
+      "description": "Existing catalogue evidence for historical extinction record.",
+      "topic": "historical extinction record",
+      "scope": "Chelonoidis abingdonii",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "humpback": [
+    {
+      "speciesId": "humpback",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Megaptera_novaeangliae/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Megaptera novaeangliae",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "baldeagle": [
+    {
+      "speciesId": "baldeagle",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Haliaeetus+leucocephalus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Haliaeetus leucocephalus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "baldeagle",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Haliaeetus leucocephalus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "baldeagle",
+      "title": "Historical range and living native range review \u2014 historical continuity",
+      "organization": "Historical range and living native range review",
+      "type": "website",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "year": null,
+      "description": "Existing catalogue evidence for historical continuity.",
+      "topic": "historical continuity",
+      "scope": "Haliaeetus leucocephalus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "reeffish": [
+    {
+      "speciesId": "reeffish",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Amphiprion+ocellaris&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Amphiprion ocellaris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "reeffish",
+      "title": "Florida Museum \u2014 habitat and resources",
+      "organization": "Florida Museum",
+      "type": "website",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources.",
+      "topic": "habitat and resources",
+      "scope": "Amphiprion ocellaris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "reeffish",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 range and feeding ecology",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Amphiprion_ocellaris/",
+      "year": null,
+      "description": "Existing catalogue evidence for range and feeding ecology.",
+      "topic": "range and feeding ecology",
+      "scope": "Amphiprion ocellaris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "trilobite": [
+    {
+      "speciesId": "trilobite",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Trilobita&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Trilobita",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "trilobite",
+      "title": "Natural History Museum \u2014 habitat and resources; fossil range",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/how-trilobites-conquered-prehistoric-oceans.html",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources; fossil range.",
+      "topic": "habitat and resources; fossil range",
+      "scope": "Trilobita",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "trilobite",
+      "title": "Natural History Museum \u2014 last occurrence",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/schools/teaching-resources/big-ideas-in-science-evolution/trilobite-fossils-resources-and-class-activities.html",
+      "year": null,
+      "description": "Existing catalogue evidence for last occurrence.",
+      "topic": "last occurrence",
+      "scope": "Trilobita",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "trilobite",
+      "title": "NPS \u00b7 trilobite group fossils in North America \u2014 dated regional display coverage",
+      "organization": "NPS \u00b7 trilobite group fossils in North America",
+      "type": "website",
+      "url": "https://home.nps.gov/grca/learn/nature/fossils.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for dated regional display coverage.",
+      "topic": "dated regional display coverage",
+      "scope": "Trilobita",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "trilobite",
+      "title": "ROM \u00b7 segmented three-lobed anatomy; original broad-group model \u2014 anatomy",
+      "organization": "ROM \u00b7 segmented three-lobed anatomy; original broad-group model",
+      "type": "website",
+      "url": "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy.",
+      "topic": "anatomy",
+      "scope": "Trilobita",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "arthropleura": [
+    {
+      "speciesId": "arthropleura",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Arthropleura&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Arthropleura",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "arthropleura",
+      "title": "Natural History Museum \u2014 habitat and resources; fossil range",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/news/2024/october/largest-ever-millipede-head-revealed.html",
+      "year": null,
+      "description": "Existing catalogue evidence for habitat and resources; fossil range.",
+      "topic": "habitat and resources; fossil range",
+      "scope": "Arthropleura",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "anomalocaris": [
+    {
+      "speciesId": "anomalocaris",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Anomalocaris&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Anomalocaris canadensis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "anomalocaris",
+      "title": "Museum, geological survey or university evidence \u2014 dated occurrence / display coverage",
+      "organization": "Museum, geological survey or university evidence",
+      "type": "website",
+      "url": "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+      "year": null,
+      "description": "Existing catalogue evidence for dated occurrence / display coverage.",
+      "topic": "dated occurrence / display coverage",
+      "scope": "Anomalocaris canadensis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "ammonite": [
+    {
+      "speciesId": "ammonite",
+      "title": "Museum / public scientific reference \u2014 historical context",
+      "organization": "Museum / public scientific reference",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html",
+      "year": null,
+      "description": "Existing catalogue evidence for historical context.",
+      "topic": "historical context",
+      "scope": "Ammonoid",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "dimetrodon": [
+    {
+      "speciesId": "dimetrodon",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Dimetrodon&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Dimetrodon Cope, 1878",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "dimetrodon",
+      "title": "University of Texas Science & Natural History Museum \u2014 dated occurrence / display coverage",
+      "organization": "University of Texas Science & Natural History Museum",
+      "type": "website",
+      "url": "https://sciencemuseum.utexas.edu/exhibit/paleontology-gallery/",
+      "year": null,
+      "description": "Existing catalogue evidence for dated occurrence / display coverage.",
+      "topic": "dated occurrence / display coverage",
+      "scope": "Dimetrodon Cope, 1878",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "triceratops": [
+    {
+      "speciesId": "triceratops",
+      "title": "Museum / public scientific reference \u2014 historical context",
+      "organization": "Museum / public scientific reference",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+      "year": null,
+      "description": "Existing catalogue evidence for historical context.",
+      "topic": "historical context",
+      "scope": "Triceratops Marsh, 1889",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "triceratops",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Triceratops&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Triceratops Marsh, 1889",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "pteranodon": [
+    {
+      "speciesId": "pteranodon",
+      "title": "Museum / public scientific reference \u2014 historical context",
+      "organization": "Museum / public scientific reference",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html",
+      "year": null,
+      "description": "Existing catalogue evidence for historical context.",
+      "topic": "historical context",
+      "scope": "Pteranodon longiceps",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "groundsloth": [
+    {
+      "speciesId": "groundsloth",
+      "title": "Museum / public scientific reference \u2014 historical context",
+      "organization": "Museum / public scientific reference",
+      "type": "website",
+      "url": "https://www.floridamuseum.ufl.edu/vertpaleo/aucilla-river-prehistory-project/",
+      "year": null,
+      "description": "Existing catalogue evidence for historical context.",
+      "topic": "historical context",
+      "scope": "Giant ground sloth",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "groundsloth",
+      "title": "Florida Museum \u00b7 Mixson\u2019s Bone Bed \u2014 Neogene context",
+      "organization": "Florida Museum \u00b7 Mixson\u2019s Bone Bed",
+      "type": "website",
+      "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/sites/mixsons-bone-bed/",
+      "year": null,
+      "description": "Existing catalogue evidence for Neogene context.",
+      "topic": "Neogene context",
+      "scope": "Giant ground sloth",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "groundsloth",
+      "title": "Natural History Museum \u2014 feeding ecology",
+      "organization": "Natural History Museum",
+      "type": "website",
+      "url": "https://www.nhm.ac.uk/our-science/services/collections/digital/programme/darwins-ground-sloths.html",
+      "year": null,
+      "description": "Existing catalogue evidence for feeding ecology.",
+      "topic": "feeding ecology",
+      "scope": "Giant ground sloth",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "groundsloth",
+      "title": "Florida Museum \u00b7 ground sloth groups from late Miocene; Eremotherium 2.6\u20130.6 Ma \u2014 dated regional display coverage",
+      "organization": "Florida Museum \u00b7 ground sloth groups from late Miocene; Eremotherium 2.6\u20130.6 Ma",
+      "type": "website",
+      "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/eremotherium-eomigrans/",
+      "year": null,
+      "description": "Existing catalogue evidence for dated regional display coverage.",
+      "topic": "dated regional display coverage",
+      "scope": "Giant ground sloth",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "lycophyte": [
+    {
+      "speciesId": "lycophyte",
+      "title": "Museum / public scientific reference \u2014 historical context",
+      "organization": "Museum / public scientific reference",
+      "type": "website",
+      "url": "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for historical context.",
+      "topic": "historical context",
+      "scope": "Tree lycophyte",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "lycophyte",
+      "title": "NPS \u00b7 North American Pennsylvanian swamp forest groups \u2014 regionalCoverage",
+      "organization": "NPS \u00b7 North American Pennsylvanian swamp forest groups",
+      "type": "website",
+      "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Broader Pennsylvanian plant communities and geological context",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "horsetail": [
+    {
+      "speciesId": "horsetail",
+      "title": "Museum / public scientific reference \u2014 historical context",
+      "organization": "Museum / public scientific reference",
+      "type": "website",
+      "url": "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for historical context.",
+      "topic": "historical context",
+      "scope": "Ancient horsetail",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "horsetail",
+      "title": "NPS \u00b7 North American Pennsylvanian swamp forest groups \u2014 regionalCoverage",
+      "organization": "NPS \u00b7 North American Pennsylvanian swamp forest groups",
+      "type": "website",
+      "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for regionalCoverage.",
+      "topic": "regionalCoverage",
+      "scope": "Broader Pennsylvanian plant communities and geological context",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "decomposer": [],
+  "bison": [
+    {
+      "speciesId": "bison",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 taxonomy, native range, feeding and visible characteristics",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Bison_bison/",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy, native range, feeding and visible characteristics.",
+      "topic": "taxonomy, native range, feeding and visible characteristics",
+      "scope": "Bison bison",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "bison",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Bison+bison&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Bison bison",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "bison",
+      "title": "Historical range and living native range review \u2014 historical continuity",
+      "organization": "Historical range and living native range review",
+      "type": "website",
+      "url": "https://www.nps.gov/parkhistory/online_books/bison/",
+      "year": null,
+      "description": "Existing catalogue evidence for historical continuity.",
+      "topic": "historical continuity",
+      "scope": "Bison bison",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "graywolf": [
+    {
+      "speciesId": "graywolf",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 taxonomy, native range, feeding and visible characteristics",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Canis_lupus/",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy, native range, feeding and visible characteristics.",
+      "topic": "taxonomy, native range, feeding and visible characteristics",
+      "scope": "Canis lupus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "graywolf",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Canis+lupus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Canis lupus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "graywolf",
+      "title": "Historical range and living native range review \u2014 historical continuity",
+      "organization": "Historical range and living native range review",
+      "type": "website",
+      "url": "https://home.nps.gov/yell/learn/historyculture/wolf-management.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for historical continuity.",
+      "topic": "historical continuity",
+      "scope": "Canis lupus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "beaver": [
+    {
+      "speciesId": "beaver",
+      "title": "University of Michigan \u00b7 Animal Diversity Web \u2014 taxonomy, native range, feeding and visible characteristics",
+      "organization": "University of Michigan \u00b7 Animal Diversity Web",
+      "type": "website",
+      "url": "https://animaldiversity.org/accounts/Castor_canadensis/",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy, native range, feeding and visible characteristics.",
+      "topic": "taxonomy, native range, feeding and visible characteristics",
+      "scope": "Castor canadensis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "beaver",
+      "title": "Historical range and living native range review \u2014 historical continuity",
+      "organization": "Historical range and living native range review",
+      "type": "website",
+      "url": "https://www.nps.gov/yell/learn/nature/beaver.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for historical continuity.",
+      "topic": "historical continuity",
+      "scope": "Castor canadensis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "menhaden": [
+    {
+      "speciesId": "menhaden",
+      "title": "NOAA Fisheries \u2014 taxonomy, native range, feeding and visible characteristics",
+      "organization": "NOAA Fisheries",
+      "type": "website",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-menhaden",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy, native range, feeding and visible characteristics.",
+      "topic": "taxonomy, native range, feeding and visible characteristics",
+      "scope": "Brevoortia tyrannus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "menhaden",
+      "title": "GBIF taxonomic backbone \u2014 taxonomy",
+      "organization": "GBIF taxonomic backbone",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Brevoortia+tyrannus&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Brevoortia tyrannus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "capybara": [
+    {
+      "speciesId": "capybara",
+      "title": "San Diego Zoo Wildlife Alliance \u2014 taxonomy, native habitat, feeding and anatomy",
+      "organization": "San Diego Zoo Wildlife Alliance",
+      "type": "website",
+      "url": "https://animals.sandiegozoo.org/animals/capybara",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy, native habitat, feeding and anatomy.",
+      "topic": "taxonomy, native habitat, feeding and anatomy",
+      "scope": "Hydrochoerus hydrochaeris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "capybara",
+      "title": "San Diego Zoo Wildlife Explorers \u2014 high-set eyes, ears and diet",
+      "organization": "San Diego Zoo Wildlife Explorers",
+      "type": "website",
+      "url": "https://sdzwildlifeexplorers.org/animals/capybara",
+      "year": null,
+      "description": "Existing catalogue evidence for high-set eyes, ears and diet.",
+      "topic": "high-set eyes, ears and diet",
+      "scope": "Hydrochoerus hydrochaeris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "capybara",
+      "title": "GBIF accepted species 5786666 \u2014 taxonomy",
+      "organization": "GBIF accepted species 5786666",
+      "type": "website",
+      "url": "https://api.gbif.org/v1/species/match?name=Hydrochoerus+hydrochaeris&strict=true",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy.",
+      "topic": "taxonomy",
+      "scope": "Hydrochoerus hydrochaeris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "desmatosuchus": [
+    {
+      "speciesId": "desmatosuchus",
+      "title": "NPS \u2014 taxonomy, anatomy and ecology",
+      "organization": "NPS",
+      "type": "website",
+      "url": "https://www.nps.gov/pefo/learn/pseudosuchians.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy, anatomy and ecology.",
+      "topic": "taxonomy, anatomy and ecology",
+      "scope": "Desmatosuchus spurensis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "vauxia": [
+    {
+      "speciesId": "vauxia",
+      "title": "Royal Ontario Museum \u2014 taxonomy, anatomy and ecology",
+      "organization": "Royal Ontario Museum",
+      "type": "website",
+      "url": "https://burgess-shale.rom.on.ca/fossils/vauxia-gracilenta/",
+      "year": null,
+      "description": "Existing catalogue evidence for taxonomy, anatomy and ecology.",
+      "topic": "taxonomy, anatomy and ecology",
+      "scope": "Vauxia gracilenta",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "platystrophia": [
+    {
+      "speciesId": "platystrophia",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/choh/learn/nature/fossils.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Platystrophia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "eucalyptocrinites": [
+    {
+      "speciesId": "eucalyptocrinites",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/crinoids/",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Eucalyptocrinites",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "eurypterus": [
+    {
+      "speciesId": "eurypterus",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Eurypterus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "cooksonia": [
+    {
+      "speciesId": "cooksonia",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360123/",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Cooksonia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "archaeopteris": [
+    {
+      "speciesId": "archaeopteris",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://doi.org/10.1016/j.revpalbo.2024.105212",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Archaeopteris",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "dunkleosteus": [
+    {
+      "speciesId": "dunkleosteus",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.cmnh.org/explore/galleries-attractions/visitor-hall",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Dunkleosteus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "knightia": [
+    {
+      "speciesId": "knightia",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/fobu/learn/fossils-geology.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Knightia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "metasequoia": [
+    {
+      "speciesId": "metasequoia",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/articles/000/battle-of-the-bark.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Metasequoia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "mesohippus": [
+    {
+      "speciesId": "mesohippus",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/media/photo/view.htm?id=7f8cefd8-408f-419f-9e11-9a787b4660e2",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Mesohippus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "merychippus": [
+    {
+      "speciesId": "merychippus",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.floridamuseum.ufl.edu/fossil-horses/gallery/merychippus/",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Merychippus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "coelophysis": [
+    {
+      "speciesId": "coelophysis",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/subjects/fossils/triassic-dinosaurs.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Coelophysis",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "edmontonia": [
+    {
+      "speciesId": "edmontonia",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/dena/learn/nature/edmontonia.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Edmontonia",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "placerias": [
+    {
+      "speciesId": "placerias",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/subjects/fossils/vertebrate-fossils.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Placerias",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "dilophosaurus": [
+    {
+      "speciesId": "dilophosaurus",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.jsg.utexas.edu/txvp/dilophosaurus/",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Dilophosaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "camarasaurus": [
+    {
+      "speciesId": "camarasaurus",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/dino/learn/nature/camarasaurus-lentus.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Camarasaurus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "deinonychus": [],
+  "diplomystus": [
+    {
+      "speciesId": "diplomystus",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://www.nps.gov/fobu/learn/nature/fossil-fish.htm",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Diplomystus",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ],
+  "cloudina": [
+    {
+      "speciesId": "cloudina",
+      "title": "Museum, scientific institution or primary publication \u2014 anatomy / ecological interpretation",
+      "organization": "Museum, scientific institution or primary publication",
+      "type": "website",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5524506/",
+      "year": null,
+      "description": "Existing catalogue evidence for anatomy / ecological interpretation.",
+      "topic": "anatomy / ecological interpretation",
+      "scope": "Cloudina",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    },
+    {
+      "speciesId": "cloudina",
+      "title": "Schiffbauer et al. 2020; cloudinomorph biology and terminal Ediacaran context \u2014 age context and uncertainty",
+      "organization": "Schiffbauer et al. 2020; cloudinomorph biology and terminal Ediacaran context",
+      "type": "website",
+      "url": "https://www.nature.com/articles/s41467-019-13882-z",
+      "year": null,
+      "description": "Existing catalogue evidence for age context and uncertainty.",
+      "topic": "age context and uncertainty",
+      "scope": "Cloudina",
+      "verifiedAt": "2026-10-17",
+      "verification": "URL retrieved successfully; scientific scope follows the existing curated catalogue."
+    }
+  ]
+}

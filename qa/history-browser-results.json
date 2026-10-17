@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Catalogue selection opens compact card only",
+    "Paper/PDF open new tabs; date and saved world unchanged",
+    "Educational video is optional external link; no embedded media",
+    "Marine future context distinguishes simulation from scientific history",
+    "Mobile plant history fits viewport and closes"
+  ],
+  "errors": []
+}

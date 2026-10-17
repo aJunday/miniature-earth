@@ -1,0 +1,9 @@
+{
+ "stegosaurus":[
+  {"speciesId":"stegosaurus","title":"The Postcranial Skeleton of an Exceptionally Complete Individual of the Plated Dinosaur Stegosaurus stenops","organization":"Maidment, Brassey & Barrett · PLOS ONE","type":"paper","url":"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138352","year":2015,"description":"Open-access anatomical study of a Wyoming specimen, including comparisons with other stegosaurs.","topic":"Late Jurassic anatomy and comparative paleontology","scope":"Stegosaurus stenops within the playable Stegosaurus genus","verifiedAt":"2026-10-17","verification":"Opened publisher page and checked title, authors, date and abstract."},
+  {"speciesId":"stegosaurus","title":"Dinosaur National Monument Junior Ranger Book","organization":"US National Park Service","type":"PDF","url":"https://www.nps.gov/dino/learn/kidsyouth/upload/DINO_JR-RANGER_FINAL-Accessible-Reduced-Size.pdf","year":null,"description":"Educational activities about the monument's fossils, including Stegosaurus. This is a learning booklet, not a research paper.","topic":"Jurassic fossil discovery","scope":"Broader Dinosaur National Monument dinosaur community","verifiedAt":"2026-10-17","verification":"Opened actual 16-page PDF and confirmed Stegosaurus content; publication year unconfirmed."}
+ ],
+ "fern":[
+  {"speciesId":"fern","title":"What's Wild: Ferns","organization":"South Carolina ETV · PBS","type":"video","url":"https://www.pbs.org/video/ferns-jzdpxf/","year":null,"description":"Educational episode about fern fronds and spore-based reproduction. Opens the PBS page; nothing is embedded in the game.","topic":"Fern biology and reproduction","scope":"Ferns as a broader plant group","verifiedAt":"2026-10-17","verification":"Opened PBS episode page and checked its fern description; no thumbnail licensed or copied."}
+ ]
+}

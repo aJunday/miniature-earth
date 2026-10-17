@@ -302,3 +302,11 @@
 - Save Island exports the current autosaved project; Load Island validates local JSON before atomically replacing custom state. Reset keeps the original snapshot, and history remains independent.
 - Visual QA found an additional preview defect: converting a single GLB material to an array prevents ungrouped geometry from drawing. Preserve material shape when cloning and fading previews; regression-test this separately from HTML labels.
 - Custom catalogue starts with All organisms so incompatible-date introductions remain discoverable; historical catalogue retains its era filter. Mobile placement locks orbit until cancel to avoid touch gestures moving the camera.
+
+## Optional wildlife history and research
+- The request attachment stops at “Required Testing / Verify”; implement all preceding requirements and test selection, explicit expansion, all resource types, state preservation, future separation and mobile layout.
+- Reuse the 90 supported organism records; keep taxonomy-only reference entries separate. Unknown lineage, reproduction, native range and extinction hypotheses stay explicitly unverified rather than being invented.
+- Recheck existing curated URLs for reachability, preserving their recorded taxon/field associations. A successful HTTP response is a link check, not a fresh scientific peer review. Exclude failed checks from the new resource collection.
+- Papers, PDFs and videos are curated only where checked; empty categories show an availability message. No thumbnails are copied without permission, no embeds/autoplay, and no external search API or new dependency is added.
+- Live 3D selection exposed stale InstancedMesh raycast bounds after animation. Invalidate cached bounds when instance transforms change; a regression test reproduces a missed moved instance and verifies the corrected hit.
+- Browser popup/state checks run against the built local preview to avoid development reloads while QA artifacts are written. Mobile screenshots prompted an opaque elevated panel and a persistent close button.
