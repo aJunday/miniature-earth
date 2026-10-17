@@ -179,3 +179,13 @@
 - The source catalogue remains incomplete by design: unknown historical intervals block new placement and omitted scenery, while existing experimental descendants do not acquire a historical extinction deadline.
 - Use a writable temporary npm cache for asset inspection; do not alter ownership of the user's global npm cache.
 - Preserve the user's pre-existing .gitignore change outside all task commits.
+
+## 2026-10-16 completion assumptions (supersede earlier prototype limits)
+- The explicit request for remaining rigging supersedes AGENTS.md's original no-armature constraint. Preserve the toy meshes, joint origins and original full/LOD assets; add deformable exports under models/rigged.
+- Use nine authored skeletal actions with 0.25-second crossfades, speed-scaled walking, and graded appendage skin weights. Up to four nearby animals per species use skeletons; distant populations retain instancing.
+- The four inherited mammal coats also use an exported Insulation morph target. Near/far rendering is a performance representation, not a biological change.
+- The isolated rabbit microhabitat is removed. All experimental populations, inherited cohorts, food pools, nutrients, detritus and aquatic conditions now share one pure replay engine.
+- Near-present experiments use annual ecological steps and overlapping survivors/offspring; deep-time seeks cap at 512 explicitly labeled ecological steps. These are not reconstructed annual fossil histories.
+- Resource pools are finite teaching biomass units, not measured species abundances. Unmodeled prey and specialist browse are labeled guild proxies, not claims about the displayed plant species or geographic co-occurrence.
+- Known dated fossil occurrences may be single-date snapshots; do not turn a rounded fossil age into an invented total species range or confidence interval.
+- Existing historical-reconstruction tests now call historicalState; ecological tests no longer assume a population survives millions of years without finite food/nutrient turnover.

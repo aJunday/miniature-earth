@@ -1,0 +1,834 @@
+[
+  {
+    "id": "dickinsonia",
+    "bones": 7,
+    "skins": 5,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "stegosaurus",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "brachiosaurus",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "allosaurus",
+    "bones": 13,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "rabbit",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "deer",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "redfox",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "honeybee",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "seaturtle",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "amurleopard",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "sumatranorangutan",
+    "bones": 17,
+    "skins": 11,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "vaquita",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "kakapo",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "axolotl",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "sumatranrhino",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "rightwhale",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "pangolin",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "philippineeagle",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "condor",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "forestelephant",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "tiger",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "redpanda",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "bluewhale",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "mountaingorilla",
+    "bones": 17,
+    "skins": 11,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "asianelephant",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "whaleshark",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "seaotter",
+    "bones": 13,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "ringtailedlemur",
+    "bones": 17,
+    "skins": 11,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "wilddog",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "giantpanda",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "snowleopard",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "polarbear",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "koala",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "cheetah",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "emperorpenguin",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "mammoth",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "stellerseacow",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "dodo",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "passengerpigeon",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "thylacine",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "pintatortoise",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "humpback",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "baldeagle",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "reeffish",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "trilobite",
+    "bones": 5,
+    "skins": 4,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "arthropleura",
+    "bones": 5,
+    "skins": 4,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "anomalocaris",
+    "bones": 5,
+    "skins": 4,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "ammonite",
+    "bones": 5,
+    "skins": 4,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "dimetrodon",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "triceratops",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "pteranodon",
+    "bones": 9,
+    "skins": 6,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "groundsloth",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  }
+]
