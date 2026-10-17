@@ -1,3 +1,4 @@
+import {habitatStress} from './conservationVisuals';
 import {bodyRadius} from '../state/composition';
 import {islandDistance} from '../world/terrain';
 import {wildlife} from './wildlife';
@@ -16,11 +17,11 @@ import {Box3,CanvasTexture,Color,InstancedMesh,Matrix4,Mesh,MeshLambertMaterial,
 import {byId} from '../sim/simulation';
 import {terrainHeight} from '../world';
 import {navigable} from '../world/navigation';
-import {useGame} from '../state';
+import {useGame,useSimState} from '../state';
 export interface RenderIndividual {key:string;x:number;z:number;fossil:boolean;exitAt?:number;allele?:Allele|undefined}
 /** One draw per source primitive, irrespective of the number of animals. */
 export function BatchedOrganisms({id,items,year,neighbors}:{id:string;items:RenderIndividual[];year:number;neighbors:Neighborhood}){
- const focused=useGame(g=>g.focused);
+ const focused=useGame(g=>g.focused),sim=useSimState(),stress=habitatStress(sim.year,sim.env);
  const hiddenScale=useMemo(()=>new Vector3(0,0,0),[]);
  const rigs=useRef(new Map<string,RigHandle>());
  const camera=useThree(state=>state.camera);const [distant,setDistant]=useState(()=>byId[id].height*camera.zoom<100);
@@ -37,7 +38,7 @@ export function BatchedOrganisms({id,items,year,neighbors}:{id:string;items:Rend
 
  const refs=useRef<(InstancedMesh|null)[]>([]),births=useRef(new Map<string,number>()),dummy=useMemo(()=>new Object3D(),[]),motion=useMemo(()=>new Object3D(),[]),matrix=useMemo(()=>new Matrix4(),[]),s=byId[id];
  useEffect(()=>{const live=new Set(items.map(v=>v.key));for(const map of [motions.current,births.current])for(const key of map.keys())if(!live.has(key))map.delete(key)},[items]);
- useEffect(()=>{refs.current.forEach(mesh=>{if(!mesh)return;items.forEach((v,i)=>mesh.setColorAt(i,new Color(v.fossil?'#aaa79c':focused===id?'#fff3b0':'#ffffff')));if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true})},[items,parts,focused,id]);
+ useEffect(()=>{refs.current.forEach(mesh=>{if(!mesh)return;items.forEach((v,i)=>mesh.setColorAt(i,new Color(v.fossil?'#aaa79c':focused===id?'#fff3b0':'#ffffff').lerp(new Color('#b6aa8d'),stress*.55)));if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true})},[items,parts,focused,id,stress]);
  const elapsed=useRef(0);
  useFrame(({clock},dt)=>{elapsed.current+=dt;if(distant&&elapsed.current<1/30)return;dt=elapsed.current;elapsed.current=0;const t=clock.elapsedTime;items.forEach((item,i)=>{if(!births.current.has(item.key))births.current.set(item.key,t);const age=t-births.current.get(item.key)!,u=Math.min(1,age/.35),scale=Math.max(.01,1+2.70158*(u-1)**3+1.70158*(u-1)**2);const phase=phases.get(item.key)??0;
  let state=motions.current.get(item.key)??{x:item.x,z:item.z,heading:0,mode:'idle' as const};

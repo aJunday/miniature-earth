@@ -283,3 +283,6 @@ Existing stromatolite assets join the supported Cambrian marine community; dated
 
 ### Demo readability 5 — DONE
 Cool Jurassic green, warm Cretaceous clearings, rear volcanic landmark, and existing Pleistocene snow make the eras distinct. Thinned foreground ground cover to expose dinosaur silhouettes. Enlarged the existing sponge presentation and moved marine framing below the masthead. Reviewed all nine screenshots; all representatives in frame. Typecheck passed.
+
+### Demo readability 6 — DONE
+Conservation presentation now follows actual simulated habitat: nonlinear vegetation coverage, dry brown ground, subdued animal colour, and visible water/atmospheric haze. Strengthened contrast after the first visual comparison was too subtle. Recaptured and reviewed all nine views; 2100 baseline is visibly dry/hazy and protection is green. Seven conservation/futures tests passed. No new interventions or population rules.
