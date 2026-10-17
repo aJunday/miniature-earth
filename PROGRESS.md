@@ -259,3 +259,6 @@ Automatic habitat focus now ranks actual eligible, asset-backed communities and 
 
 ## Biodiversity expansion E — DONE
 Expanded evidence-backed vegetation coverage for oak, grass, lycophytes and horsetails using screened PBDB group occurrences; added reviewed North American Charnia and Cretaceous ammonite coverage. Forest anchors now prefer back-edge lowlands; early vascular plants and horsetails cluster beside freshwater. Defaults still use bounded instanced representatives and native temporal/geographic checks. Twelve formerly empty requested checkpoints now gain implemented life (including vegetation-only intervals); exact remaining content gaps remain visible and unfilled with unsupported species. 114 tests and build pass; visual audit follows.
+
+## Biodiversity expansion F — DONE
+Compatible neighboring dates retain stable group IDs, deterministic population and habitat anchors, with cached rewind. Added a regression across adjacent Triassic dates. Habitat/inspection focus now eases camera position, target and zoom; dragging cancels the transition. Existing per-individual birth/departure animations remain, and new auto-framing triggers on assemblage changes rather than every timeline movement.

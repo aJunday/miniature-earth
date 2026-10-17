@@ -11,3 +11,8 @@ it('identifies missing game content rather than declaring an empty era lifeless'
 it('new fossil genera are integrated only inside screened regional windows',()=>{
  for(const [id,year] of [['platystrophia',-450e6],['eurypterus',-420e6],['cooksonia',-420e6],['archaeopteris',-370e6],['dunkleosteus',-370e6],['knightia',-52e6],['metasequoia',-50e6],['mesohippus',-35e6],['merychippus',-20e6],['coelophysis',-220e6],['edmontonia',-75e6]] as const){expect(historicalState(yearToTick(year),'North America').populations[id],id).toBeGreaterThan(0);expect(eligibility(id,2026,undefined,'North America').allowed,id).toBe(false)}
 });
+it('nearby dates preserve compatible group identities, population and habitat anchors',()=>{
+ const a=historicalState(yearToTick(-220e6),'North America'),b=historicalState(yearToTick(-219e6),'North America');
+ for(const ga of a.groups!){const gb=b.groups!.find(g=>g.id===ga.id);expect(gb,ga.speciesId).toBeDefined();expect([gb!.population,gb!.x,gb!.z]).toEqual([ga.population,ga.x,ga.z])}
+ expect(historicalState(yearToTick(-220e6),'North America')).toEqual(a);
+});
