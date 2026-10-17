@@ -287,3 +287,4 @@
 - Native headed Chromium launch fails in macOS Crashpad startup; use identical 1440×900 isolated Chromium software-renderer measurements and report hardware-60fps as unverified.
 - Cambrian North American stromatolites are a period-level ecological-group proxy supported by museum and NPS Early/Late Cambrian deposits, not a continuous species range. Charnia and Dickinsonia remain restricted to their reviewed Ediacaran coverage.
 - Display clearance uses baked horizontal LOD bounds, not height: long low marine animals need more space. These are presentation representatives, not a change to biological population totals.
+- Era ground and sky colours and the rear Mesozoic volcano are artistic identification cues, not reconstructions of a specific fossil site. Vauxia is displayed at 2.2× asset scale so its silhouette reads beside the larger marine animals.

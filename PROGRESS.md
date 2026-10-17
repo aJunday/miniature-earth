@@ -280,3 +280,6 @@ Collapsed the wildlife tray by default, constrained expanded cards, and raised t
 
 ### Demo readability 4 — DONE
 Existing stromatolite assets join the supported Cambrian marine community; dated regional evidence is recorded. Improved marine framing and friendly empty/sparse-coverage text. Visual inspection caught long marine bodies overlapping with height-based spacing; measured horizontal model footprints now drive clearance. Nine captures reviewed, eight focused coverage/layout tests and typecheck passed. Remaining tiny sponge readability is refined with the era presentation pass.
+
+### Demo readability 5 — DONE
+Cool Jurassic green, warm Cretaceous clearings, rear volcanic landmark, and existing Pleistocene snow make the eras distinct. Thinned foreground ground cover to expose dinosaur silhouettes. Enlarged the existing sponge presentation and moved marine framing below the masthead. Reviewed all nine screenshots; all representatives in frame. Typecheck passed.
