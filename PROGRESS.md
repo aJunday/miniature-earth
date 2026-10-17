@@ -158,3 +158,6 @@ See qa/COMPLETION_REVIEW.md for PASS/limitations, source notes, tests and the di
 6 Evolution — DONE (bounded inherited-variation MVP and three histories).
 7 Final polish — DONE for supported local checks; native-GPU/phone acceptance remains external.
 Deployment is intentionally excluded under the user's latest instruction, regardless of older Phase M entries.
+
+## Expanded master A1/A2/B — integrated implementation
+Implemented exact decade controls and playback, extended horizon to 2100 without shifting saved events, a shared evidence/habitat validator, read-only reconstruction versus seeded experiments, rejected-placement ghosts, annual heritable rabbit cohorts and actual inherited fur geometry with a Then/Now 3D panel and neutral comparison. Unknown historical coverage is blocked explicitly. Further coverage, integration and browser acceptance continue in subsequent milestones; this entry does not certify the entire expanded specification.

@@ -12,3 +12,9 @@ const pond=lagoonDistance(x*scale,z*scale,year);if(pond<.7)y=Math.min(y,-.75+Mat
 if(z>-7&&z<6){const river=Math.abs(x-riverX(z,-150e6));if(river<1.4){const t=Math.max(0,Math.min(1,(river-.85)/.55));const start=Math.max(0,Math.min(1,(z+7)/2));const target=.22+(y-.22)*t*t*(3-2*t);y=Math.min(y,y+(target-y)*start*start*(3-2*start))}}return y;}
 export function habitatAt(x:number,z:number,year=2026){if(Math.abs(x)>22*landscapeScale(year)||Math.abs(z)>20*landscapeScale(year))return 'outside';return terrainHeight(x,z,year)<.12?'sea':'land'}
 export function placementHeight(x:number,z:number,zone:string,year=2026){return zone==='sea'?-.10:terrainHeight(x,z,year)}
+
+/** A freshwater river is distinct from the saltwater lagoon and ocean. */
+export function waterHabitatAt(x:number,z:number,year=2026):'terrestrial'|'marine'|'freshwater'|'outside'{
+ const coarse=habitatAt(x,z,year);if(coarse==='outside')return 'outside';if(coarse==='sea')return 'marine';
+ const scale=landscapeScale(year);if(z>-5*scale&&z<2*scale&&Math.abs(x-riverX(z,year))<.42*scale)return 'freshwater';return 'terrestrial';
+}

@@ -164,3 +164,11 @@
 - Final headless benchmark uses SwiftShader software Vulkan, not a physical GPU; native Chrome profiling was blocked by macOS sandbox access to Crashpad. No 60 fps hardware claim is made.
 - Final quality policy responds after 45 initial frames and then 90-frame windows; automatic DPR ranges 0.55–1.0, with explicit Smooth/Crisp overrides. Distant-only materials use diffuse vertex-colour lighting; close models keep their authored materials.
 - Small-screen catalogue collapses by default to expose the world and can be reopened with Browse life; it does not remove any catalogue entries or controls.
+
+## 2026-10-16 expanded master assumptions
+- The newly attached master specification supersedes the old out-of-time placement rule, 2060 horizon and prohibition on genetics; no deployment or push is authorized.
+- Preserve existing tick positions and saved event dates; extend the last linear segment to 2100 rather than remapping old saves.
+- Historical mode is a read-only habitat mosaic, not a claim that its globally selected taxa coexist in one real locality.
+- Unreviewed dates block historical introductions instead of inventing first/last appearances; living taxa are supported at the present baseline, not automatically throughout their ancestors' history.
+- Rabbit insulation uses an explicitly illustrative three-allele locus with annual non-overlapping cohorts, 0.2% offspring mutation and bounded reproductive sampling; these are not measured rabbit genetic parameters.
+- A maximum of 256 cohort transitions bounds geological seeks; longer intervals are explicitly labeled approximate.

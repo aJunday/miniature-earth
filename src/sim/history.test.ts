@@ -1,0 +1,12 @@
+import {describe,it,expect} from 'vitest';
+import {eligibility,validateHistory,type HistoryRecord} from './eligibility';
+import {yearToTick,tickToYear,stepDecade} from './timeline';
+import {historicalState} from '../state/history';
+import {waterHabitatAt,riverX} from '../world/terrain';
+describe('historical time and eligibility',()=>{
+ it('steps by decades after deep-time jumps and arbitrary seeks',()=>{for(const y of [-4540000000,-150000000,-66000000,-1,2026,2037]){const next=stepDecade(tickToYear(yearToTick(y)),1);expect(next-y).toBe(10);expect(stepDecade(next,-1)).toBe(y)}});
+ it('rejects future taxa, extinct marine life and unverified ancient modern flowers',()=>{expect(eligibility('triceratops',-150e6).allowed).toBe(false);expect(eligibility('trilobite',2026).allowed).toBe(false);expect(eligibility('wildflower',-150e6).allowed).toBe(false);expect(eligibility('fern',-150e6,'terrestrial').allowed).toBe(true);expect(eligibility('stegosaurus',-150e6,'terrestrial').allowed).toBe(true);expect(eligibility('trilobite',-500e6,'marine').allowed).toBe(true)});
+ it('uses one validator for every category, including fungus fixtures',()=>{for(const id of ['animal','plant','fungus','microbe']){const r:HistoryRecord={id,rank:'species',first:2000,last:null,living:true,habitat:'freshwater',regions:['Mexico'],sources:[]};expect(validateHistory(r,1900).allowed).toBe(false);expect(validateHistory(r,2026,'marine').allowed).toBe(false);expect(validateHistory(r,2026,'freshwater','Europe').allowed).toBe(false);expect(validateHistory(r,2026,'freshwater','Mexico').allowed).toBe(true)}});
+ it('separates freshwater from saltwater',()=>{expect(waterHabitatAt(riverX(0),0)).toBe('freshwater');expect(eligibility('axolotl',2026,'marine').allowed).toBe(false);expect(eligibility('axolotl',2026,'freshwater').allowed).toBe(true)});
+ it('reconstructs the same history regardless of seek order',()=>{const a=historicalState(yearToTick(-150e6));historicalState(yearToTick(2026));expect(historicalState(yearToTick(-150e6))).toEqual(a);expect(a.populations.stegosaurus).toBeGreaterThan(0);expect(historicalState(yearToTick(2026)).populations.stegosaurus).toBeUndefined()});
+});

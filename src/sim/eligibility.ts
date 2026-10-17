@@ -1,0 +1,22 @@
+import records from './data/metadata.json';
+export type Habitat='terrestrial'|'marine'|'freshwater'|'outside';
+export type WorldMode='historical'|'sandbox';
+export interface HistoryRecord {id:string;rank:string;first:number|null;last:number|null;living:boolean;habitat:Habitat;regions:readonly string[];sources:readonly string[];coverage?:readonly [number,number]}
+const raw:Record<string,(typeof records)[keyof typeof records]>=records;
+/** Coverage is a reviewed display interval, never a claim about an exact origin. */
+const coverage:Record<string,readonly [number,number]>={fern:[-360e6,2026],stromatolite:[-3.5e9,2026],triceratops:[-68e6,-66e6]};
+const links:Record<string,string>={fern:'https://www.nhm.ac.uk/discover/how-trees-changed-the-world.html',stromatolite:'https://www.nhm.ac.uk/discover/first-life-on-earth.html',triceratops:'https://www.nhm.ac.uk/discover/dino-directory/triceratops.html'};
+export function historyRecord(id:string):HistoryRecord|undefined{const r=raw[id];if(!r)return undefined;return {id,rank:r.taxonomicRank,first:r.firstAppearance,last:r.lastOccurrence,living:r.extinctionStatus!=='extinct',habitat:r.waterDomain as Habitat,regions:[],sources:[...r.sources.map(s=>s.url),...(links[id]?[links[id]]:[])],...(coverage[id]?{coverage:coverage[id]}:{})}}
+export interface Eligibility {allowed:boolean;status:'supported'|'uncertain'|'unsupported';reason:string}
+export function validateHistory(r:HistoryRecord|undefined,year:number,habitat?:Habitat,region='mosaic',mode:WorldMode='historical'):Eligibility{
+ const reject=(reason:string):Eligibility=>({allowed:false,status:'unsupported',reason});
+ if(!r)return {allowed:false,status:'uncertain',reason:'Evidence uncertain — no reviewed record'};
+ if(habitat&&habitat!==r.habitat)return reject(`Wrong habitat — requires ${r.habitat}`);
+ if(r.first!==null&&year<r.first)return reject('Not yet known to exist');
+ if(r.last!==null&&year>r.last)return reject('No longer known to exist');
+ const covered=(r.first!==null&&year>=r.first&&(r.last!==null?year<=r.last:r.living&&year>=2026))||(r.coverage&&year>=r.coverage[0]&&year<=r.coverage[1])||(r.living&&year>=2026);
+ if(!covered)return {allowed:false,status:'uncertain',reason:'Evidence uncertain — no reviewed coverage at this date'};
+ if(region!=='mosaic'&&!r.regions.includes(region))return {allowed:mode==='sandbox',status:'uncertain',reason:mode==='sandbox'?'Hypothetical geographic introduction':'Region not supported by this record'};
+ return {allowed:true,status:region==='mosaic'?'uncertain':'supported',reason:year>2026?'Hypothetical future — present-day starting taxon':region==='mosaic'?'Time supported · illustrative habitat mosaic':'Available in this period'};
+}
+export const eligibility=(id:string,year:number,habitat?:Habitat,region='mosaic',mode:WorldMode='historical')=>validateHistory(historyRecord(id),year,habitat,region,mode);

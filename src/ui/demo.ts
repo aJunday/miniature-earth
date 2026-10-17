@@ -2,13 +2,13 @@ import {useEffect} from 'react';
 import {useGame} from '../state';
 import {yearToTick,snapTick} from '../sim/timeline';
 import {playSound} from '../audio';
-function place(ids:string[]){for(const [i,id] of ids.entries()){const g=useGame.getState();g.selectSpecies(id);g.place(id==='seaturtle'||id==='seagrass'?5:-5+(i%4)*2.7,id==='seaturtle'||id==='seagrass'?5:-4+Math.floor(i/4)*3)}useGame.getState().selectSpecies(null);playSound('plop')}
+function place(ids:string[]){for(const [i,id] of ids.entries()){const g=useGame.getState();g.selectSpecies(id);g.place(id==='seaturtle'||id==='seagrass'?19:-5+(i%4)*2.7,id==='seaturtle'||id==='seagrass'?11:-4+Math.floor(i/4)*3)}useGame.getState().selectSpecies(null);playSound('plop')}
 export const demoSteps=[
- {at:0,run:()=>{const g=useGame.getState();g.resetWorld();g.snapTo('Jurassic');g.setCaption('A Jurassic garden. Every creature has a part to play.');place(['fern','cycad','conifer','stegosaurus','allosaurus'])}},
+ {at:0,run:()=>{const g=useGame.getState();g.resetWorld();g.snapTo('Jurassic');g.setMode('sandbox');g.setCaption('A Jurassic garden. Every creature has a part to play.');place(['fern','cycad','conifer','stegosaurus','allosaurus'])}},
  {at:8,run:()=>{useGame.getState().setTick(snapTick('Jurassic')+300);useGame.getState().setCaption('Plants feed grazers. Predators keep a living balance.')}},
  {at:15,run:()=>{useGame.getState().setTick(yearToTick(-66e6)+100);useGame.getState().setCaption('An asteroid changes everything. Hardy ferns return.');playSound('whoosh')}},
- {at:23,run:()=>{useGame.getState().setTick(yearToTick(1600));place(['dodo']);useGame.getState().setCaption('A transplanted dodo population. Its fate here follows the environment.')}},
- {at:28,run:()=>{useGame.getState().setTick(yearToTick(1700));useGame.getState().setCaption('Wild dodos vanished historically. This experimental population can survive.')}},
+ {at:23,run:()=>{useGame.getState().setTick(yearToTick(1600));place(['fern']);useGame.getState().setCaption('A transplanted fern population. Its fate here follows the environment.')}},
+ {at:28,run:()=>{useGame.getState().setTick(yearToTick(1700));useGame.getState().setCaption('Experiments follow ecology; history remains a separate reconstruction.')}},
  {at:34,run:()=>{useGame.getState().snapTo('Present');place(['grass','oak','rabbit','redfox','tiger','redpanda','giantpanda','seagrass','seaturtle']);useGame.getState().setCaption('Today, a small island holds a world worth protecting.')}},
  {at:43,run:()=>{useGame.getState().setScenario('Protect');useGame.getState().snapTo('Future');useGame.getState().setCaption('2060 · Protect habitats. Give life room to recover.')}},
  {at:51,run:()=>{useGame.getState().setScenario('Exploit');useGame.getState().setCaption('Same world, different choices. More pressure, less habitat.')}},
