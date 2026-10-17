@@ -200,6 +200,15 @@
     ],
     "pass": true
   },
+  "org_decomposer": {
+    "triangles": 604,
+    "parts": [
+      "Foliage",
+      "Root",
+      "Trunk"
+    ],
+    "pass": true
+  },
   "org_deer": {
     "triangles": 1292,
     "parts": [

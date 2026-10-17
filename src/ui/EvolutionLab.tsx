@@ -1,10 +1,11 @@
+import {Quaternion,Vector3} from 'three';
 import {Suspense,useMemo} from 'react';
 import {Canvas} from '@react-three/fiber';
 import {useGLTF,OrbitControls} from '@react-three/drei';
 import {useGame,useSimState} from '../state';
 import {evolutionAt,phenotype,type Allele} from '../sim/evolution';
 import {yearToTick,tickToYear} from '../sim/timeline';
-function Rabbit({allele,x}:{allele:Allele;x:number}){const {scene}=useGLTF('/models/org_rabbit.glb'),clone=useMemo(()=>scene.clone(true),[scene]),p=phenotype(allele);return <group position={[x,0,0]} rotation={[0,.3,0]}><primitive object={clone}/>{Array.from({length:p.tufts},(_,j)=>{const a=j*2.39996,yy=1-2*(j+.5)/p.tufts,r=Math.sqrt(1-yy*yy);return <mesh key={j} position={[Math.cos(a)*r*.14,.22+yy*.14,Math.sin(a)*r*.20]} rotation={[0,a,Math.PI/2]} scale={[.018,p.furLength,.018]}><coneGeometry args={[1,2,5]}/><meshStandardMaterial color="#c1a58a" roughness={.95}/></mesh>})}</group>}
+function Rabbit({allele,x}:{allele:Allele;x:number}){const {scene}=useGLTF('/models/org_rabbit.glb'),clone=useMemo(()=>scene.clone(true),[scene]),p=phenotype(allele);return <group position={[x,0,0]} rotation={[0,.3,0]}><primitive object={clone}/>{Array.from({length:p.tufts},(_,j)=>{const a=j*2.39996,yy=1-2*(j+.5)/p.tufts,r=Math.sqrt(1-yy*yy);return <mesh key={j} position={[Math.cos(a)*r*.14,.22+yy*.14,Math.sin(a)*r*.20]} quaternion={new Quaternion().setFromUnitVectors(new Vector3(0,1,0),new Vector3(Math.cos(a)*r,yy,Math.sin(a)*r).normalize())} scale={[.028,p.furLength*.65,.028]}><sphereGeometry args={[1,6,4]}/><meshStandardMaterial color="#c1a58a" roughness={.95}/></mesh>})}</group>}
 const representative=(f:readonly number[])=>f.indexOf(Math.max(...f)) as Allele;
 export function EvolutionLab(){const g=useGame(),sim=useSimState(),group=sim.groups?.find(s=>s.speciesId==='rabbit'&&s.evolution);const now=group?.evolution;const start=group?tickToYear(group.tick):2026;const baseline=group?evolutionAt(start,sim.year,g.seed+Math.round(group.tick),g.placements.find(p=>p.speciesId==='rabbit'&&p.tick===group.tick)?.count??8):null;const current=g.interventions.filter(c=>c.year<=sim.year).at(-1);
 function begin(){g.setTick(yearToTick(2026));g.setMode('historical');useGame.getState().setMode('sandbox');useGame.getState().focus('rabbit');window.dispatchEvent(new CustomEvent('world-camera',{detail:'evolution'}))}

@@ -593,6 +593,35 @@
       "transparent_pixels": 54351
     }
   },
+  "org_decomposer": {
+    "triangles": 1260,
+    "budget": 1500,
+    "bounds_min": [
+      -0.2262294888496399,
+      0.0,
+      -0.10327868163585663
+    ],
+    "bounds_max": [
+      0.2360655516386032,
+      0.30000001192092896,
+      0.2016393393278122
+    ],
+    "height": 0.30000001192092896,
+    "node_tree": [
+      "Root",
+      "  Foliage",
+      "  Trunk"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 48463
+    }
+  },
   "org_deer": {
     "triangles": 2706,
     "budget": 3000,
