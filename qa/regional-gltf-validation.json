@@ -1,0 +1,62 @@
+[
+  {
+    "file": "public/models/org_bison.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/lod/org_bison.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/rigged/org_bison.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/org_graywolf.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/lod/org_graywolf.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/rigged/org_graywolf.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/org_beaver.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/lod/org_beaver.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/rigged/org_beaver.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/lod/org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "file": "public/models/rigged/org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  }
+]

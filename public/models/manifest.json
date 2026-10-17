@@ -179,6 +179,44 @@
     ]
   },
   {
+    "id": "beaver",
+    "file": "/models/org_beaver.glb",
+    "icon": "/icons/org_beaver.png",
+    "heightUnits": 0.6000000238418579,
+    "triangles": 2742,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
+    "id": "bison",
+    "file": "/models/org_bison.glb",
+    "icon": "/icons/org_bison.png",
+    "heightUnits": 1.800000011920929,
+    "triangles": 2710,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
     "id": "bluewhale",
     "file": "/models/org_bluewhale.glb",
     "icon": "/icons/org_bluewhale.png",
@@ -462,6 +500,25 @@
     ]
   },
   {
+    "id": "graywolf",
+    "file": "/models/org_graywolf.glb",
+    "icon": "/icons/org_graywolf.png",
+    "heightUnits": 1.0000000298023224,
+    "triangles": 2742,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
     "id": "groundsloth",
     "file": "/models/org_groundsloth.glb",
     "icon": "/icons/org_groundsloth.png",
@@ -592,6 +649,23 @@
       "Leg_BR",
       "Leg_FL",
       "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
+    "id": "menhaden",
+    "file": "/models/org_menhaden.glb",
+    "icon": "/icons/org_menhaden.png",
+    "heightUnits": 0.5,
+    "triangles": 2200,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
       "Tail"
     ]
   },

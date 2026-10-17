@@ -22,5 +22,5 @@ eras.push({...cambrian,id:'ordovician',name:'Ordovician',start:-486.85e6,end:-44
 const protero=eras.find(e=>e.id==='proterozoic')!;
 eras.push({...protero,id:'cryogenian',name:'Cryogenian',start:-720e6,end:-635e6,snap:-660e6,snow:true,ground:'#d2dfdf',water:'#719fb3',sky:'#d6e7ec',climate:'Major glacial episodes',description:'A glacial interval within the Proterozoic; the timing and extent of ice varied.'},
 {...protero,id:'ediacaran',name:'Ediacaran',start:-635e6,end:-538.8e6,snap:-560e6,oxygenFit:.55,description:'Late Proterozoic seas supported diverse large organisms. Land remains without forests.'});
-eras.sort((a,b)=>a.start-b.start);
+const cenozoic=eras.find(e=>e.id==='cenozoic')!;eras.splice(eras.indexOf(cenozoic),1);eras.push({...cenozoic,id:'paleogene',name:'Paleogene',end:-23.03e6,snap:-40e6},{...cenozoic,id:'neogene',name:'Neogene',start:-23.03e6,snap:-5e6});const present=eras.find(e=>e.id==='present')!;eras.push({...present,id:'holocene',name:'Holocene',end:1900,snap:1000});present.start=1900;eras.sort((a,b)=>a.start-b.start);
 export const eraAt=(year:number)=>eras.find(e=>year>=e.start&&year<e.end)??eras[eras.length-1];

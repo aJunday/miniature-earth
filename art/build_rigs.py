@@ -2,15 +2,18 @@
 Existing joint meshes and vertex colours are preserved; Body/Head share a neck
 transition, and each appendage has a base and tip bone with graded skin weights.
 """
-import bpy, json, math
+import bpy, json, math, sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parent))
 from normalize_rigs import normalize
 from pathlib import Path
 from mathutils import Vector
 BASE=Path(__file__).resolve().parents[1]
 out=BASE/'public/models/rigged'; out.mkdir(exist_ok=True)
-report=[]
+report=json.loads((BASE/'art/reports/rigs.json').read_text()) if '--new-only' in sys.argv else []
 for species in json.loads((BASE/'src/sim/data/species.json').read_text()):
     ident=species['id']
+    if '--new-only' in sys.argv and (out/f'org_{ident}.glb').exists(): continue
     if species['diet'] in ('producer','decomposer') or ident in ('elkhorncoral','charnia'): continue
     bpy.ops.wm.read_factory_settings(use_empty=True)
     bpy.ops.import_scene.gltf(filepath=str(BASE/f'public/models/org_{ident}.glb'))

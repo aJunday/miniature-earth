@@ -1,0 +1,19 @@
+{
+  "rigs": [
+    "org_stegosaurus.glb",
+    "org_bison.glb",
+    "org_deer.glb",
+    "org_graywolf.glb",
+    "org_redfox.glb",
+    "org_condor.glb",
+    "org_baldeagle.glb",
+    "org_beaver.glb",
+    "org_menhaden.glb",
+    "org_seaotter.glb"
+  ],
+  "errors": [],
+  "checks": [
+    "all four new taxa travel to supported native habitats",
+    "all four animated skin assets load in the actual scene"
+  ]
+}

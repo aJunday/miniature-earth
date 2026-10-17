@@ -830,5 +830,69 @@
       "Birth",
       "Death"
     ]
+  },
+  {
+    "id": "bison",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "graywolf",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "beaver",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "menhaden",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
   }
 ]

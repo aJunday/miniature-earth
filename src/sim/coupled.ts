@@ -22,7 +22,7 @@ export function cyclePools(p:Pools,e:Environment,producers:number,decomposers:nu
  oxygen:clamp(p.oxygen+(.9-p.oxygen)*.08+producers*.0003-decomposition*.003-Math.max(0,e.temp-24)*.003,0,1)};
 }
 export type FoodPool='plankton'|'invertebrates'|'fish'|'detritus'|'browse'|'marinePlants'|'marinePrey'|'terrestrialPrey';
-export const guildFood:Record<string,FoodPool>={polarbear:'marinePrey',giantpanda:'browse',redpanda:'browse',koala:'browse',sumatranorangutan:'browse',sumatranrhino:'browse',forestelephant:'browse',mountaingorilla:'browse',asianelephant:'browse',ringtailedlemur:'browse',kakapo:'browse',dodo:'browse',passengerpigeon:'browse',pintatortoise:'browse',mammoth:'browse',groundsloth:'browse',stellerseacow:'marinePlants',dimetrodon:'terrestrialPrey',charnia:'plankton',vaquita:'fish',axolotl:'invertebrates',rightwhale:'plankton',pangolin:'invertebrates',condor:'detritus',elkhorncoral:'plankton',bluewhale:'plankton',whaleshark:'plankton',seaotter:'invertebrates',emperorpenguin:'fish',humpback:'fish',baldeagle:'fish',reeffish:'plankton',seaturtle:'invertebrates',ammonite:'plankton',pteranodon:'fish',decomposer:'detritus'};
+export const guildFood:Record<string,FoodPool>={beaver:'browse',menhaden:'plankton',polarbear:'marinePrey',giantpanda:'browse',redpanda:'browse',koala:'browse',sumatranorangutan:'browse',sumatranrhino:'browse',forestelephant:'browse',mountaingorilla:'browse',asianelephant:'browse',ringtailedlemur:'browse',kakapo:'browse',dodo:'browse',passengerpigeon:'browse',pintatortoise:'browse',mammoth:'browse',groundsloth:'browse',stellerseacow:'marinePlants',dimetrodon:'terrestrialPrey',charnia:'plankton',vaquita:'fish',axolotl:'invertebrates',rightwhale:'plankton',pangolin:'invertebrates',condor:'detritus',elkhorncoral:'plankton',bluewhale:'plankton',whaleshark:'plankton',seaotter:'invertebrates',emperorpenguin:'fish',humpback:'fish',baldeagle:'fish',reeffish:'plankton',seaturtle:'invertebrates',ammonite:'plankton',pteranodon:'fish',decomposer:'detritus'};
 function cohort(previous:EvolutionSnapshot,next:number,births:number,year:number,random:()=>number,temperature:number):EvolutionSnapshot{
  const pressure=clamp(temperature/10,-1,1),fit=(a:Individual)=>Math.max(.08,.8+pressure*(1-2*insulation[a.allele])*.65);
  const parents=previous.individuals,weight=parents.reduce((n,a)=>n+fit(a),0),born:Individual[]=[];
@@ -45,7 +45,7 @@ export function coupledState(species:Species[],events:Placement[],tick:number,sc
  function add(date:number){for(const e of active)if(!added.has(e.id)&&tickToYear(e.tick)<=date+1e-6){added.add(e.id);groups.push({...e,population:e.count,...(adaptedSpecies.has(e.speciesId)?{traits:initialTraits(),evolution:evolutionAt(date,date,evolutionSeed(seed,e.tick,e.x,e.z),e.count)}:{})})}}
  add(first);
  for(let step=1;step<=steps;step++){
- const date=first+step*interval,dt=Math.min(1,interval),change:Intervention=changes.filter(c=>c.year<date).at(-1)??{year:0,temperature:0,resources:1};env=envAt(date,scenario,disturbance(date)==='asteroid');if(disturbance(date)==='end-permian'){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}env.temp+=change.temperature;env.rain=change.rainfall??env.rain;env.habitat*=change.resources*(1-(change.pollution??0)*.5);pools.freshwater=Math.min(pools.freshwater,change.water??1);pools.oxygen*=1-(change.pollution??0)*.03;env.oxygenFit=(env.oxygenFit??1)*pools.oxygen;
+ const date=first+step*interval,dt=Math.min(1,interval),change:Intervention=changes.filter(c=>c.year<date).at(-1)??{year:0,temperature:0,resources:1};env=envAt(date,scenario,disturbance(date)==='asteroid');if(disturbance(date)==='end-permian'){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}if(change.futureBaseline){env={...envAt(2026,scenario),futureTint:clamp((date-2026)/74)*(1-change.resources+(change.pollution??0))}}env.temp+=change.temperature;env.rain=change.rainfall??env.rain;env.habitat*=change.resources*(1-(change.pollution??0)*.5);pools.freshwater=Math.min(pools.freshwater,change.water??1);pools.oxygen*=1-(change.pollution??0)*.03;env.oxygenFit=(env.oxygenFit??1)*pools.oxygen;
  const populations=Object.fromEntries(species.map(s=>[s.id,groups.filter(g=>g.speciesId===s.id).reduce((n,g)=>n+g.population,0)]));
  const {loss,phi}=foodWeb(species,populations),demand:Partial<Pools>={};
  for(const g of groups){const pool=guildFood[g.speciesId];if(pool&&g.speciesId!=='decomposer')demand[pool]=(demand[pool]??0)+g.population*Math.max(.08,byId[g.speciesId].need)}
@@ -55,14 +55,14 @@ export function coupledState(species:Species[],events:Placement[],tick:number,sc
  let fit=fitness(s,env,waterHabitatAt(g.x,g.z,date)===(s.zone==='land'?'terrestrial':s.zone==='sea'?'marine':'freshwater'));
  if(s.zone==='freshwater')fit*=pools.freshwater*pools.oxygen;
  if(s.zone==='sea')fit*=pools.oxygen*clamp(1-Math.abs(pools.salinity-35)/15);
- const selectionTemperature=change.temperature+envAt(date,scenario).temp-envAt(first,scenario).temp;
+ const selectionTemperature=env.temp-envAt(first,scenario).temp;
  if(g.evolution){const pressure=clamp(selectionTemperature/10,-1,1);fit*=g.evolution.frequencies.reduce((n,f,i)=>n+f*Math.max(.08,.8+pressure*(1-2*insulation[i])*.65),0)/.8}
  const reefSupport=s.id==='reeffish'?clamp(((populations.elkhorncoral??0)/12+(populations.seagrass??0)/60)/2,.1,1):1;
- const capacity=Math.max(1,s.K*env.habitat*reefSupport*(s.diet==='producer'?pools.nutrients/60:1));
+ const capacity=Math.max(1,s.K*env.habitat*(1+(s.zone==='land'?(change.connectivity??0):0)*s.habitatSensitivity*.2)*reefSupport*(s.diet==='producer'?pools.nutrients/60:1));
  const pollination=s.id==='wildflower'?1+Math.min(.3,(populations.honeybee??0)*.05):1;
  const growth=pollination*Math.max(0,s.r*old*(1-(populations[s.id]??0)/capacity))*fit*food*dt*4;
  const mortality=(Math.max(0,old-capacity)*.2+old*(.025+s.m*(1-fit*food)+(disturbance(date)&&!s.hardy?.5:0)+((env.oxygenFit??1)<.2&&s.id!=='stromatolite'?.5:0))+(loss[s.id]??0)*old/Math.max(1,populations[s.id]))*dt;
- const pressure=scenario==='Exploit'?clamp((date-2026)/34)*s.habitatSensitivity*old*.08*dt:0;
+ const pressure=scenario==='Exploit'?clamp((date-2026)/34)*s.habitatSensitivity*old*.08*dt*(1-(s.zone==='sea'?(change.marineProtection??0):(s.diet==='producer'?0:(change.exploitationReduction??0)))):0;
  const next=Math.max(0,Math.min(s.K*1.2,old+growth-mortality-pressure));
  if(g.evolution){g.evolution=cohort(g.evolution,next,growth,date,random,selectionTemperature);g.evolution.approximate=interval>1;g.population=g.evolution.individuals.length;g.traits={frequencies:g.evolution.frequencies,births:g.evolution.births,turnover:g.evolution.generation}}
  else g.population=next<2?0:next;
@@ -71,7 +71,7 @@ export function coupledState(species:Species[],events:Placement[],tick:number,sc
  pools=cyclePools(pools,env,producerTotal,populations.decomposer??0,deaths,Object.fromEntries(Object.entries(demand).map(([k,v])=>[k,Math.min(pools[k as FoodPool],v??0)])),marineProducerTotal);
  add(date);
  }
- const currentChange:Intervention=changes.filter(c=>c.year<=year).at(-1)??{year:0,temperature:0,resources:1};env=envAt(year,scenario,disturbance(year)==='asteroid');if(disturbance(year)==='end-permian'){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}env.temp+=currentChange.temperature;env.rain=currentChange.rainfall??env.rain;env.habitat*=currentChange.resources*(1-(currentChange.pollution??0)*.5);pools.freshwater=Math.min(pools.freshwater,currentChange.water??1);env.oxygenFit=(env.oxygenFit??1)*pools.oxygen;
+ const currentChange:Intervention=changes.filter(c=>c.year<=year).at(-1)??{year:0,temperature:0,resources:1};env=envAt(year,scenario,disturbance(year)==='asteroid');if(disturbance(year)==='end-permian'){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}if(currentChange.futureBaseline){env={...envAt(2026,scenario),futureTint:clamp((year-2026)/74)*(1-currentChange.resources+(currentChange.pollution??0))}}env.temp+=currentChange.temperature;env.rain=currentChange.rainfall??env.rain;env.habitat*=currentChange.resources*(1-(currentChange.pollution??0)*.5);pools.freshwater=Math.min(pools.freshwater,currentChange.water??1);env.oxygenFit=(env.oxygenFit??1)*pools.oxygen;
  const populations=groups.reduce<Record<string,number>>((p,g)=>{p[g.speciesId]=(p[g.speciesId]??0)+g.population;return p},{});
  return {tick,year,yearLabel:formatYear(year),eraName:eraName(year),env,pools,groups,populations,extinct:Object.keys(populations).filter(id=>populations[id]===0),happenings:[...(disturbance(year)?[disturbance(year)!]:[]),...(interval>1?['Batched deep-time ecology; not an annual fossil reconstruction']:[])]};
 }

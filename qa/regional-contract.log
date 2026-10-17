@@ -1,0 +1,713 @@
+PASS island_jurassic: 3196 triangles / 15000; bounds [-10.0, -4.0, -10.0] to [10.0, 1.434999942779541, 10.0]; height 5.435000
+Root
+  Deco
+  Sides
+  Top
+  Water
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48534
+PASS island_precambrian: 2856 triangles / 15000; bounds [-10.0, -4.0, -10.0] to [10.0, 1.2350000143051147, 10.0]; height 5.235000
+Root
+  Deco
+  Sides
+  Top
+  Water
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48554
+PASS island_present: 3008 triangles / 15000; bounds [-10.0, -4.0, -10.0] to [10.0, 1.2350000143051147, 10.0]; height 5.235000
+Root
+  Deco
+  Sides
+  Top
+  Water
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48550
+PASS org_allosaurus: 2722 triangles / 3000; bounds [-0.532203271985054, 0.0, -1.5669922828674316] to [0.5322032570838928, 1.7999999523162842, 1.2438073754310608]; height 1.800000
+Root
+  Arm_L
+  Arm_R
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 47157
+PASS org_ammonite: 2748 triangles / 3000; bounds [-0.19911402463912964, 0.0, -0.39341071248054504] to [0.19911402463912964, 0.6999999582767487, 0.6898102164268494]; height 0.700000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 47188
+PASS org_amurleopard: 2668 triangles / 3000; bounds [-0.19407062977552414, 0.0, -0.5640037208795547] to [0.19407062232494354, 0.5586059093475342, 0.42719337344169617]; height 0.558606
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 46479
+PASS org_anomalocaris: 2722 triangles / 3000; bounds [-0.6057024002075195, 0.0, -1.1525027751922607] to [0.606326162815094, 0.6499999761581421, 1.186448335647583]; height 0.650000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 50521
+PASS org_arthropleura: 2690 triangles / 3000; bounds [-0.45093679428100586, 0.0, -1.4120063781738281] to [0.45024004578590393, 0.47999998927116394, 1.0818941295146942]; height 0.480000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 53222
+PASS org_asianelephant: 2718 triangles / 3000; bounds [-0.5153582692146301, 0.0, -1.190950632095337] to [0.5153582692146301, 1.124418020248413, 1.2098002135753632]; height 1.124418
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 47694
+PASS org_axolotl: 2706 triangles / 3000; bounds [-0.1362665444612503, 0.0, -0.26750874519348145] to [0.1362665444612503, 0.17517736554145813, 0.23277151584625244]; height 0.175177
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 49703
+PASS org_baldeagle: 2714 triangles / 3000; bounds [-0.369767427444458, 0.0, -0.3906976878643036] to [0.369767427444458, 0.8999999761581421, 0.47750774025917053]; height 0.900000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_FL
+  Leg_FR
+  Tail
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 41650
+PASS org_beaver: 2742 triangles / 3000; bounds [-0.2336283028125763, 0.0, -0.7433628439903259] to [0.23362834751605988, 0.6000000238418579, 0.5364179015159607]; height 0.600000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45301
+PASS org_bison: 2710 triangles / 3000; bounds [-0.7282718420028687, 0.0, -1.1819825172424316] to [0.7282718420028687, 1.800000011920929, 1.4689873456954956]; height 1.800000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 39832
+PASS org_bluewhale: 2832 triangles / 3000; bounds [-1.2216436266899109, 0.0, -2.2759389877319336] to [1.2216436266899109, 1.2149497270584106, 2.224060833454132]; height 1.214950
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 52268
+PASS org_brachiosaurus: 2746 triangles / 3000; bounds [-0.6643776893615723, 0.0, -1.6364871263504028] to [0.6643776893615723, 2.9999999403953552, 1.3914157152175903]; height 3.000000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48975
+PASS org_charnia: 1362 triangles / 1500; bounds [-0.3057083785533905, 0.0, -0.033156365156173706] to [0.3057083785533905, 0.8999999668449163, 0.033156365156173706]; height 0.900000
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 50126
+PASS org_cheetah: 2724 triangles / 3000; bounds [-0.20018379390239716, 0.0, -0.6276447176933289] to [0.20158842206001282, 0.6184307932853699, 0.47131362557411194]; height 0.618431
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 46056
+PASS org_condor: 2734 triangles / 3000; bounds [-0.3755905330181122, 0.0, -0.3968504071235657] to [0.3755905330181122, 0.8999999761581421, 0.4748031795024872]; height 0.900000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_FL
+  Leg_FR
+  Tail
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 41384
+PASS org_conifer: 1368 triangles / 1500; bounds [-0.9948135614395142, 0.0, -0.8744211792945862] to [0.9948135614395142, 2.5999999046325684, 0.9894945025444031]; height 2.600000
+Root
+  Foliage
+  Trunk
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 44928
+PASS org_cycad: 1248 triangles / 1500; bounds [-0.5175273418426514, -2.9802322387695312e-08, -0.47616490721702576] to [0.5139771699905396, 0.9999999754945748, 0.5285499095916748]; height 1.000000
+Root
+  Foliage
+  Trunk
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 54351
+PASS org_decomposer: 1260 triangles / 1500; bounds [-0.2262294888496399, 0.0, -0.10327868163585663] to [0.2360655516386032, 0.30000001192092896, 0.2016393393278122]; height 0.300000
+Root
+  Foliage
+  Trunk
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48463
+PASS org_deer: 2706 triangles / 3000; bounds [-0.3264133036136627, 0.0, -0.5485511422157288] to [0.32641828060150146, 1.2999999523162842, 0.7407888174057007]; height 1.300000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48447
+PASS org_dickinsonia: 2688 triangles / 3000; bounds [-0.6731707453727722, -5.960464477539063e-08, -0.995121955871582] to [0.6731707453727722, 0.30000001192092896, 0.9365853071212769]; height 0.300000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 44413
+PASS org_dimetrodon: 2754 triangles / 3000; bounds [-0.4031987190246582, 0.0, -1.0246587097644806] to [0.4031987190246582, 1.299999862909317, 0.8195899128913879]; height 1.300000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48170
+PASS org_dodo: 2724 triangles / 3000; bounds [-0.27908527851104736, 2.9802322387695312e-08, -0.2992366552352905] to [0.2787378430366516, 0.6974351406097412, 0.4009931981563568]; height 0.697435
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_FL
+  Leg_FR
+  Tail
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 41857
+PASS org_elkhorncoral: 352 triangles / 1500; bounds [-0.4000000059604645, 0.0, -0.08474629372358322] to [0.4000000059604645, 0.5022300127893686, 0.17479455471038818]; height 0.502230
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 55853
+PASS org_emperorpenguin: 2726 triangles / 3000; bounds [-0.31134915351867676, 5.960464477539063e-08, -0.3338301181793213] to [0.31096151471138, 0.800000011920929, 0.3994038701057434]; height 0.800000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_FL
+  Leg_FR
+  Tail
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 41796
+PASS org_fern: 1354 triangles / 1500; bounds [-0.6901863813400269, 0.0, -0.674872875213623] to [0.7559429407119751, 0.6000000238418579, 0.8017517328262329]; height 0.600000
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 56609
+PASS org_forestelephant: 2718 triangles / 3000; bounds [-0.5647467970848083, 0.0, -1.0917046964168549] to [0.5647467970848083, 1.0307165384292603, 1.1089836359024048]; height 1.030717
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 47217
+PASS org_giantpanda: 2742 triangles / 3000; bounds [-0.3652542233467102, -2.9802322387695312e-08, -0.5169491767883301] to [0.3652542233467102, 1.1999999284744263, 0.6700560450553894]; height 1.200000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 41431
+PASS org_grass: 528 triangles / 1500; bounds [-0.1815623939037323, 0.0, -0.17328597605228424] to [0.1816055178642273, 0.3000000026077032, 0.18430939316749573]; height 0.300000
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 52739
+PASS org_graywolf: 2742 triangles / 3000; bounds [-0.31115642189979553, 0.0, -0.9260607957839966] to [0.31115642189979553, 1.0000000298023224, 0.8003044128417969]; height 1.000000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 42107
+PASS org_groundsloth: 2734 triangles / 3000; bounds [-0.790183961391449, 0.0, -2.00811368227005] to [0.790183961391449, 1.7999998927116394, 1.620069146156311]; height 1.800000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45862
+PASS org_honeybee: 2726 triangles / 3000; bounds [-0.3018377125263214, 0.0, -0.2886546850204468] to [0.3018377423286438, 0.3499999940395355, 0.3237067461013794]; height 0.350000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Tail
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45880
+PASS org_horsetail: 1356 triangles / 1500; bounds [-0.31271299719810486, 0.0, -0.3121337294578552] to [0.3130857050418854, 1.100000023841858, 0.3105720579624176]; height 1.100000
+Root
+  Foliage
+  Trunk
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 52068
+PASS org_humpback: 2748 triangles / 3000; bounds [-1.4517937302589417, 0.0, -1.7787742614746094] to [1.4517937302589417, 0.994020938873291, 1.721225619316101]; height 0.994021
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 50805
+PASS org_kakapo: 2726 triangles / 3000; bounds [-0.24314868450164795, 0.0, -0.292695976793766] to [0.24314868450164795, 0.5917430520057678, 0.3073766529560089]; height 0.591743
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_FL
+  Leg_FR
+  Tail
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 41285
+PASS org_koala: 2714 triangles / 3000; bounds [-0.20536912977695465, 0.0, -0.24563759565353394] to [0.20536911487579346, 0.6000000238418579, 0.31838905811309814]; height 0.600000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 43005
+PASS org_lycophyte: 1356 triangles / 1500; bounds [-0.7259326577186584, 0.0, -0.7245879769325256] to [0.726797878742218, 2.7999999336898327, 0.7209875583648682]; height 2.800000
+Root
+  Foliage
+  Trunk
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 55851
+PASS org_mammoth: 2730 triangles / 3000; bounds [-0.5116062164306641, 0.0, -0.8357847929000854] to [0.5167439579963684, 1.5764509439468384, 1.7600592374801636]; height 1.576451
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 44310
+PASS org_menhaden: 2200 triangles / 3000; bounds [-0.2467532455921173, 0.0, -0.6343364715576172] to [0.2467532455921173, 0.5, 0.47402599453926086]; height 0.500000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45776
+PASS org_mountaingorilla: 2720 triangles / 3000; bounds [-0.6499999761581421, 0.0, -0.5567498207092285] to [0.6501408815383911, 1.2777864933013916, 0.7216446995735168]; height 1.277786
+Root
+  Arm_L
+  Arm_R
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 38977
+PASS org_oak: 1358 triangles / 1500; bounds [-0.8464509844779968, 0.0, -0.8009010553359985] to [0.849252462387085, 2.4000000953674316, 0.8811019659042358]; height 2.400000
+Root
+  Foliage
+  Trunk
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48433
+PASS org_pangolin: 2740 triangles / 3000; bounds [-0.11579850316047668, 0.0, -0.3570497930049896] to [0.11579850316047668, 0.31423473358154297, 0.3416510224342346]; height 0.314235
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45775
+PASS org_passengerpigeon: 2734 triangles / 3000; bounds [-0.1757294237613678, 0.0, -0.27785155177116394] to [0.1757294237613678, 0.4277188181877136, 0.2221485674381256]; height 0.427719
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_FL
+  Leg_FR
+  Tail
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 40741
+PASS org_philippineeagle: 2712 triangles / 3000; bounds [-0.30977168679237366, 0.0, -0.32662513852119446] to [0.30977168679237366, 0.8999999761581421, 0.40003082156181335]; height 0.900000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_FL
+  Leg_FR
+  Tail
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 47336
+PASS org_pintatortoise: 2746 triangles / 3000; bounds [-0.2342541366815567, 0.0, -0.3403315246105194] to [0.2342541366815567, 0.31823205947875977, 0.45966851711273193]; height 0.318232
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 46458
+PASS org_polarbear: 2724 triangles / 3000; bounds [-0.4008474349975586, 0.0, -0.5169491767883301] to [0.4008474349975586, 1.0508475303649902, 0.9830508828163147]; height 1.050848
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 41073
+PASS org_pteranodon: 1934 triangles / 3000; bounds [-1.5820863246917725, 0.0, -0.4440993666648865] to [1.5820863246917725, 0.800000011920929, 1.1439253091812134]; height 0.800000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Wing_L
+  Wing_R
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 59636
+PASS org_rabbit: 2740 triangles / 3000; bounds [-0.13547885417938232, 0.0, -0.2251836359500885] to [0.13547883927822113, 0.5, 0.2907800078392029]; height 0.500000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 44812
+PASS org_redfox: 2732 triangles / 3000; bounds [-0.16962970793247223, 0.0, -0.6482689380645752] to [0.27315735816955566, 0.699999988079071, 0.4839700162410736]; height 0.700000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48301
+PASS org_redpanda: 2732 triangles / 3000; bounds [-0.1355970799922943, 0.0, -0.4016646444797516] to [0.1355970799922943, 0.391024112701416, 0.2997850775718689]; height 0.391024
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 46087
+PASS org_reeffish: 2992 triangles / 3000; bounds [-0.3590826094150543, 0.0, -0.716279149055481] to [0.3590826094150543, 0.5500000417232513, 0.46899232268333435]; height 0.550000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 44592
+PASS org_rightwhale: 2736 triangles / 3000; bounds [-0.9384412169456482, 0.0, -1.7483288645744324] to [0.9384412169456482, 0.8818774819374084, 1.7516711950302124]; height 0.881877
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 51588
+PASS org_ringtailedlemur: 2724 triangles / 3000; bounds [-0.27606824040412903, 0.0, -0.3356555998325348] to [0.2761280834674835, 0.6012702584266663, 0.3685202896595001]; height 0.601270
+Root
+  Arm_L
+  Arm_R
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 50366
+PASS org_seagrass: 528 triangles / 1500; bounds [-0.24208319187164307, 0.0, -0.23104797303676605] to [0.24214069545269012, 0.4000000033993274, 0.24574585258960724]; height 0.400000
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 52739
+PASS org_seaotter: 2900 triangles / 3000; bounds [-0.11171101778745651, 0.0, -0.3196939527988434] to [0.11171101778745651, 0.1960422843694687, 0.28030604124069214]; height 0.196042
+Root
+  Arm_L
+  Arm_R
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48329
+PASS org_seaturtle: 2746 triangles / 3000; bounds [-0.2887474596500397, 0.0, -0.2509280741214752] to [0.28884977102279663, 0.20236515998840332, 0.35017138719558716]; height 0.202365
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Leg_BL
+  Leg_BR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 51051
+PASS org_snowleopard: 2668 triangles / 3000; bounds [-0.2134777009487152, 0.0, -0.6223669052124023] to [0.2134777009487152, 0.6144664883613586, 0.4699127674102783]; height 0.614466
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 46483
+PASS org_stegosaurus: 2686 triangles / 3000; bounds [-0.6206650137901306, 0.0, -1.7625634670257568] to [0.6206650137901306, 1.600000023841858, 1.5810139179229736]; height 1.600000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45270
+PASS org_stellerseacow: 2232 triangles / 3000; bounds [-0.818385660648346, 0.0, -1.5246635675430298] to [0.818385660648346, 0.8004483580589294, 1.4753361940383911]; height 0.800448
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 51917
+PASS org_stromatolite: 1368 triangles / 1500; bounds [-0.5011157393455505, 0.0, -0.4571581780910492] to [0.49867114424705505, 0.6000000089406967, 0.48353272676467896]; height 0.600000
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 40558
+PASS org_sumatranorangutan: 2732 triangles / 3000; bounds [-0.550000011920929, 0.0, -0.471096009016037] to [0.5501192212104797, 1.0812039375305176, 0.6106224060058594]; height 1.081204
+Root
+  Arm_L
+  Arm_R
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 39627
+PASS org_sumatranrhino: 2744 triangles / 3000; bounds [-0.2564446032047272, 0.0, -0.7580054402351379] to [0.2564446032047272, 0.7931890487670898, 0.6426843404769897]; height 0.793189
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45540
+PASS org_thylacine: 2728 triangles / 3000; bounds [-0.1754157543182373, 0.0, -0.5275391340255737] to [0.1754157543182373, 0.5302498936653137, 0.47006624937057495]; height 0.530250
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45036
+PASS org_tiger: 2710 triangles / 3000; bounds [-0.25292180478572845, 0.0, -0.7417547106742859] to [0.25292178988456726, 0.7261876463890076, 0.5570015907287598]; height 0.726188
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 46032
+PASS org_triceratops: 2738 triangles / 3000; bounds [-0.6377869248390198, 0.0, -1.6227114796638489] to [0.6377869248390198, 1.600000023841858, 1.522289514541626]; height 1.600000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 45979
+PASS org_trilobite: 2704 triangles / 3000; bounds [-0.590584933757782, 0.0, -0.29916223883628845] to [0.590584933757782, 0.41999998688697815, 0.799770712852478]; height 0.420000
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 48086
+PASS org_vaquita: 2948 triangles / 3000; bounds [-0.3687799572944641, 0.0, -0.5142712593078613] to [0.3687799572944641, 0.3839353322982788, 0.4857286810874939]; height 0.383935
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 49950
+PASS org_whaleshark: 2700 triangles / 3000; bounds [-1.0394192934036255, 0.0, -1.5955365896224976] to [1.0394192934036255, 1.415305495262146, 1.3982329368591309]; height 1.415305
+Root
+  Body
+  Eye_L
+  Eye_R
+  Fin_L
+  Fin_R
+  Head
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 47573
+PASS org_wilddog: 2722 triangles / 3000; bounds [-0.18431781232357025, 0.0, -0.489484965801239] to [0.18431782722473145, 0.4935483932495117, 0.40961578488349915]; height 0.493548
+Root
+  Body
+  Eye_L
+  Eye_R
+  Head
+  Leg_BL
+  Leg_BR
+  Leg_FL
+  Leg_FR
+  Tail
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 46760
+PASS org_wildflower: 1358 triangles / 1500; bounds [-0.17233222723007202, 0.0, -0.158614382147789] to [0.17233222723007202, 0.4000000059604645, 0.1770590841770172]; height 0.400000
+Root
+  Foliage
+PASS icon RGBA 256x256: alpha [0, 255], transparent pixels 47456
+PASS complete model contract: 72 models, no missing entries.

@@ -5,9 +5,10 @@ from lib.common import *
 
 bpy.ops.wm.read_factory_settings(use_empty=True)
 paths=sorted((BASE/'public/models').glob('*.glb'))
+if '--regional' in sys.argv:paths=[p for p in paths if p.stem in ['org_bison','org_graywolf','org_beaver','org_menhaden']]
 columns=min(6,len(paths));rows=math.ceil(len(paths)/columns)
 scene=setup_render(1600,max(650,rows*210),False)
-paths=sorted((BASE/'public/models').glob('*.glb'))
+
 right=Vector((.841,.541,0))
 forward=Vector((.541,-.841,0))
 groups=[]
@@ -40,7 +41,7 @@ bpy.ops.object.camera_add(location=target+Vector((27,-42,30)))
 camera=bpy.context.object
 camera.rotation_euler=(target-camera.location).to_track_quat('-Z','Y').to_euler()
 camera.data.type='ORTHO'
-camera.data.ortho_scale=max(columns*4.1/(1600/max(650,rows*210)),rows*3.4+4)
+camera.data.ortho_scale=max(columns*4.1,(rows*3.4+4)*(1600/max(650,rows*210)))
 scene.camera=camera
 ink=make_material('Label ink','#465248')
 for label,position in groups:
@@ -54,6 +55,6 @@ for label,position in groups:
     text.data.extrude=0
     text.data.materials.append(ink)
 studio_lights(Vector((0,0,0)),6)
-scene.render.filepath=str(BASE/'art/previews/contact_sheet.png')
+scene.render.filepath=str(BASE/('art/previews/regional_sheet.png' if '--regional' in sys.argv else 'art/previews/contact_sheet.png'))
 bpy.ops.render.render(write_still=True)
 print('CONTACT_SHEET '+scene.render.filepath,flush=True)

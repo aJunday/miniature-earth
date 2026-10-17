@@ -1,3 +1,4 @@
+export const isMobileSpecies=(id:string,diet:string)=>!['producer','decomposer'].includes(diet)&&!['charnia','elkhorncoral'].includes(id);
 /** Visual steering only: ecological births, feeding and deaths remain in simulation.ts.
  * Pure and deterministic for a fixed initial state, dt and neighborhood. */
 export type Behavior='idle'|'walk'|'swim'|'fly'|'forage'|'rest'|'flee'|'pursue'|'drink';
@@ -6,7 +7,7 @@ export interface Neighbor {key?:string;id:string;x:number;z:number;diet:string;e
 interface Input {key?:string;id:string;zone:string;diet:string;eats:readonly string[];flying:boolean;anchorX:number;anchorZ:number;phase:number;time:number;dt:number;neighbors:readonly Neighbor[];valid:(x:number,z:number)=>boolean;nearWater?:boolean}
 export function steerAnimal(previous:AnimalMotion,input:Input):AnimalMotion{
  const {id,zone,diet,eats,flying,anchorX,anchorZ,phase,time,neighbors,valid}=input;
- let mode:Behavior=zone==='sea'?'swim':flying?'fly':'walk';
+ let mode:Behavior=zone!=='land'?'swim':flying?'fly':'walk';
  let targetX=anchorX+Math.sin(time*.17+phase)*1.5,targetZ=anchorZ+Math.cos(time*.17+phase)*1.5;
  let speed=zone==='sea'?.48:flying?.8:.55;
  const cycle=(time+phase*7)%28;

@@ -3,7 +3,7 @@ import {RiggedOrganism,type RigHandle} from './RiggedOrganism';
 import {Suspense} from 'react';
 import {furPlacement} from './phenotype';
 import {phenotype,type Allele} from '../sim/evolution';
-import {steerAnimal,flyingSpecies,type AnimalMotion,type Neighbor} from '../sim/behavior';
+import {steerAnimal,isMobileSpecies,flyingSpecies,type AnimalMotion,type Neighbor} from '../sim/behavior';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {useMemo,useRef,useEffect,useState} from 'react';
 import {useFrame,useThree} from '@react-three/fiber';
@@ -32,7 +32,7 @@ export function BatchedOrganisms({id,items,year,neighbors}:{id:string;items:Rend
  useEffect(()=>{refs.current.forEach(mesh=>{if(!mesh)return;items.forEach((v,i)=>mesh.setColorAt(i,new Color(v.fossil?'#aaa79c':'#ffffff')));if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true})},[items,parts]);
  useFrame(({clock},dt)=>{const t=clock.elapsedTime;items.forEach((item,i)=>{if(!births.current.has(item.key))births.current.set(item.key,t);const age=t-births.current.get(item.key)!,u=Math.min(1,age/.35),scale=Math.max(.01,1+2.70158*(u-1)**3+1.70158*(u-1)**2);const phase=i*1.713;
  let state=motions.current.get(item.key)??{x:item.x,z:item.z,heading:0,mode:'idle' as const};
- if(!['producer','decomposer','filter feeder','mixotroph'].includes(s.diet)&&!item.fossil)state=steerAnimal(state,{key:item.key,id,zone:s.zone,diet:s.diet,eats:s.eats,flying:flyingSpecies.has(id),anchorX:item.x,anchorZ:item.z,phase,time:t,dt,neighbors,nearWater:s.zone==='land'&&(t+phase*7)%28>21&&(t+phase*7)%28<25&&[[.7,0],[-.7,0],[0,.7],[0,-.7]].some(([dx,dz])=>waterHabitatAt(state.x+dx,state.z+dz,year)==='freshwater'),valid:(x,z)=>flyingSpecies.has(id)?true:navigable(x,z,s.zone,year)});
+ if(isMobileSpecies(id,s.diet)&&!item.fossil)state=steerAnimal(state,{key:item.key,id,zone:s.zone,diet:s.diet,eats:s.eats,flying:flyingSpecies.has(id),anchorX:item.x,anchorZ:item.z,phase,time:t,dt,neighbors,nearWater:s.zone==='land'&&(t+phase*7)%28>21&&(t+phase*7)%28<25&&[[.7,0],[-.7,0],[0,.7],[0,-.7]].some(([dx,dz])=>waterHabitatAt(state.x+dx,state.z+dz,year)==='freshwater'),valid:(x,z)=>flyingSpecies.has(id)?true:navigable(x,z,s.zone,year)});
  motions.current.set(item.key,state);const neighbor=neighbors.find(n=>n.key===item.key);if(neighbor){neighbor.x=state.x;neighbor.z=state.z}const {x,z,heading}=state,resting=['idle','rest','forage','drink'].includes(state.mode),flying=flyingSpecies.has(id);
  const y=s.zone==='freshwater'?terrainHeight(x,z,year)+.015:s.zone==='sea'&&s.diet!=='producer'?-.1-Math.min(.3,s.height*.45):terrainHeight(x,z,year);
  dummy.position.set(x,y+(flying?(id==='honeybee'?.65:1.5)+Math.sin(t*3+phase)*.12:0)+(1-u)**2*3,z);dummy.rotation.set(0,heading,0);dummy.scale.setScalar(scale*(item.exitAt?Math.max(.001,1-(Date.now()-item.exitAt)/600):1));dummy.updateMatrix();contactTransform.position.set(x,y+.025,z);contactTransform.rotation.set(-Math.PI/2,0,0);contactTransform.scale.set(s.height*.8,s.height*.8,1);contactTransform.updateMatrix();contact.current?.setMatrixAt(i,contactTransform.matrix);

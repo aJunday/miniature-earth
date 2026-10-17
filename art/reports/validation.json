@@ -365,6 +365,78 @@
       "transparent_pixels": 41650
     }
   },
+  "org_beaver": {
+    "triangles": 2742,
+    "budget": 3000,
+    "bounds_min": [
+      -0.2336283028125763,
+      0.0,
+      -0.7433628439903259
+    ],
+    "bounds_max": [
+      0.23362834751605988,
+      0.6000000238418579,
+      0.5364179015159607
+    ],
+    "height": 0.6000000238418579,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 45301
+    }
+  },
+  "org_bison": {
+    "triangles": 2710,
+    "budget": 3000,
+    "bounds_min": [
+      -0.7282718420028687,
+      0.0,
+      -1.1819825172424316
+    ],
+    "bounds_max": [
+      0.7282718420028687,
+      1.800000011920929,
+      1.4689873456954956
+    ],
+    "height": 1.800000011920929,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 39832
+    }
+  },
   "org_bluewhale": {
     "triangles": 2832,
     "budget": 3000,
@@ -954,6 +1026,42 @@
       "transparent_pixels": 52739
     }
   },
+  "org_graywolf": {
+    "triangles": 2742,
+    "budget": 3000,
+    "bounds_min": [
+      -0.31115642189979553,
+      0.0,
+      -0.9260607957839966
+    ],
+    "bounds_max": [
+      0.31115642189979553,
+      1.0000000298023224,
+      0.8003044128417969
+    ],
+    "height": 1.0000000298023224,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 42107
+    }
+  },
   "org_groundsloth": {
     "triangles": 2734,
     "budget": 3000,
@@ -1222,6 +1330,40 @@
         255
       ],
       "transparent_pixels": 44310
+    }
+  },
+  "org_menhaden": {
+    "triangles": 2200,
+    "budget": 3000,
+    "bounds_min": [
+      -0.2467532455921173,
+      0.0,
+      -0.6343364715576172
+    ],
+    "bounds_max": [
+      0.2467532455921173,
+      0.5,
+      0.47402599453926086
+    ],
+    "height": 0.5,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Fin_L",
+      "  Fin_R",
+      "  Head",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 45776
     }
   },
   "org_mountaingorilla": {

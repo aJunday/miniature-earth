@@ -1,0 +1,10 @@
+{
+  "fixture": "2026 read-only reconstruction, 11 regional resident groups, Smooth quality, 1280x800",
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+  "medianMs": 50,
+  "p95Ms": 50.100000000000364,
+  "calls": 30,
+  "triangles": 105622,
+  "geometries": 32,
+  "frameMs": 47.89999997615814
+}

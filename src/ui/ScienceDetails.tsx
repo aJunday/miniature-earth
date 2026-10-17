@@ -1,3 +1,4 @@
+import stories from '../sim/data/stories.json';
 import {guildFood} from '../sim/coupled';
 import {useGame} from '../state';
 import {historyRecord,eligibility} from '../sim/eligibility';
@@ -9,8 +10,8 @@ import type {SimState} from '../sim/types';
 import {adaptedSpecies} from '../sim/adaptation';
 export function ScienceDetails({id,sim}:{id:string;sim:SimState}){
  const region=useGame(s=>s.region),mode=useGame(s=>s.mode);const m=metadata(byId[id]);const groups=sim.groups?.filter(g=>g.speciesId===id&&g.traits)??[];
- const history=historyRecord(id);return <><p><b>{eligibility(id,sim.year,undefined,region,mode).reason}</b></p>{history?.coverage&&<p>Reviewed display coverage: ≈ {formatYear(history.coverage[0])} to {formatYear(history.coverage[1])}. Display occurrence or interval, not exact origin/extinction dates. <button onClick={()=>{useGame.getState().travelTo(id)}}>Visit reviewed occurrence</button></p>}{history?.sources.filter(url=>!m.sources.some(s=>s.url===url)).map(url=><a key={url} href={url} target="_blank" rel="noreferrer">Historical coverage source ↗</a>)}<div className="ecological-pressures"><b>Current pressures</b>{ecologicalPressures(id,sim).map(reason=><p key={reason}>{reason}</p>)}</div><details className="science-details"><summary>Field notes & evidence</summary><dl>
- <dt>Represents</dt><dd>{m.scientificName??'Multiple organisms'} · {m.taxonomicRank}</dd>
+ const census=stories[id as keyof typeof stories]?.wildPopulation;const history=historyRecord(id);return <><p><b>{eligibility(id,sim.year,undefined,region,mode).reason}</b></p>{history?.coverage&&<p>Reviewed display coverage: ≈ {formatYear(history.coverage[0])} to {formatYear(history.coverage[1])}. Display occurrence or interval, not exact origin/extinction dates. <button onClick={()=>{useGame.getState().travelTo(id)}}>Visit reviewed occurrence</button></p>}{history?.sources.filter(url=>!m.sources.some(s=>s.url===url)).map(url=><a key={url} href={url} target="_blank" rel="noreferrer">Historical coverage source ↗</a>)}<div className="ecological-pressures"><b>Current pressures</b>{ecologicalPressures(id,sim).map(reason=><p key={reason}>{reason}</p>)}</div><details className="science-details"><summary>Field notes & evidence</summary><dl>
+ <dt>Local model population</dt><dd>{Math.round(sim.populations[id]??0)} · illustrative island count, not a wild census</dd><dt>Source-reported population</dt><dd>{census?`${census.text} (${census.year}); scope and source in the conservation story.`:'Not verified here; no global estimate inferred from the simulation.'}</dd><dt>Represents</dt><dd>{m.scientificName??'Multiple organisms'} · {m.taxonomicRank}</dd>
  <dt>First appearance</dt><dd>{m.firstAppearance!==null?`≈ ${formatYear(m.firstAppearance)}`:'Not verified for this taxon'}</dd>
  <dt>Last occurrence</dt><dd>{m.lastOccurrence!==null?`≈ ${formatYear(m.lastOccurrence)}`:m.extinctionStatus==='extinct'?'Extinct; date not verified':'Living representatives'}</dd>
  <dt>Date evidence</dt><dd>{m.dateBasis}</dd>

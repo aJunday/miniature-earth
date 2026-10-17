@@ -211,3 +211,18 @@
 - North American Jurassic plant support uses NPS Morrison Formation evidence for broad fern/cycad/conifer proxies, scoped to a conservative 152–145 Ma scene window rather than extending all regional ranges. Source: https://www.nps.gov/subjects/fossils/the-morrison-formation.htm
 - Existing saved populations now resume rather than being silently replaced by baseline animals; the science browser fixture includes actual grass/oak food to test deer reproduction in this retained legacy world.
 - The guided demo restores the previous world when it finishes or is cancelled. Starting the rabbit lab warns before replacing an existing custom project.
+
+## Complete development prompt — 16 October 2026
+- The attached request ends mid-sentence in section 6.5 ("If the simulation has not been calibrated against real-world ecological data, clearly"); implement all complete visible requirements without inventing unseen sections.
+- The latest regional-world requirement supersedes the earlier global-mosaic default; use a North American representative woodland/grassland/coast mosaic, not a reconstruction of one exact locality.
+- Preserve legacy save-tick coordinates; adapt navigation independently so saved introductions do not change date.
+- Add Paleogene, Neogene and Holocene controls; retain optional pre-600-Ma origins with source-linked milestones.
+- Prioritize four new original playable animals: American bison, gray wolf, American beaver and Atlantic menhaden; retain the established rounded flat-colour art direction.
+- Expand the reference library using exact GBIF taxonomy matches; 240 non-playable reference records deliberately leave ecological and historical fields unknown. These are not counted as fully reviewed ecological records or playable models.
+- All four new species have source-linked native range, feeding and physical features. Their size, rates, tolerances and sensitivity are illustrative game parameters, not empirical estimates; no unsupported conservation status or global population is supplied.
+- Kew and NPS support present North American grass/oak/deer group proxies; NPS supports Pennsylvanian plant-group proxies and the conservative mammoth regional display window. Broad groups do not imply all members are native or temporally identical.
+- Future comparison replays the same founders, seed, climate and player introductions under different selected interventions; no fixed extinction-result tables are used.
+- Future defaults are explicit teaching assumptions: +1.5°C over 2026 by 2100, habitat resource multiplier 0.65, pollution 0.35, water availability 0.70. They are not regional climate/conservation predictions.
+- Restoration limits resource loss to 5%, corridors increase terrestrial carrying capacity by up to 16%, clean water limits pollution and water loss to 5%, and exploitation/marine controls reduce corresponding modeled mortality by 65%. Food-web constraints and local loss remain possible.
+- Use Cycles CPU, 32 samples and denoising for new icon renders. Preserve normalized rig skin weights, named parts and nine shared authored animation clips.
+- Local commits only; no push or deployment. Preserve the pre-existing user .gitignore change.

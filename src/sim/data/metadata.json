@@ -148,7 +148,8 @@
     "relationships": [],
     "notes": [
       "Represents a class; dates and biology must not be read as those of one species.",
-      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval."
+      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval.",
+      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
     ],
     "sources": [
       {
@@ -164,7 +165,12 @@
       {
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
-        "label": "NPS · Morrison Formation plant communities (broad group proxies)"
+        "label": "NPS \u00b7 Morrison Formation plant communities (broad group proxies)"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+        "label": "NPS \u00b7 North American Pennsylvanian swamp forest groups"
       }
     ],
     "checked": "2026-10-16",
@@ -180,6 +186,11 @@
         "region": "North America",
         "first": -152000000,
         "last": -145000000
+      },
+      {
+        "region": "North America",
+        "first": -323200000.0,
+        "last": -298900000.0
       }
     ]
   },
@@ -219,7 +230,7 @@
       {
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
-        "label": "NPS · Morrison Formation plant communities (broad group proxies)"
+        "label": "NPS \u00b7 Morrison Formation plant communities (broad group proxies)"
       }
     ],
     "checked": "2026-10-16",
@@ -271,7 +282,7 @@
       {
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
-        "label": "NPS · Morrison Formation plant communities (broad group proxies)"
+        "label": "NPS \u00b7 Morrison Formation plant communities (broad group proxies)"
       }
     ],
     "checked": "2026-10-16",
@@ -435,7 +446,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a family; dates and biology must not be read as those of one species."
+      "Represents a family; dates and biology must not be read as those of one species.",
+      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs."
     ],
     "sources": [
       {
@@ -447,6 +459,11 @@
         "field": "photosynthetic functional role",
         "label": "Royal Botanic Gardens, Kew",
         "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information",
+        "label": "Kew \u00b7 New World grasses"
       }
     ],
     "checked": "2026-10-16",
@@ -454,9 +471,16 @@
     "coverageReview": {
       "taxonomy": "source-linked",
       "dates": "present baseline / historical documentation; origin unknown",
-      "regions": "not resolved at this taxonomic scope",
+      "regions": "North American present-day representative coverage; other regions unresolved",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 2026,
+        "last": 2026
+      }
+    ]
   },
   "oak": {
     "commonName": "Oak",
@@ -477,7 +501,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a genus; dates and biology must not be read as those of one species."
+      "Represents a genus; dates and biology must not be read as those of one species.",
+      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs."
     ],
     "sources": [
       {
@@ -489,6 +514,11 @@
         "field": "photosynthetic functional role",
         "label": "Royal Botanic Gardens, Kew",
         "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2",
+        "label": "Kew \u00b7 Quercus native range"
       }
     ],
     "checked": "2026-10-16",
@@ -496,9 +526,16 @@
     "coverageReview": {
       "taxonomy": "source-linked",
       "dates": "present baseline / historical documentation; origin unknown",
-      "regions": "not resolved at this taxonomic scope",
+      "regions": "North American present-day representative coverage; other regions unresolved",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 2026,
+        "last": 2026
+      }
+    ]
   },
   "wildflower": {
     "commonName": "Wildflower",
@@ -607,7 +644,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -641,13 +678,19 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a family; dates and biology must not be read as those of one species."
+      "Represents a family; dates and biology must not be read as those of one species.",
+      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs."
     ],
     "sources": [
       {
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Cervidae&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.nps.gov/jeca/learn/nature/white-tailed-deer-odocoileus-virginianus.htm",
+        "label": "NPS \u00b7 North American deer representative"
       }
     ],
     "checked": "2026-10-16",
@@ -655,9 +698,16 @@
     "coverageReview": {
       "taxonomy": "source-linked",
       "dates": "present baseline / historical documentation; origin unknown",
-      "regions": "not resolved at this taxonomic scope",
+      "regions": "North American present-day representative coverage; other regions unresolved",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 2026,
+        "last": 2026
+      }
+    ]
   },
   "redfox": {
     "commonName": "Red fox",
@@ -687,7 +737,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -732,7 +782,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Apis_mellifera/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -781,7 +831,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Eretmochelys_imbricata/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -828,7 +878,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Panthera_pardus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -872,7 +922,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Pongo_abelii/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -914,7 +964,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Phocoena_sinus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -958,7 +1008,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Strigops_habroptila/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1007,7 +1057,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1051,7 +1101,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Dicerorhinus_sumatrensis/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1100,7 +1150,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Eubalaena_glacialis/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1144,7 +1194,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Manis_javanica/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1188,7 +1238,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Pithecophaga_jefferyi/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1230,7 +1280,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Gymnogyps_californianus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1274,7 +1324,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Loxodonta_cyclotis/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1316,7 +1366,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Acropora_palmata/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1360,7 +1410,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Panthera_tigris/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1404,7 +1454,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Ailurus_fulgens/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1453,7 +1503,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Balaenoptera_musculus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1500,7 +1550,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Gorilla_beringei/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1544,7 +1594,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Elephas_maximus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1586,7 +1636,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Rhincodon_typus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1630,7 +1680,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Enhydra_lutris/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1676,7 +1726,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Lemur_catta/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1720,7 +1770,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Lycaon_pictus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1764,7 +1814,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Ailuropoda_melanoleuca/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1807,7 +1857,7 @@
       },
       {
         "field": "feeding ecology",
-        "label": "University of Michigan · Animal Diversity Web",
+        "label": "University of Michigan \u00b7 Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Uncia_uncia/"
       }
     ],
@@ -1848,7 +1898,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Ursus_maritimus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1892,7 +1942,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Phascolarctos_cinereus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1936,7 +1986,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Acinonyx_jubatus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1979,7 +2029,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -2012,7 +2062,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species.",
+      "North American display window is a conservative subset of Beringian occurrence, not the full global range or exact extinction date."
     ],
     "sources": [
       {
@@ -2034,6 +2085,11 @@
         "field": "historical extinction record",
         "url": "https://www.nhm.ac.uk/discover/last-mammoths.html",
         "label": "Historical record source"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.nps.gov/bela/learn/nature/ice-age-mammals.htm",
+        "label": "NPS \u00b7 Woolly mammoths in Alaska"
       }
     ],
     "checked": "2026-10-16",
@@ -2043,7 +2099,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -120000,
+        "last": -13000
+      }
+    ]
   },
   "stellerseacow": {
     "commonName": "Steller's sea cow",
@@ -2075,7 +2138,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Hydrodamalis_gigas/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       },
       {
         "field": "historical extinction record",
@@ -2124,7 +2187,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Raphus_cucullatus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       },
       {
         "field": "historical extinction record",
@@ -2222,7 +2285,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       },
       {
         "field": "historical extinction record",
@@ -2276,7 +2339,7 @@
     ],
     "checked": "2026-10-16",
     "regions": [
-      "Galápagos"
+      "Gal\u00e1pagos"
     ],
     "coverageReview": {
       "taxonomy": "source-linked",
@@ -2320,7 +2383,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Megaptera_novaeangliae/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -2363,7 +2426,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -2413,7 +2476,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Amphiprion_ocellaris/",
-        "label": "University of Michigan · Animal Diversity Web"
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -2797,7 +2860,7 @@
       {
         "field": "Neogene context",
         "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/sites/mixsons-bone-bed/",
-        "label": "Florida Museum · Mixson’s Bone Bed"
+        "label": "Florida Museum \u00b7 Mixson\u2019s Bone Bed"
       },
       {
         "field": "feeding ecology",
@@ -2833,7 +2896,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
     ],
     "sources": [
       {
@@ -2845,6 +2909,11 @@
         "field": "photosynthetic functional role",
         "label": "Royal Botanic Gardens, Kew",
         "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+        "label": "NPS \u00b7 North American Pennsylvanian swamp forest groups"
       }
     ],
     "checked": "2026-10-16",
@@ -2854,7 +2923,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -323200000.0,
+        "last": -298900000.0
+      }
+    ]
   },
   "horsetail": {
     "commonName": "Ancient horsetail",
@@ -2875,7 +2951,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
     ],
     "sources": [
       {
@@ -2887,6 +2964,11 @@
         "field": "photosynthetic functional role",
         "label": "Royal Botanic Gardens, Kew",
         "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+        "label": "NPS \u00b7 North American Pennsylvanian swamp forest groups"
       }
     ],
     "checked": "2026-10-16",
@@ -2896,7 +2978,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -323200000.0,
+        "last": -298900000.0
+      }
+    ]
   },
   "decomposer": {
     "commonName": "Woodland decomposer fungi",
@@ -2933,6 +3022,185 @@
       "taxonomy": "explicit broad group",
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
+      "feeding": "reviewed functional role"
+    }
+  },
+  "bison": {
+    "commonName": "American bison",
+    "scientificName": "Bison bison",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Grassland and woodland mosaic",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
+    "waterDomain": "terrestrial",
+    "food": "Grasses and sedges",
+    "foodEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy, native range, feeding and visible characteristics",
+        "url": "https://animaldiversity.org/accounts/Bison_bison/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Bison+bison&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16",
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
+  },
+  "graywolf": {
+    "commonName": "Gray wolf",
+    "scientificName": "Canis lupus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Grassland and woodland mosaic",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
+    "waterDomain": "terrestrial",
+    "food": "Primarily mammalian prey, including deer and other ungulates",
+    "foodEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy, native range, feeding and visible characteristics",
+        "url": "https://animaldiversity.org/accounts/Canis_lupus/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Canis+lupus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16",
+    "regions": [
+      "North America",
+      "Europe",
+      "Asia"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
+  },
+  "beaver": {
+    "commonName": "American beaver",
+    "scientificName": "Castor canadensis",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Rivers, ponds and riparian woodland",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
+    "waterDomain": "freshwater",
+    "food": "Bark, twigs, leaves and aquatic vegetation",
+    "foodEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy, native range, feeding and visible characteristics",
+        "url": "https://animaldiversity.org/accounts/Castor_canadensis/",
+        "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Castor+canadensis&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16",
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
+  },
+  "menhaden": {
+    "commonName": "Atlantic menhaden",
+    "scientificName": "Brevoortia tyrannus",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "No reviewed date estimate in this catalogue",
+    "habitat": "Atlantic coastal and estuarine waters",
+    "habitatEvidence": "Broad habitat and native-region evidence reviewed; precise local occupancy is not inferred.",
+    "waterDomain": "marine",
+    "food": "Plankton filtered from water",
+    "foodEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions",
+    "extinctionStatus": "living representatives",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters."
+    ],
+    "sources": [
+      {
+        "field": "taxonomy, native range, feeding and visible characteristics",
+        "url": "https://www.fisheries.noaa.gov/species/atlantic-menhaden",
+        "label": "NOAA Fisheries"
+      },
+      {
+        "field": "taxonomy",
+        "url": "https://api.gbif.org/v1/species/match?name=Brevoortia+tyrannus&strict=true",
+        "label": "GBIF taxonomic backbone"
+      }
+    ],
+    "checked": "2026-10-16",
+    "regions": [
+      "North America",
+      "Atlantic Ocean"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
     }
   }

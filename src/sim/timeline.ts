@@ -12,3 +12,12 @@ export const CURRENT_YEAR=2026;
 export const FUTURE_YEAR=2100;
 export function stepDecade(year:number,direction:number){const next=Math.round(year)+10*direction;return next< -4540000000||next>FUTURE_YEAR?Math.round(year):next}
 export function snapDecade(year:number,anchor=2026){return anchor+Math.round((year-anchor)/10)*10}
+
+/** Navigation is independent of legacy save ticks: changing the UI never re-dates saved events. */
+export const MAIN_START=-600e6;
+export function navigationStep(year:number){return year< -100e6?5e6:year< -2e6?1e6:year< -10000?1000:year<1900?100:10}
+export function stepAdaptive(year:number,direction:number,origins=false){
+ const step=navigationStep(year);let next=year+direction*step;
+ if(year>2026||year===2026&&direction>0)next=direction>0?(Math.floor(year/10)+1)*10:(year<=2030?2026:(Math.ceil(year/10)-1)*10);
+ return Math.max(origins?-454e7:MAIN_START,Math.min(2100,next));
+}

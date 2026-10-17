@@ -838,5 +838,63 @@
       "Foliage",
       "Trunk"
     ]
+  },
+  "org_beaver": {
+    "full": 2742,
+    "distant": 1306,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_bison": {
+    "full": 2710,
+    "distant": 1292,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_graywolf": {
+    "full": 2742,
+    "distant": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_menhaden": {
+    "full": 2200,
+    "distant": 1050,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
   }
 }

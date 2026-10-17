@@ -17,10 +17,10 @@ export function validateHistory(r:HistoryRecord|undefined,year:number,habitat?:H
  if(habitat&&habitat!==r.habitat)return reject(`Wrong habitat — requires ${r.habitat}`, 'habitat');
  if(r.lineageBoundary!==undefined&&year<r.lineageBoundary)return reject('Not yet known — before reviewed flowering-plant evidence','not-yet');
  if(r.first!==null&&year<r.first)return reject('Before the first reviewed appearance; fossil dates are approximate','not-yet');
- if(r.last!==null&&year>r.last)return reject('Already extinct by this date according to the reviewed record','extinct');
+ if(r.last!==null&&year>r.last)return reject('Outside the reviewed occurrence range; a last fossil occurrence is not an exact extinction date','extinct');
  const covered=(r.first!==null&&year>=r.first&&(r.last!==null?year<=r.last:r.living&&year>=2026))||(r.coverage&&year>=r.coverage[0]&&year<=r.coverage[1])||(r.living&&year>=2026);
  if(!covered)return {allowed:false,status:'uncertain',category:'uncertain',reason:'Evidence uncertain — no reviewed coverage at this date'};
- if(region!=='mosaic'&&!r.regions.includes(region)&&!r.regionalCoverage?.some(w=>w.region===region&&year>=w.first&&year<=w.last))return {allowed:mode==='sandbox',status:'uncertain',category:'region',reason:mode==='sandbox'?'Hypothetical geographic introduction':'Region not supported by this record'};
+ if(region!=='mosaic'&&!r.regions.includes(region)&&!r.regionalCoverage?.some(w=>w.region===region&&Math.min(year,2026)>=w.first&&Math.min(year,2026)<=w.last))return {allowed:mode==='sandbox',status:'uncertain',category:'region',reason:mode==='sandbox'?'Hypothetical geographic introduction':'Region not supported by this record'};
  return {allowed:true,category:'supported',status:region==='mosaic'?'uncertain':'supported',reason:year>2026?'Hypothetical future — present-day starting taxon':region==='mosaic'?'Time supported · illustrative habitat mosaic':'Available in this period'};
 }
 export const eligibility=(id:string,year:number,habitat?:Habitat,region='mosaic',mode:WorldMode='historical')=>validateHistory(historyRecord(id),year,habitat,region,mode);
