@@ -10,7 +10,7 @@ export function ecologicalPressures(id:string,state:SimState):string[]{const s=b
  const {phi,loss}=foodWeb(species,state.populations);
  if(s.diet!=='producer'&&(phi[id]??1)<.5&&!s.selfSufficient&&(s.zone==='sea'||(state.env.resourceCover??0)<.3))reasons.push('Insufficient food');
  if((loss[id]??0)>0)reasons.push('Feeding pressure from consumers');
- if(state.happenings.length)reasons.push('Mass-extinction environmental disruption');
+ if(state.happenings.some(h=>['asteroid','end-permian'].includes(h)))reasons.push('Mass-extinction environmental disruption');
  if(!reasons.length&&fitness(s,state.env)>.7)reasons.push('Climate and habitat are currently suitable; food and competition still matter');
  return reasons;
 }

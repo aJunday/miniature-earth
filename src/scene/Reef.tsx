@@ -1,3 +1,4 @@
+import {useBiomass} from './biomass';
 import {eligibility} from '../sim/eligibility';
 import {useGame} from '../state';
 import {useEffect,useMemo,useRef} from 'react';
@@ -15,7 +16,7 @@ function colonyGeometry(kind:ReefKind){const pieces:BufferGeometry[]=[];
  // All primitive attributes agree after dropping UVs; paint is instanced per colony.
  for(const g of pieces)g.deleteAttribute('uv');const merged=mergeGeometries(pieces);pieces.forEach(g=>g.dispose());return merged;
 }
-function Colonies({kind,era}:{kind:ReefKind;era:EraProfile}){const ref=useRef<InstancedMesh>(null),geometry=useMemo(()=>colonyGeometry(kind),[kind]);const items=useMemo(()=>reefLayout(era).filter(c=>c.kind===kind),[era,kind]);const material=useMemo(()=>new MeshLambertMaterial(),[]);
+function Colonies({kind,era}:{kind:ReefKind;era:EraProfile}){const density=useBiomass(era.snap>=2026?'elkhorncoral':'stromatolite',era.snap>=2026?12:60);const ref=useRef<InstancedMesh>(null),geometry=useMemo(()=>colonyGeometry(kind),[kind]);const items=useMemo(()=>{const all=reefLayout(era).filter(c=>c.kind===kind);return all.slice(0,Math.floor(all.length*density))},[era,kind,density]);const material=useMemo(()=>new MeshLambertMaterial(),[]);
  useEffect(()=>{const mesh=ref.current;if(!mesh)return;const dummy=new Object3D();items.forEach((v,i)=>{dummy.position.set(v.x,v.y,v.z);dummy.scale.setScalar(v.scale);dummy.rotation.y=v.rotation;dummy.updateMatrix();mesh.setMatrixAt(i,dummy.matrix);mesh.setColorAt(i,new Color(v.color))});mesh.instanceMatrix.needsUpdate=true;if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true;mesh.computeBoundingSphere()},[items]);useEffect(()=>()=>{geometry.dispose();material.dispose()},[geometry,material]);
  return items.length?<instancedMesh ref={ref} args={[geometry,material,items.length]} receiveShadow onClick={e=>{if(!useGame.getState().selectedSpeciesId){e.stopPropagation();useGame.getState().focus(era.snap>=2026?'elkhorncoral':'stromatolite')}}}/>:null;
 }
