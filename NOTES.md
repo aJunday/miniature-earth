@@ -254,3 +254,8 @@
 - Critical overhaul final review: added source-reviewed North American Allosaurus/Brachiosaurus distribution and Arthropleura deposit windows; the Carboniferous preset uses 308 Ma within that reviewed interval.
 - Critical overhaul final acceptance: a local zero-population group is absent from live rendering; the catalogue still lists supported starting taxa so players can inspect the loss.
 - Critical overhaul limits: whole-game software rendering remains below 60 FPS in dense views, and the 357-row coverage report exposes unresolved era/region combinations instead of filling them with unrelated animals.
+
+## Biodiversity expansion assumptions
+- Whole-project update; retain North America as the selected default region and preserve the unrelated .gitignore edit. No push or deploy.
+- Audit the 24 requested dates and 23 midpoints. Empty implemented coverage means CONTENT MISSING unless a separate source review establishes genuinely limited evidence; absence from this catalogue is not evidence of absence of life.
+- Reconstructed counts, colours, dimensions and animation remain illustrative. Deposit-age envelopes are uncertain display windows, not continuous local occupation or exact species lifespans.
