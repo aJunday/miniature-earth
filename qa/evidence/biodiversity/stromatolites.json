@@ -1,0 +1,26 @@
+{
+  "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Stromatolites&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+  "license": "PBDB CC BY 4.0; original references retained",
+  "data": {
+    "elapsed_time": 0.0116,
+    "warnings": [
+      "The name 'Stromatolites' did not match any name in the taxonomy table"
+    ],
+    "records": [
+      {
+        "oid": "occ:366145",
+        "cid": "col:24042",
+        "idn": "<Stromatolites>",
+        "tdf": "taxon not entered",
+        "oei": "Early Albian",
+        "eag": 113.2,
+        "lag": 110.1,
+        "rid": "ref:9177",
+        "lng": "-109.754166",
+        "lat": "31.378332",
+        "cxi": "int:118",
+        "ref": "R. W. Scott. 1981. Biotic relations in Early Cretaceous coral-algal-rudist reefs, Arizona. Journal of Paleontology 55:463-478"
+      }
+    ]
+  }
+}

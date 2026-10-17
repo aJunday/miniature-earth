@@ -50,7 +50,8 @@
     "relationships": [],
     "notes": [
       "Represents a genus; dates and biology must not be read as those of one species.",
-      "Rangeomorph animal; feeding remains uncertain. Producer-style game growth does not imply photosynthesis."
+      "Rangeomorph animal; feeding remains uncertain. Producer-style game growth does not imply photosynthesis.",
+      "North American view is a stylized deep-seafloor community; camera illumination is for inspection, not literal sunlight at the original habitat depth."
     ],
     "sources": [
       {
@@ -62,6 +63,16 @@
         "field": "dated occurrence / display coverage",
         "url": "https://earthwise.bgs.ac.uk/index.php/OR/10/041_Guide_to_the_geology_of_Bradgate_Park_and_Swithland_Wood%2C_Charnwood_Forest",
         "label": "Museum, geological survey or university evidence"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.gov.nl.ca/eccc/natural-areas/wer/r-mpe/",
+        "label": "Newfoundland and Labrador: Mistaken Point assemblage 580\u2013560 Ma"
+      },
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Charnia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB Newfoundland Charnia occurrences; deposit envelope intersected with assemblage chronology"
       }
     ],
     "checked": "2026-10-16",
@@ -77,7 +88,14 @@
       "dates": "reviewed dated occurrence",
       "regions": "reviewed broad regions",
       "feeding": "explicit uncertainty"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -570000000.0,
+        "last": -560000000.0
+      }
+    ]
   },
   "dickinsonia": {
     "commonName": "Dickinsonia",
@@ -479,7 +497,8 @@
     "notes": [
       "Represents a family; dates and biology must not be read as those of one species.",
       "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
-      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory.",
+      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
     ],
     "sources": [
       {
@@ -501,6 +520,11 @@
         "field": "historical continuity",
         "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information",
         "label": "Historical range and living native range review"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Poaceae&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB screened North American group occurrences, CC BY 4.0; original citations retained"
       }
     ],
     "checked": "2026-10-16",
@@ -521,6 +545,81 @@
         "region": "North America",
         "first": 1872,
         "last": 2026
+      },
+      {
+        "region": "North America",
+        "first": -11700.0,
+        "last": 0.0
+      },
+      {
+        "region": "North America",
+        "first": -129000.0,
+        "last": 0.0
+      },
+      {
+        "region": "North America",
+        "first": -129000.0,
+        "last": -11700.0
+      },
+      {
+        "region": "North America",
+        "first": -210000.0,
+        "last": -14000.0
+      },
+      {
+        "region": "North America",
+        "first": -2580000.0,
+        "last": -774000.0
+      },
+      {
+        "region": "North America",
+        "first": -3600000.0,
+        "last": -2580000.0
+      },
+      {
+        "region": "North America",
+        "first": -5333000.0,
+        "last": -2580000.0
+      },
+      {
+        "region": "North America",
+        "first": -7246000.0,
+        "last": -5333000.0
+      },
+      {
+        "region": "North America",
+        "first": -9400000.0,
+        "last": -1400000.0
+      },
+      {
+        "region": "North America",
+        "first": -9400000.0,
+        "last": -4700000.0
+      },
+      {
+        "region": "North America",
+        "first": -11630000.0,
+        "last": -7246000.0
+      },
+      {
+        "region": "North America",
+        "first": -12500000.0,
+        "last": -9400000.0
+      },
+      {
+        "region": "North America",
+        "first": -13820000.0,
+        "last": -11630000.0
+      },
+      {
+        "region": "North America",
+        "first": -15980000.0,
+        "last": -13820000.0
+      },
+      {
+        "region": "North America",
+        "first": -16300000.0,
+        "last": -9400000.0
       }
     ]
   },
@@ -546,7 +645,8 @@
       "Represents a genus; dates and biology must not be read as those of one species.",
       "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
       "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory.",
-      "Southern North American fossil oak canopy is a broad Quercus proxy based on incompletely dated and sometimes reworked woods. This coarse display interval is not one species range or uninterrupted local occupancy."
+      "Southern North American fossil oak canopy is a broad Quercus proxy based on incompletely dated and sometimes reworked woods. This coarse display interval is not one species range or uninterrupted local occupancy.",
+      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
     ],
     "sources": [
       {
@@ -573,6 +673,11 @@
         "field": "regionalCoverage",
         "url": "https://www.floridamuseum.ufl.edu/paleobotany/collecting-fossil-plants-florida/",
         "label": "Florida Museum \u00b7 Miocene/Pliocene oak and mixed Pleistocene woods"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Quercus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB screened North American group occurrences, CC BY 4.0; original citations retained"
       }
     ],
     "checked": "2026-10-16",
@@ -598,6 +703,141 @@
         "region": "North America",
         "first": -16000000,
         "last": -11700
+      },
+      {
+        "region": "North America",
+        "first": -11700.0,
+        "last": 0.0
+      },
+      {
+        "region": "North America",
+        "first": -129000.0,
+        "last": -11700.0
+      },
+      {
+        "region": "North America",
+        "first": -210000.0,
+        "last": -14000.0
+      },
+      {
+        "region": "North America",
+        "first": -1400000.0,
+        "last": -210000.0
+      },
+      {
+        "region": "North America",
+        "first": -1800000.0,
+        "last": -774000.0
+      },
+      {
+        "region": "North America",
+        "first": -2580000.0,
+        "last": -774000.0
+      },
+      {
+        "region": "North America",
+        "first": -3600000.0,
+        "last": -2580000.0
+      },
+      {
+        "region": "North America",
+        "first": -5333000.0,
+        "last": -2580000.0
+      },
+      {
+        "region": "North America",
+        "first": -7246000.0,
+        "last": -5333000.0
+      },
+      {
+        "region": "North America",
+        "first": -9400000.0,
+        "last": -1400000.0
+      },
+      {
+        "region": "North America",
+        "first": -9400000.0,
+        "last": -4700000.0
+      },
+      {
+        "region": "North America",
+        "first": -11630000.0,
+        "last": -5333000.0
+      },
+      {
+        "region": "North America",
+        "first": -11630000.0,
+        "last": -7246000.0
+      },
+      {
+        "region": "North America",
+        "first": -12500000.0,
+        "last": -9400000.0
+      },
+      {
+        "region": "North America",
+        "first": -13820000.0,
+        "last": -7246000.0
+      },
+      {
+        "region": "North America",
+        "first": -13820000.0,
+        "last": -11630000.0
+      },
+      {
+        "region": "North America",
+        "first": -15980000.0,
+        "last": -11630000.0
+      },
+      {
+        "region": "North America",
+        "first": -15980000.0,
+        "last": -13820000.0
+      },
+      {
+        "region": "North America",
+        "first": -16300000.0,
+        "last": -9400000.0
+      },
+      {
+        "region": "North America",
+        "first": -16300000.0,
+        "last": -12500000.0
+      },
+      {
+        "region": "North America",
+        "first": -18500000.0,
+        "last": -12500000.0
+      },
+      {
+        "region": "North America",
+        "first": -20450000.0,
+        "last": -15980000.0
+      },
+      {
+        "region": "North America",
+        "first": -23040000.0,
+        "last": -15980000.0
+      },
+      {
+        "region": "North America",
+        "first": -27300000.0,
+        "last": -15980000.0
+      },
+      {
+        "region": "North America",
+        "first": -27300000.0,
+        "last": -23040000.0
+      },
+      {
+        "region": "North America",
+        "first": -33900000.0,
+        "last": -23040000.0
+      },
+      {
+        "region": "North America",
+        "first": -33900000.0,
+        "last": -27300000.0
       }
     ]
   },
@@ -2835,13 +3075,19 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
     ],
     "sources": [
       {
         "field": "historical context",
         "url": "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html",
         "label": "Museum / public scientific reference"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonitida&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB screened North American group occurrences, CC BY 4.0; original citations retained"
       }
     ],
     "checked": "2026-10-16",
@@ -2851,7 +3097,54 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "explicit uncertainty"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -72200000.0,
+        "last": -66000000.0
+      },
+      {
+        "region": "North America",
+        "first": -83600000.0,
+        "last": -72200000.0
+      },
+      {
+        "region": "North America",
+        "first": -85700000.0,
+        "last": -83600000.0
+      },
+      {
+        "region": "North America",
+        "first": -93900000.0,
+        "last": -89800000.0
+      },
+      {
+        "region": "North America",
+        "first": -100500000.0,
+        "last": -93900000.0
+      },
+      {
+        "region": "North America",
+        "first": -106300000.0,
+        "last": -93900000.0
+      },
+      {
+        "region": "North America",
+        "first": -106300000.0,
+        "last": -100500000.0
+      },
+      {
+        "region": "North America",
+        "first": -113200000.0,
+        "last": -100500000.0
+      },
+      {
+        "region": "North America",
+        "first": -132600000.0,
+        "last": -125770000.0
+      }
+    ]
   },
   "dimetrodon": {
     "commonName": "Dimetrodon",
@@ -3160,7 +3453,8 @@
     "relationships": [],
     "notes": [
       "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
-      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
+      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity.",
+      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
     ],
     "sources": [
       {
@@ -3177,6 +3471,11 @@
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
         "label": "NPS \u00b7 North American Pennsylvanian swamp forest groups"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lepidodendron&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB screened North American group occurrences, CC BY 4.0; original citations retained"
       }
     ],
     "checked": "2026-10-16",
@@ -3192,6 +3491,71 @@
         "region": "North America",
         "first": -323200000.0,
         "last": -298900000.0
+      },
+      {
+        "region": "North America",
+        "first": -309800000.0,
+        "last": -307400000.0
+      },
+      {
+        "region": "North America",
+        "first": -312800000.0,
+        "last": -306000000.0
+      },
+      {
+        "region": "North America",
+        "first": -312800000.0,
+        "last": -307000000.0
+      },
+      {
+        "region": "North America",
+        "first": -314600000.0,
+        "last": -307400000.0
+      },
+      {
+        "region": "North America",
+        "first": -318600000.0,
+        "last": -312800000.0
+      },
+      {
+        "region": "North America",
+        "first": -318700000.0,
+        "last": -307400000.0
+      },
+      {
+        "region": "North America",
+        "first": -318700000.0,
+        "last": -316900000.0
+      },
+      {
+        "region": "North America",
+        "first": -330300000.0,
+        "last": -315200000.0
+      },
+      {
+        "region": "North America",
+        "first": -330300000.0,
+        "last": -323400000.0
+      },
+      {
+        "region": "North America",
+        "first": -335400000.0,
+        "last": -323400000.0
+      },
+      {
+        "region": "North America",
+        "first": -342900000.0,
+        "last": -335400000.0
+      },
+      {
+        "region": "North America",
+        "first": -346700000.0,
+        "last": -330300000.0
+      },
+      {
+        "region": "North America",
+        "first": -351900000.0,
+        "last": -339900000.0
       }
     ]
   },
@@ -3215,7 +3579,8 @@
     "relationships": [],
     "notes": [
       "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
-      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
+      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity.",
+      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
     ],
     "sources": [
       {
@@ -3232,6 +3597,11 @@
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
         "label": "NPS \u00b7 North American Pennsylvanian swamp forest groups"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Calamites&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB screened North American group occurrences, CC BY 4.0; original citations retained"
       }
     ],
     "checked": "2026-10-16",
@@ -3247,6 +3617,86 @@
         "region": "North America",
         "first": -323200000.0,
         "last": -298900000.0
+      },
+      {
+        "region": "North America",
+        "first": -293520000.0,
+        "last": -274400000.0
+      },
+      {
+        "region": "North America",
+        "first": -298900000.0,
+        "last": -290100000.0
+      },
+      {
+        "region": "North America",
+        "first": -303700000.0,
+        "last": -298900000.0
+      },
+      {
+        "region": "North America",
+        "first": -305000000.0,
+        "last": -301400000.0
+      },
+      {
+        "region": "North America",
+        "first": -306000000.0,
+        "last": -304800000.0
+      },
+      {
+        "region": "North America",
+        "first": -307000000.0,
+        "last": -298900000.0
+      },
+      {
+        "region": "North America",
+        "first": -307400000.0,
+        "last": -300300000.0
+      },
+      {
+        "region": "North America",
+        "first": -309800000.0,
+        "last": -301400000.0
+      },
+      {
+        "region": "North America",
+        "first": -312800000.0,
+        "last": -307000000.0
+      },
+      {
+        "region": "North America",
+        "first": -314600000.0,
+        "last": -307400000.0
+      },
+      {
+        "region": "North America",
+        "first": -315200000.0,
+        "last": -307400000.0
+      },
+      {
+        "region": "North America",
+        "first": -318700000.0,
+        "last": -307400000.0
+      },
+      {
+        "region": "North America",
+        "first": -318700000.0,
+        "last": -316900000.0
+      },
+      {
+        "region": "North America",
+        "first": -323400000.0,
+        "last": -298900000.0
+      },
+      {
+        "region": "North America",
+        "first": -323400000.0,
+        "last": -312800000.0
+      },
+      {
+        "region": "North America",
+        "first": -330300000.0,
+        "last": -315200000.0
       }
     ]
   },
