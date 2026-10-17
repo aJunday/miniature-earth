@@ -233,3 +233,6 @@ Added same-camera baseline/conservation world switching beside the same-founder 
 
 ## Critical overhaul F — contextual catalogue and immersive controls
 Catalogue defaults to eligible organisms in the selected evidence region; other/all tabs and search preserve experimentation. Added habitat/extant filtering, scientific names and expandable range/habitat/region cards. Existing category, geological-era and conservation filters retained. Immersive mode hides secondary panels while retaining timeline and camera controls. Smaller header/cards leave more world visible.
+
+## Critical overhaul G — distinct representative landscapes
+Ancient marine profiles now reduce exposed land, Carboniferous wetlands use a broader meandering channel, and Triassic/Neogene coast shapes differ. Fixed river terrain sampling to use the selected era. Split early Pleistocene wooded lowlands from the late glacial showcase, preventing 1.8-Ma Florida-associated sloths from appearing in a universal snow landscape. These remain labeled habitat dioramas, not literal paleogeographic maps.
