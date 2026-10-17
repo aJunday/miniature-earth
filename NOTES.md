@@ -172,3 +172,10 @@
 - Unreviewed dates block historical introductions instead of inventing first/last appearances; living taxa are supported at the present baseline, not automatically throughout their ancestors' history.
 - Rabbit insulation uses an explicitly illustrative three-allele locus with annual non-overlapping cohorts, 0.2% offspring mutation and bounded reproductive sampling; these are not measured rabbit genetic parameters.
 - A maximum of 256 cohort transitions bounds geological seeks; longer intervals are explicitly labeled approximate.
+- The rabbit demonstration is a controlled microhabitat: its cold/warm/food interventions do not change the island's global temperature and it is excluded from the open predator food web. The UI states this limitation explicitly.
+- New cohorts receive stable seed/group/generation identities; existing animals never change inherited coat variants. Both the world and comparison view use the same coat geometry function.
+- Historical display intervals describe reviewed coverage at the stated taxonomic scope, not exact evolutionary origin dates. For historically documented lost species, sightings define coverage, not first evolution.
+- Region filters are deliberately conservative; the default global habitat mosaic is illustrative and is never claimed to be a real coexisting regional assemblage.
+- The source catalogue remains incomplete by design: unknown historical intervals block new placement and omitted scenery, while existing experimental descendants do not acquire a historical extinction deadline.
+- Use a writable temporary npm cache for asset inspection; do not alter ownership of the user's global npm cache.
+- Preserve the user's pre-existing .gitignore change outside all task commits.

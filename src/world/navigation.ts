@@ -1,0 +1,7 @@
+import {mulberry32} from '../sim/rng';
+import {eraAt} from './eras';
+import {terrainHeight,islandDistance,landscapeScale,waterHabitatAt} from './terrain';
+const patches=new Map<string,Map<string,{x:number;z:number;r:number}[]>>();
+/** Same seeded primary rock scatter as Environment; spatial buckets bound collision work. */
+function rocks(year:number){const era=eraAt(year);let bins=patches.get(era.id);if(bins)return bins;bins=new Map();const random=mulberry32(731),scale=landscapeScale(era.snap);for(let i=0;i<260;i++){const x=(random()-.5)*29*scale,z=(random()-.5)*25*scale,y=terrainHeight(x,z,era.snap),d=islandDistance(x,z,era.snap);if(d<1&&y>.25&&(d>-2||y>2.6)){const r=.25+random()*.6;random();const key=Math.floor(x/3)+':'+Math.floor(z/3);const list=bins.get(key)??[];list.push({x,z,r});bins.set(key,list)}}patches.set(era.id,bins);return bins}
+export function navigable(x:number,z:number,zone:string,year:number){const habitat=waterHabitatAt(x,z,year);if(habitat!==(zone==='sea'?'marine':zone==='land'?'terrestrial':zone))return false;if(zone!=='land')return true;const y=terrainHeight(x,z,year);if(Math.abs(terrainHeight(x+.2,z,year)-y)>.35||Math.abs(terrainHeight(x,z+.2,year)-y)>.35)return false;const bins=rocks(year),bx=Math.floor(x/3),bz=Math.floor(z/3);for(let a=-1;a<=1;a++)for(let b=-1;b<=1;b++)for(const rock of bins.get((bx+a)+':'+(bz+b))??[])if(Math.hypot(x-rock.x,z-rock.z)<rock.r+.15)return false;return true}

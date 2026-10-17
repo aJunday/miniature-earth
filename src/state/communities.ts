@@ -6,6 +6,11 @@ import {yearToTick} from '../sim/timeline';
 type Patch=[id:string,count:number,x:number,z:number];
 interface Community {id:string;start:number;end:number;patches:Patch[]}
 export const communities:Community[]=[
+ {id:'documented-dodo',start:1598,end:1663,patches:[['dodo',4,-5,2]]},
+ {id:'documented-seacow',start:1741,end:1769,patches:[['stellerseacow',3,18,12]]},
+ {id:'documented-pigeon',start:1850,end:1915,patches:[['passengerpigeon',6,-5,2]]},
+ {id:'documented-thylacine',start:1903,end:1937,patches:[['thylacine',3,-8,2]]},
+ {id:'documented-tortoise',start:1971,end:2013,patches:[['pintatortoise',2,-5,2]]},
  {id:'microbial',start:-3.5e9,end:-635e6,patches:[['stromatolite',45,16,-2]]},
  {id:'ediacaran',start:-580e6,end:-538.8e6,patches:[['stromatolite',65,14,6],['charnia',18,15,8],['dickinsonia',9,13,9]]},
  {id:'paleozoic-sea',start:-538.8e6,end:-252e6,patches:[['stromatolite',60,16,-3],['trilobite',12,16,0]]},

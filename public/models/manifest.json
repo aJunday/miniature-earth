@@ -288,6 +288,18 @@
     ]
   },
   {
+    "id": "decomposer",
+    "file": "/models/org_decomposer.glb",
+    "icon": "/icons/org_decomposer.png",
+    "heightUnits": 0.30000001192092896,
+    "triangles": 1260,
+    "parts": [
+      "Root",
+      "Foliage",
+      "Trunk"
+    ]
+  },
+  {
     "id": "deer",
     "file": "/models/org_deer.glb",
     "icon": "/icons/org_deer.png",
@@ -1126,18 +1138,6 @@
     "triangles": 1358,
     "parts": [
       "Root",
-      "Foliage"
-    ]
-  },
-  {
-    "id": "decomposer",
-    "file": "/models/org_decomposer.glb",
-    "icon": "/icons/org_decomposer.png",
-    "heightUnits": 0.3,
-    "triangles": 1260,
-    "parts": [
-      "Root",
-      "Trunk",
       "Foliage"
     ]
   }

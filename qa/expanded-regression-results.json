@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "hadean exact decade round trip",
+    "cambrian exact decade round trip",
+    "carboniferous exact decade round trip",
+    "jurassic exact decade round trip",
+    "cretaceous exact decade round trip",
+    "present exact decade round trip",
+    "zoom slider and keyboard stay on decade grid",
+    "playback uses exact decades",
+    "rejected ancient placement creates no population",
+    "regional freshwater reconstruction",
+    "reef camera and quality controls"
+  ],
+  "errors": [],
+  "perf": {
+    "medianMs": 83.29999999999927,
+    "p95Ms": 83.40000000000146,
+    "calls": 36,
+    "triangles": 150274,
+    "geometries": 50,
+    "frameMs": 80.30000001192093
+  }
+}

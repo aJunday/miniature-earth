@@ -1,0 +1,2 @@
+import {expect,it} from 'vitest';import {navigable} from './navigation';import {riverX} from './terrain';
+it('keeps locomotion in habitat and excludes exposed steep summit slopes',()=>{expect(navigable(30,20,'land',2026)).toBe(false);expect(navigable(riverX(0),0,'freshwater',2026)).toBe(true);expect(navigable(0,0,'freshwater',2026)).toBe(false);let blocked=0;for(let x=-14;x<-5;x+=.5)for(let z=-14;z<-5;z+=.5)if(!navigable(x,z,'land',2026))blocked++;expect(blocked).toBeGreaterThan(10)});

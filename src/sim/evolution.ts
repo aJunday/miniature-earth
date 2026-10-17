@@ -23,3 +23,5 @@ export function evolutionAt(start:number,year:number,seed:number,count:number,ch
  const frequencies=[0,0,0] as [number,number,number];for(const a of individuals)frequencies[a.allele]+=1/Math.max(1,individuals.length);
  return {individuals,generation:generations,frequencies,mean:frequencies.reduce((n,f,i)=>n+f*insulation[i],0),births,deaths,approximate:generations>256};
 }
+
+export const evolutionSeed=(seed:number,tick:number,x:number,z:number)=>(seed+Math.round(tick)*31+Math.round(x*100)*131+Math.round(z*100)*7919)>>>0;

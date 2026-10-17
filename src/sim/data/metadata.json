@@ -146,9 +146,9 @@
     "checked": "2026-10-16"
   },
   "conifer": {
-    "commonName": "Araucaria conifer",
-    "scientificName": "Conifers (broad group)",
-    "taxonomicRank": "clade",
+    "commonName": "Conifer woodland proxy",
+    "scientificName": null,
+    "taxonomicRank": "ecological group",
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
     "lastOccurrence": null,
@@ -168,13 +168,7 @@
       "Araucaria is the chosen representative, not a name for all conifers.",
       "Historical trees are broad conifer proxies, not modern Araucaria species."
     ],
-    "sources": [
-      {
-        "field": "taxonomy",
-        "url": "https://api.gbif.org/v1/species/match?name=Araucaria&strict=true",
-        "label": "GBIF taxonomic backbone"
-      }
-    ],
+    "sources": [],
     "checked": "2026-10-16"
   },
   "stegosaurus": {
