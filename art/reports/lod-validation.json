@@ -53,6 +53,15 @@
     ],
     "pass": true
   },
+  "org_archaeopteris": {
+    "triangles": 626,
+    "parts": [
+      "Foliage",
+      "Root",
+      "Trunk"
+    ],
+    "pass": true
+  },
   "org_arthropleura": {
     "triangles": 1290,
     "parts": [
@@ -174,6 +183,22 @@
     ],
     "pass": true
   },
+  "org_camarasaurus": {
+    "triangles": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_capybara": {
     "triangles": 1300,
     "parts": [
@@ -213,6 +238,30 @@
     ],
     "pass": true
   },
+  "org_cloudina": {
+    "triangles": 552,
+    "parts": [
+      "Body",
+      "Root"
+    ],
+    "pass": true
+  },
+  "org_coelophysis": {
+    "triangles": 1300,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_condor": {
     "triangles": 1304,
     "parts": [
@@ -231,6 +280,15 @@
   },
   "org_conifer": {
     "triangles": 656,
+    "parts": [
+      "Foliage",
+      "Root",
+      "Trunk"
+    ],
+    "pass": true
+  },
+  "org_cooksonia": {
+    "triangles": 326,
     "parts": [
       "Foliage",
       "Root",
@@ -272,6 +330,22 @@
     ],
     "pass": true
   },
+  "org_deinonychus": {
+    "triangles": 1308,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_desmatosuchus": {
     "triangles": 1308,
     "parts": [
@@ -300,6 +374,22 @@
     ],
     "pass": true
   },
+  "org_dilophosaurus": {
+    "triangles": 1308,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_dimetrodon": {
     "triangles": 1324,
     "parts": [
@@ -311,6 +401,20 @@
       "Leg_BR",
       "Leg_FL",
       "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_diplomystus": {
+    "triangles": 760,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
       "Root",
       "Tail"
     ],
@@ -329,6 +433,36 @@
       "Tail",
       "Wing_L",
       "Wing_R"
+    ],
+    "pass": true
+  },
+  "org_dunkleosteus": {
+    "triangles": 940,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_edmontonia": {
+    "triangles": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
     ],
     "pass": true
   },
@@ -353,6 +487,28 @@
       "Tail",
       "Wing_L",
       "Wing_R"
+    ],
+    "pass": true
+  },
+  "org_eucalyptocrinites": {
+    "triangles": 1292,
+    "parts": [
+      "Body",
+      "Root"
+    ],
+    "pass": true
+  },
+  "org_eurypterus": {
+    "triangles": 1324,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Root",
+      "Tail"
     ],
     "pass": true
   },
@@ -489,6 +645,20 @@
     ],
     "pass": true
   },
+  "org_knightia": {
+    "triangles": 760,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_koala": {
     "triangles": 1296,
     "parts": [
@@ -541,6 +711,47 @@
       "Head",
       "Root",
       "Tail"
+    ],
+    "pass": true
+  },
+  "org_merychippus": {
+    "triangles": 1310,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_mesohippus": {
+    "triangles": 1310,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_metasequoia": {
+    "triangles": 638,
+    "parts": [
+      "Foliage",
+      "Root",
+      "Trunk"
     ],
     "pass": true
   },
@@ -632,6 +843,30 @@
       "Leg_FR",
       "Root",
       "Tail"
+    ],
+    "pass": true
+  },
+  "org_placerias": {
+    "triangles": 1305,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_platystrophia": {
+    "triangles": 1320,
+    "parts": [
+      "Body",
+      "Root"
     ],
     "pass": true
   },

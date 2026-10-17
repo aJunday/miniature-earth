@@ -9,7 +9,7 @@ export function sceneCoverage(sim:SimState,region:string){
  const eligible=species.filter(s=>eligibility(s.id,Math.min(2026,sim.year),undefined,region).allowed);
  const playable=eligible.filter(s=>assets.has(s.id));
  const habitats=(['terrestrial','freshwater','marine'] as Habitat[]).map(h=>({habitat:h,organisms:playable.filter(s=>historyRecord(s.id)?.habitat===h)}));
- const rank=(items:typeof playable)=>items.reduce((n,s)=>n+(s.diet==='producer'?1:2),0);
+ const rank=(items:typeof playable)=>items.reduce((n,s)=>n+(s.diet==='producer'?1:3),0);
  const preferred=habitats.reduce((a,b)=>rank(b.organisms)>rank(a.organisms)?b:a,habitats[0]);
  const generated=playable.filter(s=>(sim.populations[s.id]??0)>0);
  const roles=new Set(generated.map(s=>s.diet));

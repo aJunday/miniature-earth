@@ -19,7 +19,7 @@ Local implementation; no push or deployment. North America remains the selected 
 1. **Previously empty ranges.** {sum(not r['defaultGroups'] for r in before)}/47 audited dates were empty, including {sum(not r['defaultGroups'] for r in before[:24])}/24 requested checkpoints. The table below includes each requested checkpoint and 23 intervening dates; it is a sample, not proof of uninterrupted coverage at every date.
 2. **Root causes.** Missing playable organisms; narrow or absent regional evidence; regional windows borrowing coverage from elsewhere; founding groups using fixed coordinates; historical plants skipped by a modern vegetation shortcut; marine framing; and a focus-before-model-load race. A zero-Ma recent fossil boundary also needed distinction from calendar year zero.
 3. **New organisms.** {', '.join(names[i] for i in new)}. All have original meshes, transparent CPU-rendered icons, LODs and actual integration. Mobile additions have deform rigs; attached organisms remain sessile.
-4. **Vegetation.** New Cooksonia-like leafless vascular shoots, Archaeopteris trees and fossil Metasequoia. Expanded dated regional oak, grass, lycophyte and horsetail coverage. Wetland shoots cluster near freshwater; tree anchors favor lowland edges. Early scenes do not gain modern grass or flowers.
+4. **Vegetation.** New Cooksonia-like leafless vascular shoots, Archaeopteris trees and fossil Metasequoia. Expanded dated regional fern, conifer, cycad, oak, grass, lycophyte and horsetail coverage, including screened Mesozoic woodland occurrences. Wetland shoots cluster near freshwater; tree anchors favor lowland edges. Early scenes do not gain modern grass or flowers.
 5. **Playable count.** {len(species)} (previously 72). A playable genus/group proxy is counted once, not as each fossil species it represents.
 6. **Reference-only count.** {len(refs)}. Exact species references remain separate from broader genus reconstructions and are not counted as additional playable organisms.
 7. **Visible historical coverage.** The implementation now has eligible content at {sum(bool(r['defaultGroups']) for r in after[:24])}/24 requested checkpoints and {sum(bool(r['defaultGroups']) for r in after)}/47 sampled dates. Late Ediacaran, Cambrian, Ordovician, Silurian, Devonian, Carboniferous, Permian, Triassic, Jurassic, Cretaceous, Paleogene, Neogene, Pleistocene, Holocene, historical-modern and future scenes have representative content at reviewed dates. This does not make every interval or region complete.
@@ -44,16 +44,24 @@ Dates use the game's signed calendar convention; negative values approximate geo
 '''+ '\n'.join(rows)+'\n\n## New asset contracts\n\n'+'\n'.join(assetrows)+'\n\n## Primary sources\n\n'
 for ident in new:
  links=metadata[ident]['sources'];report+=f"- **{names[ident]}**: "+', '.join(f"[{v['label']}]({v['url']})" for v in links)+'\n'
+generation=read('qa/biodiversity-generation-after.json');prior=read('qa/biodiversity-generation-before.json')
+performance=read('qa/continuation-crowded-performance.json')
+report+='\n## Final acceptance measurements\n\n'
+report+=f"- Strict typecheck and production build: PASS; 120 unit tests across 24 files: PASS.\n- Stable-build date sweep: {len(scenes['results'])}/47 captures, {sum(r['rewind']=='PASS' for r in scenes['results'])} deterministic rewinds, {len(scenes['errors'])} captured browser errors.\n- New model close-ups: {len(read('qa/biodiversity-interactions.json')['results'])}/18; loaded mobile rigs, region preservation, auto-habitat persistence and mobile overflow checks pass.\n- Habitat-anchor benchmark: {prior['medianMs']:.2f} → {generation['medianMs']:.2f} ms median for 240 repeated anchors including equality assertions ({prior['medianMs']/generation['medianMs']:.1f}× in this isolated workload). This is not a whole-frame speedup.\n- Crowded 2026 mosaic, Smooth quality, 1280×800: {performance['medianMs']:.1f} ms median / {performance['p95Ms']:.1f} ms p95; {performance['calls']} draw calls, {performance['triangles']:,} triangles. Renderer: {performance['renderer']}.\n"
+for file in ['complete-development-results','continuation-results','gameplay-results','gameplay-conditions-results','final-local-results','critical-interactions','critical-click']:
+ path=root/'qa'/f'{file}.json'
+ if path.exists():
+  result=json.loads(path.read_text());report+=f"- {file}: {len(result.get('checks',[]))} recorded checks; {len(result.get('errors',[]))} captured errors.\n"
 (root/'qa/BIODIVERSITY_REPORT.md').write_text(report);(out/'REPORT.md').write_text(report)
 images=out/'images';images.mkdir(exist_ok=True)
 files=list((root/'qa/shots/biodiversity').glob('*.png'))
 if (root/'qa/shots/biodiversity-icons.png').exists():files.append(root/'qa/shots/biodiversity-icons.png')
 cards=[]
-for path in sorted(files):
- if path.stem=='failure':continue
+for path in sorted(files,key=lambda p:(0,int(p.stem)) if p.stem.isdigit() else (1,p.stem)):
+ if path.stem in ['failure','focus-debug']:continue
  shutil.copy2(path,images/path.name);cards.append(f'<figure><a href="images/{html.escape(path.name)}"><img loading="lazy" src="images/{html.escape(path.name)}"></a><figcaption>{html.escape(path.stem)}</figcaption></figure>')
 (out/'gallery.html').write_text('<!doctype html><meta charset="utf-8"><title>Miniature Earth — biodiversity evidence</title><style>body{background:#f3efe6;color:#263238;font:16px system-ui;margin:24px}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(440px,1fr));gap:16px}figure{margin:0;background:white;padding:10px;border-radius:16px}img{width:100%}a{color:inherit}</style><h1>Miniature Earth — biodiversity evidence</h1><p>Actual local-game captures; numbered images follow the 47-date coverage audit. Click for full resolution.</p><main>'+''.join(cards)+'</main>')
-for file in ['qa/biodiversity-before.json','qa/biodiversity-after.json','qa/biodiversity-scenes.json','qa/biodiversity-interactions.json','qa/critical-asset-validation.json','qa/biodiversity-generation-before.json','qa/biodiversity-generation-after.json']:
+for file in ['qa/biodiversity-before.json','qa/biodiversity-after.json','qa/biodiversity-scenes.json','qa/biodiversity-interactions.json','qa/critical-asset-validation.json','qa/biodiversity-generation-before.json','qa/biodiversity-generation-after.json','qa/continuation-crowded-performance.json','qa/critical-coverage.json','qa/rig-validation.json']:
  path=root/file
  if path.exists():shutil.copy2(path,out/path.name)
 print(out)

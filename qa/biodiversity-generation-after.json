@@ -1,0 +1,11 @@
+{
+  "fixture": "240 repeated anchors per run; includes identical equality assertion overhead",
+  "runs": [
+    1.6044999999999732,
+    0.8821669999999813,
+    0.883624999999995,
+    0.730542000000014,
+    0.7044159999999806
+  ],
+  "medianMs": 0.8821669999999813
+}

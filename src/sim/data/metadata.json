@@ -167,7 +167,8 @@
     "notes": [
       "Represents a class; dates and biology must not be read as those of one species.",
       "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval.",
-      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
+      "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity.",
+      "Fossil display uses explicitly labeled higher-group reconstructions with differing constituent taxa across time. Only reviewed macrofossil genera or unambiguous group identifications are used here; aquatic ferns, horsetail records returned under Polypodiopsida, dispersed spores and ambiguous cycad-like foliage were excluded. Occurrence deposit envelopes are not exact species lifespans or abundance estimates."
     ],
     "sources": [
       {
@@ -194,9 +195,19 @@
         "field": "dated regional display coverage",
         "url": "https://www.nps.gov/care/learn/nature/fossils.htm",
         "label": "NPS \u00b7 Chinle tropical vegetation"
+      },
+      {
+        "field": "dated regional group coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Polypodiopsida&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=1000",
+        "label": "PBDB screened North American plant records; CC BY 4.0, original references retained"
+      },
+      {
+        "field": "dated regional group coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Polypodiopsida&show=coords%2Ctime%2Cref&cc=US%2CCA&max_ma=252&min_ma=66&limit=2000",
+        "label": "PBDB screened North American plant records; CC BY 4.0, original references retained"
       }
     ],
-    "checked": "2026-10-16",
+    "checked": "2026-10-17",
     "regions": [],
     "coverageReview": {
       "taxonomy": "source-linked",
@@ -219,6 +230,146 @@
         "region": "North America",
         "first": -225000000.0,
         "last": -205700000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -51100000.0
+      },
+      {
+        "region": "North America",
+        "first": -57500000.0,
+        "last": -56000000.0
+      },
+      {
+        "region": "North America",
+        "first": -23040000.0,
+        "last": -5333000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -48070000.0
+      },
+      {
+        "region": "North America",
+        "first": -119570000.0,
+        "last": -113200000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -33900000.0
+      },
+      {
+        "region": "North America",
+        "first": -37710000.0,
+        "last": -33900000.0
+      },
+      {
+        "region": "North America",
+        "first": -227300000.0,
+        "last": -205700000.0
+      },
+      {
+        "region": "North America",
+        "first": -237000000.0,
+        "last": -227300000.0
+      },
+      {
+        "region": "North America",
+        "first": -154800000.0,
+        "last": -143100000.0
+      },
+      {
+        "region": "North America",
+        "first": -143100000.0,
+        "last": -121400000.0
+      },
+      {
+        "region": "North America",
+        "first": -170900000.0,
+        "last": -161500000.0
+      },
+      {
+        "region": "North America",
+        "first": -113200000.0,
+        "last": -100500000.0
+      },
+      {
+        "region": "North America",
+        "first": -121400000.0,
+        "last": -113200000.0
+      },
+      {
+        "region": "North America",
+        "first": -83600000.0,
+        "last": -72200000.0
+      },
+      {
+        "region": "North America",
+        "first": -100500000.0,
+        "last": -93900000.0
+      },
+      {
+        "region": "North America",
+        "first": -113200000.0,
+        "last": -93900000.0
+      },
+      {
+        "region": "North America",
+        "first": -85700000.0,
+        "last": -83600000.0
+      },
+      {
+        "region": "North America",
+        "first": -89800000.0,
+        "last": -72200000.0
+      },
+      {
+        "region": "North America",
+        "first": -72200000.0,
+        "last": -66000000.0
+      },
+      {
+        "region": "North America",
+        "first": -149200000.0,
+        "last": -125770000.0
+      },
+      {
+        "region": "North America",
+        "first": -143100000.0,
+        "last": -125770000.0
+      },
+      {
+        "region": "North America",
+        "first": -161500000.0,
+        "last": -143100000.0
+      },
+      {
+        "region": "North America",
+        "first": -201400000.0,
+        "last": -199500000.0
+      },
+      {
+        "region": "North America",
+        "first": -137050000.0,
+        "last": -125770000.0
+      },
+      {
+        "region": "North America",
+        "first": -110100000.0,
+        "last": -100500000.0
+      },
+      {
+        "region": "North America",
+        "first": -113200000.0,
+        "last": -106300000.0
+      },
+      {
+        "region": "North America",
+        "first": -100500000.0,
+        "last": -85700000.0
       }
     ]
   },
@@ -242,7 +393,8 @@
     "relationships": [],
     "notes": [
       "Represents a order; dates and biology must not be read as those of one species.",
-      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval."
+      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval.",
+      "Fossil display uses explicitly labeled higher-group reconstructions with differing constituent taxa across time. Only reviewed macrofossil genera or unambiguous group identifications are used here; aquatic ferns, horsetail records returned under Polypodiopsida, dispersed spores and ambiguous cycad-like foliage were excluded. Occurrence deposit envelopes are not exact species lifespans or abundance estimates."
     ],
     "sources": [
       {
@@ -259,9 +411,14 @@
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
         "label": "NPS \u00b7 Morrison Formation plant communities (broad group proxies)"
+      },
+      {
+        "field": "dated regional group coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cycadales&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=1000",
+        "label": "PBDB screened North American plant records; CC BY 4.0, original references retained"
       }
     ],
-    "checked": "2026-10-16",
+    "checked": "2026-10-17",
     "regions": [],
     "coverageReview": {
       "taxonomy": "source-linked",
@@ -274,6 +431,36 @@
         "region": "North America",
         "first": -152000000,
         "last": -145000000
+      },
+      {
+        "region": "North America",
+        "first": -57500000.0,
+        "last": -56000000.0
+      },
+      {
+        "region": "North America",
+        "first": -237000000.0,
+        "last": -227300000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -51100000.0
+      },
+      {
+        "region": "North America",
+        "first": -72200000.0,
+        "last": -66000000.0
+      },
+      {
+        "region": "North America",
+        "first": -66000000.0,
+        "last": -56000000.0
+      },
+      {
+        "region": "North America",
+        "first": -154800000.0,
+        "last": -143100000.0
       }
     ]
   },
@@ -296,10 +483,10 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a genus; dates and biology must not be read as those of one species.",
       "Araucaria is the chosen representative, not a name for all conifers.",
       "Historical trees are broad conifer proxies, not modern Araucaria species.",
-      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval."
+      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval.",
+      "Fossil display uses explicitly labeled higher-group reconstructions with differing constituent taxa across time. Only reviewed macrofossil genera or unambiguous group identifications are used here; aquatic ferns, horsetail records returned under Polypodiopsida, dispersed spores and ambiguous cycad-like foliage were excluded. Occurrence deposit envelopes are not exact species lifespans or abundance estimates."
     ],
     "sources": [
       {
@@ -316,9 +503,19 @@
         "field": "dated regional display coverage",
         "url": "https://www.nps.gov/zion/learn/nature/secrets-of-the-chinle-formation.htm",
         "label": "NPS \u00b7 Chinle conifers"
+      },
+      {
+        "field": "dated regional group coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pinales&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=1000",
+        "label": "PBDB screened North American plant records; CC BY 4.0, original references retained"
+      },
+      {
+        "field": "dated regional group coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coniferophyta&show=coords%2Ctime%2Cref&cc=US%2CCA&max_ma=252&min_ma=66&limit=2000",
+        "label": "PBDB screened North American plant records; CC BY 4.0, original references retained"
       }
     ],
-    "checked": "2026-10-16",
+    "checked": "2026-10-17",
     "regions": [],
     "coverageReview": {
       "taxonomy": "explicit broad group",
@@ -336,6 +533,296 @@
         "region": "North America",
         "first": -225000000.0,
         "last": -205700000.0
+      },
+      {
+        "region": "North America",
+        "first": -57500000.0,
+        "last": -56000000.0
+      },
+      {
+        "region": "North America",
+        "first": -154800000.0,
+        "last": -143100000.0
+      },
+      {
+        "region": "North America",
+        "first": -48070000.0,
+        "last": -37710000.0
+      },
+      {
+        "region": "North America",
+        "first": -16300000.0,
+        "last": -9400000.0
+      },
+      {
+        "region": "North America",
+        "first": -23040000.0,
+        "last": -5333000.0
+      },
+      {
+        "region": "North America",
+        "first": -37000000.0,
+        "last": -33900000.0
+      },
+      {
+        "region": "North America",
+        "first": -51100000.0,
+        "last": -45900000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -48070000.0
+      },
+      {
+        "region": "North America",
+        "first": -121400000.0,
+        "last": -113200000.0
+      },
+      {
+        "region": "North America",
+        "first": -23040000.0,
+        "last": -20450000.0
+      },
+      {
+        "region": "North America",
+        "first": -5333000.0,
+        "last": -3600000.0
+      },
+      {
+        "region": "North America",
+        "first": -72200000.0,
+        "last": -66000000.0
+      },
+      {
+        "region": "North America",
+        "first": -83600000.0,
+        "last": -66000000.0
+      },
+      {
+        "region": "North America",
+        "first": -83600000.0,
+        "last": -72200000.0
+      },
+      {
+        "region": "North America",
+        "first": -20450000.0,
+        "last": -15980000.0
+      },
+      {
+        "region": "North America",
+        "first": -13820000.0,
+        "last": -7246000.0
+      },
+      {
+        "region": "North America",
+        "first": -85700000.0,
+        "last": -83600000.0
+      },
+      {
+        "region": "North America",
+        "first": -129000.0,
+        "last": -11700.0
+      },
+      {
+        "region": "North America",
+        "first": -13820000.0,
+        "last": -11630000.0
+      },
+      {
+        "region": "North America",
+        "first": -16300000.0,
+        "last": -12500000.0
+      },
+      {
+        "region": "North America",
+        "first": -15980000.0,
+        "last": -11630000.0
+      },
+      {
+        "region": "North America",
+        "first": -33900000.0,
+        "last": -27300000.0
+      },
+      {
+        "region": "North America",
+        "first": -11630000.0,
+        "last": -5333000.0
+      },
+      {
+        "region": "North America",
+        "first": -9400000.0,
+        "last": -4700000.0
+      },
+      {
+        "region": "North America",
+        "first": -5333000.0,
+        "last": -2580000.0
+      },
+      {
+        "region": "North America",
+        "first": -37710000.0,
+        "last": -23040000.0
+      },
+      {
+        "region": "North America",
+        "first": -12500000.0,
+        "last": -9400000.0
+      },
+      {
+        "region": "North America",
+        "first": -113200000.0,
+        "last": -100500000.0
+      },
+      {
+        "region": "North America",
+        "first": -37710000.0,
+        "last": -27300000.0
+      },
+      {
+        "region": "North America",
+        "first": -149200000.0,
+        "last": -125770000.0
+      },
+      {
+        "region": "North America",
+        "first": -2580000.0,
+        "last": -774000.0
+      },
+      {
+        "region": "North America",
+        "first": -161500000.0,
+        "last": -143100000.0
+      },
+      {
+        "region": "North America",
+        "first": -9400000.0,
+        "last": -1400000.0
+      },
+      {
+        "region": "North America",
+        "first": -11700.0,
+        "last": 2026
+      },
+      {
+        "region": "North America",
+        "first": -210000.0,
+        "last": -14000.0
+      },
+      {
+        "region": "North America",
+        "first": -23040000.0,
+        "last": -2580000.0
+      },
+      {
+        "region": "North America",
+        "first": -7246000.0,
+        "last": -5333000.0
+      },
+      {
+        "region": "North America",
+        "first": -45900000.0,
+        "last": -39700000.0
+      },
+      {
+        "region": "North America",
+        "first": -1400000.0,
+        "last": -210000.0
+      },
+      {
+        "region": "North America",
+        "first": -3600000.0,
+        "last": -2580000.0
+      },
+      {
+        "region": "North America",
+        "first": -2580000.0,
+        "last": -1800000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -33900000.0
+      },
+      {
+        "region": "North America",
+        "first": -15980000.0,
+        "last": -13820000.0
+      },
+      {
+        "region": "North America",
+        "first": -11630000.0,
+        "last": -7246000.0
+      },
+      {
+        "region": "North America",
+        "first": -1800000.0,
+        "last": -774000.0
+      },
+      {
+        "region": "North America",
+        "first": -18500000.0,
+        "last": -12500000.0
+      },
+      {
+        "region": "North America",
+        "first": -93900000.0,
+        "last": -89800000.0
+      },
+      {
+        "region": "North America",
+        "first": -2580000.0,
+        "last": -11700.0
+      },
+      {
+        "region": "North America",
+        "first": -33900000.0,
+        "last": -23040000.0
+      },
+      {
+        "region": "North America",
+        "first": -27300000.0,
+        "last": -23040000.0
+      },
+      {
+        "region": "North America",
+        "first": -66000000.0,
+        "last": -56000000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -51100000.0
+      },
+      {
+        "region": "North America",
+        "first": -227300000.0,
+        "last": -205700000.0
+      },
+      {
+        "region": "North America",
+        "first": -237000000.0,
+        "last": -227300000.0
+      },
+      {
+        "region": "North America",
+        "first": -201400000.0,
+        "last": -199500000.0
+      },
+      {
+        "region": "North America",
+        "first": -201400000.0,
+        "last": -192900000.0
+      },
+      {
+        "region": "North America",
+        "first": -157900000.0,
+        "last": -152210000.0
+      },
+      {
+        "region": "North America",
+        "first": -106300000.0,
+        "last": -93900000.0
       }
     ]
   },

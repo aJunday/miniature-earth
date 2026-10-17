@@ -25,3 +25,11 @@ it('class-level marine proxies cover sourced intervals without pretending to be 
  expect(eligibility('metasequoia',2026,undefined,'mosaic').allowed).toBe(false);
  for(const id of ['grass','oak'])expect(eligibility(id,1000,undefined,'North America').allowed).toBe(true);
 });
+it('restores source-backed woodland groups around dinosaurs without adding modern flowering plants',()=>{
+ for(const year of [-230e6,-200e6,-160e6,-120e6,-90e6]){
+  const state=historicalState(yearToTick(year),'North America');
+  expect((state.populations.fern??0)+(state.populations.conifer??0)+(state.populations.cycad??0),String(year)).toBeGreaterThan(0);
+  expect(state.populations.wildflower??0).toBe(0);
+ }
+ expect(eligibility('conifer',-560e6,undefined,'North America').allowed).toBe(false);
+});

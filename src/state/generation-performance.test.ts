@@ -10,3 +10,10 @@ it('profiles repeated historical habitat generation while preserving correct hab
  fixtures.forEach(([id,year],i)=>expect(waterHabitatAt(...expected[i],year)).toBe(historyRecord(id)!.habitat));
  if(process.env.GENERATION_REPORT)fs.writeFileSync(`qa/biodiversity-generation-${process.env.GENERATION_REPORT}.json`,JSON.stringify({fixture:'240 repeated anchors per run; includes identical equality assertion overhead',runs,medianMs:[...runs].sort((a,b)=>a-b)[2]},null,2));
 });
+
+it('cached habitat points cannot be corrupted by a caller and respect landscape scale changes',()=>{
+ const point=habitatPoint('deer',2026),expected=[...point];point[0]=999;
+ expect(habitatPoint('deer',2026)).toEqual(expected);
+ expect(habitatPoint('deer',-20000)).not.toEqual(expected);
+ expect(habitatPoint('deer',2025)).toEqual(expected);
+});
