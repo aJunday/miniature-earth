@@ -271,3 +271,6 @@ Cached deterministic habitat anchors (240 repeated lookups: 40.22 ms to 0.88 ms 
 
 ## Demo readability 1 — sightlines
 Replaced automatic single-animal zoom with habitat framing; moved procedural crowns and tall plant anchors behind the clearing, reduced tree height/crown volume and tall plant model scale. Re-captured and opened all nine era/future views at 1440×900: all loaded representatives are in-frustum; trees no longer dominate the dinosaur/ice-age views. The large tray still covers foreground, addressed in step 3. Typecheck passes. Same-setting before measurements saved in qa/readability-before.json; native headed Chromium still fails in Crashpad startup.
+
+## Demo readability 2 — spacing
+Assigned deterministic habitat-specific species territories, size-aware individual spacing, shoreline margins and bounded separated motion. Full patches now omit extra visual representatives instead of stacking fallback coordinates; ecological counts are unchanged. Nine views re-captured/opened: all representatives remain in-frame and large mammals/dinosaur groups occupy separate areas. PASS: strict typecheck and 15 focused state, placement, habitat and spacing tests. Compact tray remains next.

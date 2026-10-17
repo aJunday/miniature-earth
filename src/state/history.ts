@@ -1,3 +1,4 @@
+import {arrangeCommunities} from './composition';
 import {eraAt} from '../world/eras';
 import {residentPlacements} from './residents';
 import {eligibility,historyRecord} from '../sim/eligibility';
@@ -29,6 +30,7 @@ export function historicalState(tick:number,region='mosaic',highlight?:string|nu
  const candidates=species.filter(s=>!existing.has(s.id)&&eligibility(s.id,date,undefined,region).allowed);
  candidates.sort((a,b)=>(a.id===highlight?-1:b.id===highlight?1:0));
  for(const s of candidates){if(groups.length>=22&&s.id!==highlight)continue;const [x,z]=habitatPoint(s.id,year);const count=s.diet==='producer'?24:s.height>=2.5?3:s.diet==='carnivore'?3:8;groups.push({id:'historical-'+s.id,speciesId:s.id,tick:0,x,z,population:count,origin:'resident'})}
+ const arranged=arrangeCommunities(groups,year);
  const populations=groups.reduce<Record<string,number>>((p,g)=>{p[g.speciesId]=(p[g.speciesId]??0)+g.population;return p},{});
- const result={tick,year,yearLabel:formatYear(year),eraName:eraName(year),env:envAt(year,'Protect'),populations,groups,extinct:[],happenings:[]};if(cache.size>=96)cache.delete(cache.keys().next().value!);cache.set(key,result);return result;
+ const result={tick,year,yearLabel:formatYear(year),eraName:eraName(year),env:envAt(year,'Protect'),populations,groups:arranged,extinct:[],happenings:[]};if(cache.size>=96)cache.delete(cache.keys().next().value!);cache.set(key,result);return result;
 }
