@@ -467,7 +467,8 @@
     "relationships": [],
     "notes": [
       "Represents a family; dates and biology must not be read as those of one species.",
-      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs."
+      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
     ],
     "sources": [
       {
@@ -484,6 +485,11 @@
         "field": "regionalCoverage",
         "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information",
         "label": "Kew \u00b7 New World grasses"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -498,6 +504,11 @@
       {
         "region": "North America",
         "first": 2026,
+        "last": 2026
+      },
+      {
+        "region": "North America",
+        "first": 1872,
         "last": 2026
       }
     ]
@@ -522,7 +533,8 @@
     "relationships": [],
     "notes": [
       "Represents a genus; dates and biology must not be read as those of one species.",
-      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs."
+      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
     ],
     "sources": [
       {
@@ -539,6 +551,11 @@
         "field": "regionalCoverage",
         "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2",
         "label": "Kew \u00b7 Quercus native range"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -553,6 +570,11 @@
       {
         "region": "North America",
         "first": 2026,
+        "last": 2026
+      },
+      {
+        "region": "North America",
+        "first": 1872,
         "last": 2026
       }
     ]
@@ -699,7 +721,8 @@
     "relationships": [],
     "notes": [
       "Represents a family; dates and biology must not be read as those of one species.",
-      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs."
+      "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
     ],
     "sources": [
       {
@@ -711,6 +734,11 @@
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/jeca/learn/nature/white-tailed-deer-odocoileus-virginianus.htm",
         "label": "NPS \u00b7 North American deer representative"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://home.nps.gov/yell/learn/nature/upload/Mountain-Ungulates_PART_1.pdf",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -725,6 +753,11 @@
       {
         "region": "North America",
         "first": 2026,
+        "last": 2026
+      },
+      {
+        "region": "North America",
+        "first": 1872,
         "last": 2026
       }
     ]
@@ -747,7 +780,9 @@
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+    ],
     "sources": [
       {
         "field": "taxonomy",
@@ -758,6 +793,11 @@
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
         "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -772,7 +812,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 1872,
+        "last": 2026
+      }
+    ]
   },
   "honeybee": {
     "commonName": "Honeybee",
@@ -1290,7 +1337,9 @@
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+    ],
     "sources": [
       {
         "field": "taxonomy",
@@ -1301,6 +1350,11 @@
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Gymnogyps_californianus/",
         "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://www.nps.gov/redw/learn/nature/condors.htm",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -1312,7 +1366,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 1872,
+        "last": 2026
+      }
+    ]
   },
   "forestelephant": {
     "commonName": "African forest elephant",
@@ -1690,7 +1751,9 @@
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+    ],
     "sources": [
       {
         "field": "taxonomy",
@@ -1701,6 +1764,11 @@
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Enhydra_lutris/",
         "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://www.fws.gov/species/sea-otter-enhydra-lutris",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -1714,7 +1782,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 1872,
+        "last": 2026
+      }
+    ]
   },
   "ringtailedlemur": {
     "commonName": "Ring-tailed lemur",
@@ -2436,7 +2511,9 @@
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
-    "notes": [],
+    "notes": [
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+    ],
     "sources": [
       {
         "field": "taxonomy",
@@ -2447,6 +2524,11 @@
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/",
         "label": "University of Michigan \u00b7 Animal Diversity Web"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -2459,7 +2541,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 1872,
+        "last": 2026
+      }
+    ]
   },
   "reeffish": {
     "commonName": "Reef fish",
@@ -3101,7 +3190,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters."
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
     ],
     "sources": [
       {
@@ -3113,6 +3203,11 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Bison+bison&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://www.nps.gov/parkhistory/online_books/bison/",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -3124,7 +3219,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 1872,
+        "last": 2026
+      }
+    ]
   },
   "graywolf": {
     "commonName": "Gray wolf",
@@ -3145,7 +3247,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters."
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
     ],
     "sources": [
       {
@@ -3157,6 +3260,11 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Canis+lupus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://home.nps.gov/yell/learn/historyculture/wolf-management.htm",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -3170,7 +3278,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 1872,
+        "last": 2026
+      }
+    ]
   },
   "beaver": {
     "commonName": "American beaver",
@@ -3191,7 +3306,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters."
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
     ],
     "sources": [
       {
@@ -3203,6 +3319,11 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Castor+canadensis&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://www.nps.gov/yell/learn/nature/beaver.htm",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -3214,7 +3335,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 1872,
+        "last": 2026
+      }
+    ]
   },
   "menhaden": {
     "commonName": "Atlantic menhaden",
@@ -3235,7 +3363,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters."
+      "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
     ],
     "sources": [
       {
@@ -3247,6 +3376,11 @@
         "field": "taxonomy",
         "url": "https://api.gbif.org/v1/species/match?name=Brevoortia+tyrannus&strict=true",
         "label": "GBIF taxonomic backbone"
+      },
+      {
+        "field": "historical continuity",
+        "url": "https://www.fisheries.noaa.gov/species/atlantic-menhaden",
+        "label": "Historical range and living native range review"
       }
     ],
     "checked": "2026-10-16",
@@ -3259,7 +3393,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": 1872,
+        "last": 2026
+      }
+    ]
   },
   "capybara": {
     "commonName": "Capybara",

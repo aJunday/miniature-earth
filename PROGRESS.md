@@ -218,3 +218,6 @@ Verified 11-group regional default and preserved miniature environments. Improve
 
 ## Critical overhaul A — data diagnosis and existing coverage fixed
 Root causes: exact one-year fossil snapshots, absent regional group coverage, living taxa gated at 2026, and a genuine Triassic animal gap. PBDB occurrence intervals now support adjacent Cambrian/Cretaceous scrub dates with explicit deposit-age uncertainty. Regional ground-sloth group coverage restores Neogene/early Pleistocene representatives. 106 tests and typecheck pass; visual acceptance follows C–I. Triassic animal implementation remains scheduled for H.
+
+## Critical overhaul B — modern continuity corrected
+Reviewed historical/native continental coverage restores the eleven modern resident groups at 1892; passenger pigeon additionally appears before its documented extinction. Starting reconstruction counts are stable across the former 2026 spawn threshold, with no claim of a historical census. Regression distinguishes legitimate extinction from loading discontinuity.

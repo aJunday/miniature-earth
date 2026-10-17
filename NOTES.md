@@ -242,3 +242,4 @@
 - Fossil deposit age intervals are uncertain reconstruction windows, not exact species lifespan or proof of presence in every year. Retain source occurrence IDs and references.
 - North America remains a representative continental habitat mosaic, never a single reconstructed fossil locality. Broad trilobite, vegetation and ground-sloth proxies are explicitly group-level.
 - Triassic has a real missing animal asset, addressed in milestone H after existing scene/camera fixes; do not populate it with Jurassic dinosaurs.
+- Use 1872–2026 as a conservative continental display interval for historically documented modern North American residents, not their evolutionary origin or a local census. Stable illustrative founding counts avoid a 2026 loading jump; actual historical abundance is not claimed.
