@@ -279,3 +279,9 @@
 - Coverage notices must explicitly restore pointer events inside the non-interactive game overlay; mobile coverage disclosure now remains clickable above the WebGL canvas.
 - Final scene validation uses 47 current captures and rewind checks: 45 populated, 2 North American content gaps (600 and 580 Ma), 12 well populated, and 33 partial. Do not label those regional gaps evidence that life was absent.
 - Final software-renderer measurement is 66.7 ms median / 100 ms p95 in the 22-group, 1280x800 SwiftShader fixture (38 calls, 195,196 triangles). Native GPU/mobile performance remains unmeasured; the habitat-anchor microbenchmark is not a whole-frame speedup.
+
+## Hackathon readability pass
+- Scope: composition, spacing, compact existing controls, evidence-backed existing marine models, era cues, conservation feedback and rendering cost; no new gameplay features.
+- Default camera frames the habitat rather than one animal; tall plants stay behind the central clearing, with smaller crowns. Explicit close-up/follow controls remain available.
+- Preserve dated regional evidence: Dickinsonia and Charnia are Ediacaran, not Cambrian; use supported Cambrian models and friendly gap labels instead.
+- Native headed Chromium launch fails in macOS Crashpad startup; use identical 1440×900 isolated Chromium software-renderer measurements and report hardware-60fps as unverified.

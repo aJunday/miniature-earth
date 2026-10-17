@@ -1,0 +1,316 @@
+{
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+  "results": [
+    {
+      "name": "modern",
+      "calls": 26,
+      "triangles": 136450,
+      "geometries": 34,
+      "textures": 13,
+      "frameMs": 63.099999964237206,
+      "rendered": 50,
+      "inFrame": 38,
+      "animalsInFrame": 28,
+      "bySpecies": {
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "conifer": 10,
+        "condor": 2,
+        "seaotter": 3,
+        "bison": 6,
+        "graywolf": 2,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "year": 2026,
+      "populations": {
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "conifer": 24,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "dockHeight": 329,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 66.69999999999982,
+        "p95": 100
+      }
+    },
+    {
+      "name": "jurassic",
+      "calls": 55,
+      "triangles": 109652,
+      "geometries": 63,
+      "textures": 12,
+      "frameMs": 116.30000001192093,
+      "rendered": 47,
+      "inFrame": 45,
+      "animalsInFrame": 17,
+      "bySpecies": {
+        "fern": 10,
+        "cycad": 10,
+        "conifer": 10,
+        "stegosaurus": 6,
+        "brachiosaurus": 3,
+        "allosaurus": 2,
+        "camarasaurus": 6
+      },
+      "year": -150000000,
+      "populations": {
+        "fern": 90,
+        "cycad": 60,
+        "conifer": 50,
+        "stegosaurus": 8,
+        "brachiosaurus": 4,
+        "allosaurus": 2,
+        "camarasaurus": 8
+      },
+      "dockHeight": 329,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 116.60000000000036,
+        "p95": 116.79999999999927
+      }
+    },
+    {
+      "name": "cretaceous80",
+      "calls": 19,
+      "triangles": 119232,
+      "geometries": 63,
+      "textures": 9,
+      "frameMs": 130.80000001192093,
+      "rendered": 48,
+      "inFrame": 35,
+      "animalsInFrame": 8,
+      "bySpecies": {
+        "fern": 10,
+        "conifer": 10,
+        "ammonite": 10,
+        "metasequoia": 10,
+        "edmontonia": 8
+      },
+      "year": -80000000,
+      "populations": {
+        "ammonite": 10,
+        "fern": 24,
+        "conifer": 24,
+        "metasequoia": 24,
+        "edmontonia": 8
+      },
+      "dockHeight": 329,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 116.70000000000073,
+        "p95": 133.39999999999782
+      }
+    },
+    {
+      "name": "cretaceous",
+      "calls": 31,
+      "triangles": 141172,
+      "geometries": 75,
+      "textures": 11,
+      "frameMs": 139.80000001192093,
+      "rendered": 64,
+      "inFrame": 47,
+      "animalsInFrame": 13,
+      "bySpecies": {
+        "fern": 10,
+        "conifer": 10,
+        "ammonite": 10,
+        "metasequoia": 10,
+        "edmontonia": 8,
+        "cycad": 10,
+        "triceratops": 6
+      },
+      "year": -67000000,
+      "populations": {
+        "ammonite": 10,
+        "fern": 70,
+        "cycad": 40,
+        "triceratops": 8,
+        "conifer": 24,
+        "metasequoia": 24,
+        "edmontonia": 8
+      },
+      "dockHeight": 329,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 116.69999999999709,
+        "p95": 133.39999999999418
+      }
+    },
+    {
+      "name": "cambrian520",
+      "calls": 5,
+      "triangles": 31052,
+      "geometries": 66,
+      "textures": 5,
+      "frameMs": 46.89999997615814,
+      "rendered": 12,
+      "inFrame": 12,
+      "animalsInFrame": 12,
+      "bySpecies": {
+        "trilobite": 12
+      },
+      "year": -520000000,
+      "populations": {
+        "trilobite": 12
+      },
+      "dockHeight": 313,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 50,
+        "p95": 50.10000000000582
+      }
+    },
+    {
+      "name": "cambrian",
+      "calls": 8,
+      "triangles": 40368,
+      "geometries": 68,
+      "textures": 5,
+      "frameMs": 27.80000001192093,
+      "rendered": 23,
+      "inFrame": 20,
+      "animalsInFrame": 20,
+      "bySpecies": {
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "year": -505000000,
+      "populations": {
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "dockHeight": 329,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 33.30000000000291,
+        "p95": 33.400000000001455
+      }
+    },
+    {
+      "name": "pleistocene",
+      "calls": 36,
+      "triangles": 75748,
+      "geometries": 91,
+      "textures": 10,
+      "frameMs": 55.69999998807907,
+      "rendered": 36,
+      "inFrame": 33,
+      "animalsInFrame": 6,
+      "bySpecies": {
+        "conifer": 10,
+        "grass": 10,
+        "mammoth": 3,
+        "groundsloth": 3,
+        "oak": 10
+      },
+      "year": -40000,
+      "populations": {
+        "grass": 90,
+        "mammoth": 5,
+        "groundsloth": 3,
+        "conifer": 24,
+        "oak": 24
+      },
+      "dockHeight": 329,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 100,
+        "p95": 100.10000000000582
+      }
+    },
+    {
+      "name": "exploit2100",
+      "calls": 19,
+      "triangles": 132408,
+      "geometries": 93,
+      "textures": 9,
+      "frameMs": 129.70000004768372,
+      "rendered": 102,
+      "inFrame": 102,
+      "animalsInFrame": 12,
+      "bySpecies": {
+        "conifer": 30,
+        "grass": 30,
+        "beaver": 12,
+        "oak": 30
+      },
+      "year": 2100,
+      "populations": {
+        "grass": 163.7932218019308,
+        "oak": 163.7932218019308,
+        "baldeagle": 0,
+        "deer": 0,
+        "redfox": 0,
+        "conifer": 163.7932218019308,
+        "condor": 0,
+        "seaotter": 0,
+        "bison": 0,
+        "graywolf": 0,
+        "beaver": 17.229944607817032,
+        "menhaden": 0
+      },
+      "dockHeight": 329,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 116.60000000000582,
+        "p95": 116.80000000000291
+      }
+    },
+    {
+      "name": "protect2100",
+      "calls": 22,
+      "triangles": 161940,
+      "geometries": 96,
+      "textures": 10,
+      "frameMs": 120,
+      "rendered": 116,
+      "inFrame": 106,
+      "animalsInFrame": 16,
+      "bySpecies": {
+        "conifer": 30,
+        "grass": 30,
+        "beaver": 12,
+        "oak": 30,
+        "condor": 2,
+        "seaotter": 12
+      },
+      "year": 2100,
+      "populations": {
+        "grass": 240,
+        "oak": 240,
+        "baldeagle": 0,
+        "deer": 0,
+        "redfox": 0,
+        "conifer": 240,
+        "condor": 19.3389787836879,
+        "seaotter": 16.39358063880503,
+        "bison": 0,
+        "graywolf": 0,
+        "beaver": 65.00633363809489,
+        "menhaden": 0
+      },
+      "dockHeight": 329,
+      "viewportHeight": 900,
+      "frames": {
+        "median": 116.70000000001164,
+        "p95": 133.40000000000873
+      }
+    }
+  ],
+  "errors": []
+}

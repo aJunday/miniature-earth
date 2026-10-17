@@ -13,7 +13,7 @@ export function habitatPoint(id:string,year:number):[number,number]{
  const habitat=historyRecord(id)?.habitat,scale=landscapeScale(year),hash=Array.from(id).reduce((n,c)=>n+c.charCodeAt(0),0);
  const points:[number,number][]=[];
  for(let z=-8;z<=12;z+=1)for(let x=-14;x<=20;x+=1){if(waterHabitatAt(x*scale,z*scale,year)===habitat)points.push([x*scale,z*scale])}
- const wetland=['cooksonia','horsetail'].includes(id)?points.filter(([x,z])=>Math.abs(x-riverX(z,year))<1.6*scale):[];const forest=['archaeopteris','metasequoia','lycophyte','conifer','oak'].includes(id)?points.filter(([x,z])=>z< -3*scale&&terrainHeight(x,z,year)<2.5):[];
+ const wetland=['cooksonia','horsetail'].includes(id)?points.filter(([x,z])=>Math.abs(x-riverX(z,year))<1.6*scale):[];const forest=['archaeopteris','metasequoia','lycophyte','conifer','oak'].includes(id)?points.filter(([x,z])=>z< -6*scale&&x+z< -8*scale&&terrainHeight(x,z,year)<3.5):[];
  const clearings=habitat==='terrestrial'?points.filter(([x,z])=>Math.abs(x)<7*scale&&z> -2*scale&&z<6*scale):[];const shallow=habitat==='marine'?points.filter(([x,z])=>terrainHeight(x,z,year)>-1.8):[];const chosen=wetland.length?wetland:forest.length?forest:clearings.length?clearings:shallow.length?shallow:points;
  const point:[number,number]=chosen[hash%Math.max(1,chosen.length)]??[0,0];
  if(habitatCache.size>=256)habitatCache.delete(habitatCache.keys().next().value!);
