@@ -1,3 +1,4 @@
+import {tickToYear} from '../sim/timeline';
 import {useGLTF,Html} from '@react-three/drei';
 import {useFrame} from '@react-three/fiber';
 import {Suspense,useEffect,useMemo,useRef,useState} from 'react';
@@ -16,5 +17,5 @@ function Model({id,time}:{id:string;time:number}){
 export function IntroductionPreview(){const r=useGame(s=>s.rejection),tick=useGame(s=>s.tick);const ref=useRef<Group>(null);const [alive,setAlive]=useState(false);useEffect(()=>{setAlive(!!r);if(!r)return;const timer=setTimeout(()=>setAlive(false),Math.max(0,8000-(Date.now()-r.time)));return()=>clearTimeout(timer)},[r]);
  useFrame(()=>{if(ref.current&&r)ref.current.visible=Date.now()-r.time<8000});
  if(!r||!alive)return null;
- return <group ref={ref} key={r.time} position={[r.x,Math.max(.1,terrainHeight(r.x,r.z)),r.z]} userData={{invalidIntroduction:true,tick}}><Suspense fallback={null}><Model id={r.id} time={r.time}/></Suspense><Html position={[0,byId[r.id].height+.4,0]} center style={{pointerEvents:'none',whiteSpace:'nowrap',background:'#fff4df',padding:'4px 8px',borderRadius:8,color:'#8b401f',fontSize:12}}>Temporary preview · invalid introduction</Html></group>
+ return <group ref={ref} key={r.time} position={[r.x,Math.max(.1,terrainHeight(r.x,r.z,tickToYear(tick))),r.z]} userData={{invalidIntroduction:true,tick}}><mesh rotation={[-Math.PI/2,0,0]} position={[0,.04,0]}><ringGeometry args={[.8,1,32]}/><meshBasicMaterial color="#e4aa61" transparent opacity={.65}/></mesh><Suspense fallback={null}><Model id={r.id} time={r.time}/></Suspense><Html position={[0,byId[r.id].height+.4,0]} center style={{pointerEvents:'none',whiteSpace:'nowrap',background:'#fff4df',padding:'4px 8px',borderRadius:8,color:'#8b401f',fontSize:12}}>Temporary preview · invalid introduction</Html></group>
 }

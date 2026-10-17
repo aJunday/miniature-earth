@@ -45,7 +45,7 @@ export function coupledState(species:Species[],events:Placement[],tick:number,sc
  function add(date:number){for(const e of active)if(!added.has(e.id)&&tickToYear(e.tick)<=date+1e-6){added.add(e.id);groups.push({...e,population:e.count,...(adaptedSpecies.has(e.speciesId)?{traits:initialTraits(),evolution:evolutionAt(date,date,evolutionSeed(seed,e.tick,e.x,e.z),e.count)}:{})})}}
  add(first);
  for(let step=1;step<=steps;step++){
- const date=first+step*interval,dt=Math.min(1,interval),change=changes.filter(c=>c.year<date).at(-1)??{temperature:0,resources:1};env=envAt(date,scenario,disturbance(date)==='asteroid');if(disturbance(date)==='end-permian'){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}env.temp+=change.temperature;env.habitat*=change.resources;env.oxygenFit=(env.oxygenFit??1)*pools.oxygen;
+ const date=first+step*interval,dt=Math.min(1,interval),change:Intervention=changes.filter(c=>c.year<date).at(-1)??{year:0,temperature:0,resources:1};env=envAt(date,scenario,disturbance(date)==='asteroid');if(disturbance(date)==='end-permian'){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}env.temp+=change.temperature;env.rain=change.rainfall??env.rain;env.habitat*=change.resources*(1-(change.pollution??0)*.5);pools.freshwater=Math.min(pools.freshwater,change.water??1);pools.oxygen*=1-(change.pollution??0)*.03;env.oxygenFit=(env.oxygenFit??1)*pools.oxygen;
  const populations=Object.fromEntries(species.map(s=>[s.id,groups.filter(g=>g.speciesId===s.id).reduce((n,g)=>n+g.population,0)]));
  const {loss,phi}=foodWeb(species,populations),demand:Partial<Pools>={};
  for(const g of groups){const pool=guildFood[g.speciesId];if(pool&&g.speciesId!=='decomposer')demand[pool]=(demand[pool]??0)+g.population*Math.max(.08,byId[g.speciesId].need)}
@@ -71,7 +71,7 @@ export function coupledState(species:Species[],events:Placement[],tick:number,sc
  pools=cyclePools(pools,env,producerTotal,populations.decomposer??0,deaths,Object.fromEntries(Object.entries(demand).map(([k,v])=>[k,Math.min(pools[k as FoodPool],v??0)])),marineProducerTotal);
  add(date);
  }
- const currentChange=changes.filter(c=>c.year<=year).at(-1)??{temperature:0,resources:1};env=envAt(year,scenario,disturbance(year)==='asteroid');if(disturbance(year)==='end-permian'){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}env.temp+=currentChange.temperature;env.habitat*=currentChange.resources;env.oxygenFit=(env.oxygenFit??1)*pools.oxygen;
+ const currentChange:Intervention=changes.filter(c=>c.year<=year).at(-1)??{year:0,temperature:0,resources:1};env=envAt(year,scenario,disturbance(year)==='asteroid');if(disturbance(year)==='end-permian'){env.temp+=10;env.habitat*=.25;env.oxygenFit=.4}env.temp+=currentChange.temperature;env.rain=currentChange.rainfall??env.rain;env.habitat*=currentChange.resources*(1-(currentChange.pollution??0)*.5);pools.freshwater=Math.min(pools.freshwater,currentChange.water??1);env.oxygenFit=(env.oxygenFit??1)*pools.oxygen;
  const populations=groups.reduce<Record<string,number>>((p,g)=>{p[g.speciesId]=(p[g.speciesId]??0)+g.population;return p},{});
  return {tick,year,yearLabel:formatYear(year),eraName:eraName(year),env,pools,groups,populations,extinct:Object.keys(populations).filter(id=>populations[id]===0),happenings:[...(disturbance(year)?[disturbance(year)!]:[]),...(interval>1?['Batched deep-time ecology; not an annual fossil reconstruction']:[])]};
 }

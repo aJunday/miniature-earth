@@ -3,7 +3,7 @@ import {mulberry32} from './rng';
  * Pedagogical rabbit model, not estimated wild-rabbit genetic parameters. */
 export type Allele=0|1|2;
 export interface Individual {id:string;allele:Allele;born:number;parent:string|null}
-export interface Intervention {year:number;temperature:number;resources:number}
+export interface Intervention {year:number;temperature:number;resources:number;rainfall?:number;water?:number;pollution?:number}
 export interface EvolutionSnapshot {individuals:Individual[];generation:number;frequencies:[number,number,number];mean:number;births:number;deaths:number;approximate:boolean}
 export const insulation=[1,.55,.1] as const;
 export function phenotype(allele:Allele){return {insulation:insulation[allele],furLength:.012+insulation[allele]*.075,tufts:Math.round(4+insulation[allele]*20)}}

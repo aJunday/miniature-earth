@@ -147,7 +147,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a class; dates and biology must not be read as those of one species."
+      "Represents a class; dates and biology must not be read as those of one species.",
+      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval."
     ],
     "sources": [
       {
@@ -159,6 +160,11 @@
         "field": "photosynthetic functional role",
         "label": "Royal Botanic Gardens, Kew",
         "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+        "label": "NPS · Morrison Formation plant communities (broad group proxies)"
       }
     ],
     "checked": "2026-10-16",
@@ -168,7 +174,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -152000000,
+        "last": -145000000
+      }
+    ]
   },
   "cycad": {
     "commonName": "Cycad",
@@ -189,7 +202,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a order; dates and biology must not be read as those of one species."
+      "Represents a order; dates and biology must not be read as those of one species.",
+      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval."
     ],
     "sources": [
       {
@@ -201,6 +215,11 @@
         "field": "photosynthetic functional role",
         "label": "Royal Botanic Gardens, Kew",
         "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+        "label": "NPS · Morrison Formation plant communities (broad group proxies)"
       }
     ],
     "checked": "2026-10-16",
@@ -210,7 +229,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -152000000,
+        "last": -145000000
+      }
+    ]
   },
   "conifer": {
     "commonName": "Conifer woodland proxy",
@@ -233,13 +259,19 @@
     "notes": [
       "Represents a genus; dates and biology must not be read as those of one species.",
       "Araucaria is the chosen representative, not a name for all conifers.",
-      "Historical trees are broad conifer proxies, not modern Araucaria species."
+      "Historical trees are broad conifer proxies, not modern Araucaria species.",
+      "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval."
     ],
     "sources": [
       {
         "field": "photosynthetic functional role",
         "label": "Royal Botanic Gardens, Kew",
         "url": "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+        "label": "NPS · Morrison Formation plant communities (broad group proxies)"
       }
     ],
     "checked": "2026-10-16",
@@ -249,7 +281,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -152000000,
+        "last": -145000000
+      }
+    ]
   },
   "stegosaurus": {
     "commonName": "Stegosaurus",
@@ -568,7 +607,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -648,7 +687,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -693,7 +732,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Apis_mellifera/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -742,7 +781,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Eretmochelys_imbricata/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -789,7 +828,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Panthera_pardus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -833,7 +872,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Pongo_abelii/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -875,7 +914,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Phocoena_sinus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -919,7 +958,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Strigops_habroptila/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -968,7 +1007,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1012,7 +1051,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Dicerorhinus_sumatrensis/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1061,7 +1100,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Eubalaena_glacialis/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1105,7 +1144,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Manis_javanica/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1149,7 +1188,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Pithecophaga_jefferyi/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1191,7 +1230,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Gymnogyps_californianus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1235,7 +1274,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Loxodonta_cyclotis/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1277,7 +1316,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Acropora_palmata/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1321,7 +1360,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Panthera_tigris/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1365,7 +1404,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Ailurus_fulgens/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1414,7 +1453,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Balaenoptera_musculus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1461,7 +1500,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Gorilla_beringei/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1505,7 +1544,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Elephas_maximus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1547,7 +1586,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Rhincodon_typus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1591,7 +1630,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Enhydra_lutris/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1637,7 +1676,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Lemur_catta/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1681,7 +1720,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Lycaon_pictus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1725,7 +1764,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Ailuropoda_melanoleuca/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1768,7 +1807,7 @@
       },
       {
         "field": "feeding ecology",
-        "label": "University of Michigan \u00b7 Animal Diversity Web",
+        "label": "University of Michigan · Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Uncia_uncia/"
       }
     ],
@@ -1809,7 +1848,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Ursus_maritimus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1853,7 +1892,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Phascolarctos_cinereus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1897,7 +1936,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Acinonyx_jubatus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -1940,7 +1979,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -2036,7 +2075,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Hydrodamalis_gigas/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       },
       {
         "field": "historical extinction record",
@@ -2085,7 +2124,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Raphus_cucullatus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       },
       {
         "field": "historical extinction record",
@@ -2183,7 +2222,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       },
       {
         "field": "historical extinction record",
@@ -2237,7 +2276,7 @@
     ],
     "checked": "2026-10-16",
     "regions": [
-      "Gal\u00e1pagos"
+      "Galápagos"
     ],
     "coverageReview": {
       "taxonomy": "source-linked",
@@ -2281,7 +2320,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Megaptera_novaeangliae/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -2324,7 +2363,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -2374,7 +2413,7 @@
       {
         "field": "range and feeding ecology",
         "url": "https://animaldiversity.org/accounts/Amphiprion_ocellaris/",
-        "label": "University of Michigan \u00b7 Animal Diversity Web"
+        "label": "University of Michigan · Animal Diversity Web"
       }
     ],
     "checked": "2026-10-16",
@@ -2758,7 +2797,7 @@
       {
         "field": "Neogene context",
         "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/sites/mixsons-bone-bed/",
-        "label": "Florida Museum \u00b7 Mixson\u2019s Bone Bed"
+        "label": "Florida Museum · Mixson’s Bone Bed"
       },
       {
         "field": "feeding ecology",

@@ -206,3 +206,8 @@
 - No new external models, datasets, dependencies or copyrighted source text are imported. Existing source links remain attached to records; unknown dates/regions stay unknown.
 - Historical snapshots use a bounded 96-entry cache and stable species identities. Departing species shrink out over 0.6 seconds; retained groups keep motion state.
 - Custom project persistence includes its own time, seed, settings and starting preset. Clear preserves conditions; Reset restores the chosen start. Destructive controls offer cancellation and a downloadable project copy.
+- Added rainfall, freshwater availability and pollution interventions to the coupled teaching model: rainfall drives water cycling, available water limits freshwater habitat, and pollution reduces habitat capacity and aquatic oxygen. They are normalized experiment controls, not measured dose-response predictions.
+- Drinking is a visual freshwater-bank behavior using the existing feeding pose; threats interrupt it. Hydrology/population effects remain in the shared solver, avoiding duplicate consumption accounting.
+- North American Jurassic plant support uses NPS Morrison Formation evidence for broad fern/cycad/conifer proxies, scoped to a conservative 152–145 Ma scene window rather than extending all regional ranges. Source: https://www.nps.gov/subjects/fossils/the-morrison-formation.htm
+- Existing saved populations now resume rather than being silently replaced by baseline animals; the science browser fixture includes actual grass/oak food to test deer reproduction in this retained legacy world.
+- The guided demo restores the previous world when it finishes or is cancelled. Starting the rabbit lab warns before replacing an existing custom project.

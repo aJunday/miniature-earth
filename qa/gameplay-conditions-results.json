@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "rainfall, water and pollution controls persist and affect water cycling",
+    "wrong-habitat introduction travels to supported marine population",
+    "habitat travel preserves independently saved custom conditions"
+  ],
+  "errors": []
+}

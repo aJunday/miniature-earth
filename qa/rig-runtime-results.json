@@ -2,13 +2,13 @@
   "rigs": [
     "org_deer.glb",
     "org_redfox.glb",
+    "org_sumatranorangutan.glb",
+    "org_amurleopard.glb",
+    "org_vaquita.glb",
     "org_baldeagle.glb",
     "org_reeffish.glb",
     "org_rabbit.glb",
-    "org_seaturtle.glb",
-    "org_brachiosaurus.glb",
-    "org_allosaurus.glb",
-    "org_stegosaurus.glb"
+    "org_seaturtle.glb"
   ],
   "errors": [],
   "checks": [

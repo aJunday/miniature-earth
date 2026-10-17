@@ -77,3 +77,13 @@ The modern island uses a 1.5× horizontal footprint, a rocky summit, a wider riv
 Distant vertex-painted organism parts merge into one instanced draw per species. Zoom restores the existing full jointed models when their projected size crosses the detail threshold. Ocean geometry extends beyond the mobile view and fades into atmospheric colour. See `qa/VISUAL_MILESTONE_REVIEW.md` for checks, screenshots and limitations. This milestone stops for visual review before further historical ecosystem work.
 
 Water now includes animated shoreline surf, river flow highlights and seabed light patterns. Modern reef gardens have instanced swaying seagrass, and decorative coral crowns stay submerged. Shallow water is clearer so marine habitat can be inspected from above. See `qa/WATER_MILESTONE_REVIEW.md` for verified changes and the matched performance comparison (about 20% lower slow-frame time, median essentially unchanged in headless Chromium).
+
+## Living worlds and custom islands
+
+The default **Explore Earth's History** view automatically chooses evidence-supported populations. The global mosaic is illustrative; the region filter uses reviewed records. Detailed controls move exactly ten years; the geological selector makes large jumps. Some taxa have only a dated fossil snapshot, so gaps remain honestly unpopulated.
+
+Place any catalogue organism. A compatible introduction starts a temporary coupled food-web experiment, clearly separated from the historical record. An incompatible introduction shows its actual model for eight seconds, explains the mismatch and offers a sourced time/habitat destination. The preview cannot breed or change populations.
+
+**Create Your Own Island** offers Empty, Starter and Custom presets, a starting era and environmental conditions. Temperature, habitat/food capacity, rainfall, freshwater availability and pollution affect the teaching simulation. Clear Island removes populations while retaining date/settings; Reset Custom Island returns to the chosen beginning. Both destructive controls ask for confirmation. A downloadable JSON copy is available before replacement/reset. Returning to history or restoring its default ecosystem preserves your locally saved custom island; Resume restores its own date and conditions. Browser reload opens historical exploration, with the saved custom project available to resume.
+
+Scientific bounds: 65 existing catalogue organisms, bounded fossil coverage, representative habitats and illustrative counts. This is not a global paleogeographic reconstruction or quantitative ecological forecast. Unsupported example taxa are not invented. The historical timeline never acquires a sandbox extinction or evolutionary outcome.

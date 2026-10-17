@@ -31,3 +31,6 @@ html,body,#root{height:100%;overflow:hidden}*{box-sizing:border-box}button{font:
 @media(max-width:700px){.mode-choices{top:90px;left:12px;max-width:calc(100vw - 24px);gap:4px}.mode-choices button{font-size:11px;padding:5px 8px}.island-setup{top:150px;left:12px;width:calc(100vw - 24px);max-height:calc(100dvh - 250px)}.custom-controls{left:12px;top:155px;width:205px;max-height:32vh;overflow:auto}.introduction-notice{top:160px}.experiment-label{left:12px;top:150px;width:220px}.world-card{top:150px;max-height:25vh}.mode-choices button{min-height:44px}}
 
 @media(min-width:701px){.mode-choices{top:158px}.island-setup,.custom-controls,.experiment-label{top:214px}}
+
+.island-setup,.confirmation,.introduction-notice{background:#fff9ee}.custom-controls{max-height:calc(100dvh - var(--dock-height,230px) - 250px);overflow:auto}@media(max-width:700px){.masthead .overline{display:none}.masthead h1{font-size:20px}.masthead>div:first-child{min-width:168px}.masthead p{font-size:9px}.custom-controls{max-height:30vh}}
+@media(min-width:701px){.introduction-notice{left:28px;top:214px;transform:none;width:320px;max-height:calc(100dvh - var(--dock-height,230px) - 245px);overflow:auto}}
