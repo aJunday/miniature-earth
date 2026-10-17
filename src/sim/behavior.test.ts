@@ -10,3 +10,5 @@ it('prey flee, predators approach food, and resting stops movement',()=>{
  expect(steerAnimal(start,{...base,time:27})).toEqual({...start,mode:'rest'});
 });
 it('swimming and flying retain their distinct states and cannot leave valid habitat',()=>{expect(steerAnimal(start,{...base,zone:'sea'}).mode).toBe('swim');expect(steerAnimal(start,{...base,flying:true}).mode).toBe('fly');expect(steerAnimal(start,{...base,valid:()=>false})).toEqual(start)});
+
+it('land animals drink only beside freshwater and threats interrupt drinking',()=>{expect(steerAnimal(start,{...base,time:23,nearWater:true}).mode).toBe('drink');expect(steerAnimal(start,{...base,time:23,nearWater:false}).mode).toBe('forage');expect(steerAnimal(start,{...base,time:23,nearWater:true,neighbors:[{id:'redfox',diet:'carnivore',eats:['rabbit'],x:1,z:0}]}).mode).toBe('flee')});

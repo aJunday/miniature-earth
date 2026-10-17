@@ -195,3 +195,14 @@
 - Coral energy combines a sunlight-supported symbiosis proxy and finite plankton; reef-fish capacity responds to reef/seagrass support. Marine plant biomass is separate from terrestrial browse.
 - Background microbial recycling is always present in a living patch; the visible fungal guild strengthens recycling. Decomposition consumes aquatic oxygen in this normalized teaching model.
 - Final overview geometry uses a 96-cell terrain grid and cheaper distant foliage; close foliage keeps its original resolution. This preserves the art while reducing the measured overview triangle count.
+
+## Living default ecosystems update
+- The new gameplay request supersedes read-only placement: compatible historical introductions run a temporary coupled experiment; the authoritative reconstruction and saved custom island stay separate.
+- Reuse the supported 65-organism catalogue. T. rex and amphibian examples are illustrative user journeys, not authorization to invent unsupported taxa or historical ranges; the same flow is tested with Stegosaurus.
+- Default scenes supplement curated patches with eligible reviewed records, bounded to 22 groups. Counts are illustrative, and the global habitat mosaic does not claim natural regional co-occurrence.
+- Empty and Custom presets start without populations; Starter uses supported residents. Existing terrain, temperature and habitat/food controls affect simulation; no cosmetic pollution or terrain-edit controls are claimed.
+- Invalid introductions use the original GLB, remain visible for five seconds, fade over three, and are removed at eight real seconds. They never enter ecology, reproduction, journal or extinction accounting.
+- Regional evidence gaps remain explicit. Fixed empty metadata region arrays hiding already reviewed fallback evidence; rechecked Stegosaurus USA / 152–145 Ma against the Natural History Museum on 2026-10-16.
+- No new external models, datasets, dependencies or copyrighted source text are imported. Existing source links remain attached to records; unknown dates/regions stay unknown.
+- Historical snapshots use a bounded 96-entry cache and stable species identities. Departing species shrink out over 0.6 seconds; retained groups keep motion state.
+- Custom project persistence includes its own time, seed, settings and starting preset. Clear preserves conditions; Reset restores the chosen start. Destructive controls offer cancellation and a downloadable project copy.

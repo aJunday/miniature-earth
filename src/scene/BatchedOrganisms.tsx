@@ -1,3 +1,4 @@
+import {waterHabitatAt} from '../world/terrain';
 import {RiggedOrganism,type RigHandle} from './RiggedOrganism';
 import {Suspense} from 'react';
 import {furPlacement} from './phenotype';
@@ -9,10 +10,10 @@ import {useFrame,useThree} from '@react-three/fiber';
 import {useGLTF} from '@react-three/drei';
 import {CanvasTexture,Color,InstancedMesh,Matrix4,Mesh,MeshLambertMaterial,Object3D,Vector3} from 'three';
 import {byId} from '../sim/simulation';
-import {terrainHeight,eraAt} from '../world';
+import {terrainHeight} from '../world';
 import {navigable} from '../world/navigation';
 import {useGame} from '../state';
-export interface RenderIndividual {key:string;x:number;z:number;fossil:boolean;allele?:Allele|undefined}
+export interface RenderIndividual {key:string;x:number;z:number;fossil:boolean;exitAt?:number;allele?:Allele|undefined}
 /** One draw per source primitive, irrespective of the number of animals. */
 export function BatchedOrganisms({id,items,year,neighbors}:{id:string;items:RenderIndividual[];year:number;neighbors:Neighbor[]}){
  const hiddenScale=useMemo(()=>new Vector3(0,0,0),[]);
@@ -25,16 +26,16 @@ export function BatchedOrganisms({id,items,year,neighbors}:{id:string;items:Rend
  const fur=useRef<InstancedMesh>(null),furNormal=useMemo(()=>new Vector3(),[]),up=useMemo(()=>new Vector3(0,1,0),[]);
  const contact=useRef<InstancedMesh>(null),contactTransform=useMemo(()=>new Object3D(),[]),shadow=useMemo(()=>{const c=document.createElement('canvas');c.width=c.height=32;const ctx=c.getContext('2d')!,g=ctx.createRadialGradient(16,16,0,16,16,16);g.addColorStop(0,'rgba(25,45,30,.3)');g.addColorStop(1,'rgba(25,45,30,0)');ctx.fillStyle=g;ctx.fillRect(0,0,32,32);return new CanvasTexture(c)},[]);useEffect(()=>()=>shadow.dispose(),[shadow]);
  const motions=useRef(new Map<string,AnimalMotion>());
- useEffect(()=>{motions.current.clear();births.current.clear()},[eraAt(year).id]);
+
  const refs=useRef<(InstancedMesh|null)[]>([]),births=useRef(new Map<string,number>()),dummy=useMemo(()=>new Object3D(),[]),motion=useMemo(()=>new Object3D(),[]),matrix=useMemo(()=>new Matrix4(),[]),s=byId[id];
  useEffect(()=>{const live=new Set(items.map(v=>v.key));for(const map of [motions.current,births.current])for(const key of map.keys())if(!live.has(key))map.delete(key)},[items]);
  useEffect(()=>{refs.current.forEach(mesh=>{if(!mesh)return;items.forEach((v,i)=>mesh.setColorAt(i,new Color(v.fossil?'#aaa79c':'#ffffff')));if(mesh.instanceColor)mesh.instanceColor.needsUpdate=true})},[items,parts]);
  useFrame(({clock},dt)=>{const t=clock.elapsedTime;items.forEach((item,i)=>{if(!births.current.has(item.key))births.current.set(item.key,t);const age=t-births.current.get(item.key)!,u=Math.min(1,age/.35),scale=Math.max(.01,1+2.70158*(u-1)**3+1.70158*(u-1)**2);const phase=i*1.713;
  let state=motions.current.get(item.key)??{x:item.x,z:item.z,heading:0,mode:'idle' as const};
- if(!['producer','decomposer','filter feeder','mixotroph'].includes(s.diet)&&!item.fossil)state=steerAnimal(state,{key:item.key,id,zone:s.zone,diet:s.diet,eats:s.eats,flying:flyingSpecies.has(id),anchorX:item.x,anchorZ:item.z,phase,time:t,dt,neighbors,valid:(x,z)=>flyingSpecies.has(id)?true:navigable(x,z,s.zone,year)});
- motions.current.set(item.key,state);const neighbor=neighbors.find(n=>n.key===item.key);if(neighbor){neighbor.x=state.x;neighbor.z=state.z}const {x,z,heading}=state,resting=['idle','rest','forage'].includes(state.mode),flying=flyingSpecies.has(id);
+ if(!['producer','decomposer','filter feeder','mixotroph'].includes(s.diet)&&!item.fossil)state=steerAnimal(state,{key:item.key,id,zone:s.zone,diet:s.diet,eats:s.eats,flying:flyingSpecies.has(id),anchorX:item.x,anchorZ:item.z,phase,time:t,dt,neighbors,nearWater:s.zone==='land'&&[[.7,0],[-.7,0],[0,.7],[0,-.7]].some(([dx,dz])=>waterHabitatAt(state.x+dx,state.z+dz,year)==='freshwater'),valid:(x,z)=>flyingSpecies.has(id)?true:navigable(x,z,s.zone,year)});
+ motions.current.set(item.key,state);const neighbor=neighbors.find(n=>n.key===item.key);if(neighbor){neighbor.x=state.x;neighbor.z=state.z}const {x,z,heading}=state,resting=['idle','rest','forage','drink'].includes(state.mode),flying=flyingSpecies.has(id);
  const y=s.zone==='freshwater'?terrainHeight(x,z,year)+.015:s.zone==='sea'&&s.diet!=='producer'?-.1-Math.min(.3,s.height*.45):terrainHeight(x,z,year);
- dummy.position.set(x,y+(flying?(id==='honeybee'?.65:1.5)+Math.sin(t*3+phase)*.12:0)+(1-u)**2*3,z);dummy.rotation.set(0,heading,0);dummy.scale.setScalar(scale);dummy.updateMatrix();contactTransform.position.set(x,y+.025,z);contactTransform.rotation.set(-Math.PI/2,0,0);contactTransform.scale.set(s.height*.8,s.height*.8,1);contactTransform.updateMatrix();contact.current?.setMatrixAt(i,contactTransform.matrix);
+ dummy.position.set(x,y+(flying?(id==='honeybee'?.65:1.5)+Math.sin(t*3+phase)*.12:0)+(1-u)**2*3,z);dummy.rotation.set(0,heading,0);dummy.scale.setScalar(scale*(item.exitAt?Math.max(.001,1-(Date.now()-item.exitAt)/600):1));dummy.updateMatrix();contactTransform.position.set(x,y+.025,z);contactTransform.rotation.set(-Math.PI/2,0,0);contactTransform.scale.set(s.height*.8,s.height*.8,1);contactTransform.updateMatrix();contact.current?.setMatrixAt(i,contactTransform.matrix);
  if(fur.current){for(let j=0;j<24;j++){const trait=phenotype(item.allele??1),placement=furPlacement(j);motion.position.set(...placement.position);motion.quaternion.setFromUnitVectors(up,furNormal.set(...placement.normal).normalize());motion.scale.set(.032,j<trait.tufts?trait.furLength*.4:.001,.032);motion.updateMatrix();matrix.copy(dummy.matrix).multiply(motion.matrix);fur.current.setMatrixAt(i*24+j,matrix)}}
  rigs.current.get(item.key)?.update(dummy.matrix,item.fossil?'death':state.mode,state.speed??0,dt);
  parts.forEach((part,p)=>{motion.position.set(0,0,0);motion.rotation.set(0,0,0);motion.scale.set(1,1,1);if(!item.fossil){if(part.name==='Body'&&!resting&&s.zone==='land'&&!flying)motion.rotation.z=Math.sin(t*5+phase)*.06;if(part.name==='Body'){motion.scale.y=1+Math.sin(t*2.3+phase)*.015;if(item.allele!==undefined){const coat=phenotype(item.allele).insulation;motion.scale.x=motion.scale.z=1+coat*.18;motion.scale.y*=1+coat*.1}}if(part.name.startsWith('Eye_'))motion.scale.y=(t+phase)%3.7<.12?.1:1;if(part.name==='Head'&&resting)motion.rotation.x=.22+Math.sin(t*1.2+phase)*.06;if(part.name.startsWith('Leg_')&&!resting)motion.rotation.x=Math.sin(t*4*Math.max(.2,(state.speed??.55)/.55)+phase+(part.name.endsWith('L')?0:Math.PI))*.3;if(part.name.startsWith('Wing_')&&flying)motion.rotation.z=Math.sin(t*(id==='honeybee'?35:4)+phase)*.7;if(/^(Tail|Fin_|Wing_)/.test(part.name))motion.rotation.y=Math.sin(t*3+phase)*.2;if(part.name==='Foliage')motion.rotation.z=Math.sin(t*1.7+item.x+item.z)*.04}motion.updateMatrix();matrix.copy(dummy.matrix).multiply(part.joint).multiply(motion.matrix).multiply(part.relative);if(rigs.current.has(item.key))matrix.scale(hiddenScale);refs.current[p]?.setMatrixAt(i,matrix)});
