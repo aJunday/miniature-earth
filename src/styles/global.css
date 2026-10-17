@@ -32,3 +32,6 @@ canvas { display: block; }
 .catalogue-collapsed .catalogue-header,.catalogue-collapsed .life-cards{display:none}
 
 .coverage-notice{position:absolute;left:28px;top:268px;max-width:300px;background:#fff9eeed;border-radius:12px;padding:9px 12px;font-size:12px;z-index:8;box-shadow:0 3px 14px #26323818;pointer-events:auto}.coverage-notice summary{cursor:pointer;font-weight:800}.coverage-notice p{margin:8px 0;line-height:1.4}.coverage-notice button{min-height:44px;margin:2px;padding:6px}.immersive .coverage-notice{display:none}@media(max-width:800px){.coverage-notice{top:calc(var(--mode-bottom,182px) + 64px);left:10px;max-width:calc(100vw - 176px);font-size:10px}.coverage-notice[open]{max-height:230px;overflow:auto}}
+
+/* The compact timeline leaves the island visible; browsing remains an explicit action. */
+@media(min-width:801px){.view-controls{bottom:calc(var(--dock-height,90px) + 16px)}.world-instruction{bottom:calc(var(--dock-height,90px) + 66px);padding:6px 12px;font-size:11px}.world-instruction span{display:none}.explorer-dock:not(.catalogue-collapsed) .life-cards{max-height:180px}.explorer-dock:not(.catalogue-collapsed) .life-card{min-height:150px}.masthead{padding-top:16px}.coverage-notice{top:228px}.mode-choices{top:128px}}

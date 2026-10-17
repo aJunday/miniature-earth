@@ -274,3 +274,6 @@ Replaced automatic single-animal zoom with habitat framing; moved procedural cro
 
 ## Demo readability 2 — spacing
 Assigned deterministic habitat-specific species territories, size-aware individual spacing, shoreline margins and bounded separated motion. Full patches now omit extra visual representatives instead of stacking fallback coordinates; ecological counts are unchanged. Nine views re-captured/opened: all representatives remain in-frame and large mammals/dinosaur groups occupy separate areas. PASS: strict typecheck and 15 focused state, placement, habitat and spacing tests. Compact tray remains next.
+
+### Demo readability 3 — DONE
+Collapsed the wildlife tray by default, constrained expanded cards, and raised the habitat framing. All nine era/scenario screenshots inspected at 1440×900: dock is 75px (8.3% of height), all rendered representatives are in frame. Central habitat has more than 65% of viewport height. Typecheck passed.
