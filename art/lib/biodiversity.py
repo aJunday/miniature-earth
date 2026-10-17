@@ -33,6 +33,12 @@ def build(ident):
                     if ident=='archaeopteris':
                         for sign in [-1,1]:blob('Fernlike pinna',(x*.8+sign*.09,y+.19,z*.8),(.13,.045,.09),dark,leaf,6,4)
             blob('Crown',(0,1.8,0),(.19,.15,.19),coat,leaf,8,4)
+    elif ident=='cloudina':
+        body=add_part('Body')
+        for x,z,k in [(-.13,0,1),(0,.08,.8),(.15,0,.65)]:
+            for j in range(6):
+                cone('Nested funnel',(x+j*.007,.05+j*.065*k,z),.032+j*.004,.065+j*.005,.10*k,accent,body,vertices=10,bevel=0)
+            ball('Tube opening',(x+.035,.05+5*.065*k+.05*k,z),(.065,.008,.065),dark,body)
     elif ident in ['platystrophia','eucalyptocrinites']:
         body=add_part('Body')
         if ident=='platystrophia':
@@ -40,7 +46,7 @@ def build(ident):
             ball('Upper convex valve',(0,.19,0),(.42,.13,.31),coat,body)
             for i in range(-4,5):
                 x=i*.075
-                capsule('Radial shell rib',(x*.25,.29,-.22),(x,.23,.22),.017,accent,body,6,1)
+                stroke('Radial shell rib',[(x*(.5+j*.125),.19+.13*math.sqrt(max(.05,1-(x/.42)**2-((-.20+j*.1)/.31)**2))+.012,-.20+j*.1) for j in range(5)],.012,accent,body)
             capsule('Pedicle',(0,.08,-.22),(0,.03,-.35),.04,dark,body,6,1)
         else:
             ball('Holdfast',(0,.04,0),(.16,.04,.15),dark,body)
@@ -50,14 +56,14 @@ def build(ident):
                 a=j*math.tau/10;x,z=math.cos(a)*.2,math.sin(a)*.2
                 capsule('Arm',(x*.5,.61,z*.5),(x,.93,z),.025,coat,body,6,1)
                 for k in range(2):capsule('Feather branch',(x*.8,.74+k*.08,z*.8),(x*1.3,.81+k*.08,z*1.3),.014,accent,body,6,1)
-    elif ident in ['knightia','dunkleosteus']:
+    elif ident in ['knightia','dunkleosteus','diplomystus']:
         body=add_part('Body');head=add_part('Head',joint=(0,.3,.35));tail=add_part('Tail',joint=(0,.3,-.4))
-        ball('Fish body',(0,.3,0),(.15,.24,.52),coat,body)
+        ball('Fish body',(0,.3,0),(.15,.32 if ident=='diplomystus' else .24,.52),coat,body)
         ball('Fish head',(0,.31,.4),(.19,.23,.26),coat,head)
         if ident=='dunkleosteus':
             rounded_box('Armored skull',(0,.38,.48),(.46,.38,.43),.08,dark,head)
             rounded_box('Jaw plate',(0,.16,.54),(.42,.14,.36),.05,accent,head)
-        eyes(head,(0,.38,.58),.145,.045)
+        eyes(head,(0,.40,.72 if ident=='dunkleosteus' else .58),.19 if ident=='dunkleosteus' else .145,.045)
         for side in [-1,1]:
             fin=add_part('Fin_'+('L' if side>0 else 'R'),joint=(side*.12,.22,.1))
             tapered_blade('Pectoral fin',[(side*.12,.22,.15),(side*.34,.13,-.08)],[.12,.015],.025,accent,fin)
@@ -75,14 +81,26 @@ def build(ident):
             ball('Swimming paddle',(sign*.52,.1,-.13),(.12,.035,.20),accent,p)
             for j in range(3):capsule('Walking leg',(sign*.17,.12,.35+j*.05),(sign*(.33+j*.03),.035,.35+j*.13),.025,dark,body,6,1)
     else:
-        horse=ident in ['mesohippus','merychippus'];biped=ident=='coelophysis'
+        horse=ident in ['mesohippus','merychippus'];biped=ident in ['coelophysis','dilophosaurus','deinonychus']
         coat=make_material('Coat','#C59D78' if horse else '#82A98A')
         body=add_part('Body',joint=(0,.56,0));head=add_part('Head',joint=(0,.75,.45));tail=add_part('Tail',joint=(0,.48,-.5))
         ball('Torso',(0,.55,0),(.27 if biped else .36,.27,.57),coat,body)
         capsule('Neck',(0,.6,.32),(0,.92,.55),.13 if biped else .18,coat,head,8,2)
         ball('Head',(0,.98,.62),(.22,.23,.28),coat,head)
-        ball('Muzzle',(0,.90,.84),(.18,.13,.20 if ident=='merychippus' else .13),accent,head)
+        ball('Muzzle',(0,.90,.91 if ident=='merychippus' else .84),(.18,.13,.20 if ident=='merychippus' else .13),accent,head)
         eyes(head,(0,1.02,.80),.145,.055)
+        if ident=='dilophosaurus':
+            for sign in [-1,1]:ball('Thin paired crest',(sign*.12,1.25,.62),(.035,.16,.25),accent,head)
+        if ident=='placerias':
+            rounded_box('Horny beak',(0,.91,.88),(.3,.18,.18),.04,dark,head)
+            for sign in [-1,1]:capsule('Upper tusk',(sign*.20,.89,.77),(sign*.22,.62,.85),.05,accent,head,8,2)
+        if ident=='camarasaurus':
+            # Raise the whole head assembly on a substantial sauropod neck.
+            from . import common as C
+            for part in C.PARTS:
+                if part.name in ['Head','Eye_L','Eye_R']:part.location.z+=.8
+            capsule('Long sauropod neck',(0,.65,.32),(0,1.7,.55),.17,coat,body,10,2)
+
         for sign,side in [(1,'L'),(-1,'R')]:
             if horse:ball('Ear',(sign*.13,1.23,.57),(.065,.15,.07),coat,head)
             for z,label in [(.30,'F'),(-.32,'B')]:
@@ -90,6 +108,11 @@ def build(ident):
                 low=.37 if biped and label=='F' else .09
                 capsule('Limb',(sign*.25,.48,z),(sign*.29,low,z+.05),.065 if biped else .09,coat,p,8,2)
                 ball('Foot',(sign*.29,low,z+.11),(.10,.07,.16),dark,p)
+                if ident=='deinonychus':
+                    if label=='B':tapered_blade('Raised sickle claw',[(sign*.23,low+.04,z+.16),(sign*.23,low+.20,z+.24),(sign*.23,low+.22,z+.14)],[.045,.025,.003],.025,accent,p)
+                    else:
+                        for k in range(3):tapered_blade('Inferred arm feather',[(sign*.28,.44,.35),(sign*(.4+k*.05),.32,.12-k*.09)],[.05,.01],.02,accent,p)
+
                 if horse:
                     for k in [-1,1]:ball('Side toe',(sign*.29+k*.075,low+.01,z+.13),(.034,.045,.065),accent,p)
             if ident=='edmontonia':
@@ -99,5 +122,5 @@ def build(ident):
             capsule('Tail',(0,.58,-.45),(0,.18,-.68),.055,dark,tail,8,2)
             for j in range(4):ball('Mane',(0,.80+j*.08,.28+j*.06),(.05,.09,.08),dark,head)
         else:
-            for j in range(4):ball('Tapering tail',(0,.43-j*.04,-.50-j*.18),(.15-j*.03,.12-j*.025,.18),coat,tail)
+            for j in range(1 if ident=='placerias' else 4):ball('Tapering tail',(0,.43-j*.04,-.50-j*.18),(.15-j*.03,.12-j*.025,.18),coat,tail)
     finish_model(height=spec['height']);bake_palette();deliver()

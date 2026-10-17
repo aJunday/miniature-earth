@@ -1,0 +1,106 @@
+{
+  "events": [
+    {
+      "id": "baldeagle",
+      "x": -3.776691727634131,
+      "y": 6.05254301675851,
+      "z": 4.983033742382933
+    },
+    {
+      "id": "platystrophia",
+      "x": -9.407837456167123,
+      "y": 0.3885468233083301,
+      "z": -0.1985151666302316
+    },
+    {
+      "id": "platystrophia",
+      "x": -9.407837456167123,
+      "y": -2.6114531766916698,
+      "z": -0.1985151666302316,
+      "close": true
+    }
+  ],
+  "metrics": {
+    "calls": 5,
+    "triangles": 25892,
+    "geometries": 19,
+    "textures": 5,
+    "frameMs": 18.399999976158142,
+    "rendered": 8,
+    "inFrame": 3,
+    "animalsInFrame": 3,
+    "bySpecies": {
+      "platystrophia": 8
+    },
+    "year": -453850000,
+    "populations": {
+      "platystrophia": 8
+    },
+    "individuals": [
+      {
+        "key": "historical-platystrophia:0",
+        "id": "platystrophia",
+        "x": -9.407837456167123,
+        "z": -0.1985151666302316,
+        "screenX": 719.9999964972641,
+        "screenY": 357.84561972422534
+      },
+      {
+        "key": "historical-platystrophia:1",
+        "id": "platystrophia",
+        "x": -8.876934173689682,
+        "z": -2.2728328408133,
+        "screenX": 1227.2069172819529,
+        "screenY": 279.1596784862348
+      },
+      {
+        "key": "historical-platystrophia:2",
+        "id": "platystrophia",
+        "x": -6.808498859718811,
+        "z": -4.489383908363912,
+        "screenX": 2077.8277693406185,
+        "screenY": -476.65419199207594
+      },
+      {
+        "key": "historical-platystrophia:3",
+        "id": "platystrophia",
+        "x": -8.076676209664084,
+        "z": 0.8623726374734639,
+        "screenX": 790.1102083085723,
+        "screenY": -19.335498305030786
+      },
+      {
+        "key": "historical-platystrophia:4",
+        "id": "platystrophia",
+        "x": -9.978158228182178,
+        "z": -2.993518785247729,
+        "screenX": 1139.08912898471,
+        "screenY": 435.07691170433645
+      },
+      {
+        "key": "historical-platystrophia:5",
+        "id": "platystrophia",
+        "x": -8.903705624440597,
+        "z": -3.436476234427289,
+        "screenX": 1445.0004667149663,
+        "screenY": 146.50304792503727
+      },
+      {
+        "key": "historical-platystrophia:6",
+        "id": "platystrophia",
+        "x": -7.617234841923749,
+        "z": 0.41724760906115366,
+        "screenX": 969.989819965082,
+        "screenY": -82.49398027991273
+      },
+      {
+        "key": "historical-platystrophia:7",
+        "id": "platystrophia",
+        "x": -6.8350991193528845,
+        "z": -2.8511132685009155,
+        "screenX": 1757.9820906866437,
+        "screenY": -254.44146166160198
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "results": [
+    {
+      "id": "cloudina",
+      "year": -544500000,
+      "loaded": 8,
+      "mobile": false,
+      "rig": false,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-cloudina.png"
+    },
+    {
+      "id": "placerias",
+      "year": -232150000,
+      "loaded": 8,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-placerias.png"
+    },
+    {
+      "id": "dilophosaurus",
+      "year": -197150000,
+      "loaded": 2,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-dilophosaurus.png"
+    },
+    {
+      "id": "camarasaurus",
+      "year": -152300000,
+      "loaded": 6,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-camarasaurus.png"
+    },
+    {
+      "id": "deinonychus",
+      "year": -117300000,
+      "loaded": 2,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-deinonychus.png"
+    },
+    {
+      "id": "diplomystus",
+      "year": -53550000,
+      "loaded": 3,
+      "mobile": true,
+      "rig": true,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-diplomystus.png"
+    },
+    {
+      "id": "platystrophia",
+      "year": -453850000,
+      "loaded": 8,
+      "mobile": false,
+      "rig": false,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-platystrophia.png"
+    },
+    {
+      "id": "eucalyptocrinites",
+      "year": -440600000,
+      "loaded": 8,
+      "mobile": false,
+      "rig": false,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-eucalyptocrinites.png"
+    },
+    {
+      "id": "eurypterus",
+      "year": -427800000,
+      "loaded": 3,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-eurypterus.png"
+    },
+    {
+      "id": "cooksonia",
+      "year": -421160000,
+      "loaded": 10,
+      "mobile": false,
+      "rig": false,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-cooksonia.png"
+    },
+    {
+      "id": "archaeopteris",
+      "year": -385130000,
+      "loaded": 10,
+      "mobile": false,
+      "rig": false,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-archaeopteris.png"
+    },
+    {
+      "id": "dunkleosteus",
+      "year": -370585000,
+      "loaded": 3,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-dunkleosteus.png"
+    },
+    {
+      "id": "knightia",
+      "year": -53550000,
+      "loaded": 8,
+      "mobile": true,
+      "rig": true,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-knightia.png"
+    },
+    {
+      "id": "metasequoia",
+      "year": -81000000,
+      "loaded": 10,
+      "mobile": false,
+      "rig": false,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-metasequoia.png"
+    },
+    {
+      "id": "mesohippus",
+      "year": -38350000,
+      "loaded": 8,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-mesohippus.png"
+    },
+    {
+      "id": "merychippus",
+      "year": -18215000,
+      "loaded": 8,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-merychippus.png"
+    },
+    {
+      "id": "coelophysis",
+      "year": -216500000,
+      "loaded": 2,
+      "mobile": true,
+      "rig": true,
+      "moved": false,
+      "screenshot": "qa/shots/biodiversity/model-coelophysis.png"
+    },
+    {
+      "id": "edmontonia",
+      "year": -77900000,
+      "loaded": 8,
+      "mobile": true,
+      "rig": true,
+      "moved": true,
+      "screenshot": "qa/shots/biodiversity/model-edmontonia.png"
+    }
+  ],
+  "errors": [],
+  "autoFocusPersistence": "PASS",
+  "regionPreserved": "PASS",
+  "mobileOverflow": "PASS"
+}

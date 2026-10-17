@@ -656,10 +656,14 @@
       "era": "Ediacaran",
       "year": -560000000,
       "region": "North America",
-      "available": [],
-      "simulatedPopulations": {},
+      "available": [
+        "charnia"
+      ],
+      "simulatedPopulations": {
+        "charnia": 18
+      },
       "habitat": "Changing oceans and climate",
-      "gaps": "No reviewed playable coverage at this date/region"
+      "gaps": "Sparse animal coverage; not a complete community"
     },
     {
       "era": "Ediacaran",
@@ -986,10 +990,14 @@
       "era": "Ordovician",
       "year": -460000000,
       "region": "North America",
-      "available": [],
-      "simulatedPopulations": {},
+      "available": [
+        "trilobite"
+      ],
+      "simulatedPopulations": {
+        "trilobite": 12
+      },
       "habitat": "Shallow marine showcase",
-      "gaps": "No reviewed playable coverage at this date/region"
+      "gaps": "Sparse animal coverage; not a complete community"
     },
     {
       "era": "Ordovician",
@@ -1123,14 +1131,20 @@
       "region": "mosaic",
       "available": [
         "stromatolite",
-        "trilobite"
+        "trilobite",
+        "platystrophia",
+        "eucalyptocrinites",
+        "eurypterus"
       ],
       "simulatedPopulations": {
         "stromatolite": 60,
-        "trilobite": 12
+        "trilobite": 12,
+        "platystrophia": 8,
+        "eucalyptocrinites": 8,
+        "eurypterus": 3
       },
       "habitat": "Shallow marine showcase",
-      "gaps": "Sparse animal coverage; not a complete community"
+      "gaps": "Representative subset; not a historical census"
     },
     {
       "era": "Silurian",
@@ -1145,10 +1159,20 @@
       "era": "Silurian",
       "year": -430000000,
       "region": "North America",
-      "available": [],
-      "simulatedPopulations": {},
+      "available": [
+        "trilobite",
+        "platystrophia",
+        "eucalyptocrinites",
+        "eurypterus"
+      ],
+      "simulatedPopulations": {
+        "trilobite": 12,
+        "platystrophia": 8,
+        "eucalyptocrinites": 8,
+        "eurypterus": 3
+      },
       "habitat": "Shallow marine showcase",
-      "gaps": "No reviewed playable coverage at this date/region"
+      "gaps": "Representative subset; not a historical census"
     },
     {
       "era": "Silurian",
@@ -1304,10 +1328,14 @@
       "era": "Devonian",
       "year": -390000000,
       "region": "North America",
-      "available": [],
-      "simulatedPopulations": {},
+      "available": [
+        "trilobite"
+      ],
+      "simulatedPopulations": {
+        "trilobite": 12
+      },
       "habitat": "Shallow marine showcase",
-      "gaps": "No reviewed playable coverage at this date/region"
+      "gaps": "Sparse animal coverage; not a complete community"
     },
     {
       "era": "Devonian",
@@ -1473,18 +1501,20 @@
       "region": "North America",
       "available": [
         "fern",
+        "trilobite",
         "arthropleura",
         "lycophyte",
         "horsetail"
       ],
       "simulatedPopulations": {
+        "trilobite": 12,
         "fern": 60,
         "lycophyte": 24,
         "horsetail": 45,
         "arthropleura": 8
       },
       "habitat": "Humid forested wetlands",
-      "gaps": "Sparse animal coverage; not a complete community"
+      "gaps": "Representative subset; not a historical census"
     },
     {
       "era": "Carboniferous",
@@ -1620,12 +1650,14 @@
         "stromatolite",
         "fern",
         "trilobite",
-        "dimetrodon"
+        "dimetrodon",
+        "horsetail"
       ],
       "simulatedPopulations": {
         "stromatolite": 60,
         "trilobite": 12,
         "fern": 40,
+        "horsetail": 30,
         "dimetrodon": 3
       },
       "habitat": "Seasonally dry continental interior",
@@ -1645,13 +1677,17 @@
       "year": -275000000,
       "region": "North America",
       "available": [
-        "dimetrodon"
+        "trilobite",
+        "dimetrodon",
+        "horsetail"
       ],
       "simulatedPopulations": {
+        "trilobite": 12,
+        "horsetail": 30,
         "dimetrodon": 3
       },
       "habitat": "Seasonally dry continental interior",
-      "gaps": "Sparse animal coverage; not a complete community"
+      "gaps": "Representative subset; not a historical census"
     },
     {
       "era": "Permian",
@@ -1787,16 +1823,20 @@
         "stromatolite",
         "fern",
         "conifer",
-        "desmatosuchus"
+        "desmatosuchus",
+        "placerias",
+        "coelophysis"
       ],
       "simulatedPopulations": {
         "fern": 50,
         "stromatolite": 24,
         "conifer": 24,
-        "desmatosuchus": 8
+        "desmatosuchus": 8,
+        "placerias": 8,
+        "coelophysis": 3
       },
       "habitat": "Seasonally dry continental interior",
-      "gaps": "Sparse animal coverage; not a complete community"
+      "gaps": "Representative subset; not a historical census"
     },
     {
       "era": "Triassic",
@@ -1814,15 +1854,19 @@
       "available": [
         "fern",
         "conifer",
-        "desmatosuchus"
+        "desmatosuchus",
+        "placerias",
+        "coelophysis"
       ],
       "simulatedPopulations": {
         "fern": 50,
         "conifer": 24,
-        "desmatosuchus": 8
+        "desmatosuchus": 8,
+        "placerias": 8,
+        "coelophysis": 3
       },
       "habitat": "Seasonally dry continental interior",
-      "gaps": "Sparse animal coverage; not a complete community"
+      "gaps": "Representative subset; not a historical census"
     },
     {
       "era": "Triassic",
@@ -1962,7 +2006,8 @@
         "stegosaurus",
         "brachiosaurus",
         "allosaurus",
-        "ammonite"
+        "ammonite",
+        "camarasaurus"
       ],
       "simulatedPopulations": {
         "ammonite": 10,
@@ -1972,7 +2017,8 @@
         "stegosaurus": 8,
         "brachiosaurus": 4,
         "allosaurus": 2,
-        "stromatolite": 24
+        "stromatolite": 24,
+        "camarasaurus": 8
       },
       "habitat": "Warm conifer woodland",
       "gaps": "Representative subset; not a historical census"
@@ -1996,7 +2042,8 @@
         "conifer",
         "stegosaurus",
         "brachiosaurus",
-        "allosaurus"
+        "allosaurus",
+        "camarasaurus"
       ],
       "simulatedPopulations": {
         "fern": 90,
@@ -2004,7 +2051,8 @@
         "conifer": 50,
         "stegosaurus": 8,
         "brachiosaurus": 4,
-        "allosaurus": 2
+        "allosaurus": 2,
+        "camarasaurus": 8
       },
       "habitat": "Warm conifer woodland",
       "gaps": "Representative subset; not a historical census"
@@ -2145,7 +2193,9 @@
         "cycad",
         "conifer",
         "ammonite",
-        "triceratops"
+        "triceratops",
+        "metasequoia",
+        "edmontonia"
       ],
       "simulatedPopulations": {
         "ammonite": 10,
@@ -2153,7 +2203,9 @@
         "cycad": 40,
         "triceratops": 8,
         "stromatolite": 24,
-        "conifer": 24
+        "conifer": 24,
+        "metasequoia": 24,
+        "edmontonia": 8
       },
       "habitat": "Warm woodland and flowers",
       "gaps": "Representative subset; not a historical census"
@@ -2172,13 +2224,19 @@
       "year": -67000000,
       "region": "North America",
       "available": [
-        "triceratops"
+        "ammonite",
+        "triceratops",
+        "metasequoia",
+        "edmontonia"
       ],
       "simulatedPopulations": {
-        "triceratops": 8
+        "ammonite": 10,
+        "triceratops": 8,
+        "metasequoia": 24,
+        "edmontonia": 8
       },
       "habitat": "Warm woodland and flowers",
-      "gaps": "Sparse animal coverage; not a complete community"
+      "gaps": "Representative subset; not a historical census"
     },
     {
       "era": "Cretaceous",
@@ -2312,11 +2370,13 @@
       "region": "mosaic",
       "available": [
         "stromatolite",
-        "fern"
+        "fern",
+        "metasequoia"
       ],
       "simulatedPopulations": {
         "stromatolite": 24,
-        "fern": 24
+        "fern": 24,
+        "metasequoia": 24
       },
       "habitat": "Changing forests and grasslands",
       "gaps": "Sparse animal coverage; not a complete community"
@@ -2334,10 +2394,14 @@
       "era": "Paleogene",
       "year": -40000000,
       "region": "North America",
-      "available": [],
-      "simulatedPopulations": {},
+      "available": [
+        "metasequoia"
+      ],
+      "simulatedPopulations": {
+        "metasequoia": 24
+      },
       "habitat": "Changing forests and grasslands",
-      "gaps": "No reviewed playable coverage at this date/region"
+      "gaps": "Sparse animal coverage; not a complete community"
     },
     {
       "era": "Paleogene",
@@ -2500,10 +2564,12 @@
       "year": -5000000,
       "region": "North America",
       "available": [
+        "grass",
         "oak",
         "groundsloth"
       ],
       "simulatedPopulations": {
+        "grass": 90,
         "groundsloth": 5,
         "oak": 24
       },
@@ -2671,10 +2737,12 @@
       "year": -1800000,
       "region": "North America",
       "available": [
+        "grass",
         "oak",
         "groundsloth"
       ],
       "simulatedPopulations": {
+        "grass": 24,
         "oak": 24,
         "groundsloth": 8
       },
@@ -2844,11 +2912,13 @@
       "year": -40000,
       "region": "North America",
       "available": [
+        "grass",
         "oak",
         "mammoth",
         "groundsloth"
       ],
       "simulatedPopulations": {
+        "grass": 90,
         "mammoth": 5,
         "groundsloth": 3,
         "oak": 24
@@ -2989,12 +3059,14 @@
       "available": [
         "stromatolite",
         "fern",
-        "grass"
+        "grass",
+        "oak"
       ],
       "simulatedPopulations": {
         "stromatolite": 24,
         "fern": 24,
-        "grass": 24
+        "grass": 24,
+        "oak": 24
       },
       "habitat": "Temperate coastal woodland",
       "gaps": "Sparse animal coverage; not a complete community"
@@ -3012,10 +3084,16 @@
       "era": "Holocene",
       "year": 1000,
       "region": "North America",
-      "available": [],
-      "simulatedPopulations": {},
+      "available": [
+        "grass",
+        "oak"
+      ],
+      "simulatedPopulations": {
+        "grass": 24,
+        "oak": 24
+      },
       "habitat": "Temperate coastal woodland",
-      "gaps": "No reviewed playable coverage at this date/region"
+      "gaps": "Sparse animal coverage; not a complete community"
     },
     {
       "era": "Holocene",
@@ -3934,18 +4012,28 @@
       "regions": [
         "Europe"
       ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -570000000,
+          "last": -560000000
+        }
+      ],
       "coverage": [
         -566000000,
         -560000000
       ],
       "sources": [
         "https://api.gbif.org/v1/species/match?name=Charnia&strict=true",
-        "https://earthwise.bgs.ac.uk/index.php/OR/10/041_Guide_to_the_geology_of_Bradgate_Park_and_Swithland_Wood%2C_Charnwood_Forest"
+        "https://earthwise.bgs.ac.uk/index.php/OR/10/041_Guide_to_the_geology_of_Bradgate_Park_and_Swithland_Wood%2C_Charnwood_Forest",
+        "https://www.gov.nl.ca/eccc/natural-areas/wer/r-mpe/",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Charnia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500"
       ],
       "unknownFirstAppearance": true,
       "uncertainty": [
         "Represents a genus; dates and biology must not be read as those of one species.",
-        "Rangeomorph animal; feeding remains uncertain. Producer-style game growth does not imply photosynthesis."
+        "Rangeomorph animal; feeding remains uncertain. Producer-style game growth does not imply photosynthesis.",
+        "North American view is a stylized deep-seafloor community; camera illumination is for inspection, not literal sunlight at the original habitat depth."
       ],
       "feedingEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims."
     },
@@ -4163,6 +4251,81 @@
           "region": "North America",
           "first": 1872,
           "last": 2026
+        },
+        {
+          "region": "North America",
+          "first": -11700,
+          "last": 2026
+        },
+        {
+          "region": "North America",
+          "first": -129000,
+          "last": 2026
+        },
+        {
+          "region": "North America",
+          "first": -129000,
+          "last": -11700
+        },
+        {
+          "region": "North America",
+          "first": -210000,
+          "last": -14000
+        },
+        {
+          "region": "North America",
+          "first": -2580000,
+          "last": -774000
+        },
+        {
+          "region": "North America",
+          "first": -3600000,
+          "last": -2580000
+        },
+        {
+          "region": "North America",
+          "first": -5333000,
+          "last": -2580000
+        },
+        {
+          "region": "North America",
+          "first": -7246000,
+          "last": -5333000
+        },
+        {
+          "region": "North America",
+          "first": -9400000,
+          "last": -1400000
+        },
+        {
+          "region": "North America",
+          "first": -9400000,
+          "last": -4700000
+        },
+        {
+          "region": "North America",
+          "first": -11630000,
+          "last": -7246000
+        },
+        {
+          "region": "North America",
+          "first": -12500000,
+          "last": -9400000
+        },
+        {
+          "region": "North America",
+          "first": -13820000,
+          "last": -11630000
+        },
+        {
+          "region": "North America",
+          "first": -15980000,
+          "last": -13820000
+        },
+        {
+          "region": "North America",
+          "first": -16300000,
+          "last": -9400000
         }
       ],
       "coverage": [
@@ -4174,13 +4337,16 @@
         "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
         "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information",
         "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Poaceae&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
         "https://www.si.edu/newsdesk/factsheets/david-h-koch-hall-fossils-deep-time"
       ],
       "unknownFirstAppearance": true,
       "uncertainty": [
         "Represents a family; dates and biology must not be read as those of one species.",
         "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
-        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory.",
+        "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population.",
+        "A zero-Ma upper bound on a Holocene fossil bin means the recent/present boundary, not calendar year zero. The living group reconstruction extends through 2026; no exact historical abundance is inferred."
       ],
       "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
     },
@@ -4206,6 +4372,141 @@
           "region": "North America",
           "first": -16000000,
           "last": -11700
+        },
+        {
+          "region": "North America",
+          "first": -11700,
+          "last": 2026
+        },
+        {
+          "region": "North America",
+          "first": -129000,
+          "last": -11700
+        },
+        {
+          "region": "North America",
+          "first": -210000,
+          "last": -14000
+        },
+        {
+          "region": "North America",
+          "first": -1400000,
+          "last": -210000
+        },
+        {
+          "region": "North America",
+          "first": -1800000,
+          "last": -774000
+        },
+        {
+          "region": "North America",
+          "first": -2580000,
+          "last": -774000
+        },
+        {
+          "region": "North America",
+          "first": -3600000,
+          "last": -2580000
+        },
+        {
+          "region": "North America",
+          "first": -5333000,
+          "last": -2580000
+        },
+        {
+          "region": "North America",
+          "first": -7246000,
+          "last": -5333000
+        },
+        {
+          "region": "North America",
+          "first": -9400000,
+          "last": -1400000
+        },
+        {
+          "region": "North America",
+          "first": -9400000,
+          "last": -4700000
+        },
+        {
+          "region": "North America",
+          "first": -11630000,
+          "last": -5333000
+        },
+        {
+          "region": "North America",
+          "first": -11630000,
+          "last": -7246000
+        },
+        {
+          "region": "North America",
+          "first": -12500000,
+          "last": -9400000
+        },
+        {
+          "region": "North America",
+          "first": -13820000,
+          "last": -7246000
+        },
+        {
+          "region": "North America",
+          "first": -13820000,
+          "last": -11630000
+        },
+        {
+          "region": "North America",
+          "first": -15980000,
+          "last": -11630000
+        },
+        {
+          "region": "North America",
+          "first": -15980000,
+          "last": -13820000
+        },
+        {
+          "region": "North America",
+          "first": -16300000,
+          "last": -9400000
+        },
+        {
+          "region": "North America",
+          "first": -16300000,
+          "last": -12500000
+        },
+        {
+          "region": "North America",
+          "first": -18500000,
+          "last": -12500000
+        },
+        {
+          "region": "North America",
+          "first": -20450000,
+          "last": -15980000
+        },
+        {
+          "region": "North America",
+          "first": -23040000,
+          "last": -15980000
+        },
+        {
+          "region": "North America",
+          "first": -27300000,
+          "last": -15980000
+        },
+        {
+          "region": "North America",
+          "first": -27300000,
+          "last": -23040000
+        },
+        {
+          "region": "North America",
+          "first": -33900000,
+          "last": -23040000
+        },
+        {
+          "region": "North America",
+          "first": -33900000,
+          "last": -27300000
         }
       ],
       "sources": [
@@ -4213,14 +4514,17 @@
         "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
         "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2",
         "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2",
-        "https://www.floridamuseum.ufl.edu/paleobotany/collecting-fossil-plants-florida/"
+        "https://www.floridamuseum.ufl.edu/paleobotany/collecting-fossil-plants-florida/",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Quercus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500"
       ],
       "unknownFirstAppearance": true,
       "uncertainty": [
         "Represents a genus; dates and biology must not be read as those of one species.",
         "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
         "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory.",
-        "Southern North American fossil oak canopy is a broad Quercus proxy based on incompletely dated and sometimes reworked woods. This coarse display interval is not one species range or uninterrupted local occupancy."
+        "Southern North American fossil oak canopy is a broad Quercus proxy based on incompletely dated and sometimes reworked woods. This coarse display interval is not one species range or uninterrupted local occupancy.",
+        "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population.",
+        "A zero-Ma upper bound on a Holocene fossil bin means the recent/present boundary, not calendar year zero. The living group reconstruction extends through 2026; no exact historical abundance is inferred."
       ],
       "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
     },
@@ -5139,6 +5443,241 @@
           "region": "North America",
           "first": -506500000,
           "last": -497000000
+        },
+        {
+          "region": "North America",
+          "first": -469400000,
+          "last": -458200000
+        },
+        {
+          "region": "North America",
+          "first": -471300000,
+          "last": -470300000
+        },
+        {
+          "region": "North America",
+          "first": -475300000,
+          "last": -471300000
+        },
+        {
+          "region": "North America",
+          "first": -477100000,
+          "last": -468000000
+        },
+        {
+          "region": "North America",
+          "first": -481700000,
+          "last": -475300000
+        },
+        {
+          "region": "North America",
+          "first": -483400000,
+          "last": -481700000
+        },
+        {
+          "region": "North America",
+          "first": -486400000,
+          "last": -477100000
+        },
+        {
+          "region": "North America",
+          "first": -486850000,
+          "last": -471300000
+        },
+        {
+          "region": "North America",
+          "first": -486850000,
+          "last": -477100000
+        },
+        {
+          "region": "North America",
+          "first": -486850000,
+          "last": -483400000
+        },
+        {
+          "region": "North America",
+          "first": -422700000,
+          "last": -419620000
+        },
+        {
+          "region": "North America",
+          "first": -426700000,
+          "last": -422700000
+        },
+        {
+          "region": "North America",
+          "first": -430600000,
+          "last": -426700000
+        },
+        {
+          "region": "North America",
+          "first": -432900000,
+          "last": -426700000
+        },
+        {
+          "region": "North America",
+          "first": -438600000,
+          "last": -432900000
+        },
+        {
+          "region": "North America",
+          "first": -443100000,
+          "last": -432900000
+        },
+        {
+          "region": "North America",
+          "first": -303700000,
+          "last": -298900000
+        },
+        {
+          "region": "North America",
+          "first": -306000000,
+          "last": -303700000
+        },
+        {
+          "region": "North America",
+          "first": -312800000,
+          "last": -306000000
+        },
+        {
+          "region": "North America",
+          "first": -353700000,
+          "last": -346700000
+        },
+        {
+          "region": "North America",
+          "first": -358860000,
+          "last": -342900000
+        },
+        {
+          "region": "North America",
+          "first": -493500000,
+          "last": -488900000
+        },
+        {
+          "region": "North America",
+          "first": -497000000,
+          "last": -486850000
+        },
+        {
+          "region": "North America",
+          "first": -497000000,
+          "last": -493500000
+        },
+        {
+          "region": "North America",
+          "first": -497000000,
+          "last": -494200000
+        },
+        {
+          "region": "North America",
+          "first": -504500000,
+          "last": -497000000
+        },
+        {
+          "region": "North America",
+          "first": -509700000,
+          "last": -505300000
+        },
+        {
+          "region": "North America",
+          "first": -515299999.99999994,
+          "last": -509700000
+        },
+        {
+          "region": "North America",
+          "first": -516000000,
+          "last": -508200000
+        },
+        {
+          "region": "North America",
+          "first": -365200000,
+          "last": -358860000
+        },
+        {
+          "region": "North America",
+          "first": -382310000,
+          "last": -372150000
+        },
+        {
+          "region": "North America",
+          "first": -387950000,
+          "last": -382310000
+        },
+        {
+          "region": "North America",
+          "first": -393470000,
+          "last": -382310000
+        },
+        {
+          "region": "North America",
+          "first": -393470000,
+          "last": -387950000
+        },
+        {
+          "region": "North America",
+          "first": -410620000,
+          "last": -393470000
+        },
+        {
+          "region": "North America",
+          "first": -410620000,
+          "last": -399500000
+        },
+        {
+          "region": "North America",
+          "first": -413020000,
+          "last": -410620000
+        },
+        {
+          "region": "North America",
+          "first": -419620000,
+          "last": -410620000
+        },
+        {
+          "region": "North America",
+          "first": -419620000,
+          "last": -413020000
+        },
+        {
+          "region": "North America",
+          "first": -266899999.99999997,
+          "last": -264279999.99999997
+        },
+        {
+          "region": "North America",
+          "first": -274400000,
+          "last": -266899999.99999997
+        },
+        {
+          "region": "North America",
+          "first": -276800000,
+          "last": -264899999.99999997
+        },
+        {
+          "region": "North America",
+          "first": -283300000,
+          "last": -274400000
+        },
+        {
+          "region": "North America",
+          "first": -286000000,
+          "last": -274400000
+        },
+        {
+          "region": "North America",
+          "first": -290100000,
+          "last": -283300000
+        },
+        {
+          "region": "North America",
+          "first": -293520000,
+          "last": -290100000
+        },
+        {
+          "region": "North America",
+          "first": -298900000,
+          "last": -293520000
         }
       ],
       "sources": [
@@ -5147,11 +5686,17 @@
         "https://www.nhm.ac.uk/schools/teaching-resources/big-ideas-in-science-evolution/trilobite-fossils-resources-and-class-activities.html",
         "https://home.nps.gov/grca/learn/nature/fossils.htm",
         "https://paleobiodb.org/data1.2/occs/list.json?base_name=Olenoides%20serratus&show=coords,time,ref&cc=US,CA&limit=100",
-        "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+        "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&interval=Ordovician&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&interval=Silurian&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&interval=Devonian&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&interval=Permian&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100"
       ],
       "unknownFirstAppearance": false,
       "uncertainty": [
-        "Represents a class; dates and biology must not be read as those of one species."
+        "Represents a class; dates and biology must not be read as those of one species.",
+        "The trilobite miniature is an explicitly generalized three-lobed class-level body plan. Different regional windows represent different taxa, not one long-lived species; exact spines, segment counts and soft tissues vary and are not reconstructed for every occurrence."
       ],
       "feedingEvidence": "source-linked"
     },
@@ -5219,17 +5764,136 @@
       "animation": "rig + procedural LOD",
       "habitat": "marine",
       "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -72200000,
+          "last": -66000000
+        },
+        {
+          "region": "North America",
+          "first": -83600000,
+          "last": -72200000
+        },
+        {
+          "region": "North America",
+          "first": -85700000,
+          "last": -83600000
+        },
+        {
+          "region": "North America",
+          "first": -93900000,
+          "last": -89800000
+        },
+        {
+          "region": "North America",
+          "first": -100500000,
+          "last": -93900000
+        },
+        {
+          "region": "North America",
+          "first": -106300000,
+          "last": -93900000
+        },
+        {
+          "region": "North America",
+          "first": -106300000,
+          "last": -100500000
+        },
+        {
+          "region": "North America",
+          "first": -113200000,
+          "last": -100500000
+        },
+        {
+          "region": "North America",
+          "first": -132600000,
+          "last": -125770000
+        },
+        {
+          "region": "North America",
+          "first": -143100000,
+          "last": -137050000
+        },
+        {
+          "region": "North America",
+          "first": -143100000,
+          "last": -141000000
+        },
+        {
+          "region": "North America",
+          "first": -110100000,
+          "last": -100500000
+        },
+        {
+          "region": "North America",
+          "first": -113200000,
+          "last": -110100000
+        },
+        {
+          "region": "North America",
+          "first": -248600000,
+          "last": -247000000
+        },
+        {
+          "region": "North America",
+          "first": -250800000,
+          "last": -248600000
+        },
+        {
+          "region": "North America",
+          "first": -251902000,
+          "last": -247000000
+        },
+        {
+          "region": "North America",
+          "first": -184200000,
+          "last": -174700000
+        },
+        {
+          "region": "North America",
+          "first": -185100000,
+          "last": -183500000
+        },
+        {
+          "region": "North America",
+          "first": -186200000,
+          "last": -185100000
+        },
+        {
+          "region": "North America",
+          "first": -189200000,
+          "last": -186200000
+        },
+        {
+          "region": "North America",
+          "first": -192900000,
+          "last": -184200000
+        },
+        {
+          "region": "North America",
+          "first": -199500000,
+          "last": -192900000
+        }
+      ],
       "coverage": [
         -200000000,
         -66000000
       ],
       "sources": [
         "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonitida&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonoidea&interval=Berriasian&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonoidea&interval=Early+Cretaceous&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonoidea&interval=Early+Triassic&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonoidea&interval=Early+Jurassic&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
         "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html"
       ],
       "unknownFirstAppearance": true,
       "uncertainty": [
-        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+        "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population.",
+        "Ammonoid group proxy: the coiled-shell miniature represents different regional members of Ammonoidea through time, including Triassic ceratitids; it is not a single genus or species. Fine shell ornament and soft tissues are generalized. Feeding rates remain illustrative."
       ],
       "feedingEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims."
     },
@@ -5242,15 +5906,68 @@
       "regions": [
         "North America"
       ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -283300000,
+          "last": -266899999.99999997
+        },
+        {
+          "region": "North America",
+          "first": -283300000,
+          "last": -274400000
+        },
+        {
+          "region": "North America",
+          "first": -286000000,
+          "last": -274400000
+        },
+        {
+          "region": "North America",
+          "first": -290100000,
+          "last": -274400000
+        },
+        {
+          "region": "North America",
+          "first": -290100000,
+          "last": -283300000
+        },
+        {
+          "region": "North America",
+          "first": -293520000,
+          "last": -283300000
+        },
+        {
+          "region": "North America",
+          "first": -293520000,
+          "last": -290100000
+        },
+        {
+          "region": "North America",
+          "first": -298900000,
+          "last": -286000000
+        },
+        {
+          "region": "North America",
+          "first": -298900000,
+          "last": -290100000
+        },
+        {
+          "region": "North America",
+          "first": -298900000,
+          "last": -293520000
+        }
+      ],
       "coverage": [
-        -275000000,
-        -275000000
+        -298900000,
+        -266900000
       ],
       "sources": [
         "https://www.si.edu/object/nmnhpaleobiology_3451032",
         "https://api.gbif.org/v1/species/match?name=Dimetrodon&strict=true",
         "https://sciencemuseum.utexas.edu/exhibit/paleontology-gallery/",
-        "https://whatsinaname.hmnh.harvard.edu/dimetrodon"
+        "https://whatsinaname.hmnh.harvard.edu/dimetrodon",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dimetrodon&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500"
       ],
       "unknownFirstAppearance": true,
       "uncertainty": [
@@ -5354,6 +6071,71 @@
           "region": "North America",
           "first": -323200000,
           "last": -298900000
+        },
+        {
+          "region": "North America",
+          "first": -309800000,
+          "last": -307400000
+        },
+        {
+          "region": "North America",
+          "first": -312800000,
+          "last": -306000000
+        },
+        {
+          "region": "North America",
+          "first": -312800000,
+          "last": -307000000
+        },
+        {
+          "region": "North America",
+          "first": -314600000,
+          "last": -307400000
+        },
+        {
+          "region": "North America",
+          "first": -318600000,
+          "last": -312800000
+        },
+        {
+          "region": "North America",
+          "first": -318700000,
+          "last": -307400000
+        },
+        {
+          "region": "North America",
+          "first": -318700000,
+          "last": -316900000
+        },
+        {
+          "region": "North America",
+          "first": -330300000,
+          "last": -315200000
+        },
+        {
+          "region": "North America",
+          "first": -330300000,
+          "last": -323400000
+        },
+        {
+          "region": "North America",
+          "first": -335400000,
+          "last": -323400000
+        },
+        {
+          "region": "North America",
+          "first": -342900000,
+          "last": -335400000
+        },
+        {
+          "region": "North America",
+          "first": -346700000,
+          "last": -330300000
+        },
+        {
+          "region": "North America",
+          "first": -351900000,
+          "last": -339900000
         }
       ],
       "coverage": [
@@ -5364,12 +6146,14 @@
         "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
         "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
         "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Lepidodendron&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
         "https://www.nps.gov/articles/000/pennsylvanian-period.htm"
       ],
       "unknownFirstAppearance": true,
       "uncertainty": [
         "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
-        "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
+        "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity.",
+        "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
       ],
       "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
     },
@@ -5385,6 +6169,86 @@
           "region": "North America",
           "first": -323200000,
           "last": -298900000
+        },
+        {
+          "region": "North America",
+          "first": -293520000,
+          "last": -274400000
+        },
+        {
+          "region": "North America",
+          "first": -298900000,
+          "last": -290100000
+        },
+        {
+          "region": "North America",
+          "first": -303700000,
+          "last": -298900000
+        },
+        {
+          "region": "North America",
+          "first": -305000000,
+          "last": -301400000
+        },
+        {
+          "region": "North America",
+          "first": -306000000,
+          "last": -304800000
+        },
+        {
+          "region": "North America",
+          "first": -307000000,
+          "last": -298900000
+        },
+        {
+          "region": "North America",
+          "first": -307400000,
+          "last": -300300000
+        },
+        {
+          "region": "North America",
+          "first": -309800000,
+          "last": -301400000
+        },
+        {
+          "region": "North America",
+          "first": -312800000,
+          "last": -307000000
+        },
+        {
+          "region": "North America",
+          "first": -314600000,
+          "last": -307400000
+        },
+        {
+          "region": "North America",
+          "first": -315200000,
+          "last": -307400000
+        },
+        {
+          "region": "North America",
+          "first": -318700000,
+          "last": -307400000
+        },
+        {
+          "region": "North America",
+          "first": -318700000,
+          "last": -316900000
+        },
+        {
+          "region": "North America",
+          "first": -323400000,
+          "last": -298900000
+        },
+        {
+          "region": "North America",
+          "first": -323400000,
+          "last": -312800000
+        },
+        {
+          "region": "North America",
+          "first": -330300000,
+          "last": -315200000
         }
       ],
       "coverage": [
@@ -5395,12 +6259,14 @@
         "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
         "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
         "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Calamites&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
         "https://www.nps.gov/articles/000/pennsylvanian-period.htm"
       ],
       "unknownFirstAppearance": true,
       "uncertainty": [
         "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
-        "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
+        "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity.",
+        "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
       ],
       "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
     },
@@ -5602,6 +6468,1108 @@
         "Original stylized asset; colours and scale are artistic choices. Deposit ages define uncertain display coverage, not an exact species lifespan."
       ],
       "feedingEvidence": "Source-reviewed feeding guild; numeric rates are teaching assumptions"
+    },
+    {
+      "id": "cloudina",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "marine",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -550000000,
+          "last": -539000000
+        }
+      ],
+      "coverage": [
+        -550000000,
+        -539000000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cloudina&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5524506/",
+        "https://www.nature.com/articles/s41467-019-13882-z"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Feeding and affinities unresolved; a suspension-feeding hypothesis supplies the illustrative resource link."
+    },
+    {
+      "id": "placerias",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -237000000,
+          "last": -227300000
+        },
+        {
+          "region": "North America",
+          "first": -227300000,
+          "last": -205700000
+        }
+      ],
+      "coverage": [
+        -237000000,
+        -227300000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Placerias&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/subjects/fossils/vertebrate-fossils.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "dilophosaurus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -201400000,
+          "last": -192900000
+        },
+        {
+          "region": "North America",
+          "first": -199500000,
+          "last": -184200000
+        },
+        {
+          "region": "North America",
+          "first": -192900000,
+          "last": -184200000
+        }
+      ],
+      "coverage": [
+        -201400000,
+        -192900000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dilophosaurus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.jsg.utexas.edu/txvp/dilophosaurus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "camarasaurus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -161500000,
+          "last": -143100000
+        },
+        {
+          "region": "North America",
+          "first": -157900000,
+          "last": -152210000
+        },
+        {
+          "region": "North America",
+          "first": -154800000,
+          "last": -149200000
+        },
+        {
+          "region": "North America",
+          "first": -154800000,
+          "last": -143100000
+        },
+        {
+          "region": "North America",
+          "first": -152210000,
+          "last": -149200000
+        },
+        {
+          "region": "North America",
+          "first": -152210000,
+          "last": -145060000
+        },
+        {
+          "region": "North America",
+          "first": -152210000,
+          "last": -143100000
+        },
+        {
+          "region": "North America",
+          "first": -149200000,
+          "last": -145060000
+        },
+        {
+          "region": "North America",
+          "first": -149200000,
+          "last": -143100000
+        }
+      ],
+      "coverage": [
+        -161500000,
+        -143100000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Camarasaurus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/dino/learn/nature/camarasaurus-lentus.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "deinonychus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -121400000,
+          "last": -113200000
+        },
+        {
+          "region": "North America",
+          "first": -121400000,
+          "last": -110100000
+        },
+        {
+          "region": "North America",
+          "first": -121400000,
+          "last": -100500000
+        },
+        {
+          "region": "North America",
+          "first": -119570000,
+          "last": -113200000
+        },
+        {
+          "region": "North America",
+          "first": -119570000,
+          "last": -110100000
+        },
+        {
+          "region": "North America",
+          "first": -113200000,
+          "last": -100500000
+        }
+      ],
+      "coverage": [
+        -121400000,
+        -113200000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deinonychus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.amnh.org/exhibitions/permanent/saurischian-dinosaurs/deinonychus-cast-link-to-early-birds--amnh"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "diplomystus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "freshwater",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -56000000,
+          "last": -51100000
+        },
+        {
+          "region": "North America",
+          "first": -56000000,
+          "last": -48070000
+        },
+        {
+          "region": "North America",
+          "first": -51100000,
+          "last": -45900000
+        }
+      ],
+      "coverage": [
+        -56000000,
+        -51100000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Diplomystus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/fobu/learn/nature/fossil-fish.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "platystrophia",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "marine",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -458200000,
+          "last": -449500000
+        },
+        {
+          "region": "North America",
+          "first": -458200000,
+          "last": -443100000
+        },
+        {
+          "region": "North America",
+          "first": -457300000,
+          "last": -453800000
+        },
+        {
+          "region": "North America",
+          "first": -457300000,
+          "last": -450200000
+        },
+        {
+          "region": "North America",
+          "first": -457300000,
+          "last": -449600000
+        },
+        {
+          "region": "North America",
+          "first": -453800000,
+          "last": -451000000
+        },
+        {
+          "region": "North America",
+          "first": -453800000,
+          "last": -450200000
+        },
+        {
+          "region": "North America",
+          "first": -452800000,
+          "last": -445200000
+        },
+        {
+          "region": "North America",
+          "first": -451000000,
+          "last": -450200000
+        },
+        {
+          "region": "North America",
+          "first": -451000000,
+          "last": -449600000
+        },
+        {
+          "region": "North America",
+          "first": -451000000,
+          "last": -443100000
+        },
+        {
+          "region": "North America",
+          "first": -450200000,
+          "last": -449600000
+        },
+        {
+          "region": "North America",
+          "first": -450200000,
+          "last": -445500000
+        },
+        {
+          "region": "North America",
+          "first": -450200000,
+          "last": -443100000
+        },
+        {
+          "region": "North America",
+          "first": -449600000,
+          "last": -445500000
+        },
+        {
+          "region": "North America",
+          "first": -449600000,
+          "last": -443100000
+        },
+        {
+          "region": "North America",
+          "first": -449500000,
+          "last": -443100000
+        },
+        {
+          "region": "North America",
+          "first": -449500000,
+          "last": -432900000
+        },
+        {
+          "region": "North America",
+          "first": -443100000,
+          "last": -440500000
+        },
+        {
+          "region": "North America",
+          "first": -443100000,
+          "last": -438600000
+        },
+        {
+          "region": "North America",
+          "first": -443100000,
+          "last": -432900000
+        },
+        {
+          "region": "North America",
+          "first": -443100000,
+          "last": -426700000
+        },
+        {
+          "region": "North America",
+          "first": -440500000,
+          "last": -438600000
+        },
+        {
+          "region": "North America",
+          "first": -440500000,
+          "last": -432900000
+        },
+        {
+          "region": "North America",
+          "first": -438600000,
+          "last": -432900000
+        },
+        {
+          "region": "North America",
+          "first": -438600000,
+          "last": -430600000
+        },
+        {
+          "region": "North America",
+          "first": -438600000,
+          "last": -426700000
+        },
+        {
+          "region": "North America",
+          "first": -432900000,
+          "last": -430600000
+        },
+        {
+          "region": "North America",
+          "first": -432900000,
+          "last": -426700000
+        },
+        {
+          "region": "North America",
+          "first": -432900000,
+          "last": -422700000
+        },
+        {
+          "region": "North America",
+          "first": -426700000,
+          "last": -422700000
+        }
+      ],
+      "coverage": [
+        -458200000,
+        -449500000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Platystrophia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/choh/learn/nature/fossils.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "eucalyptocrinites",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "marine",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -443100000,
+          "last": -438100000
+        },
+        {
+          "region": "North America",
+          "first": -443100000,
+          "last": -426700000
+        },
+        {
+          "region": "North America",
+          "first": -443100000,
+          "last": -419620000
+        },
+        {
+          "region": "North America",
+          "first": -440500000,
+          "last": -438600000
+        },
+        {
+          "region": "North America",
+          "first": -440500000,
+          "last": -432900000
+        },
+        {
+          "region": "North America",
+          "first": -439400000,
+          "last": -422700000
+        },
+        {
+          "region": "North America",
+          "first": -438600000,
+          "last": -432900000
+        },
+        {
+          "region": "North America",
+          "first": -438600000,
+          "last": -430600000
+        },
+        {
+          "region": "North America",
+          "first": -438600000,
+          "last": -426700000
+        },
+        {
+          "region": "North America",
+          "first": -432900000,
+          "last": -430600000
+        },
+        {
+          "region": "North America",
+          "first": -432900000,
+          "last": -426700000
+        },
+        {
+          "region": "North America",
+          "first": -432900000,
+          "last": -422700000
+        },
+        {
+          "region": "North America",
+          "first": -426700000,
+          "last": -422700000
+        },
+        {
+          "region": "North America",
+          "first": -425000000,
+          "last": -419620000
+        },
+        {
+          "region": "North America",
+          "first": -422700000,
+          "last": -419620000
+        }
+      ],
+      "coverage": [
+        -443100000,
+        -438100000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eucalyptocrinites&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/crinoids/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "eurypterus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -432900000,
+          "last": -422700000
+        },
+        {
+          "region": "North America",
+          "first": -426700000,
+          "last": -422700000
+        },
+        {
+          "region": "North America",
+          "first": -426700000,
+          "last": -419620000
+        },
+        {
+          "region": "North America",
+          "first": -425000000,
+          "last": -422700000
+        },
+        {
+          "region": "North America",
+          "first": -422700000,
+          "last": -419620000
+        }
+      ],
+      "coverage": [
+        -432900000,
+        -422700000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eurypterus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://nysm.nysed.gov/exhibitions/windows/eurypterid"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "cooksonia",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -422700000,
+          "last": -419620000
+        },
+        {
+          "region": "North America",
+          "first": -413020000,
+          "last": -410620000
+        }
+      ],
+      "coverage": [
+        -422700000,
+        -419620000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cooksonia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360123/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "archaeopteris",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -387950000,
+          "last": -382310000
+        },
+        {
+          "region": "North America",
+          "first": -382310000,
+          "last": -379000000
+        },
+        {
+          "region": "North America",
+          "first": -382310000,
+          "last": -372150000
+        },
+        {
+          "region": "North America",
+          "first": -382310000,
+          "last": -358860000
+        },
+        {
+          "region": "North America",
+          "first": -375200000,
+          "last": -372150000
+        },
+        {
+          "region": "North America",
+          "first": -372150000,
+          "last": -368500000
+        },
+        {
+          "region": "North America",
+          "first": -372150000,
+          "last": -358860000
+        },
+        {
+          "region": "North America",
+          "first": -368500000,
+          "last": -365200000
+        }
+      ],
+      "coverage": [
+        -387950000,
+        -382310000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Archaeopteris&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://doi.org/10.1016/j.revpalbo.2024.105212"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "dunkleosteus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -382310000,
+          "last": -358860000
+        },
+        {
+          "region": "North America",
+          "first": -375200000,
+          "last": -372150000
+        },
+        {
+          "region": "North America",
+          "first": -372150000,
+          "last": -358860000
+        }
+      ],
+      "coverage": [
+        -382310000,
+        -358860000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dunkleosteus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.cmnh.org/explore/galleries-attractions/visitor-hall"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "knightia",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "freshwater",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -56000000,
+          "last": -51100000
+        }
+      ],
+      "coverage": [
+        -56000000,
+        -51100000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Knightia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/fobu/learn/fossils-geology.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "metasequoia",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -89800000,
+          "last": -72200000
+        },
+        {
+          "region": "North America",
+          "first": -72200000,
+          "last": -66000000
+        },
+        {
+          "region": "North America",
+          "first": -66000000,
+          "last": -63400000
+        },
+        {
+          "region": "North America",
+          "first": -66000000,
+          "last": -61660000
+        },
+        {
+          "region": "North America",
+          "first": -66000000,
+          "last": -56000000
+        },
+        {
+          "region": "North America",
+          "first": -63400000,
+          "last": -60900000
+        },
+        {
+          "region": "North America",
+          "first": -60900000,
+          "last": -57500000
+        },
+        {
+          "region": "North America",
+          "first": -57500000,
+          "last": -56000000
+        },
+        {
+          "region": "North America",
+          "first": -56000000,
+          "last": -51100000
+        },
+        {
+          "region": "North America",
+          "first": -56000000,
+          "last": -48070000
+        },
+        {
+          "region": "North America",
+          "first": -56000000,
+          "last": -33900000
+        },
+        {
+          "region": "North America",
+          "first": -45900000,
+          "last": -39700000
+        },
+        {
+          "region": "North America",
+          "first": -37710000,
+          "last": -23040000
+        },
+        {
+          "region": "North America",
+          "first": -33900000,
+          "last": -27300000
+        },
+        {
+          "region": "North America",
+          "first": -33900000,
+          "last": -23040000
+        },
+        {
+          "region": "North America",
+          "first": -23040000,
+          "last": -5333000
+        }
+      ],
+      "coverage": [
+        -89800000,
+        -72200000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Metasequoia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/articles/000/battle-of-the-bark.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "mesohippus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -39700000,
+          "last": -37000000
+        },
+        {
+          "region": "North America",
+          "first": -39700000,
+          "last": -33900000
+        },
+        {
+          "region": "North America",
+          "first": -37000000,
+          "last": -33900000
+        },
+        {
+          "region": "North America",
+          "first": -33900000,
+          "last": -31800000
+        },
+        {
+          "region": "North America",
+          "first": -31800000,
+          "last": -29500000
+        }
+      ],
+      "coverage": [
+        -39700000,
+        -37000000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mesohippus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/media/photo/view.htm?id=7f8cefd8-408f-419f-9e11-9a787b4660e2"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "merychippus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -20450000,
+          "last": -15980000
+        },
+        {
+          "region": "North America",
+          "first": -18500000,
+          "last": -16300000
+        },
+        {
+          "region": "North America",
+          "first": -18500000,
+          "last": -12500000
+        },
+        {
+          "region": "North America",
+          "first": -16300000,
+          "last": -12500000
+        },
+        {
+          "region": "North America",
+          "first": -16300000,
+          "last": -9400000
+        },
+        {
+          "region": "North America",
+          "first": -15980000,
+          "last": -11630000
+        },
+        {
+          "region": "North America",
+          "first": -13820000,
+          "last": -11630000
+        },
+        {
+          "region": "North America",
+          "first": -12500000,
+          "last": -9400000
+        }
+      ],
+      "coverage": [
+        -20450000,
+        -15980000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Merychippus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.floridamuseum.ufl.edu/fossil-horses/gallery/merychippus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "coelophysis",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -227300000,
+          "last": -205700000
+        },
+        {
+          "region": "North America",
+          "first": -205700000,
+          "last": -201400000
+        }
+      ],
+      "coverage": [
+        -227300000,
+        -205700000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelophysis&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/subjects/fossils/triassic-dinosaurs.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
+    },
+    {
+      "id": "edmontonia",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -83600000,
+          "last": -72200000
+        },
+        {
+          "region": "North America",
+          "first": -83600000,
+          "last": -66000000
+        },
+        {
+          "region": "North America",
+          "first": -72200000,
+          "last": -66000000
+        }
+      ],
+      "coverage": [
+        -83600000,
+        -72200000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Edmontonia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "https://www.nps.gov/dena/learn/nature/edmontonia.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+        "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+        "This is a continental habitat mosaic, not a single fossil assemblage."
+      ],
+      "feedingEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data"
     }
   ]
 }

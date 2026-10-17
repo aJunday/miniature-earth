@@ -1065,8 +1065,88 @@
     ]
   },
   "org_platystrophia": {
-    "full": 776,
-    "distant": 372,
+    "full": 2750,
+    "distant": 1320,
+    "parts": [
+      "Body"
+    ]
+  },
+  "org_camarasaurus": {
+    "full": 2736,
+    "distant": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_deinonychus": {
+    "full": 2746,
+    "distant": 1308,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Tail"
+    ]
+  },
+  "org_dilophosaurus": {
+    "full": 2734,
+    "distant": 1308,
+    "parts": [
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Tail"
+    ]
+  },
+  "org_diplomystus": {
+    "full": 1532,
+    "distant": 760,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  "org_placerias": {
+    "full": 2736,
+    "distant": 1305,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_cloudina": {
+    "full": 1152,
+    "distant": 552,
     "parts": [
       "Body"
     ]

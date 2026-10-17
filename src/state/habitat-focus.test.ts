@@ -16,3 +16,12 @@ it('nearby dates preserve compatible group identities, population and habitat an
  for(const ga of a.groups!){const gb=b.groups!.find(g=>g.id===ga.id);expect(gb,ga.speciesId).toBeDefined();expect([gb!.population,gb!.x,gb!.z]).toEqual([ga.population,ga.x,ga.z])}
  expect(historicalState(yearToTick(-220e6),'North America')).toEqual(a);
 });
+it('second expansion fills supported Mesozoic and Eocene checkpoint gaps',()=>{for(const [year,id] of [[-230e6,'placerias'],[-200e6,'dilophosaurus'],[-160e6,'camarasaurus'],[-120e6,'deinonychus'],[-50e6,'diplomystus']] as const){expect(historicalState(yearToTick(year),'North America').populations[id],id).toBeGreaterThan(0);expect(eligibility(id,2026,undefined,'North America').allowed).toBe(false)}});
+it('class-level marine proxies cover sourced intervals without pretending to be one species',()=>{
+ for(const y of [-475e6,-395e6])expect(eligibility('trilobite',y,'marine','North America').allowed).toBe(true);
+ for(const y of [-250e6,-180e6,-140e6])expect(eligibility('ammonite',y,'marine','North America').allowed).toBe(true);
+ expect(eligibility('cloudina',-540e6,'marine','North America').allowed).toBe(true);
+ expect(eligibility('cloudina',-600e6,'marine','North America').allowed).toBe(false);
+ expect(eligibility('metasequoia',2026,undefined,'mosaic').allowed).toBe(false);
+ for(const id of ['grass','oak'])expect(eligibility(id,1000,undefined,'North America').allowed).toBe(true);
+});

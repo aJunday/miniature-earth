@@ -1,0 +1,1377 @@
+{
+  "results": [
+    {
+      "year": -600000000,
+      "region": "North America",
+      "era": "Ediacaran",
+      "dateRange": [
+        -635000000,
+        -538800000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 0,
+      "usableModels": 0,
+      "defaultGroups": [],
+      "population": {},
+      "status": "CONTENT MISSING · 0 supported groups",
+      "calls": 8,
+      "triangles": 16136,
+      "geometries": 16,
+      "textures": 5,
+      "frameMs": 16.69999998807907,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {},
+      "medianMs": 33.29999999999927,
+      "p95Ms": 33.399999999999636,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/0.png"
+    },
+    {
+      "year": -560000000,
+      "region": "North America",
+      "era": "Ediacaran",
+      "dateRange": [
+        -635000000,
+        -538800000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [
+        "charnia"
+      ],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 1,
+      "usableModels": 1,
+      "defaultGroups": [
+        "charnia"
+      ],
+      "population": {
+        "charnia": 18
+      },
+      "status": "PARTIALLY POPULATED · 1 supported groups",
+      "calls": 6,
+      "triangles": 23456,
+      "geometries": 17,
+      "textures": 5,
+      "frameMs": 51.69999998807907,
+      "rendered": 12,
+      "inFrame": 12,
+      "animalsInFrame": 12,
+      "bySpecies": {
+        "charnia": 12
+      },
+      "populations": {
+        "charnia": 18
+      },
+      "medianMs": 50,
+      "p95Ms": 50.10000000000218,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/1.png"
+    },
+    {
+      "year": -540000000,
+      "region": "North America",
+      "era": "Ediacaran",
+      "dateRange": [
+        -635000000,
+        -538800000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 0,
+      "usableModels": 0,
+      "defaultGroups": [],
+      "population": {},
+      "status": "CONTENT MISSING · 0 supported groups",
+      "calls": 5,
+      "triangles": 15632,
+      "geometries": 16,
+      "textures": 5,
+      "frameMs": 49,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {},
+      "medianMs": 50,
+      "p95Ms": 50.10000000000218,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/2.png"
+    },
+    {
+      "year": -500000000,
+      "region": "North America",
+      "era": "Cambrian",
+      "dateRange": [
+        -538800000,
+        -486850000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [
+        "trilobite",
+        "anomalocaris",
+        "vauxia"
+      ],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 3,
+      "usableModels": 3,
+      "defaultGroups": [
+        "trilobite",
+        "anomalocaris",
+        "vauxia"
+      ],
+      "population": {
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "status": "PARTIALLY POPULATED · 3 supported groups",
+      "calls": 8,
+      "triangles": 40368,
+      "geometries": 19,
+      "textures": 5,
+      "frameMs": 52,
+      "rendered": 23,
+      "inFrame": 16,
+      "animalsInFrame": 16,
+      "bySpecies": {
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "populations": {
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "medianMs": 33.299999999995634,
+      "p95Ms": 33.400000000001455,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/3.png"
+    },
+    {
+      "year": -450000000,
+      "region": "North America",
+      "era": "Ordovician",
+      "dateRange": [
+        -486850000,
+        -443100000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [
+        "platystrophia"
+      ],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 1,
+      "usableModels": 1,
+      "defaultGroups": [
+        "platystrophia"
+      ],
+      "population": {
+        "platystrophia": 8
+      },
+      "status": "PARTIALLY POPULATED · 1 supported groups",
+      "calls": 6,
+      "triangles": 18448,
+      "geometries": 17,
+      "textures": 5,
+      "frameMs": 26.900000035762787,
+      "rendered": 8,
+      "inFrame": 8,
+      "animalsInFrame": 8,
+      "bySpecies": {
+        "platystrophia": 8
+      },
+      "populations": {
+        "platystrophia": 8
+      },
+      "medianMs": 33.400000000001455,
+      "p95Ms": 50.099999999998545,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/4.png"
+    },
+    {
+      "year": -420000000,
+      "region": "North America",
+      "era": "Silurian",
+      "dateRange": [
+        -443100000,
+        -419620000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [
+        "eucalyptocrinites",
+        "eurypterus"
+      ],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "cooksonia"
+      ],
+      "other": [],
+      "validatedRecords": 3,
+      "usableModels": 3,
+      "defaultGroups": [
+        "eucalyptocrinites",
+        "eurypterus",
+        "cooksonia"
+      ],
+      "population": {
+        "eucalyptocrinites": 8,
+        "eurypterus": 3,
+        "cooksonia": 24
+      },
+      "status": "PARTIALLY POPULATED · 3 supported groups",
+      "calls": 9,
+      "triangles": 33060,
+      "geometries": 20,
+      "textures": 6,
+      "frameMs": 56.10000002384186,
+      "rendered": 21,
+      "inFrame": 18,
+      "animalsInFrame": 8,
+      "bySpecies": {
+        "eucalyptocrinites": 8,
+        "eurypterus": 3,
+        "cooksonia": 10
+      },
+      "populations": {
+        "eucalyptocrinites": 8,
+        "eurypterus": 3,
+        "cooksonia": 24
+      },
+      "medianMs": 50,
+      "p95Ms": 66.59999999999854,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/5.png"
+    },
+    {
+      "year": -370000000,
+      "region": "North America",
+      "era": "Devonian",
+      "dateRange": [
+        -419620000,
+        -358900000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [
+        "dunkleosteus"
+      ],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "archaeopteris"
+      ],
+      "other": [],
+      "validatedRecords": 2,
+      "usableModels": 2,
+      "defaultGroups": [
+        "archaeopteris",
+        "dunkleosteus"
+      ],
+      "population": {
+        "archaeopteris": 24,
+        "dunkleosteus": 3
+      },
+      "status": "PARTIALLY POPULATED · 2 supported groups",
+      "calls": 9,
+      "triangles": 31412,
+      "geometries": 20,
+      "textures": 6,
+      "frameMs": 53,
+      "rendered": 13,
+      "inFrame": 13,
+      "animalsInFrame": 3,
+      "bySpecies": {
+        "archaeopteris": 10,
+        "dunkleosteus": 3
+      },
+      "populations": {
+        "archaeopteris": 24,
+        "dunkleosteus": 3
+      },
+      "medianMs": 50,
+      "p95Ms": 66.80000000000291,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/6.png"
+    },
+    {
+      "year": -320000000,
+      "region": "North America",
+      "era": "Carboniferous",
+      "dateRange": [
+        -358900000,
+        -298900000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "fern",
+        "lycophyte",
+        "horsetail"
+      ],
+      "other": [],
+      "validatedRecords": 3,
+      "usableModels": 3,
+      "defaultGroups": [
+        "fern",
+        "lycophyte",
+        "horsetail"
+      ],
+      "population": {
+        "fern": 60,
+        "lycophyte": 24,
+        "horsetail": 45
+      },
+      "status": "PARTIALLY POPULATED · 3 supported groups",
+      "calls": 15,
+      "triangles": 112994,
+      "geometries": 25,
+      "textures": 8,
+      "frameMs": 113.80000001192093,
+      "rendered": 30,
+      "inFrame": 29,
+      "animalsInFrame": 0,
+      "bySpecies": {
+        "fern": 10,
+        "lycophyte": 10,
+        "horsetail": 10
+      },
+      "populations": {
+        "fern": 60,
+        "lycophyte": 24,
+        "horsetail": 45
+      },
+      "medianMs": 50,
+      "p95Ms": 66.70000000001164,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/7.png"
+    },
+    {
+      "year": -270000000,
+      "region": "North America",
+      "era": "Permian",
+      "dateRange": [
+        -298900000,
+        -251900000
+      ],
+      "landAnimals": [
+        "dimetrodon"
+      ],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 1,
+      "usableModels": 1,
+      "defaultGroups": [
+        "dimetrodon"
+      ],
+      "population": {
+        "dimetrodon": 3
+      },
+      "status": "PARTIALLY POPULATED · 1 supported groups",
+      "calls": 15,
+      "triangles": 29376,
+      "geometries": 30,
+      "textures": 6,
+      "frameMs": 45.39999997615814,
+      "rendered": 2,
+      "inFrame": 2,
+      "animalsInFrame": 2,
+      "bySpecies": {
+        "dimetrodon": 2
+      },
+      "populations": {
+        "dimetrodon": 3
+      },
+      "medianMs": 16.69999999999709,
+      "p95Ms": 33.39999999999418,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/8.png"
+    },
+    {
+      "year": -230000000,
+      "region": "North America",
+      "era": "Triassic",
+      "dateRange": [
+        -251900000,
+        -201400000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 0,
+      "usableModels": 0,
+      "defaultGroups": [],
+      "population": {},
+      "status": "CONTENT MISSING · 0 supported groups",
+      "calls": 5,
+      "triangles": 20606,
+      "geometries": 29,
+      "textures": 5,
+      "frameMs": 38.5,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {},
+      "medianMs": 33.39999999999418,
+      "p95Ms": 50,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/9.png"
+    },
+    {
+      "year": -200000000,
+      "region": "North America",
+      "era": "Jurassic",
+      "dateRange": [
+        -201400000,
+        -145000000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 0,
+      "usableModels": 0,
+      "defaultGroups": [],
+      "population": {},
+      "status": "CONTENT MISSING · 0 supported groups",
+      "calls": 5,
+      "triangles": 23144,
+      "geometries": 29,
+      "textures": 5,
+      "frameMs": 40.80000001192093,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {},
+      "medianMs": 33.39999999999418,
+      "p95Ms": 50.09999999999127,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/10.png"
+    },
+    {
+      "year": -160000000,
+      "region": "North America",
+      "era": "Jurassic",
+      "dateRange": [
+        -201400000,
+        -145000000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 0,
+      "usableModels": 0,
+      "defaultGroups": [],
+      "population": {},
+      "status": "CONTENT MISSING · 0 supported groups",
+      "calls": 5,
+      "triangles": 23144,
+      "geometries": 29,
+      "textures": 5,
+      "frameMs": 62.30000001192093,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {},
+      "medianMs": 50,
+      "p95Ms": 66.69999999999709,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/11.png"
+    },
+    {
+      "year": -120000000,
+      "region": "North America",
+      "era": "Cretaceous",
+      "dateRange": [
+        -145000000,
+        -66000000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 0,
+      "usableModels": 0,
+      "defaultGroups": [],
+      "population": {},
+      "status": "CONTENT MISSING · 0 supported groups",
+      "calls": 5,
+      "triangles": 23064,
+      "geometries": 29,
+      "textures": 5,
+      "frameMs": 39.40000003576279,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {},
+      "medianMs": 33.40000000000873,
+      "p95Ms": 50,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/12.png"
+    },
+    {
+      "year": -90000000,
+      "region": "North America",
+      "era": "Cretaceous",
+      "dateRange": [
+        -145000000,
+        -66000000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [
+        "ammonite"
+      ],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 1,
+      "usableModels": 1,
+      "defaultGroups": [
+        "ammonite"
+      ],
+      "population": {
+        "ammonite": 10
+      },
+      "status": "PARTIALLY POPULATED · 1 supported groups",
+      "calls": 6,
+      "triangles": 36224,
+      "geometries": 30,
+      "textures": 5,
+      "frameMs": 47.10000002384186,
+      "rendered": 10,
+      "inFrame": 10,
+      "animalsInFrame": 10,
+      "bySpecies": {
+        "ammonite": 10
+      },
+      "populations": {
+        "ammonite": 10
+      },
+      "medianMs": 50,
+      "p95Ms": 50.10000000000582,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/13.png"
+    },
+    {
+      "year": -66000000,
+      "region": "North America",
+      "era": "Paleogene",
+      "dateRange": [
+        -66000000,
+        -23030000
+      ],
+      "landAnimals": [
+        "triceratops",
+        "edmontonia"
+      ],
+      "marineAnimals": [
+        "ammonite"
+      ],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "metasequoia"
+      ],
+      "other": [],
+      "validatedRecords": 4,
+      "usableModels": 4,
+      "defaultGroups": [
+        "ammonite",
+        "triceratops",
+        "metasequoia",
+        "edmontonia"
+      ],
+      "population": {
+        "ammonite": 3,
+        "triceratops": 8,
+        "metasequoia": 24,
+        "edmontonia": 8
+      },
+      "status": "WELL POPULATED · 4 supported groups",
+      "calls": 21,
+      "triangles": 67340,
+      "geometries": 45,
+      "textures": 8,
+      "frameMs": 216.19999998807907,
+      "rendered": 27,
+      "inFrame": 15,
+      "animalsInFrame": 14,
+      "bySpecies": {
+        "ammonite": 3,
+        "triceratops": 6,
+        "metasequoia": 10,
+        "edmontonia": 8
+      },
+      "populations": {
+        "ammonite": 3,
+        "triceratops": 8,
+        "metasequoia": 24,
+        "edmontonia": 8
+      },
+      "medianMs": 83.29999999998836,
+      "p95Ms": 150,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/14.png"
+    },
+    {
+      "year": -50000000,
+      "region": "North America",
+      "era": "Paleogene",
+      "dateRange": [
+        -66000000,
+        -23030000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "metasequoia"
+      ],
+      "other": [],
+      "validatedRecords": 1,
+      "usableModels": 1,
+      "defaultGroups": [
+        "metasequoia"
+      ],
+      "population": {
+        "metasequoia": 24
+      },
+      "status": "PARTIALLY POPULATED · 1 supported groups",
+      "calls": 8,
+      "triangles": 36504,
+      "geometries": 41,
+      "textures": 6,
+      "frameMs": 63.30000001192093,
+      "rendered": 10,
+      "inFrame": 10,
+      "animalsInFrame": 0,
+      "bySpecies": {
+        "metasequoia": 10
+      },
+      "populations": {
+        "metasequoia": 24
+      },
+      "medianMs": 66.69999999998254,
+      "p95Ms": 66.70000000001164,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/15.png"
+    },
+    {
+      "year": -20000000,
+      "region": "North America",
+      "era": "Neogene",
+      "dateRange": [
+        -23030000,
+        -2580000
+      ],
+      "landAnimals": [
+        "merychippus"
+      ],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "oak",
+        "metasequoia"
+      ],
+      "other": [],
+      "validatedRecords": 3,
+      "usableModels": 3,
+      "defaultGroups": [
+        "oak",
+        "metasequoia",
+        "merychippus"
+      ],
+      "population": {
+        "oak": 24,
+        "metasequoia": 24,
+        "merychippus": 8
+      },
+      "status": "PARTIALLY POPULATED · 3 supported groups",
+      "calls": 15,
+      "triangles": 84026,
+      "geometries": 46,
+      "textures": 8,
+      "frameMs": 96.10000002384186,
+      "rendered": 28,
+      "inFrame": 22,
+      "animalsInFrame": 2,
+      "bySpecies": {
+        "metasequoia": 10,
+        "oak": 10,
+        "merychippus": 8
+      },
+      "populations": {
+        "oak": 24,
+        "metasequoia": 24,
+        "merychippus": 8
+      },
+      "medianMs": 100,
+      "p95Ms": 100,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/16.png"
+    },
+    {
+      "year": -5000000,
+      "region": "North America",
+      "era": "Neogene",
+      "dateRange": [
+        -23030000,
+        -2580000
+      ],
+      "landAnimals": [
+        "groundsloth"
+      ],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "grass",
+        "oak"
+      ],
+      "other": [],
+      "validatedRecords": 3,
+      "usableModels": 3,
+      "defaultGroups": [
+        "grass",
+        "groundsloth",
+        "oak"
+      ],
+      "population": {
+        "grass": 90,
+        "groundsloth": 5,
+        "oak": 24
+      },
+      "status": "PARTIALLY POPULATED · 3 supported groups",
+      "calls": 24,
+      "triangles": 79302,
+      "geometries": 55,
+      "textures": 8,
+      "frameMs": 84,
+      "rendered": 25,
+      "inFrame": 8,
+      "animalsInFrame": 0,
+      "bySpecies": {
+        "oak": 10,
+        "grass": 10,
+        "groundsloth": 5
+      },
+      "populations": {
+        "grass": 90,
+        "groundsloth": 5,
+        "oak": 24
+      },
+      "medianMs": 83.30000000001746,
+      "p95Ms": 100.10000000000582,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/17.png"
+    },
+    {
+      "year": -1800000,
+      "region": "North America",
+      "era": "Early Pleistocene",
+      "dateRange": [
+        -2580000,
+        -129000
+      ],
+      "landAnimals": [
+        "groundsloth"
+      ],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "grass",
+        "oak"
+      ],
+      "other": [],
+      "validatedRecords": 3,
+      "usableModels": 3,
+      "defaultGroups": [
+        "grass",
+        "oak",
+        "groundsloth"
+      ],
+      "population": {
+        "grass": 24,
+        "oak": 24,
+        "groundsloth": 8
+      },
+      "status": "PARTIALLY POPULATED · 3 supported groups",
+      "calls": 25,
+      "triangles": 82564,
+      "geometries": 55,
+      "textures": 8,
+      "frameMs": 82.5,
+      "rendered": 26,
+      "inFrame": 8,
+      "animalsInFrame": 0,
+      "bySpecies": {
+        "groundsloth": 6,
+        "oak": 10,
+        "grass": 10
+      },
+      "populations": {
+        "grass": 24,
+        "oak": 24,
+        "groundsloth": 8
+      },
+      "medianMs": 83.39999999999418,
+      "p95Ms": 100,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/18.png"
+    },
+    {
+      "year": -10000,
+      "region": "North America",
+      "era": "Holocene",
+      "dateRange": [
+        -11700,
+        1900
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [
+        "grass",
+        "oak"
+      ],
+      "other": [],
+      "validatedRecords": 2,
+      "usableModels": 2,
+      "defaultGroups": [
+        "grass",
+        "oak"
+      ],
+      "population": {
+        "grass": 24,
+        "oak": 24
+      },
+      "status": "PARTIALLY POPULATED · 2 supported groups",
+      "calls": 11,
+      "triangles": 80104,
+      "geometries": 51,
+      "textures": 5,
+      "frameMs": 92.10000002384186,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {
+        "grass": 24,
+        "oak": 24
+      },
+      "medianMs": 83.30000000001746,
+      "p95Ms": 83.40000000002328,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/19.png"
+    },
+    {
+      "year": 1892,
+      "region": "North America",
+      "era": "Holocene",
+      "dateRange": [
+        -11700,
+        1900
+      ],
+      "landAnimals": [
+        "deer",
+        "redfox",
+        "condor",
+        "passengerpigeon",
+        "baldeagle",
+        "bison",
+        "graywolf"
+      ],
+      "marineAnimals": [
+        "seaotter",
+        "menhaden"
+      ],
+      "freshwaterAnimals": [
+        "beaver"
+      ],
+      "vegetation": [
+        "grass",
+        "oak"
+      ],
+      "other": [],
+      "validatedRecords": 12,
+      "usableModels": 12,
+      "defaultGroups": [
+        "passengerpigeon",
+        "grass",
+        "oak",
+        "baldeagle",
+        "deer",
+        "redfox",
+        "condor",
+        "seaotter",
+        "bison",
+        "graywolf",
+        "beaver",
+        "menhaden"
+      ],
+      "population": {
+        "passengerpigeon": 6,
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "status": "WELL POPULATED · 12 supported groups",
+      "calls": 26,
+      "triangles": 137706,
+      "geometries": 69,
+      "textures": 13,
+      "frameMs": 94.80000001192093,
+      "rendered": 46,
+      "inFrame": 34,
+      "animalsInFrame": 34,
+      "bySpecies": {
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 2,
+        "seaotter": 3,
+        "bison": 6,
+        "graywolf": 2,
+        "beaver": 8,
+        "menhaden": 8,
+        "passengerpigeon": 6
+      },
+      "populations": {
+        "passengerpigeon": 6,
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "medianMs": 83.39999999999418,
+      "p95Ms": 100.10000000000582,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/20.png"
+    },
+    {
+      "year": 2026,
+      "region": "North America",
+      "era": "Present",
+      "dateRange": [
+        1900,
+        2027
+      ],
+      "landAnimals": [
+        "deer",
+        "redfox",
+        "condor",
+        "baldeagle",
+        "bison",
+        "graywolf"
+      ],
+      "marineAnimals": [
+        "seaotter",
+        "menhaden"
+      ],
+      "freshwaterAnimals": [
+        "beaver"
+      ],
+      "vegetation": [
+        "grass",
+        "oak"
+      ],
+      "other": [],
+      "validatedRecords": 11,
+      "usableModels": 11,
+      "defaultGroups": [
+        "grass",
+        "oak",
+        "baldeagle",
+        "deer",
+        "redfox",
+        "condor",
+        "seaotter",
+        "bison",
+        "graywolf",
+        "beaver",
+        "menhaden"
+      ],
+      "population": {
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "status": "WELL POPULATED · 11 supported groups",
+      "calls": 24,
+      "triangles": 129870,
+      "geometries": 67,
+      "textures": 12,
+      "frameMs": 88.69999998807907,
+      "rendered": 40,
+      "inFrame": 28,
+      "animalsInFrame": 28,
+      "bySpecies": {
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 2,
+        "seaotter": 3,
+        "bison": 6,
+        "graywolf": 2,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "populations": {
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "medianMs": 83.39999999999418,
+      "p95Ms": 100,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/21.png"
+    },
+    {
+      "year": 2050,
+      "region": "North America",
+      "era": "Future scenarios",
+      "dateRange": [
+        2027,
+        null
+      ],
+      "landAnimals": [
+        "deer",
+        "redfox",
+        "condor",
+        "baldeagle",
+        "bison",
+        "graywolf"
+      ],
+      "marineAnimals": [
+        "seaotter",
+        "menhaden"
+      ],
+      "freshwaterAnimals": [
+        "beaver"
+      ],
+      "vegetation": [
+        "grass",
+        "oak"
+      ],
+      "other": [],
+      "validatedRecords": 11,
+      "usableModels": 11,
+      "defaultGroups": [
+        "grass",
+        "oak",
+        "baldeagle",
+        "deer",
+        "redfox",
+        "condor",
+        "seaotter",
+        "bison",
+        "graywolf",
+        "beaver",
+        "menhaden"
+      ],
+      "population": {
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "status": "WELL POPULATED · 8 supported groups",
+      "calls": 23,
+      "triangles": 166462,
+      "geometries": 64,
+      "textures": 11,
+      "frameMs": 112.29999995231628,
+      "rendered": 90,
+      "inFrame": 71,
+      "animalsInFrame": 18,
+      "bySpecies": {
+        "baldeagle": 2,
+        "condor": 2,
+        "seaotter": 7,
+        "graywolf": 2,
+        "beaver": 12,
+        "menhaden": 5,
+        "grass": 30,
+        "oak": 30
+      },
+      "populations": {
+        "grass": 240,
+        "oak": 240,
+        "baldeagle": 6.036310763146692,
+        "deer": 0,
+        "redfox": 0,
+        "condor": 6.853205832239711,
+        "seaotter": 6.523528580854129,
+        "bison": 0,
+        "graywolf": 12.5053159183261,
+        "beaver": 54.53324533362582,
+        "menhaden": 4.529847101920038
+      },
+      "medianMs": 116.60000000000582,
+      "p95Ms": 116.70000000001164,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/22.png"
+    },
+    {
+      "year": 2100,
+      "region": "North America",
+      "era": "Future scenarios",
+      "dateRange": [
+        2027,
+        null
+      ],
+      "landAnimals": [
+        "deer",
+        "redfox",
+        "condor",
+        "baldeagle",
+        "bison",
+        "graywolf"
+      ],
+      "marineAnimals": [
+        "seaotter",
+        "menhaden"
+      ],
+      "freshwaterAnimals": [
+        "beaver"
+      ],
+      "vegetation": [
+        "grass",
+        "oak"
+      ],
+      "other": [],
+      "validatedRecords": 11,
+      "usableModels": 11,
+      "defaultGroups": [
+        "grass",
+        "oak",
+        "baldeagle",
+        "deer",
+        "redfox",
+        "condor",
+        "seaotter",
+        "bison",
+        "graywolf",
+        "beaver",
+        "menhaden"
+      ],
+      "population": {
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "status": "PARTIALLY POPULATED · 3 supported groups",
+      "calls": 15,
+      "triangles": 133404,
+      "geometries": 56,
+      "textures": 8,
+      "frameMs": 100.39999997615814,
+      "rendered": 72,
+      "inFrame": 64,
+      "animalsInFrame": 12,
+      "bySpecies": {
+        "beaver": 12,
+        "grass": 30,
+        "oak": 30
+      },
+      "populations": {
+        "grass": 163.7932218019308,
+        "oak": 163.7932218019308,
+        "baldeagle": 0,
+        "deer": 0,
+        "redfox": 0,
+        "condor": 0,
+        "seaotter": 0,
+        "bison": 0,
+        "graywolf": 0,
+        "beaver": 17.229944607817032,
+        "menhaden": 0
+      },
+      "medianMs": 100,
+      "p95Ms": 116.70000000001164,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/23.png"
+    },
+    {
+      "year": -580000000,
+      "region": "North America",
+      "era": "Ediacaran",
+      "dateRange": [
+        -635000000,
+        -538800000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 0,
+      "usableModels": 0,
+      "defaultGroups": [],
+      "population": {},
+      "status": "CONTENT MISSING · 0 supported groups",
+      "calls": 8,
+      "triangles": 16136,
+      "geometries": 51,
+      "textures": 5,
+      "frameMs": 31.400000035762787,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {},
+      "medianMs": 33.29999999998836,
+      "p95Ms": 33.40000000002328,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/24.png"
+    },
+    {
+      "year": -550000000,
+      "region": "North America",
+      "era": "Ediacaran",
+      "dateRange": [
+        -635000000,
+        -538800000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 0,
+      "usableModels": 0,
+      "defaultGroups": [],
+      "population": {},
+      "status": "CONTENT MISSING · 0 supported groups",
+      "calls": 8,
+      "triangles": 16136,
+      "geometries": 51,
+      "textures": 5,
+      "frameMs": 45.60000002384186,
+      "rendered": 0,
+      "inFrame": 0,
+      "animalsInFrame": 0,
+      "bySpecies": {},
+      "populations": {},
+      "medianMs": 33.29999999998836,
+      "p95Ms": 33.40000000002328,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/25.png"
+    },
+    {
+      "year": -520000000,
+      "region": "North America",
+      "era": "Cambrian",
+      "dateRange": [
+        -538800000,
+        -486850000
+      ],
+      "landAnimals": [],
+      "marineAnimals": [
+        "trilobite"
+      ],
+      "freshwaterAnimals": [],
+      "vegetation": [],
+      "other": [],
+      "validatedRecords": 1,
+      "usableModels": 1,
+      "defaultGroups": [
+        "trilobite"
+      ],
+      "population": {
+        "trilobite": 12
+      },
+      "status": "PARTIALLY POPULATED · 1 supported groups",
+      "calls": 6,
+      "triangles": 31192,
+      "geometries": 52,
+      "textures": 5,
+      "frameMs": 45.80000001192093,
+      "rendered": 12,
+      "inFrame": 12,
+      "animalsInFrame": 12,
+      "bySpecies": {
+        "trilobite": 12
+      },
+      "populations": {
+        "trilobite": 12
+      },
+      "medianMs": 50,
+      "p95Ms": 50.100000000034925,
+      "rewind": "PASS",
+      "screenshot": "qa/shots/biodiversity/26.png"
+    }
+  ],
+  "errors": []
+}

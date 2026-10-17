@@ -944,22 +944,6 @@
     ]
   },
   {
-    "id": "dunkleosteus",
-    "bones": 11,
-    "skins": 7,
-    "actions": [
-      "Idle",
-      "Walk",
-      "Run",
-      "Forage",
-      "Rest",
-      "Swim",
-      "Fly",
-      "Birth",
-      "Death"
-    ]
-  },
-  {
     "id": "knightia",
     "bones": 11,
     "skins": 7,
@@ -992,22 +976,6 @@
     ]
   },
   {
-    "id": "merychippus",
-    "bones": 15,
-    "skins": 9,
-    "actions": [
-      "Idle",
-      "Walk",
-      "Run",
-      "Forage",
-      "Rest",
-      "Swim",
-      "Fly",
-      "Birth",
-      "Death"
-    ]
-  },
-  {
     "id": "coelophysis",
     "bones": 13,
     "skins": 9,
@@ -1025,6 +993,118 @@
   },
   {
     "id": "edmontonia",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "placerias",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "dilophosaurus",
+    "bones": 13,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "camarasaurus",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "deinonychus",
+    "bones": 13,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "diplomystus",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "dunkleosteus",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "merychippus",
     "bones": 15,
     "skins": 9,
     "actions": [

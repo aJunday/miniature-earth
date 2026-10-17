@@ -265,6 +265,25 @@
     ]
   },
   {
+    "id": "camarasaurus",
+    "file": "/models/org_camarasaurus.glb",
+    "icon": "/icons/org_camarasaurus.png",
+    "heightUnits": 2.4000000953674316,
+    "triangles": 2736,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
     "id": "capybara",
     "file": "/models/org_capybara.glb",
     "icon": "/icons/org_capybara.png",
@@ -310,6 +329,17 @@
       "Leg_FL",
       "Leg_FR",
       "Tail"
+    ]
+  },
+  {
+    "id": "cloudina",
+    "file": "/models/org_cloudina.glb",
+    "icon": "/icons/org_cloudina.png",
+    "heightUnits": 0.44999998807907104,
+    "triangles": 1152,
+    "parts": [
+      "Root",
+      "Body"
     ]
   },
   {
@@ -418,6 +448,25 @@
     ]
   },
   {
+    "id": "deinonychus",
+    "file": "/models/org_deinonychus.glb",
+    "icon": "/icons/org_deinonychus.png",
+    "heightUnits": 0.8999999761581421,
+    "triangles": 2746,
+    "parts": [
+      "Root",
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Tail"
+    ]
+  },
+  {
     "id": "desmatosuchus",
     "file": "/models/org_desmatosuchus.glb",
     "icon": "/icons/org_desmatosuchus.png",
@@ -452,6 +501,25 @@
     ]
   },
   {
+    "id": "dilophosaurus",
+    "file": "/models/org_dilophosaurus.glb",
+    "icon": "/icons/org_dilophosaurus.png",
+    "heightUnits": 1.399999976158142,
+    "triangles": 2734,
+    "parts": [
+      "Root",
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Tail"
+    ]
+  },
+  {
     "id": "dimetrodon",
     "file": "/models/org_dimetrodon.glb",
     "icon": "/icons/org_dimetrodon.png",
@@ -467,6 +535,23 @@
       "Leg_BR",
       "Leg_FL",
       "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
+    "id": "diplomystus",
+    "file": "/models/org_diplomystus.glb",
+    "icon": "/icons/org_diplomystus.png",
+    "heightUnits": 0.4999999972060323,
+    "triangles": 1532,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
       "Tail"
     ]
   },
@@ -990,11 +1075,30 @@
     ]
   },
   {
+    "id": "placerias",
+    "file": "/models/org_placerias.glb",
+    "icon": "/icons/org_placerias.png",
+    "heightUnits": 1.2000000476837158,
+    "triangles": 2736,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
     "id": "platystrophia",
     "file": "/models/org_platystrophia.glb",
     "icon": "/icons/org_platystrophia.png",
-    "heightUnits": 0.3199999928474426,
-    "triangles": 776,
+    "heightUnits": 0.3200000077486038,
+    "triangles": 2750,
     "parts": [
       "Root",
       "Body"

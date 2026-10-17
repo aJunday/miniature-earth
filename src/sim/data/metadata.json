@@ -498,7 +498,8 @@
       "Represents a family; dates and biology must not be read as those of one species.",
       "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
       "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory.",
-      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
+      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population.",
+      "A zero-Ma upper bound on a Holocene fossil bin means the recent/present boundary, not calendar year zero. The living group reconstruction extends through 2026; no exact historical abundance is inferred."
     ],
     "sources": [
       {
@@ -549,12 +550,12 @@
       {
         "region": "North America",
         "first": -11700.0,
-        "last": 0.0
+        "last": 2026
       },
       {
         "region": "North America",
         "first": -129000.0,
-        "last": 0.0
+        "last": 2026
       },
       {
         "region": "North America",
@@ -646,7 +647,8 @@
       "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
       "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory.",
       "Southern North American fossil oak canopy is a broad Quercus proxy based on incompletely dated and sometimes reworked woods. This coarse display interval is not one species range or uninterrupted local occupancy.",
-      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
+      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population.",
+      "A zero-Ma upper bound on a Holocene fossil bin means the recent/present boundary, not calendar year zero. The living group reconstruction extends through 2026; no exact historical abundance is inferred."
     ],
     "sources": [
       {
@@ -707,7 +709,7 @@
       {
         "region": "North America",
         "first": -11700.0,
-        "last": 0.0
+        "last": 2026
       },
       {
         "region": "North America",
@@ -2872,7 +2874,7 @@
     "lastOccurrence": -252000000.0,
     "dateBasis": "Approximate fossil range; not exact origination or extinction dates",
     "habitat": "Marine; diverse seafloor habitats",
-    "habitatEvidence": "source-linked",
+    "habitatEvidence": "Marine class-level proxy, supported by regional fossil occurrences; species-specific microhabitats unresolved.",
     "waterDomain": "marine",
     "food": "Varied among species; no single diet for the class",
     "foodEvidence": "source-linked",
@@ -2882,7 +2884,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a class; dates and biology must not be read as those of one species."
+      "Represents a class; dates and biology must not be read as those of one species.",
+      "The trilobite miniature is an explicitly generalized three-lobed class-level body plan. Different regional windows represent different taxa, not one long-lived species; exact spines, segment counts and soft tissues vary and are not reconstructed for every occurrence."
     ],
     "sources": [
       {
@@ -2914,6 +2917,31 @@
         "field": "anatomy",
         "url": "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/",
         "label": "ROM \u00b7 segmented three-lobed anatomy; original broad-group model"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&interval=Ordovician&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "label": "PBDB Trilobita class query; original locality references retained, CC BY 4.0"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&interval=Silurian&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "label": "PBDB Trilobita class query; original locality references retained, CC BY 4.0"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB Trilobita class query; original locality references retained, CC BY 4.0"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&interval=Devonian&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "label": "PBDB Trilobita class query; original locality references retained, CC BY 4.0"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Trilobita&interval=Permian&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "label": "PBDB Trilobita class query; original locality references retained, CC BY 4.0"
       }
     ],
     "checked": "2026-10-16",
@@ -2934,6 +2962,241 @@
         "region": "North America",
         "first": -506500000.0,
         "last": -497000000.0
+      },
+      {
+        "region": "North America",
+        "first": -469400000.0,
+        "last": -458200000.0
+      },
+      {
+        "region": "North America",
+        "first": -471300000.0,
+        "last": -470300000.0
+      },
+      {
+        "region": "North America",
+        "first": -475300000.0,
+        "last": -471300000.0
+      },
+      {
+        "region": "North America",
+        "first": -477100000.0,
+        "last": -468000000.0
+      },
+      {
+        "region": "North America",
+        "first": -481700000.0,
+        "last": -475300000.0
+      },
+      {
+        "region": "North America",
+        "first": -483400000.0,
+        "last": -481700000.0
+      },
+      {
+        "region": "North America",
+        "first": -486400000.0,
+        "last": -477100000.0
+      },
+      {
+        "region": "North America",
+        "first": -486850000.0,
+        "last": -471300000.0
+      },
+      {
+        "region": "North America",
+        "first": -486850000.0,
+        "last": -477100000.0
+      },
+      {
+        "region": "North America",
+        "first": -486850000.0,
+        "last": -483400000.0
+      },
+      {
+        "region": "North America",
+        "first": -422700000.0,
+        "last": -419620000.0
+      },
+      {
+        "region": "North America",
+        "first": -426700000.0,
+        "last": -422700000.0
+      },
+      {
+        "region": "North America",
+        "first": -430600000.0,
+        "last": -426700000.0
+      },
+      {
+        "region": "North America",
+        "first": -432900000.0,
+        "last": -426700000.0
+      },
+      {
+        "region": "North America",
+        "first": -438600000.0,
+        "last": -432900000.0
+      },
+      {
+        "region": "North America",
+        "first": -443100000.0,
+        "last": -432900000.0
+      },
+      {
+        "region": "North America",
+        "first": -303700000.0,
+        "last": -298900000.0
+      },
+      {
+        "region": "North America",
+        "first": -306000000.0,
+        "last": -303700000.0
+      },
+      {
+        "region": "North America",
+        "first": -312800000.0,
+        "last": -306000000.0
+      },
+      {
+        "region": "North America",
+        "first": -353700000.0,
+        "last": -346700000.0
+      },
+      {
+        "region": "North America",
+        "first": -358860000.0,
+        "last": -342900000.0
+      },
+      {
+        "region": "North America",
+        "first": -493500000.0,
+        "last": -488900000.0
+      },
+      {
+        "region": "North America",
+        "first": -497000000.0,
+        "last": -486850000.0
+      },
+      {
+        "region": "North America",
+        "first": -497000000.0,
+        "last": -493500000.0
+      },
+      {
+        "region": "North America",
+        "first": -497000000.0,
+        "last": -494200000.0
+      },
+      {
+        "region": "North America",
+        "first": -504500000.0,
+        "last": -497000000.0
+      },
+      {
+        "region": "North America",
+        "first": -509700000.0,
+        "last": -505300000.0
+      },
+      {
+        "region": "North America",
+        "first": -515299999.99999994,
+        "last": -509700000.0
+      },
+      {
+        "region": "North America",
+        "first": -516000000.0,
+        "last": -508200000.0
+      },
+      {
+        "region": "North America",
+        "first": -365200000.0,
+        "last": -358860000.0
+      },
+      {
+        "region": "North America",
+        "first": -382310000.0,
+        "last": -372150000.0
+      },
+      {
+        "region": "North America",
+        "first": -387950000.0,
+        "last": -382310000.0
+      },
+      {
+        "region": "North America",
+        "first": -393470000.0,
+        "last": -382310000.0
+      },
+      {
+        "region": "North America",
+        "first": -393470000.0,
+        "last": -387950000.0
+      },
+      {
+        "region": "North America",
+        "first": -410620000.0,
+        "last": -393470000.0
+      },
+      {
+        "region": "North America",
+        "first": -410620000.0,
+        "last": -399500000.0
+      },
+      {
+        "region": "North America",
+        "first": -413020000.0,
+        "last": -410620000.0
+      },
+      {
+        "region": "North America",
+        "first": -419620000.0,
+        "last": -410620000.0
+      },
+      {
+        "region": "North America",
+        "first": -419620000.0,
+        "last": -413020000.0
+      },
+      {
+        "region": "North America",
+        "first": -266899999.99999997,
+        "last": -264279999.99999997
+      },
+      {
+        "region": "North America",
+        "first": -274400000.0,
+        "last": -266899999.99999997
+      },
+      {
+        "region": "North America",
+        "first": -276800000.0,
+        "last": -264899999.99999997
+      },
+      {
+        "region": "North America",
+        "first": -283300000.0,
+        "last": -274400000.0
+      },
+      {
+        "region": "North America",
+        "first": -286000000.0,
+        "last": -274400000.0
+      },
+      {
+        "region": "North America",
+        "first": -290100000.0,
+        "last": -283300000.0
+      },
+      {
+        "region": "North America",
+        "first": -293520000.0,
+        "last": -290100000.0
+      },
+      {
+        "region": "North America",
+        "first": -298900000.0,
+        "last": -293520000.0
       }
     ]
   },
@@ -3065,7 +3328,7 @@
     "lastOccurrence": null,
     "dateBasis": "No reviewed date estimate in this catalogue",
     "habitat": "Marine",
-    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "habitatEvidence": "Source-backed North American marine ammonoid occurrence windows, varying taxa by interval.",
     "waterDomain": "marine",
     "food": null,
     "foodEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims.",
@@ -3076,7 +3339,8 @@
     "relationships": [],
     "notes": [
       "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
-      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population."
+      "Group proxy: fossil members differ from living species. Dated regional windows represent deposit uncertainty, not exact species lifespans or a continuous local population.",
+      "Ammonoid group proxy: the coiled-shell miniature represents different regional members of Ammonoidea through time, including Triassic ceratitids; it is not a single genus or species. Fine shell ornament and soft tissues are generalized. Feeding rates remain illustrative."
     ],
     "sources": [
       {
@@ -3088,6 +3352,26 @@
         "field": "regionalCoverage",
         "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonitida&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
         "label": "PBDB screened North American group occurrences, CC BY 4.0; original citations retained"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonoidea&interval=Berriasian&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "label": "PBDB Ammonoidea regional occurrences; subclass reconstruction, CC BY 4.0"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonoidea&interval=Early+Cretaceous&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "label": "PBDB Ammonoidea regional occurrences; subclass reconstruction, CC BY 4.0"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonoidea&interval=Early+Triassic&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "label": "PBDB Ammonoidea regional occurrences; subclass reconstruction, CC BY 4.0"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ammonoidea&interval=Early+Jurassic&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=100",
+        "label": "PBDB Ammonoidea regional occurrences; subclass reconstruction, CC BY 4.0"
       }
     ],
     "checked": "2026-10-16",
@@ -3143,6 +3427,71 @@
         "region": "North America",
         "first": -132600000.0,
         "last": -125770000.0
+      },
+      {
+        "region": "North America",
+        "first": -143100000.0,
+        "last": -137050000.0
+      },
+      {
+        "region": "North America",
+        "first": -143100000.0,
+        "last": -141000000.0
+      },
+      {
+        "region": "North America",
+        "first": -110100000.0,
+        "last": -100500000.0
+      },
+      {
+        "region": "North America",
+        "first": -113200000.0,
+        "last": -110100000.0
+      },
+      {
+        "region": "North America",
+        "first": -248600000.0,
+        "last": -247000000.0
+      },
+      {
+        "region": "North America",
+        "first": -250800000.0,
+        "last": -248600000.0
+      },
+      {
+        "region": "North America",
+        "first": -251902000.0,
+        "last": -247000000.0
+      },
+      {
+        "region": "North America",
+        "first": -184200000.0,
+        "last": -174700000.0
+      },
+      {
+        "region": "North America",
+        "first": -185100000.0,
+        "last": -183500000.0
+      },
+      {
+        "region": "North America",
+        "first": -186200000.0,
+        "last": -185100000.0
+      },
+      {
+        "region": "North America",
+        "first": -189200000.0,
+        "last": -186200000.0
+      },
+      {
+        "region": "North America",
+        "first": -192900000.0,
+        "last": -184200000.0
+      },
+      {
+        "region": "North America",
+        "first": -199500000.0,
+        "last": -192900000.0
       }
     ]
   },
@@ -3187,11 +3536,6 @@
         "field": "feeding ecology",
         "label": "Harvard Museum of Natural History",
         "url": "https://whatsinaname.hmnh.harvard.edu/dimetrodon"
-      },
-      {
-        "field": "regionalCoverage",
-        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dimetrodon&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
-        "label": "PBDB screened North American occurrences; raw references retained"
       },
       {
         "field": "regionalCoverage",
@@ -4817,7 +5161,7 @@
     "waterDomain": "terrestrial",
     "food": "Photosynthesis",
     "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
-    "extinctionStatus": "extinct",
+    "extinctionStatus": "Fossil regional reconstruction; genus has living representatives in Asia",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
@@ -4934,7 +5278,8 @@
         "first": -23040000.0,
         "last": -5333000.0
       }
-    ]
+    ],
+    "fossilReconstruction": true
   },
   "mesohippus": {
     "commonName": "Three-toed browsing horse",
@@ -5231,6 +5576,443 @@
         "region": "North America",
         "first": -72200000.0,
         "last": -66000000.0
+      }
+    ]
+  },
+  "placerias": {
+    "commonName": "Placerias",
+    "scientificName": "Placerias",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Stocky dicynodont with a beak and paired upper tusks; a mammal relative, not a dinosaur",
+    "waterDomain": "terrestrial",
+    "food": "Plant matter",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Placerias&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/subjects/fossils/vertebrate-fossils.htm",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -237000000.0,
+      -227300000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -237000000.0,
+        "last": -227300000.0
+      },
+      {
+        "region": "North America",
+        "first": -227300000.0,
+        "last": -205700000.0
+      }
+    ]
+  },
+  "dilophosaurus": {
+    "commonName": "Dilophosaurus",
+    "scientificName": "Dilophosaurus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Bipedal theropod with two thin cranial crests; no fictional neck frill or venom",
+    "waterDomain": "terrestrial",
+    "food": "Animal prey",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dilophosaurus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.jsg.utexas.edu/txvp/dilophosaurus/",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -201400000.0,
+      -192900000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -201400000.0,
+        "last": -192900000.0
+      },
+      {
+        "region": "North America",
+        "first": -199500000.0,
+        "last": -184200000.0
+      },
+      {
+        "region": "North America",
+        "first": -192900000.0,
+        "last": -184200000.0
+      }
+    ]
+  },
+  "camarasaurus": {
+    "commonName": "Camarasaurus",
+    "scientificName": "Camarasaurus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Robust sauropod with a boxy skull, long neck and four pillar-like legs",
+    "waterDomain": "terrestrial",
+    "food": "Plant matter",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Camarasaurus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/dino/learn/nature/camarasaurus-lentus.htm",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -161500000.0,
+      -143100000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -161500000.0,
+        "last": -143100000.0
+      },
+      {
+        "region": "North America",
+        "first": -157900000.0,
+        "last": -152210000.0
+      },
+      {
+        "region": "North America",
+        "first": -154800000.0,
+        "last": -149200000.0
+      },
+      {
+        "region": "North America",
+        "first": -154800000.0,
+        "last": -143100000.0
+      },
+      {
+        "region": "North America",
+        "first": -152210000.0,
+        "last": -149200000.0
+      },
+      {
+        "region": "North America",
+        "first": -152210000.0,
+        "last": -145060000.0
+      },
+      {
+        "region": "North America",
+        "first": -152210000.0,
+        "last": -143100000.0
+      },
+      {
+        "region": "North America",
+        "first": -149200000.0,
+        "last": -145060000.0
+      },
+      {
+        "region": "North America",
+        "first": -149200000.0,
+        "last": -143100000.0
+      }
+    ]
+  },
+  "deinonychus": {
+    "commonName": "Deinonychus",
+    "scientificName": "Deinonychus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Light biped with a raised sickle claw on each hind foot; feather covering inferred from relatives",
+    "waterDomain": "terrestrial",
+    "food": "Animal prey",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Deinonychus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.amnh.org/exhibitions/permanent/saurischian-dinosaurs/deinonychus-cast-link-to-early-birds--amnh",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -121400000.0,
+      -113200000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -121400000.0,
+        "last": -113200000.0
+      },
+      {
+        "region": "North America",
+        "first": -121400000.0,
+        "last": -110100000.0
+      },
+      {
+        "region": "North America",
+        "first": -121400000.0,
+        "last": -100500000.0
+      },
+      {
+        "region": "North America",
+        "first": -119570000.0,
+        "last": -113200000.0
+      },
+      {
+        "region": "North America",
+        "first": -119570000.0,
+        "last": -110100000.0
+      },
+      {
+        "region": "North America",
+        "first": -113200000.0,
+        "last": -100500000.0
+      }
+    ]
+  },
+  "diplomystus": {
+    "commonName": "Diplomystus lake predator",
+    "scientificName": "Diplomystus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Freshwater lake",
+    "habitatEvidence": "Deep-bodied Eocene lake fish; preserved specimens document fish predation",
+    "waterDomain": "freshwater",
+    "food": "Animal prey",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Diplomystus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/fobu/learn/nature/fossil-fish.htm",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -56000000.0,
+      -51100000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -51100000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -48070000.0
+      },
+      {
+        "region": "North America",
+        "first": -51100000.0,
+        "last": -45900000.0
+      }
+    ]
+  },
+  "cloudina": {
+    "commonName": "Cloudina tube colony",
+    "scientificName": "Cloudina",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Terminal Ediacaran (~550\u2013539 Ma) literature reconstruction window; PBDB whole-period ages alone are too broad.",
+    "habitat": "Shallow marine reconstruction",
+    "habitatEvidence": "Nested mineralized tubes of a late Ediacaran organism; affinities and detailed feeding are uncertain",
+    "waterDomain": "marine",
+    "food": "Uncertain; modeled suspended food is an explicit teaching assumption",
+    "foodEvidence": "Feeding and affinities unresolved; a suspension-feeding hypothesis supplies the illustrative resource link.",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cloudina&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5524506/",
+        "label": "Museum, scientific institution or primary publication"
+      },
+      {
+        "field": "age context and uncertainty",
+        "url": "https://www.nature.com/articles/s41467-019-13882-z",
+        "label": "Schiffbauer et al. 2020; cloudinomorph biology and terminal Ediacaran context"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -550000000.0,
+      -539000000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -550000000.0,
+        "last": -539000000.0
       }
     ]
   }

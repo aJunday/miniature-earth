@@ -116,7 +116,7 @@ for name in sorted(BUDGETS):
         expected=[n for n in names if n!='Root']
         allowed={'Body','Head','Eye_L','Eye_R','Leg_FL','Leg_FR','Leg_BL','Leg_BR','Tail','Arm_L','Arm_R','Wing_L','Wing_R','Fin_L','Fin_R','Trunk','Foliage'}
         assert set(expected)<=allowed,names
-        assert ('Body' in names) if name in ['org_vauxia','org_platystrophia','org_eucalyptocrinites'] else ('Foliage' in names) if name[4:] in PLANTS else {'Body','Head','Eye_L','Eye_R'}<=set(names)
+        assert ('Body' in names) if name in ['org_cloudina','org_vauxia','org_platystrophia','org_eucalyptocrinites'] else ('Foliage' in names) if name[4:] in PLANTS else {'Body','Head','Eye_L','Eye_R'}<=set(names)
     allpoints=[]; bypart={}; tree=[]; triangles=0
     def visit(index,parent,depth):
         global triangles

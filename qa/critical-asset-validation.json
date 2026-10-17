@@ -35,6 +35,11 @@
     "warnings": 0
   },
   {
+    "path": "org_archaeopteris.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "org_arthropleura.glb",
     "errors": 0,
     "warnings": 0
@@ -75,6 +80,11 @@
     "warnings": 0
   },
   {
+    "path": "org_camarasaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "org_capybara.glb",
     "errors": 0,
     "warnings": 0
@@ -90,12 +100,27 @@
     "warnings": 0
   },
   {
+    "path": "org_cloudina.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_coelophysis.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "org_condor.glb",
     "errors": 0,
     "warnings": 0
   },
   {
     "path": "org_conifer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_cooksonia.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -115,6 +140,11 @@
     "warnings": 0
   },
   {
+    "path": "org_deinonychus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "org_desmatosuchus.glb",
     "errors": 0,
     "warnings": 0
@@ -125,12 +155,32 @@
     "warnings": 0
   },
   {
+    "path": "org_dilophosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "org_dimetrodon.glb",
     "errors": 0,
     "warnings": 0
   },
   {
+    "path": "org_diplomystus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "org_dodo.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_dunkleosteus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_edmontonia.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -141,6 +191,16 @@
   },
   {
     "path": "org_emperorpenguin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_eucalyptocrinites.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_eurypterus.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -195,6 +255,11 @@
     "warnings": 0
   },
   {
+    "path": "org_knightia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "org_koala.glb",
     "errors": 0,
     "warnings": 0
@@ -211,6 +276,21 @@
   },
   {
     "path": "org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_merychippus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_mesohippus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_metasequoia.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -241,6 +321,16 @@
   },
   {
     "path": "org_pintatortoise.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_placerias.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_platystrophia.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -395,6 +485,11 @@
     "warnings": 0
   },
   {
+    "path": "lod/org_archaeopteris.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "lod/org_arthropleura.glb",
     "errors": 0,
     "warnings": 0
@@ -435,6 +530,11 @@
     "warnings": 0
   },
   {
+    "path": "lod/org_camarasaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "lod/org_capybara.glb",
     "errors": 0,
     "warnings": 0
@@ -450,12 +550,27 @@
     "warnings": 0
   },
   {
+    "path": "lod/org_cloudina.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_coelophysis.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "lod/org_condor.glb",
     "errors": 0,
     "warnings": 0
   },
   {
     "path": "lod/org_conifer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_cooksonia.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -475,6 +590,11 @@
     "warnings": 0
   },
   {
+    "path": "lod/org_deinonychus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "lod/org_desmatosuchus.glb",
     "errors": 0,
     "warnings": 0
@@ -485,12 +605,32 @@
     "warnings": 0
   },
   {
+    "path": "lod/org_dilophosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "lod/org_dimetrodon.glb",
     "errors": 0,
     "warnings": 0
   },
   {
+    "path": "lod/org_diplomystus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "lod/org_dodo.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_dunkleosteus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_edmontonia.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -501,6 +641,16 @@
   },
   {
     "path": "lod/org_emperorpenguin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_eucalyptocrinites.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_eurypterus.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -555,6 +705,11 @@
     "warnings": 0
   },
   {
+    "path": "lod/org_knightia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "lod/org_koala.glb",
     "errors": 0,
     "warnings": 0
@@ -571,6 +726,21 @@
   },
   {
     "path": "lod/org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_merychippus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_mesohippus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_metasequoia.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -601,6 +771,16 @@
   },
   {
     "path": "lod/org_pintatortoise.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_placerias.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_platystrophia.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -795,12 +975,22 @@
     "warnings": 0
   },
   {
+    "path": "rigged/org_camarasaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "rigged/org_capybara.glb",
     "errors": 0,
     "warnings": 0
   },
   {
     "path": "rigged/org_cheetah.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_coelophysis.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -815,6 +1005,11 @@
     "warnings": 0
   },
   {
+    "path": "rigged/org_deinonychus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "rigged/org_desmatosuchus.glb",
     "errors": 0,
     "warnings": 0
@@ -825,7 +1020,17 @@
     "warnings": 0
   },
   {
+    "path": "rigged/org_dilophosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "rigged/org_dimetrodon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_diplomystus.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -835,7 +1040,22 @@
     "warnings": 0
   },
   {
+    "path": "rigged/org_dunkleosteus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_edmontonia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "rigged/org_emperorpenguin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_eurypterus.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -875,6 +1095,11 @@
     "warnings": 0
   },
   {
+    "path": "rigged/org_knightia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
     "path": "rigged/org_koala.glb",
     "errors": 0,
     "warnings": 0
@@ -886,6 +1111,16 @@
   },
   {
     "path": "rigged/org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_merychippus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_mesohippus.glb",
     "errors": 0,
     "warnings": 0
   },
@@ -911,6 +1146,11 @@
   },
   {
     "path": "rigged/org_pintatortoise.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_placerias.glb",
     "errors": 0,
     "warnings": 0
   },
