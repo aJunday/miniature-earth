@@ -227,3 +227,6 @@ Added wildlife framing on era entry, explicit wildlife view, catalogue focus and
 
 ## Critical overhaul D — marine presentation
 Added a marine camera view that frames loaded aquatic wildlife and reduces foreground water opacity for aquarium-style inspection. New marine anchors prefer shallow water; trilobites sit on the seafloor. Existing base/LOD/rig assets preserved. Build passes.
+
+## Critical overhaul E — visible conservation outcomes
+Added same-camera baseline/conservation world switching beside the same-founder comparison. Live vegetation now responds to both plant biomass and modeled habitat availability; rivers already track live water and animal instances track surviving populations. Selected-species explanations distinguish local modeled loss from global extinction. No scripted recovery or extinction outcomes added.
