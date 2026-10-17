@@ -23,7 +23,7 @@ for item in json.loads((BASE/'src/sim/data/species.json').read_text()):
     if key not in HEIGHTS and key not in SIZES: HEIGHTS[key]=item['height']
 EXPECTED={'island_'+era:['Top','Sides','Water','Deco'] for era in ['precambrian','jurassic','present']}
 EXPECTED.update({'org_fern':['Foliage'],'org_stegosaurus':['Body','Head','Eye_L','Eye_R','Leg_FL','Leg_FR','Leg_BL','Leg_BR','Tail']})
-PLANTS={'vauxia','decomposer','stromatolite','charnia','fern','cycad','conifer','grass','oak','wildflower','seagrass','elkhorncoral','lycophyte','horsetail'}
+PLANTS={'cooksonia','archaeopteris','metasequoia','vauxia','decomposer','stromatolite','charnia','fern','cycad','conifer','grass','oak','wildflower','seagrass','elkhorncoral','lycophyte','horsetail'}
 BUDGETS={name:(15000 if name.startswith('island_') else 1500 if name[4:] in PLANTS else 3000) for name in set(EXPECTED)|set(HEIGHTS)|set(SIZES)}
 
 def glb(path):
@@ -116,7 +116,7 @@ for name in sorted(BUDGETS):
         expected=[n for n in names if n!='Root']
         allowed={'Body','Head','Eye_L','Eye_R','Leg_FL','Leg_FR','Leg_BL','Leg_BR','Tail','Arm_L','Arm_R','Wing_L','Wing_R','Fin_L','Fin_R','Trunk','Foliage'}
         assert set(expected)<=allowed,names
-        assert ('Body' in names) if name=='org_vauxia' else ('Foliage' in names) if name[4:] in PLANTS else {'Body','Head','Eye_L','Eye_R'}<=set(names)
+        assert ('Body' in names) if name in ['org_vauxia','org_platystrophia','org_eucalyptocrinites'] else ('Foliage' in names) if name[4:] in PLANTS else {'Body','Head','Eye_L','Eye_R'}<=set(names)
     allpoints=[]; bypart={}; tree=[]; triangles=0
     def visit(index,parent,depth):
         global triangles

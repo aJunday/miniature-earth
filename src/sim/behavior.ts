@@ -1,4 +1,4 @@
-export const isMobileSpecies=(id:string,diet:string)=>!['producer','decomposer'].includes(diet)&&!['charnia','elkhorncoral','vauxia'].includes(id);
+export const isMobileSpecies=(id:string,diet:string)=>!['producer','decomposer'].includes(diet)&&!['charnia','elkhorncoral','vauxia','platystrophia','eucalyptocrinites'].includes(id);
 /** Visual steering only: ecological births, feeding and deaths remain in simulation.ts.
  * Pure and deterministic for a fixed initial state, dt and neighborhood. */
 export type Behavior='idle'|'walk'|'swim'|'fly'|'forage'|'rest'|'flee'|'pursue'|'drink';

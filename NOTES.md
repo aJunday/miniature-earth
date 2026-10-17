@@ -259,3 +259,6 @@
 - Whole-project update; retain North America as the selected default region and preserve the unrelated .gitignore edit. No push or deploy.
 - Audit the 24 requested dates and 23 midpoints. Empty implemented coverage means CONTENT MISSING unless a separate source review establishes genuinely limited evidence; absence from this catalogue is not evidence of absence of life.
 - Reconstructed counts, colours, dimensions and animation remain illustrative. Deposit-age envelopes are uncertain display windows, not continuous local occupation or exact species lifespans.
+- Added twelve genus-level original reconstructions, not twelve exact species populations. PBDB queried US/Canada, accepted genus names and conservative age bounds, retained original references, and rejected anomalous or overly broad records. Bounded queries are not comprehensive occurrence inventories.
+- New art preserves diagnostic body plans; colours, proportions and soft tissue are stylized or inferred. Eurypterus uses a shallow marine analogue; precise salinity and physiological tolerances are unknown.
+- Source-reviewed fossil genera have disjoint regional deposit-age windows. These do not establish continuous occupation or exact biological origin/extinction; future/local population parameters remain uncalibrated.

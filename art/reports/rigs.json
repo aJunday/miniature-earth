@@ -926,5 +926,117 @@
       "Birth",
       "Death"
     ]
+  },
+  {
+    "id": "eurypterus",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "dunkleosteus",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "knightia",
+    "bones": 11,
+    "skins": 7,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "mesohippus",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "merychippus",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "coelophysis",
+    "bones": 13,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "edmontonia",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
   }
 ]

@@ -226,6 +226,35 @@
       "transparent_pixels": 50521
     }
   },
+  "org_archaeopteris": {
+    "triangles": 1310,
+    "budget": 1500,
+    "bounds_min": [
+      -0.7845879197120667,
+      0.0,
+      -0.6340660452842712
+    ],
+    "bounds_max": [
+      0.7845879197120667,
+      2.200000047683716,
+      0.6340660452842712
+    ],
+    "height": 2.200000047683716,
+    "node_tree": [
+      "Root",
+      "  Foliage",
+      "  Trunk"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 50496
+    }
+  },
   "org_arthropleura": {
     "triangles": 2690,
     "budget": 3000,
@@ -606,6 +635,42 @@
       "transparent_pixels": 46056
     }
   },
+  "org_coelophysis": {
+    "triangles": 2724,
+    "budget": 3000,
+    "bounds_min": [
+      -0.32773107290267944,
+      0.0,
+      -1.0252100229263306
+    ],
+    "bounds_max": [
+      0.32773107290267944,
+      1.0,
+      0.8151260018348694
+    ],
+    "height": 1.0,
+    "node_tree": [
+      "Root",
+      "  Arm_L",
+      "  Arm_R",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 46938
+    }
+  },
   "org_condor": {
     "triangles": 2734,
     "budget": 3000,
@@ -669,6 +734,35 @@
         255
       ],
       "transparent_pixels": 44928
+    }
+  },
+  "org_cooksonia": {
+    "triangles": 684,
+    "budget": 1500,
+    "bounds_min": [
+      -0.11089655011892319,
+      0.0,
+      -0.051724135875701904
+    ],
+    "bounds_max": [
+      0.10675860941410065,
+      0.30000000167638063,
+      0.031034480780363083
+    ],
+    "height": 0.30000000167638063,
+    "node_tree": [
+      "Root",
+      "  Foliage",
+      "  Trunk"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 57350
     }
   },
   "org_cycad": {
@@ -905,6 +999,76 @@
       "transparent_pixels": 41857
     }
   },
+  "org_dunkleosteus": {
+    "triangles": 1908,
+    "budget": 3000,
+    "bounds_min": [
+      -0.4507257789373398,
+      0.0,
+      -0.9821174740791321
+    ],
+    "bounds_max": [
+      0.4507257789373398,
+      0.8500000014901161,
+      0.924988329410553
+    ],
+    "height": 0.8500000014901161,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Fin_L",
+      "  Fin_R",
+      "  Head",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 45777
+    }
+  },
+  "org_edmontonia": {
+    "triangles": 2734,
+    "budget": 3000,
+    "bounds_min": [
+      -0.6760373115539551,
+      0.0,
+      -1.2110859155654907
+    ],
+    "bounds_max": [
+      0.6760373115539551,
+      1.2000000476837158,
+      0.9634463489055634
+    ],
+    "height": 1.2000000476837158,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 48080
+    }
+  },
   "org_elkhorncoral": {
     "triangles": 352,
     "budget": 1500,
@@ -967,6 +1131,68 @@
         255
       ],
       "transparent_pixels": 41796
+    }
+  },
+  "org_eucalyptocrinites": {
+    "triangles": 2694,
+    "budget": 3000,
+    "bounds_min": [
+      -0.2134842872619629,
+      0.0,
+      -0.2030356228351593
+    ],
+    "bounds_max": [
+      0.2134842872619629,
+      0.7499999731153366,
+      0.2030356228351593
+    ],
+    "height": 0.7499999731153366,
+    "node_tree": [
+      "Root",
+      "  Body"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 54435
+    }
+  },
+  "org_eurypterus": {
+    "triangles": 2740,
+    "budget": 3000,
+    "bounds_min": [
+      -0.8363812267780304,
+      0.0,
+      -1.3723562955856323
+    ],
+    "bounds_max": [
+      0.8363812267780304,
+      0.3499999940395355,
+      0.849449634552002
+    ],
+    "height": 0.3499999940395355,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Fin_L",
+      "  Fin_R",
+      "  Head",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 54973
     }
   },
   "org_fern": {
@@ -1302,6 +1528,40 @@
       "transparent_pixels": 41285
     }
   },
+  "org_knightia": {
+    "triangles": 1532,
+    "budget": 3000,
+    "bounds_min": [
+      -0.18559296429157257,
+      0.0,
+      -0.4044013023376465
+    ],
+    "bounds_max": [
+      0.18559296429157257,
+      0.3499999828636646,
+      0.34913772344589233
+    ],
+    "height": 0.3499999828636646,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Fin_L",
+      "  Fin_R",
+      "  Head",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 47221
+    }
+  },
   "org_koala": {
     "triangles": 2714,
     "budget": 3000,
@@ -1435,6 +1695,107 @@
         255
       ],
       "transparent_pixels": 45776
+    }
+  },
+  "org_merychippus": {
+    "triangles": 2744,
+    "budget": 3000,
+    "bounds_min": [
+      -0.3184279799461365,
+      0.0,
+      -0.5828258395195007
+    ],
+    "bounds_max": [
+      0.3184279799461365,
+      1.100000023841858,
+      0.8283321857452393
+    ],
+    "height": 1.100000023841858,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 42666
+    }
+  },
+  "org_mesohippus": {
+    "triangles": 2744,
+    "budget": 3000,
+    "bounds_min": [
+      -0.24605798721313477,
+      0.0,
+      -0.45036542415618896
+    ],
+    "bounds_max": [
+      0.24605798721313477,
+      0.8500000238418579,
+      0.5983011722564697
+    ],
+    "height": 0.8500000238418579,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 42860
+    }
+  },
+  "org_metasequoia": {
+    "triangles": 1334,
+    "budget": 1500,
+    "bounds_min": [
+      -0.9133332967758179,
+      0.0,
+      -0.7199999690055847
+    ],
+    "bounds_max": [
+      0.9133332967758179,
+      2.5,
+      0.7199999690055847
+    ],
+    "height": 2.5,
+    "node_tree": [
+      "Root",
+      "  Foliage",
+      "  Trunk"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 50232
     }
   },
   "org_mountaingorilla": {
@@ -1646,6 +2007,34 @@
         255
       ],
       "transparent_pixels": 46458
+    }
+  },
+  "org_platystrophia": {
+    "triangles": 776,
+    "budget": 3000,
+    "bounds_min": [
+      -0.4105899930000305,
+      0.0,
+      -0.37869080901145935
+    ],
+    "bounds_max": [
+      0.4105899930000305,
+      0.3199999928474426,
+      0.303054541349411
+    ],
+    "height": 0.3199999928474426,
+    "node_tree": [
+      "Root",
+      "  Body"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 44780
     }
   },
   "org_polarbear": {

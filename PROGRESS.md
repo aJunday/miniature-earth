@@ -250,3 +250,6 @@ Audited 24 requested checkpoints plus 23 midpoints against the actual North Amer
 
 ## Biodiversity expansion B — DONE
 Fixed regional temporal coverage borrowing and relocated automatic founding groups through the same habitat-aware placement function as dynamically selected groups. 111 tests pass, including deterministic rewind, custom islands, ecology and new interval rejection. Historical-only generation remains separate from intentionally empty sandbox worlds.
+
+## Biodiversity expansion C — DONE (bounded reviewed expansion)
+Added twelve playable original models: Platystrophia, Eucalyptocrinites, Eurypterus, Cooksonia, Archaeopteris, Dunkleosteus, Knightia, fossil Metasequoia, Mesohippus, Merychippus, Coelophysis and Edmontonia. Added PBDB screened North American occurrence windows and museum/publication anatomy and ecology sources; restored dated regional Dimetrodon coverage. Catalogue is 84 playable organisms; reference library remains separate. All new full/LOD/icon assets built with Cycles CPU; seven mobile genera receive shared deform rigs, attached filter feeders remain sessile. 111 tests, typecheck and build pass. Full asset contracts and visual inspection continue before acceptance.

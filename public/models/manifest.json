@@ -108,6 +108,18 @@
     ]
   },
   {
+    "id": "archaeopteris",
+    "file": "/models/org_archaeopteris.glb",
+    "icon": "/icons/org_archaeopteris.png",
+    "heightUnits": 2.200000047683716,
+    "triangles": 1310,
+    "parts": [
+      "Root",
+      "Foliage",
+      "Trunk"
+    ]
+  },
+  {
     "id": "arthropleura",
     "file": "/models/org_arthropleura.glb",
     "icon": "/icons/org_arthropleura.png",
@@ -301,6 +313,25 @@
     ]
   },
   {
+    "id": "coelophysis",
+    "file": "/models/org_coelophysis.glb",
+    "icon": "/icons/org_coelophysis.png",
+    "heightUnits": 1.0,
+    "triangles": 2724,
+    "parts": [
+      "Root",
+      "Arm_L",
+      "Arm_R",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Tail"
+    ]
+  },
+  {
     "id": "condor",
     "file": "/models/org_condor.glb",
     "icon": "/icons/org_condor.png",
@@ -325,6 +356,18 @@
     "icon": "/icons/org_conifer.png",
     "heightUnits": 2.5999999046325684,
     "triangles": 1368,
+    "parts": [
+      "Root",
+      "Foliage",
+      "Trunk"
+    ]
+  },
+  {
+    "id": "cooksonia",
+    "file": "/models/org_cooksonia.glb",
+    "icon": "/icons/org_cooksonia.png",
+    "heightUnits": 0.30000000167638063,
+    "triangles": 684,
     "parts": [
       "Root",
       "Foliage",
@@ -447,6 +490,42 @@
     ]
   },
   {
+    "id": "dunkleosteus",
+    "file": "/models/org_dunkleosteus.glb",
+    "icon": "/icons/org_dunkleosteus.png",
+    "heightUnits": 0.8500000014901161,
+    "triangles": 1908,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  {
+    "id": "edmontonia",
+    "file": "/models/org_edmontonia.glb",
+    "icon": "/icons/org_edmontonia.png",
+    "heightUnits": 1.2000000476837158,
+    "triangles": 2734,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
     "id": "elkhorncoral",
     "file": "/models/org_elkhorncoral.glb",
     "icon": "/icons/org_elkhorncoral.png",
@@ -474,6 +553,34 @@
       "Tail",
       "Wing_L",
       "Wing_R"
+    ]
+  },
+  {
+    "id": "eucalyptocrinites",
+    "file": "/models/org_eucalyptocrinites.glb",
+    "icon": "/icons/org_eucalyptocrinites.png",
+    "heightUnits": 0.7499999731153366,
+    "triangles": 2694,
+    "parts": [
+      "Root",
+      "Body"
+    ]
+  },
+  {
+    "id": "eurypterus",
+    "file": "/models/org_eurypterus.glb",
+    "icon": "/icons/org_eurypterus.png",
+    "heightUnits": 0.3499999940395355,
+    "triangles": 2740,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
     ]
   },
   {
@@ -640,6 +747,23 @@
     ]
   },
   {
+    "id": "knightia",
+    "file": "/models/org_knightia.glb",
+    "icon": "/icons/org_knightia.png",
+    "heightUnits": 0.3499999828636646,
+    "triangles": 1532,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
+      "Tail"
+    ]
+  },
+  {
     "id": "koala",
     "file": "/models/org_koala.glb",
     "icon": "/icons/org_koala.png",
@@ -704,6 +828,56 @@
       "Fin_R",
       "Head",
       "Tail"
+    ]
+  },
+  {
+    "id": "merychippus",
+    "file": "/models/org_merychippus.glb",
+    "icon": "/icons/org_merychippus.png",
+    "heightUnits": 1.100000023841858,
+    "triangles": 2744,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
+    "id": "mesohippus",
+    "file": "/models/org_mesohippus.glb",
+    "icon": "/icons/org_mesohippus.png",
+    "heightUnits": 0.8500000238418579,
+    "triangles": 2744,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
+    "id": "metasequoia",
+    "file": "/models/org_metasequoia.glb",
+    "icon": "/icons/org_metasequoia.png",
+    "heightUnits": 2.5,
+    "triangles": 1334,
+    "parts": [
+      "Root",
+      "Foliage",
+      "Trunk"
     ]
   },
   {
@@ -813,6 +987,17 @@
       "Leg_FL",
       "Leg_FR",
       "Tail"
+    ]
+  },
+  {
+    "id": "platystrophia",
+    "file": "/models/org_platystrophia.glb",
+    "icon": "/icons/org_platystrophia.png",
+    "heightUnits": 0.3199999928474426,
+    "triangles": 776,
+    "parts": [
+      "Root",
+      "Body"
     ]
   },
   {

@@ -2894,12 +2894,22 @@
         "field": "feeding ecology",
         "label": "Harvard Museum of Natural History",
         "url": "https://whatsinaname.hmnh.harvard.edu/dimetrodon"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dimetrodon&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB screened North American occurrences; raw references retained"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dimetrodon&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "PBDB screened North American occurrences; raw references retained"
       }
     ],
     "checked": "2026-10-16",
     "coverage": [
-      -275000000.0,
-      -275000000.0
+      -298900000.0,
+      -266900000.0
     ],
     "regions": [
       "North America"
@@ -2909,7 +2919,59 @@
       "dates": "reviewed dated occurrence",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -283300000.0,
+        "last": -266899999.99999997
+      },
+      {
+        "region": "North America",
+        "first": -283300000.0,
+        "last": -274400000.0
+      },
+      {
+        "region": "North America",
+        "first": -286000000.0,
+        "last": -274400000.0
+      },
+      {
+        "region": "North America",
+        "first": -290100000.0,
+        "last": -274400000.0
+      },
+      {
+        "region": "North America",
+        "first": -290100000.0,
+        "last": -283300000.0
+      },
+      {
+        "region": "North America",
+        "first": -293520000.0,
+        "last": -283300000.0
+      },
+      {
+        "region": "North America",
+        "first": -293520000.0,
+        "last": -290100000.0
+      },
+      {
+        "region": "North America",
+        "first": -298900000.0,
+        "last": -286000000.0
+      },
+      {
+        "region": "North America",
+        "first": -298900000.0,
+        "last": -290100000.0
+      },
+      {
+        "region": "North America",
+        "first": -298900000.0,
+        "last": -293520000.0
+      }
+    ]
   },
   "triceratops": {
     "commonName": "Triceratops",
@@ -3602,5 +3664,1124 @@
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
     }
+  },
+  "platystrophia": {
+    "commonName": "Ribbed brachiopod",
+    "scientificName": "Platystrophia",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Shallow marine reconstruction",
+    "habitatEvidence": "Suspension feeding; two ribbed valves and a central fold",
+    "waterDomain": "marine",
+    "food": "Suspended particles / small plankton",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Platystrophia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/choh/learn/nature/fossils.htm",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -458200000.0,
+      -449500000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -458200000.0,
+        "last": -449500000.0
+      },
+      {
+        "region": "North America",
+        "first": -458200000.0,
+        "last": -443100000.0
+      },
+      {
+        "region": "North America",
+        "first": -457300000.0,
+        "last": -453800000.0
+      },
+      {
+        "region": "North America",
+        "first": -457300000.0,
+        "last": -450200000.0
+      },
+      {
+        "region": "North America",
+        "first": -457300000.0,
+        "last": -449600000.0
+      },
+      {
+        "region": "North America",
+        "first": -453800000.0,
+        "last": -451000000.0
+      },
+      {
+        "region": "North America",
+        "first": -453800000.0,
+        "last": -450200000.0
+      },
+      {
+        "region": "North America",
+        "first": -452800000.0,
+        "last": -445200000.0
+      },
+      {
+        "region": "North America",
+        "first": -451000000.0,
+        "last": -450200000.0
+      },
+      {
+        "region": "North America",
+        "first": -451000000.0,
+        "last": -449600000.0
+      },
+      {
+        "region": "North America",
+        "first": -451000000.0,
+        "last": -443100000.0
+      },
+      {
+        "region": "North America",
+        "first": -450200000.0,
+        "last": -449600000.0
+      },
+      {
+        "region": "North America",
+        "first": -450200000.0,
+        "last": -445500000.0
+      },
+      {
+        "region": "North America",
+        "first": -450200000.0,
+        "last": -443100000.0
+      },
+      {
+        "region": "North America",
+        "first": -449600000.0,
+        "last": -445500000.0
+      },
+      {
+        "region": "North America",
+        "first": -449600000.0,
+        "last": -443100000.0
+      },
+      {
+        "region": "North America",
+        "first": -449500000.0,
+        "last": -443100000.0
+      },
+      {
+        "region": "North America",
+        "first": -449500000.0,
+        "last": -432900000.0
+      },
+      {
+        "region": "North America",
+        "first": -443100000.0,
+        "last": -440500000.0
+      },
+      {
+        "region": "North America",
+        "first": -443100000.0,
+        "last": -438600000.0
+      },
+      {
+        "region": "North America",
+        "first": -443100000.0,
+        "last": -432900000.0
+      },
+      {
+        "region": "North America",
+        "first": -443100000.0,
+        "last": -426700000.0
+      },
+      {
+        "region": "North America",
+        "first": -440500000.0,
+        "last": -438600000.0
+      },
+      {
+        "region": "North America",
+        "first": -440500000.0,
+        "last": -432900000.0
+      },
+      {
+        "region": "North America",
+        "first": -438600000.0,
+        "last": -432900000.0
+      },
+      {
+        "region": "North America",
+        "first": -438600000.0,
+        "last": -430600000.0
+      },
+      {
+        "region": "North America",
+        "first": -438600000.0,
+        "last": -426700000.0
+      },
+      {
+        "region": "North America",
+        "first": -432900000.0,
+        "last": -430600000.0
+      },
+      {
+        "region": "North America",
+        "first": -432900000.0,
+        "last": -426700000.0
+      },
+      {
+        "region": "North America",
+        "first": -432900000.0,
+        "last": -422700000.0
+      },
+      {
+        "region": "North America",
+        "first": -426700000.0,
+        "last": -422700000.0
+      }
+    ]
+  },
+  "eucalyptocrinites": {
+    "commonName": "Cup crinoid",
+    "scientificName": "Eucalyptocrinites",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Shallow marine reconstruction",
+    "habitatEvidence": "Stalked echinoderm; a cup and branching food-catching arms",
+    "waterDomain": "marine",
+    "food": "Suspended particles / small plankton",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eucalyptocrinites&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/crinoids/",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -443100000.0,
+      -438100000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -443100000.0,
+        "last": -438100000.0
+      },
+      {
+        "region": "North America",
+        "first": -443100000.0,
+        "last": -426700000.0
+      },
+      {
+        "region": "North America",
+        "first": -443100000.0,
+        "last": -419620000.0
+      },
+      {
+        "region": "North America",
+        "first": -440500000.0,
+        "last": -438600000.0
+      },
+      {
+        "region": "North America",
+        "first": -440500000.0,
+        "last": -432900000.0
+      },
+      {
+        "region": "North America",
+        "first": -439400000.0,
+        "last": -422700000.0
+      },
+      {
+        "region": "North America",
+        "first": -438600000.0,
+        "last": -432900000.0
+      },
+      {
+        "region": "North America",
+        "first": -438600000.0,
+        "last": -430600000.0
+      },
+      {
+        "region": "North America",
+        "first": -438600000.0,
+        "last": -426700000.0
+      },
+      {
+        "region": "North America",
+        "first": -432900000.0,
+        "last": -430600000.0
+      },
+      {
+        "region": "North America",
+        "first": -432900000.0,
+        "last": -426700000.0
+      },
+      {
+        "region": "North America",
+        "first": -432900000.0,
+        "last": -422700000.0
+      },
+      {
+        "region": "North America",
+        "first": -426700000.0,
+        "last": -422700000.0
+      },
+      {
+        "region": "North America",
+        "first": -425000000.0,
+        "last": -419620000.0
+      },
+      {
+        "region": "North America",
+        "first": -422700000.0,
+        "last": -419620000.0
+      }
+    ]
+  },
+  "eurypterus": {
+    "commonName": "Eurypterus",
+    "scientificName": "Eurypterus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Shallow marine reconstruction",
+    "habitatEvidence": "Aquatic arthropod with paddles, walking legs and a tapering tail spine",
+    "waterDomain": "marine",
+    "food": "Animal prey",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Eurypterus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -432900000.0,
+      -422700000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -432900000.0,
+        "last": -422700000.0
+      },
+      {
+        "region": "North America",
+        "first": -426700000.0,
+        "last": -422700000.0
+      },
+      {
+        "region": "North America",
+        "first": -426700000.0,
+        "last": -419620000.0
+      },
+      {
+        "region": "North America",
+        "first": -425000000.0,
+        "last": -422700000.0
+      },
+      {
+        "region": "North America",
+        "first": -422700000.0,
+        "last": -419620000.0
+      }
+    ]
+  },
+  "cooksonia": {
+    "commonName": "Cooksonia-like early plant",
+    "scientificName": "Cooksonia",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Small leafless branching axes with terminal spore capsules; genus-level reconstruction",
+    "waterDomain": "terrestrial",
+    "food": "Photosynthesis",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Cooksonia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360123/",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -422700000.0,
+      -419620000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -422700000.0,
+        "last": -419620000.0
+      },
+      {
+        "region": "North America",
+        "first": -413020000.0,
+        "last": -410620000.0
+      }
+    ]
+  },
+  "archaeopteris": {
+    "commonName": "Archaeopteris tree",
+    "scientificName": "Archaeopteris",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Woody tree with fern-like leafy branch systems; not a flowering tree",
+    "waterDomain": "terrestrial",
+    "food": "Photosynthesis",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Archaeopteris&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://doi.org/10.1016/j.revpalbo.2024.105212",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -387950000.0,
+      -382310000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -387950000.0,
+        "last": -382310000.0
+      },
+      {
+        "region": "North America",
+        "first": -382310000.0,
+        "last": -379000000.0
+      },
+      {
+        "region": "North America",
+        "first": -382310000.0,
+        "last": -372150000.0
+      },
+      {
+        "region": "North America",
+        "first": -382310000.0,
+        "last": -358860000.0
+      },
+      {
+        "region": "North America",
+        "first": -375200000.0,
+        "last": -372150000.0
+      },
+      {
+        "region": "North America",
+        "first": -372150000.0,
+        "last": -368500000.0
+      },
+      {
+        "region": "North America",
+        "first": -372150000.0,
+        "last": -358860000.0
+      },
+      {
+        "region": "North America",
+        "first": -368500000.0,
+        "last": -365200000.0
+      }
+    ]
+  },
+  "dunkleosteus": {
+    "commonName": "Dunkleosteus",
+    "scientificName": "Dunkleosteus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Shallow marine reconstruction",
+    "habitatEvidence": "Predatory placoderm with bony head armor; soft-body outline is reconstructed",
+    "waterDomain": "marine",
+    "food": "Animal prey",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dunkleosteus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.cmnh.org/explore/galleries-attractions/visitor-hall",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -382310000.0,
+      -358860000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -382310000.0,
+        "last": -358860000.0
+      },
+      {
+        "region": "North America",
+        "first": -375200000.0,
+        "last": -372150000.0
+      },
+      {
+        "region": "North America",
+        "first": -372150000.0,
+        "last": -358860000.0
+      }
+    ]
+  },
+  "knightia": {
+    "commonName": "Knightia lake fish",
+    "scientificName": "Knightia",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Freshwater lake",
+    "habitatEvidence": "Small schooling fish from Eocene freshwater lake deposits; feeding rates are illustrative",
+    "waterDomain": "freshwater",
+    "food": "Suspended particles / small plankton",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Knightia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/fobu/learn/fossils-geology.htm",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -56000000.0,
+      -51100000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -51100000.0
+      }
+    ]
+  },
+  "metasequoia": {
+    "commonName": "Fossil dawn redwood",
+    "scientificName": "Metasequoia",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Fossil Metasequoia genus reconstruction with opposite leafy branchlets; not the modern species",
+    "waterDomain": "terrestrial",
+    "food": "Photosynthesis",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Metasequoia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/articles/000/battle-of-the-bark.htm",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -89800000.0,
+      -72200000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -89800000.0,
+        "last": -72200000.0
+      },
+      {
+        "region": "North America",
+        "first": -72200000.0,
+        "last": -66000000.0
+      },
+      {
+        "region": "North America",
+        "first": -66000000.0,
+        "last": -63400000.0
+      },
+      {
+        "region": "North America",
+        "first": -66000000.0,
+        "last": -61660000.0
+      },
+      {
+        "region": "North America",
+        "first": -66000000.0,
+        "last": -56000000.0
+      },
+      {
+        "region": "North America",
+        "first": -63400000.0,
+        "last": -60900000.0
+      },
+      {
+        "region": "North America",
+        "first": -60900000.0,
+        "last": -57500000.0
+      },
+      {
+        "region": "North America",
+        "first": -57500000.0,
+        "last": -56000000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -51100000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -48070000.0
+      },
+      {
+        "region": "North America",
+        "first": -56000000.0,
+        "last": -33900000.0
+      },
+      {
+        "region": "North America",
+        "first": -45900000.0,
+        "last": -39700000.0
+      },
+      {
+        "region": "North America",
+        "first": -37710000.0,
+        "last": -23040000.0
+      },
+      {
+        "region": "North America",
+        "first": -33900000.0,
+        "last": -27300000.0
+      },
+      {
+        "region": "North America",
+        "first": -33900000.0,
+        "last": -23040000.0
+      },
+      {
+        "region": "North America",
+        "first": -23040000.0,
+        "last": -5333000.0
+      }
+    ]
+  },
+  "mesohippus": {
+    "commonName": "Three-toed browsing horse",
+    "scientificName": "Mesohippus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Small woodland browser with three toes on each foot",
+    "waterDomain": "terrestrial",
+    "food": "Plant matter",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mesohippus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/media/photo/view.htm?id=7f8cefd8-408f-419f-9e11-9a787b4660e2",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -39700000.0,
+      -37000000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -39700000.0,
+        "last": -37000000.0
+      },
+      {
+        "region": "North America",
+        "first": -39700000.0,
+        "last": -33900000.0
+      },
+      {
+        "region": "North America",
+        "first": -37000000.0,
+        "last": -33900000.0
+      },
+      {
+        "region": "North America",
+        "first": -33900000.0,
+        "last": -31800000.0
+      },
+      {
+        "region": "North America",
+        "first": -31800000.0,
+        "last": -29500000.0
+      }
+    ]
+  },
+  "merychippus": {
+    "commonName": "Three-toed grazing horse",
+    "scientificName": "Merychippus",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Longer-faced horse retaining three toes; side toes reduced",
+    "waterDomain": "terrestrial",
+    "food": "Plant matter",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Merychippus&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.floridamuseum.ufl.edu/fossil-horses/gallery/merychippus/",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -20450000.0,
+      -15980000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -20450000.0,
+        "last": -15980000.0
+      },
+      {
+        "region": "North America",
+        "first": -18500000.0,
+        "last": -16300000.0
+      },
+      {
+        "region": "North America",
+        "first": -18500000.0,
+        "last": -12500000.0
+      },
+      {
+        "region": "North America",
+        "first": -16300000.0,
+        "last": -12500000.0
+      },
+      {
+        "region": "North America",
+        "first": -16300000.0,
+        "last": -9400000.0
+      },
+      {
+        "region": "North America",
+        "first": -15980000.0,
+        "last": -11630000.0
+      },
+      {
+        "region": "North America",
+        "first": -13820000.0,
+        "last": -11630000.0
+      },
+      {
+        "region": "North America",
+        "first": -12500000.0,
+        "last": -9400000.0
+      }
+    ]
+  },
+  "coelophysis": {
+    "commonName": "Coelophysis",
+    "scientificName": "Coelophysis",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Lightly built bipedal theropod, long neck and tail; no invented pack hunting claim",
+    "waterDomain": "terrestrial",
+    "food": "Animal prey",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelophysis&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/subjects/fossils/triassic-dinosaurs.htm",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -227300000.0,
+      -205700000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -227300000.0,
+        "last": -205700000.0
+      },
+      {
+        "region": "North America",
+        "first": -205700000.0,
+        "last": -201400000.0
+      }
+    ]
+  },
+  "edmontonia": {
+    "commonName": "Edmontonia",
+    "scientificName": "Edmontonia",
+    "taxonomicRank": "genus",
+    "taxonomicStatus": "Source-reported genus; species identities not conflated",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Woodland / lowland vegetation",
+    "habitatEvidence": "Broad armored nodosaur with shoulder spikes and no tail club",
+    "waterDomain": "terrestrial",
+    "food": "Plant matter",
+    "foodEvidence": "Broad functional guild; detailed prey and numeric tolerances are not established by occurrence data",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Genus-level original stylized reconstruction. Colours, dimensions, abundance and movement are artistic/teaching assumptions.",
+      "Accepted occurrence windows are disjoint deposit-age uncertainty intervals, not continuous local occupation.",
+      "This is a continental habitat mosaic, not a single fossil assemblage."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Edmontonia&show=coords%2Ctime%2Cref&cc=US%2CCA&limit=500",
+        "label": "Paleobiology Database \u00b7 CC BY 4.0 \u00b7 occurrence IDs and original publications retained in evidence bundle"
+      },
+      {
+        "field": "anatomy / ecological interpretation",
+        "url": "https://www.nps.gov/dena/learn/nature/edmontonia.htm",
+        "label": "Museum, scientific institution or primary publication"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -83600000.0,
+      -72200000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -83600000.0,
+        "last": -72200000.0
+      },
+      {
+        "region": "North America",
+        "first": -83600000.0,
+        "last": -66000000.0
+      },
+      {
+        "region": "North America",
+        "first": -72200000.0,
+        "last": -66000000.0
+      }
+    ]
   }
 }
