@@ -142,3 +142,19 @@ PASS: all existing ecological scenarios and replay/cache/branch tests; new prey 
 ## Master milestone 6 — Evolution — DONE (bounded MVP)
 Extended the inherited thermal-variation system with rare offspring mutation, preserving ecological population totals, reproduction-weighted inheritance and differential survival. Added three sourced evolutionary chapters: whales, birds within theropods, and major branches of land-plant history. UI distinguishes documented relationships, illustrative inherited adaptation and unmodeled speciation; no individual changes species.
 PASS: warm/cold selection, fitness feedback, neutral reproduction, absent variants without mutation, rare variants with mutation, no mutation without births, no resurrection, normalization, checkpoint isolation and deterministic replay. Prior ecology checks still pass. Limits: three ±2°C thermal variants in four mammal populations, not full genetics; 0.2% mutation is a teaching parameter. Next: final integrated browser, visual and performance acceptance.
+
+## Master milestone 7 — Final polish — DONE for the supported local MVP
+Added overview/reef camera controls, Auto/Smooth/Crisp render quality, faster adaptive resolution, cheaper distant-model diffuse lighting with explicit disposal, and mobile catalogue collapse/expand. Improved marine framing, reduced wildlife crowding, separated instruction/control panels and preserved the existing synthesized audio. Regenerated and opened the complete 67-model contact sheet. Fixed the old hard-coded LOD catalogue assertion and the DOM environment's missing matchMedia support.
+PASS: strict typecheck/build, 48 unit tests, 46 browser checks across seven suites, zero console/page errors, all full/distant asset contracts and all 16 new GLB inspections/Khronos validations. Final rendered historical, modern, reef and mobile scenes were opened and reviewed. Future geometry count remains 33 → 33.
+Final isolated software-renderer fixture: median 50.0 ms, p95 66.7 ms, 32 calls / 149,430 triangles. Previous water run was 66.6 ms median; this run also includes two new resident birds. This is roughly 25% less median frame time, not a physical-device 60fps claim. Hardware Chrome profiling is unavailable because the macOS sandbox denies native Crashpad access. The working headless fallback is explicitly identified as SwiftShader. Bundle-size and dependency-deprecation advisories remain non-fatal.
+See qa/COMPLETION_REVIEW.md for PASS/limitations, source notes, tests and the distinction between a completed curated MVP and the larger aspirational catalogue. No push/deployment. User's existing .gitignore edit remains outside commits.
+
+## Latest master milestone status
+1 Visual foundation — DONE (retained and reverified).
+2 Oceans and underwater worlds — DONE (retained, historical marine residents and reef camera added).
+3 Living historical ecosystems — DONE (curated regional snapshots).
+4 Organism interaction — DONE (64 authored organisms and modular behaviors).
+5 Ecological simulation — DONE (aggregate deterministic model).
+6 Evolution — DONE (bounded inherited-variation MVP and three histories).
+7 Final polish — DONE for supported local checks; native-GPU/phone acceptance remains external.
+Deployment is intentionally excluded under the user's latest instruction, regardless of older Phase M entries.

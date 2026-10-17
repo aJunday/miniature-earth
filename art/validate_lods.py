@@ -19,5 +19,6 @@ for path in sorted((BASE/'public/models/lod').glob('org_*.glb')):
  assert total<sum(full['accessors'][p['indices']]['count']//3 for m in full['meshes'] for p in m['primitives'])
  report[path.stem]={'triangles':total,'parts':names(doc),'pass':True}
  print('PASS LOD',path.stem,total,flush=True)
-assert len(report)==56
+expected={'org_'+s['id'] for s in json.loads((BASE/'src/sim/data/species.json').read_text())}
+assert set(report)==expected, {'missing':sorted(expected-set(report)),'unexpected':sorted(set(report)-expected)}
 (BASE/'art/reports/lod-validation.json').write_text(json.dumps(report,indent=2)+'\n')

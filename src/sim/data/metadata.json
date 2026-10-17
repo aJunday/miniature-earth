@@ -1818,8 +1818,8 @@
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
-    "food": null,
-    "foodEvidence": "Specific diet not yet verified; game resource links are approximations",
+    "food": "Fish; remains are preserved in fossil stomach contents",
+    "foodEvidence": "Natural History Museum pterosaur overview",
     "extinctionStatus": "extinct",
     "empiricalTemperatureRange": null,
     "empiricalOxygenThreshold": null,
@@ -1833,6 +1833,11 @@
         "field": "historical context",
         "url": "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html",
         "label": "Museum / public scientific reference"
+      },
+      {
+        "field": "Late Cretaceous context",
+        "url": "https://www.si.edu/object/nmnhpaleobiology_3447928",
+        "label": "Smithsonian specimen record"
       }
     ],
     "checked": "2026-10-16"
@@ -1863,6 +1868,11 @@
         "field": "historical context",
         "url": "https://www.floridamuseum.ufl.edu/vertpaleo/aucilla-river-prehistory-project/",
         "label": "Museum / public scientific reference"
+      },
+      {
+        "field": "Neogene context",
+        "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/sites/mixsons-bone-bed/",
+        "label": "Florida Museum \u00b7 Mixson\u2019s Bone Bed"
       }
     ],
     "checked": "2026-10-16"

@@ -1,20 +1,28 @@
 {
   "checks": [
     "six default animal assets load",
-    "ten baseline groups appear",
+    "eleven baseline groups appear",
     "reset retains baseline without saving duplicate residents",
     "historical rewind removes modern residents",
-    "return and reload restore exactly ten groups",
+    "return and reload restore exactly eleven groups",
     "mobile has no horizontal overflow",
     "no browser errors"
   ],
   "assets": [
+    "org_baldeagle.glb",
     "org_honeybee.glb",
     "org_deer.glb",
     "org_rabbit.glb",
     "org_redfox.glb",
     "org_reeffish.glb",
-    "org_seaturtle.glb"
+    "org_seaturtle.glb",
+    "org_fern.glb",
+    "org_cycad.glb",
+    "org_ammonite.glb",
+    "org_conifer.glb",
+    "org_stegosaurus.glb",
+    "org_brachiosaurus.glb",
+    "org_allosaurus.glb"
   ],
   "errors": []
 }

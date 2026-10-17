@@ -4,8 +4,8 @@
     "geometry count stable across future scrubbing"
   ],
   "geometries": {
-    "before": 31,
-    "after": 31
+    "before": 33,
+    "after": 33
   },
   "errors": []
 }

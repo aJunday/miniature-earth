@@ -62,7 +62,3 @@ PASS LOD org_vaquita 1408
 PASS LOD org_whaleshark 1304
 PASS LOD org_wilddog 1298
 PASS LOD org_wildflower 650
-Traceback (most recent call last):
-  File "/Users/arnavjunday/Documents/GitHub/miniature-earth/art/validate_lods.py", line 22, in <module>
-    assert len(report)==56
-AssertionError

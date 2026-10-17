@@ -1,0 +1,3 @@
+{
+  "unavailable": "Native Chrome hardware benchmark unavailable: macOS sandbox denies Crashpad bootstrap and settings access. No physical-GPU frame-rate claim. Supported headless Chromium uses SwiftShader."
+}

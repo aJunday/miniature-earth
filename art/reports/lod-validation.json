@@ -15,6 +15,17 @@
     ],
     "pass": true
   },
+  "org_ammonite": {
+    "triangles": 1316,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Root"
+    ],
+    "pass": true
+  },
   "org_amurleopard": {
     "triangles": 1280,
     "parts": [
@@ -28,6 +39,17 @@
       "Leg_FR",
       "Root",
       "Tail"
+    ],
+    "pass": true
+  },
+  "org_anomalocaris": {
+    "triangles": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Root"
     ],
     "pass": true
   },
@@ -206,6 +228,22 @@
     ],
     "pass": true
   },
+  "org_dimetrodon": {
+    "triangles": 1324,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_dodo": {
     "triangles": 1298,
     "parts": [
@@ -294,6 +332,22 @@
     ],
     "pass": true
   },
+  "org_groundsloth": {
+    "triangles": 1318,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_honeybee": {
     "triangles": 1300,
     "parts": [
@@ -305,6 +359,15 @@
       "Tail",
       "Wing_L",
       "Wing_R"
+    ],
+    "pass": true
+  },
+  "org_horsetail": {
+    "triangles": 648,
+    "parts": [
+      "Foliage",
+      "Root",
+      "Trunk"
     ],
     "pass": true
   },
@@ -351,6 +414,15 @@
       "Leg_FR",
       "Root",
       "Tail"
+    ],
+    "pass": true
+  },
+  "org_lycophyte": {
+    "triangles": 648,
+    "parts": [
+      "Foliage",
+      "Root",
+      "Trunk"
     ],
     "pass": true
   },
@@ -474,6 +546,19 @@
       "Leg_FR",
       "Root",
       "Tail"
+    ],
+    "pass": true
+  },
+  "org_pteranodon": {
+    "triangles": 924,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Root",
+      "Wing_L",
+      "Wing_R"
     ],
     "pass": true
   },
@@ -717,6 +802,22 @@
   },
   "org_tiger": {
     "triangles": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_triceratops": {
+    "triangles": 1320,
     "parts": [
       "Body",
       "Eye_L",

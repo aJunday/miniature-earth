@@ -8,13 +8,13 @@ await page.goto('http://127.0.0.1:5182/?profile');await page.waitForTimeout(5000
 await page.screenshot({path:'qa/shots/visual-milestone-present.png'});
 console.log({assets:[...assets],errors,metrics:await page.evaluate(()=>window.__renderMetrics)});
 expect(errors).toEqual([]);for(const id of ['honeybee','deer','rabbit','redfox','reeffish','seaturtle'])expect([...assets]).toContain(`org_${id}.glb`);
-await expect(page.locator('.world-card')).toContainText('10 populations');
+await expect(page.locator('.world-card')).toContainText('11 populations');
 await page.getByRole('button',{name:'↺ Reset',exact:true}).click();
-for(let i=0;i<2;i++){await page.getByLabel('Geological period').selectOption('jurassic');await expect(page.locator('.world-card')).toContainText('0 populations');await page.getByLabel('Geological period').selectOption('present');await expect(page.locator('.world-card')).toContainText('10 populations')}
+for(let i=0;i<2;i++){await page.getByLabel('Geological period').selectOption('jurassic');await expect(page.locator('.world-card')).not.toContainText(/↗ 0 populations/);await page.getByLabel('Geological period').selectOption('present');await expect(page.locator('.world-card')).toContainText('11 populations')}
 expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('miniature-earth-v1')).placements)).toEqual([]);
-await page.reload();await expect(page.locator('.world-card')).toContainText('10 populations');await page.waitForTimeout(1500);
+await page.reload();await expect(page.locator('.world-card')).toContainText('11 populations');await page.waitForTimeout(1500);
 await page.mouse.move(700,400);for(let i=0;i<18;i++){await page.mouse.wheel(0,-140);await page.waitForTimeout(80)}await page.waitForTimeout(1500);await page.screenshot({path:'qa/shots/visual-milestone-detail.png'});
 await page.setViewportSize({width:390,height:844});await page.waitForTimeout(1000);await page.screenshot({path:'qa/shots/visual-milestone-mobile.png'});
 expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
-expect(errors).toEqual([]);fs.writeFileSync('qa/visual-milestone-results.json',JSON.stringify({checks:['six default animal assets load','ten baseline groups appear','reset retains baseline without saving duplicate residents','historical rewind removes modern residents','return and reload restore exactly ten groups','mobile has no horizontal overflow','no browser errors'],assets:[...assets],errors},null,2));
+expect(errors).toEqual([]);fs.writeFileSync('qa/visual-milestone-results.json',JSON.stringify({checks:['six default animal assets load','eleven baseline groups appear','reset retains baseline without saving duplicate residents','historical rewind removes modern residents','return and reload restore exactly eleven groups','mobile has no horizontal overflow','no browser errors'],assets:[...assets],errors},null,2));
 await browser.close();

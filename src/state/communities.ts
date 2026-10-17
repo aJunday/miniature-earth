@@ -1,8 +1,8 @@
 import type {Placement} from '../sim/types';
 import {yearToTick} from '../sim/timeline';
 /** Curated regional snapshots. Windows are scene coverage, not claimed taxon origination dates.
- * Resident patches exchange individuals with the surrounding representative habitat.
- * Player populations never receive this migration or historical retirement. */
+ * Each patch is introduced once, then follows the same ecology as player populations.
+ * Player populations never receive historical retirement. */
 type Patch=[id:string,count:number,x:number,z:number];
 interface Community {id:string;start:number;end:number;patches:Patch[]}
 export const communities:Community[]=[

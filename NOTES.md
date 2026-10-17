@@ -161,3 +161,6 @@
 - Three lineage chapters describe branching relationships, not direct ancestor chains. Broad-group ground sloths and plants deliberately retain unknown precise range fields.
 - Rendered historical plants and large animals are capped more tightly to preserve open space. An animated bald-eagle pair joins the modern baseline.
 - Behavior steering is visual; the deterministic ecological model alone changes population totals, preventing duplicate predation or reproduction accounting.
+- Final headless benchmark uses SwiftShader software Vulkan, not a physical GPU; native Chrome profiling was blocked by macOS sandbox access to Crashpad. No 60 fps hardware claim is made.
+- Final quality policy responds after 45 initial frames and then 90-frame windows; automatic DPR ranges 0.55–1.0, with explicit Smooth/Crisp overrides. Distant-only materials use diffuse vertex-colour lighting; close models keep their authored materials.
+- Small-screen catalogue collapses by default to expose the world and can be reopened with Browse life; it does not remove any catalogue entries or controls.
