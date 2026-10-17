@@ -236,3 +236,9 @@
 - Capybara is represented in shallow freshwater only; amphibious crossing is explicitly not simulated.
 - Rendering polish moves inherited rabbit fur tufts to the measured body surface and enlarges the comparison. Movement phase derives from stable individual identity to avoid synchronized species groups.
 - Spatial lookups preserve original neighbor ordering and steering results; frame-rate claims are restricted to the measured SwiftShader software renderer.
+
+## Critical overhaul assumptions
+- Whole-repository work is authorized; preserve commit da88c6c and the user's .gitignore edit, commit each milestone, never push or deploy.
+- Fossil deposit age intervals are uncertain reconstruction windows, not exact species lifespan or proof of presence in every year. Retain source occurrence IDs and references.
+- North America remains a representative continental habitat mosaic, never a single reconstructed fossil locality. Broad trilobite, vegetation and ground-sloth proxies are explicitly group-level.
+- Triassic has a real missing animal asset, addressed in milestone H after existing scene/camera fixes; do not populate it with Jurassic dinosaurs.

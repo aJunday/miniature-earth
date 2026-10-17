@@ -1,0 +1,87 @@
+{
+  "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Desmatosuchus%20spurensis&show=coords,time,ref&cc=US,CA&limit=100",
+  "data": {
+    "elapsed_time": 0.00409,
+    "records": [
+      {
+        "oid": "occ:406864",
+        "eid": "rei:22895",
+        "cid": "col:39160",
+        "tna": "Desmatosuchus spurensis",
+        "rnk": 3,
+        "tid": "txn:100584",
+        "oei": "Norian",
+        "eag": 227.3,
+        "lag": 205.7,
+        "rid": "ref:32140",
+        "lng": "-109.462486",
+        "lat": "34.437420",
+        "cxi": "int:136",
+        "ref": "W. G. Parker. 2008. Description of new material of the aetosaur Desmatosuchus spuriensis (Archosauria: Suchia) from the Chinle Formation of Arizona and a revision of the genus. PaleoBios 28:1-40"
+      },
+      {
+        "oid": "occ:667872",
+        "cid": "col:71977",
+        "idn": "Desmatosuchus spurensis n. sp.",
+        "tna": "Desmatosuchus spurensis",
+        "rnk": 3,
+        "tid": "txn:100584",
+        "oei": "Carnian",
+        "oli": "Norian",
+        "eag": 237,
+        "lag": 205.7,
+        "rid": "ref:37029",
+        "lng": "-101.113403",
+        "lat": "33.589661",
+        "cxi": "int:44",
+        "ref": "E. C. Case. 1920. Preliminary description of a new suborder of phytosaurian reptiles with a description of a new species of Phytosaurus. Journal of Geology 28(6):524-535"
+      },
+      {
+        "oid": "occ:843102",
+        "eid": "rei:22892",
+        "cid": "col:93611",
+        "tna": "Desmatosuchus spurensis",
+        "rnk": 3,
+        "tid": "txn:100584",
+        "oei": "Norian",
+        "eag": 227.3,
+        "lag": 205.7,
+        "rid": "ref:32140",
+        "lng": "-105.849998",
+        "lat": "35.466667",
+        "cxi": "int:136",
+        "ref": "W. G. Parker. 2008. Description of new material of the aetosaur Desmatosuchus spuriensis (Archosauria: Suchia) from the Chinle Formation of Arizona and a revision of the genus. PaleoBios 28:1-40"
+      },
+      {
+        "oid": "occ:850048",
+        "cid": "col:94497",
+        "tna": "Desmatosuchus spurensis",
+        "rnk": 3,
+        "tid": "txn:100584",
+        "oei": "Norian",
+        "eag": 227.3,
+        "lag": 205.7,
+        "rid": "ref:32140",
+        "lng": "-109.566666",
+        "lat": "36.383331",
+        "cxi": "int:136",
+        "ref": "W. G. Parker. 2008. Description of new material of the aetosaur Desmatosuchus spuriensis (Archosauria: Suchia) from the Chinle Formation of Arizona and a revision of the genus. PaleoBios 28:1-40"
+      },
+      {
+        "oid": "occ:1581447",
+        "cid": "col:223390",
+        "tna": "Desmatosuchus spurensis",
+        "rnk": 3,
+        "tid": "txn:100584",
+        "oei": "Norian",
+        "eag": 227.3,
+        "lag": 205.7,
+        "rid": "ref:78576",
+        "lng": "-109.763885",
+        "lat": "34.947224",
+        "cxi": "int:136",
+        "ref": "W. G. Parker, S. J. Nesbitt, and A. D. Marsh, B. T. Kligman, K. Bader. 2021. First occurrence of Doswellia cf. D. kaltenbachi (Archosauriformes) from the Late Triassic (middle Norian) Chinle Formation of Arizona and its implications on proposed biostratigraphic correlations across North America during the Late Triassic. Journal of Vertebrate Paleontology"
+      }
+    ]
+  }
+}

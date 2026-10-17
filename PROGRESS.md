@@ -215,3 +215,6 @@ Promoted capybara from taxonomy reference to complete South American freshwater 
 
 ## Continuation priorities C, G and acceptance A–L — DONE (measured limits recorded)
 Verified 11-group regional default and preserved miniature environments. Improved inherited fur visibility, comparison scale and individual animation phases. Actual browser suites pass 30 grouped checks covering A–L, including 30-step inherited change/replay and native capybara rig loading. Latest typecheck/build and 105 tests pass; 200 GLBs have zero Khronos errors/warnings. Spatial steering microbenchmark: 223.0 → 75.7 ms (~2.9×); actual SwiftShader default 50.0/50.1 ms median/p95, crowded 66.7/66.8 ms. Native hardware 60 FPS remains unverified. Full 13-part report: qa/CONTINUATION_REPORT.md. No push/deployment; preserve user's unrelated .gitignore change.
+
+## Critical overhaul A — data diagnosis and existing coverage fixed
+Root causes: exact one-year fossil snapshots, absent regional group coverage, living taxa gated at 2026, and a genuine Triassic animal gap. PBDB occurrence intervals now support adjacent Cambrian/Cretaceous scrub dates with explicit deposit-age uncertainty. Regional ground-sloth group coverage restores Neogene/early Pleistocene representatives. 106 tests and typecheck pass; visual acceptance follows C–I. Triassic animal implementation remains scheduled for H.

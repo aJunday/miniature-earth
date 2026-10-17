@@ -171,6 +171,11 @@
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
         "label": "NPS \u00b7 North American Pennsylvanian swamp forest groups"
+      },
+      {
+        "field": "dated regional display coverage",
+        "url": "https://www.nps.gov/care/learn/nature/fossils.htm",
+        "label": "NPS \u00b7 Chinle tropical vegetation"
       }
     ],
     "checked": "2026-10-16",
@@ -191,6 +196,11 @@
         "region": "North America",
         "first": -323200000.0,
         "last": -298900000.0
+      },
+      {
+        "region": "North America",
+        "first": -225000000.0,
+        "last": -205700000.0
       }
     ]
   },
@@ -283,6 +293,11 @@
         "field": "regionalCoverage",
         "url": "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
         "label": "NPS \u00b7 Morrison Formation plant communities (broad group proxies)"
+      },
+      {
+        "field": "dated regional display coverage",
+        "url": "https://www.nps.gov/zion/learn/nature/secrets-of-the-chinle-formation.htm",
+        "label": "NPS \u00b7 Chinle conifers"
       }
     ],
     "checked": "2026-10-16",
@@ -298,6 +313,11 @@
         "region": "North America",
         "first": -152000000,
         "last": -145000000
+      },
+      {
+        "region": "North America",
+        "first": -225000000.0,
+        "last": -205700000.0
       }
     ]
   },
@@ -2528,6 +2548,11 @@
         "field": "last occurrence",
         "url": "https://www.nhm.ac.uk/schools/teaching-resources/big-ideas-in-science-evolution/trilobite-fossils-resources-and-class-activities.html",
         "label": "Natural History Museum"
+      },
+      {
+        "field": "dated regional display coverage",
+        "url": "https://home.nps.gov/grca/learn/nature/fossils.htm",
+        "label": "NPS \u00b7 trilobite group fossils in North America"
       }
     ],
     "checked": "2026-10-16",
@@ -2537,7 +2562,14 @@
       "dates": "reviewed dated occurrence",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -525000000.0,
+        "last": -505000000.0
+      }
+    ]
   },
   "arthropleura": {
     "commonName": "Arthropleura",
@@ -2588,7 +2620,7 @@
     "taxonomicStatus": "ACCEPTED",
     "firstAppearance": null,
     "lastOccurrence": null,
-    "dateBasis": "Burgess Shale occurrence; genus silhouette represents A. canadensis",
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
     "habitat": "Marine",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "marine",
@@ -2600,7 +2632,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+      "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction."
     ],
     "sources": [
       {
@@ -2617,12 +2650,17 @@
         "field": "dated occurrence / display coverage",
         "url": "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
         "label": "Museum, geological survey or university evidence"
+      },
+      {
+        "field": "dated regional display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anomalocaris%20canadensis&show=coords,time,ref&cc=US,CA&limit=100",
+        "label": "PBDB occ:1378795 \u00b7 T. P. Fletcher and D. H. Collins. 2003. The Burgess Shale and associated Cambrian formations west of the Fossil Gully Fault Zone on Mount Stephen, British Columbia. Canadian Journal of Earth Sciences 40(12):1823-1838"
       }
     ],
     "checked": "2026-10-16",
     "coverage": [
-      -505000000.0,
-      -505000000.0
+      -506500000.0,
+      -497000000.0
     ],
     "regions": [
       "North America"
@@ -2783,7 +2821,7 @@
     "taxonomicStatus": null,
     "firstAppearance": null,
     "lastOccurrence": null,
-    "dateBasis": "Kansas occurrence; approximately dated snapshot",
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
     "habitat": "Terrestrial",
     "habitatEvidence": "Broad game habitat; finer native range not yet verified",
     "waterDomain": "terrestrial",
@@ -2795,7 +2833,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+      "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction."
     ],
     "sources": [
       {
@@ -2812,12 +2851,17 @@
         "field": "dated occurrence / display coverage",
         "url": "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps",
         "label": "Museum, geological survey or university evidence"
+      },
+      {
+        "field": "dated regional display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pteranodon%20longiceps&show=coords,time,ref&cc=US,CA&limit=100",
+        "label": "PBDB occ:785636 \u00b7 H. W. Miller. 1971. A skull of Pteranodon (Longicepia) longiceps Marsh associated with wing and body bones. Transactions of the Kansas Academy of Science 74(1):20-33"
       }
     ],
     "checked": "2026-10-16",
     "coverage": [
-      -85000000.0,
-      -85000000.0
+      -85700000.0,
+      -83600000.0
     ],
     "regions": [
       "North America"
@@ -2849,7 +2893,8 @@
     "relationships": [],
     "notes": [
       "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
-      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species.",
+      "Broad ground-sloth silhouette, not one species lasting 9 million years. Early Pleistocene Florida includes Eremotherium eomigrans; Neogene represents earlier sloth families."
     ],
     "sources": [
       {
@@ -2866,6 +2911,11 @@
         "field": "feeding ecology",
         "url": "https://www.nhm.ac.uk/our-science/services/collections/digital/programme/darwins-ground-sloths.html",
         "label": "Natural History Museum"
+      },
+      {
+        "field": "dated regional display coverage",
+        "url": "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/eremotherium-eomigrans/",
+        "label": "Florida Museum \u00b7 ground sloth groups from late Miocene; Eremotherium 2.6\u20130.6 Ma"
       }
     ],
     "checked": "2026-10-16",
@@ -2875,7 +2925,14 @@
       "dates": "present baseline / historical documentation; origin unknown",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -9000000.0,
+        "last": -13000
+      }
+    ]
   },
   "lycophyte": {
     "commonName": "Tree lycophyte",

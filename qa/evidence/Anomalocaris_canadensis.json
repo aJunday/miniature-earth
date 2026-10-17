@@ -1,0 +1,99 @@
+{
+  "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anomalocaris%20canadensis&show=coords,time,ref&cc=US,CA&limit=100",
+  "data": {
+    "elapsed_time": 0.00289,
+    "records": [
+      {
+        "oid": "occ:1199798",
+        "cid": "col:121962",
+        "tna": "Anomalocaris canadensis",
+        "rnk": 3,
+        "tid": "txn:490825",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:50587",
+        "lng": "-116.466667",
+        "lat": "51.433334",
+        "cxi": "int:22",
+        "ref": "A. C. Daley and G. E. Budd. 2010. New anomalocaridid appendages from the Burgess Shale, Canada. Palaeontology 53(4):721-738"
+      },
+      {
+        "oid": "occ:1199802",
+        "cid": "col:121963",
+        "tna": "Anomalocaris canadensis",
+        "rnk": 3,
+        "tid": "txn:490825",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:50587",
+        "lng": "-116.466667",
+        "lat": "51.433334",
+        "cxi": "int:22",
+        "ref": "A. C. Daley and G. E. Budd. 2010. New anomalocaridid appendages from the Burgess Shale, Canada. Palaeontology 53(4):721-738"
+      },
+      {
+        "oid": "occ:1199810",
+        "cid": "col:121964",
+        "tna": "Anomalocaris canadensis",
+        "rnk": 3,
+        "tid": "txn:490825",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:50587",
+        "lng": "-116.466667",
+        "lat": "51.433334",
+        "cxi": "int:22",
+        "ref": "A. C. Daley and G. E. Budd. 2010. New anomalocaridid appendages from the Burgess Shale, Canada. Palaeontology 53(4):721-738"
+      },
+      {
+        "oid": "occ:1199820",
+        "cid": "col:121959",
+        "tna": "Anomalocaris canadensis",
+        "rnk": 3,
+        "tid": "txn:490825",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:50587",
+        "lng": "-116.433334",
+        "lat": "51.383331",
+        "cxi": "int:22",
+        "ref": "A. C. Daley and G. E. Budd. 2010. New anomalocaridid appendages from the Burgess Shale, Canada. Palaeontology 53(4):721-738"
+      },
+      {
+        "oid": "occ:1378795",
+        "cid": "col:188664",
+        "tna": "Anomalocaris canadensis",
+        "rnk": 3,
+        "tid": "txn:490825",
+        "oei": "Middle Cambrian",
+        "eag": 506.5,
+        "lag": 497,
+        "rid": "ref:63218",
+        "lng": "-116.434998",
+        "lat": "51.392502",
+        "cxi": "int:1204",
+        "ref": "T. P. Fletcher and D. H. Collins. 2003. The Burgess Shale and associated Cambrian formations west of the Fossil Gully Fault Zone on Mount Stephen, British Columbia. Canadian Journal of Earth Sciences 40(12):1823-1838"
+      },
+      {
+        "oid": "occ:1628742",
+        "cid": "col:230681",
+        "idn": "Anomalocaris aff. canadensis",
+        "tna": "Anomalocaris canadensis",
+        "rnk": 3,
+        "tid": "txn:490825",
+        "oei": "Marjumian",
+        "eag": 504.5,
+        "lag": 497,
+        "rid": "ref:85251",
+        "lng": "-113.401947",
+        "lat": "39.217499",
+        "cxi": "int:1204",
+        "ref": "S. Pates, R. Lerosey-Aubril, and AC Daley, C. Kier, E. Bonino, J. Ortega-Hernandez. 2021. The diverse radiodont fauna from the Marjum Formation of Utah, USA (Cambrian: Drumian). PeerJ 9:1-43"
+      }
+    ]
+  }
+}
