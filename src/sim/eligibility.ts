@@ -13,6 +13,7 @@ export type Compatibility='supported'|'not-yet'|'extinct'|'region'|'habitat'|'un
 export interface Eligibility {allowed:boolean;status:'supported'|'uncertain'|'unsupported';reason:string;category?:Compatibility}
 export function validateHistory(r:HistoryRecord|undefined,year:number,habitat?:Habitat,region='mosaic',mode:WorldMode='historical'):Eligibility{
  const reject=(reason:string,category:Compatibility='uncertain'):Eligibility=>({allowed:false,status:'unsupported',reason,category});
+ if(!Number.isFinite(year))return {allowed:false,status:'uncertain',category:'uncertain',reason:'Invalid date — choose a finite calendar year'};
  if(!r)return {allowed:false,status:'uncertain',category:'uncertain',reason:'Evidence uncertain — no reviewed record'};
  if(habitat&&habitat!==r.habitat)return reject(`Wrong habitat — requires ${r.habitat}`, 'habitat');
  if(r.lineageBoundary!==undefined&&year<r.lineageBoundary)return reject('Not yet known — before reviewed flowering-plant evidence','not-yet');
@@ -31,6 +32,8 @@ export function travelDestination(id:string,currentYear=2026){
  const window=r.coverage??(r.first!==null&&r.last!==null?[r.first,r.last]:null);
  const year=eligibility(id,currentYear).allowed?Math.min(2026,currentYear):window?(window[0]+window[1])/2:r.living?2026:r.first;
  if(year===null||!eligibility(id,year).allowed)return null;
- return {year,region:r.regions[0]??'mosaic',habitat:r.habitat,uncertainRegion:!r.regions.length};
+ const regional=r.regionalCoverage?.find(w=>year>=w.first&&year<=w.last);
+ const region=r.regions[0]??regional?.region??'mosaic';
+ return {year,region,habitat:r.habitat,uncertainRegion:region==='mosaic'};
 }
 export const previewOpacity=(age:number)=>age<0||age>=8000?0:age<5000?.72:.72*(8000-age)/3000;

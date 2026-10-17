@@ -226,3 +226,9 @@
 - Restoration limits resource loss to 5%, corridors increase terrestrial carrying capacity by up to 16%, clean water limits pollution and water loss to 5%, and exploitation/marine controls reduce corresponding modeled mortality by 65%. Food-web constraints and local loss remain possible.
 - Use Cycles CPU, 32 samples and denoising for new icon renders. Preserve normalized rig skin weights, named parts and nine shared authored animation clips.
 - Local commits only; no push or deployment. Preserve the pre-existing user .gitignore change.
+
+## Continuation 6.5–19 assumptions
+- Preserve the existing 69 playable organisms and 240 reference entries; reference-only taxa remain clearly separated from working organisms.
+- New custom islands retain an immutable starting snapshot; legacy saves without a snapshot reset from their saved region and starting preset because their original population snapshot is unavailable.
+- Explicit hypothetical geographic introductions remain available in custom sandbox mode; historical placement requires reviewed regional evidence.
+- Dated regional coverage takes precedence over an illustrative mosaic when choosing a supported travel destination.
