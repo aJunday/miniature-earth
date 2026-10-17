@@ -234,3 +234,5 @@
 - Dated regional coverage takes precedence over an illustrative mosaic when choosing a supported travel destination.
 - Added one complete South American freshwater representative, capybara, rather than marking unreviewed reference taxa playable. Source-reviewed living habitat/diet, no invented fossil origin; rates and 0.7-unit height remain teaching/art parameters.
 - Capybara is represented in shallow freshwater only; amphibious crossing is explicitly not simulated.
+- Rendering polish moves inherited rabbit fur tufts to the measured body surface and enlarges the comparison. Movement phase derives from stable individual identity to avoid synchronized species groups.
+- Spatial lookups preserve original neighbor ordering and steering results; frame-rate claims are restricted to the measured SwiftShader software renderer.

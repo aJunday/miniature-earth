@@ -1,0 +1,37 @@
+{
+  "checks": [
+    "C/D: extinction boundary removes Triceratops; rewind restores identical reconstruction",
+    "F/G: one-click protection selects five parameter interventions and produces different outcomes",
+    "K: inherited frequencies change across 30 steps, both 3D comparisons render, rewind/replay reproduces frequencies",
+    "F catalogue: source-backed capybara travels to native freshwater and loads its animated rig"
+  ],
+  "initial": [
+    0.25,
+    0.5,
+    0.25
+  ],
+  "evolved": [
+    0.9661016949152532,
+    0.03389830508474576,
+    0
+  ],
+  "metrics": [
+    [
+      "345",
+      "581"
+    ],
+    [
+      "3",
+      "5"
+    ],
+    [
+      "54%",
+      "93%"
+    ],
+    [
+      "70%",
+      "95%"
+    ]
+  ],
+  "errors": []
+}
