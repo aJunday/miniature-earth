@@ -1,10 +1,761 @@
 {
   "fixture": "2026 illustrative global mosaic, 22 groups, Smooth quality, 1280x800",
   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
-  "medianMs": 66.69999999999891,
-  "p95Ms": 66.80000000000018,
-  "calls": 44,
-  "triangles": 170948,
+  "medianMs": 66.69999999999982,
+  "p95Ms": 100,
+  "calls": 38,
+  "triangles": 195196,
   "geometries": 45,
-  "frameMs": 63.69999998807907
+  "textures": 15,
+  "frameMs": 67.80000001192093,
+  "rendered": 88,
+  "inFrame": 68,
+  "animalsInFrame": 62,
+  "bySpecies": {
+    "decomposer": 12,
+    "axolotl": 3,
+    "baldeagle": 2,
+    "honeybee": 6,
+    "deer": 6,
+    "rabbit": 8,
+    "redfox": 3,
+    "elkhorncoral": 12,
+    "reeffish": 12,
+    "seaturtle": 3,
+    "amurleopard": 2,
+    "sumatranorangutan": 8,
+    "vaquita": 3,
+    "kakapo": 8
+  },
+  "year": 2026,
+  "populations": {
+    "decomposer": 12,
+    "axolotl": 3,
+    "grass": 90,
+    "oak": 24,
+    "wildflower": 40,
+    "baldeagle": 2,
+    "honeybee": 6,
+    "deer": 6,
+    "rabbit": 8,
+    "redfox": 3,
+    "elkhorncoral": 12,
+    "reeffish": 12,
+    "seaturtle": 3,
+    "seagrass": 60,
+    "stromatolite": 24,
+    "fern": 24,
+    "cycad": 24,
+    "conifer": 24,
+    "amurleopard": 3,
+    "sumatranorangutan": 8,
+    "vaquita": 3,
+    "kakapo": 8
+  },
+  "individuals": [
+    {
+      "key": "historical-decomposer:0",
+      "id": "decomposer",
+      "x": -9.972490335170962,
+      "z": -5.953528572568354,
+      "screenX": 427.9406132143717,
+      "screenY": -86.86688667342173
+    },
+    {
+      "key": "historical-decomposer:1",
+      "id": "decomposer",
+      "x": -13.486740364550029,
+      "z": -6.607434651944666,
+      "screenX": 340.8456820996885,
+      "screenY": -103.30795280197522
+    },
+    {
+      "key": "historical-decomposer:2",
+      "id": "decomposer",
+      "x": -14.786261079071334,
+      "z": -4.582332804848745,
+      "screenX": 245.18269077034068,
+      "screenY": 11.923258739298603
+    },
+    {
+      "key": "historical-decomposer:3",
+      "id": "decomposer",
+      "x": -13.25854832667116,
+      "z": -1.45387066285035,
+      "screenX": 203.42825552759535,
+      "screenY": 53.646290840807694
+    },
+    {
+      "key": "historical-decomposer:4",
+      "id": "decomposer",
+      "x": -9.238009011410952,
+      "z": -3.918008186592439,
+      "screenX": 392.9897919971217,
+      "screenY": 15.269335500514547
+    },
+    {
+      "key": "historical-decomposer:5",
+      "id": "decomposer",
+      "x": -9.860164560515415,
+      "z": -2.308380463519512,
+      "screenX": 329.2725216965089,
+      "screenY": 66.39683439274529
+    },
+    {
+      "key": "historical-decomposer:6",
+      "id": "decomposer",
+      "x": -11.743182801889533,
+      "z": -4.063613592182548,
+      "screenX": 321.93045776909617,
+      "screenY": -12.691606858599425
+    },
+    {
+      "key": "historical-decomposer:7",
+      "id": "decomposer",
+      "x": -14.518556483197678,
+      "z": -2.3510876203327378,
+      "screenX": 190.75346183590383,
+      "screenY": 60.22229001640773
+    },
+    {
+      "key": "historical-decomposer:8",
+      "id": "decomposer",
+      "x": -9.808843205006063,
+      "z": -3.285183164312092,
+      "screenX": 358.15494455067096,
+      "screenY": 33.281494633342845
+    },
+    {
+      "key": "historical-decomposer:9",
+      "id": "decomposer",
+      "x": -12.16673650537982,
+      "z": -4.945048800665422,
+      "screenX": 333.9008439408867,
+      "screenY": -47.63863476936115
+    },
+    {
+      "key": "historical-decomposer:10",
+      "id": "decomposer",
+      "x": -13.088138839753176,
+      "z": -6.211574673621666,
+      "screenX": 341.71941571345167,
+      "screenY": -92.60552936805215
+    },
+    {
+      "key": "historical-decomposer:11",
+      "id": "decomposer",
+      "x": -13.501548885166102,
+      "z": -4.178539957327962,
+      "screenX": 272.4106041365768,
+      "screenY": -17.060288357697306
+    },
+    {
+      "key": "historical-axolotl:0",
+      "id": "axolotl",
+      "x": 5.059593643067073,
+      "z": 2.9924919815418467,
+      "screenX": 628.3611708674988,
+      "screenY": 439.46393464080666
+    },
+    {
+      "key": "historical-axolotl:1",
+      "id": "axolotl",
+      "x": 1.9718243528914106,
+      "z": -2.2634493636589164,
+      "screenX": 682.8799276244533,
+      "screenY": 316.24632247051835
+    },
+    {
+      "key": "historical-axolotl:2",
+      "id": "axolotl",
+      "x": 2.993422539428698,
+      "z": -0.5563138596297642,
+      "screenX": 665.732646642251,
+      "screenY": 356.53162473283453
+    },
+    {
+      "key": "historical-baldeagle:0",
+      "id": "baldeagle",
+      "x": -1.413342465620236,
+      "z": -4.943133700121343,
+      "screenX": 656.3631477852032,
+      "screenY": 170.15297416343208
+    },
+    {
+      "key": "historical-baldeagle:1",
+      "id": "baldeagle",
+      "x": -2.1523860596903397,
+      "z": -3.2200391929237178,
+      "screenX": 585.9639460513724,
+      "screenY": 128.5548950253376
+    },
+    {
+      "key": "historical-honeybee:0",
+      "id": "honeybee",
+      "x": -1.6016704223137046,
+      "z": 4.144762697748229,
+      "screenX": 396.3214774448713,
+      "screenY": 296.6937842919481
+    },
+    {
+      "key": "historical-honeybee:1",
+      "id": "honeybee",
+      "x": -1.589524940652826,
+      "z": 1.975945094351425,
+      "screenX": 457.39646619782445,
+      "screenY": 265.19258275153834
+    },
+    {
+      "key": "historical-honeybee:2",
+      "id": "honeybee",
+      "x": -4.639303632605809,
+      "z": 5.384592629838714,
+      "screenX": 270.51075533691267,
+      "screenY": 270.757721612697
+    },
+    {
+      "key": "historical-honeybee:3",
+      "id": "honeybee",
+      "x": -3.107793996469504,
+      "z": 3.910072609899905,
+      "screenX": 357.7193751517894,
+      "screenY": 272.3052965081701
+    },
+    {
+      "key": "historical-honeybee:4",
+      "id": "honeybee",
+      "x": -2.6670746155335796,
+      "z": 5.626116829627669,
+      "screenX": 322.90099302686167,
+      "screenY": 301.98512522522856
+    },
+    {
+      "key": "historical-honeybee:5",
+      "id": "honeybee",
+      "x": -3.116164364630283,
+      "z": 5.197935158082422,
+      "screenX": 321.41778244117813,
+      "screenY": 289.7071274473095
+    },
+    {
+      "key": "historical-deer:0",
+      "id": "deer",
+      "x": -5.866382451877965,
+      "z": -2.1742848341849874,
+      "screenX": 445.30040089835757,
+      "screenY": 121.88357341679166
+    },
+    {
+      "key": "historical-deer:1",
+      "id": "deer",
+      "x": -8.591994224885195,
+      "z": 0.9261913533071603,
+      "screenX": 276.76360773428604,
+      "screenY": 148.3487884913202
+    },
+    {
+      "key": "historical-deer:2",
+      "id": "deer",
+      "x": -9.083246227458197,
+      "z": 1.7484525615373983,
+      "screenX": 239.01278954128435,
+      "screenY": 156.4585267665428
+    },
+    {
+      "key": "historical-deer:3",
+      "id": "deer",
+      "x": -7.992853268337011,
+      "z": 3.2087693794477663,
+      "screenX": 230.8378849690822,
+      "screenY": 199.1906714983519
+    },
+    {
+      "key": "historical-deer:4",
+      "id": "deer",
+      "x": -7.176002094692762,
+      "z": 1.7547729251001918,
+      "screenX": 296.03795350746566,
+      "screenY": 187.06978490418757
+    },
+    {
+      "key": "historical-deer:5",
+      "id": "deer",
+      "x": -7.831277263642691,
+      "z": 2.4523247247404147,
+      "screenX": 256.85868426128815,
+      "screenY": 188.7838536548959
+    },
+    {
+      "key": "historical-rabbit:0",
+      "id": "rabbit",
+      "x": -7.8611483706625265,
+      "z": 4.530842095891183,
+      "screenX": 197.77980154614647,
+      "screenY": 236.99886249774647
+    },
+    {
+      "key": "historical-rabbit:1",
+      "id": "rabbit",
+      "x": -5.690206242530525,
+      "z": 8.645139316861938,
+      "screenX": 147.72107738399114,
+      "screenY": 327.25359791056945
+    },
+    {
+      "key": "historical-rabbit:2",
+      "id": "rabbit",
+      "x": -6.311603666017992,
+      "z": 9.338151419045817,
+      "screenX": 109.6849475315409,
+      "screenY": 330.1675295217305
+    },
+    {
+      "key": "historical-rabbit:3",
+      "id": "rabbit",
+      "x": -3.3926920801295806,
+      "z": 6.1378664261757665,
+      "screenX": 286.8130931474327,
+      "screenY": 322.1830509167318
+    },
+    {
+      "key": "historical-rabbit:4",
+      "id": "rabbit",
+      "x": -5.940747957134067,
+      "z": 3.885607284401084,
+      "screenX": 273.4382354781695,
+      "screenY": 254.76511641957367
+    },
+    {
+      "key": "historical-rabbit:5",
+      "id": "rabbit",
+      "x": -6.504948634415584,
+      "z": 4.186473611636011,
+      "screenX": 248.0947087719531,
+      "screenY": 251.04184355349554
+    },
+    {
+      "key": "historical-rabbit:6",
+      "id": "rabbit",
+      "x": -3.75680876369586,
+      "z": 5.1349625259504945,
+      "screenX": 303.966332725061,
+      "screenY": 303.416762492436
+    },
+    {
+      "key": "historical-rabbit:7",
+      "id": "rabbit",
+      "x": -4.2156323221950895,
+      "z": 8.729252914328477,
+      "screenX": 189.59196108532055,
+      "screenY": 347.55215178771175
+    },
+    {
+      "key": "historical-redfox:0",
+      "id": "redfox",
+      "x": -11.757915949694683,
+      "z": 0.465164365471449,
+      "screenX": 194.71656658320023,
+      "screenY": 104.23895932667855
+    },
+    {
+      "key": "historical-redfox:1",
+      "id": "redfox",
+      "x": -10.044034639623792,
+      "z": 1.2747825806536204,
+      "screenX": 223.45604050433337,
+      "screenY": 143.5352853696121
+    },
+    {
+      "key": "historical-redfox:2",
+      "id": "redfox",
+      "x": -12.269248011953689,
+      "z": -3.6563324163090365,
+      "screenX": 294.75186812465415,
+      "screenY": -7.9647035428420665
+    },
+    {
+      "key": "historical-elkhorncoral:0",
+      "id": "elkhorncoral",
+      "x": 20.00714683980093,
+      "z": 12.600262240422266,
+      "screenX": 807.7224229254512,
+      "screenY": 812.8722322836126
+    },
+    {
+      "key": "historical-elkhorncoral:1",
+      "id": "elkhorncoral",
+      "x": 16.426368073849915,
+      "z": 12.051060106202,
+      "screenX": 715.701231461019,
+      "screenY": 753.9535375392268
+    },
+    {
+      "key": "historical-elkhorncoral:2",
+      "id": "elkhorncoral",
+      "x": 19.86256464758931,
+      "z": 11.4794764628448,
+      "screenX": 834.7597569756924,
+      "screenY": 793.8588847173212
+    },
+    {
+      "key": "historical-elkhorncoral:3",
+      "id": "elkhorncoral",
+      "x": 17.10769330287557,
+      "z": 14.424439918627533,
+      "screenX": 669.6986073384353,
+      "screenY": 799.5179413934553
+    },
+    {
+      "key": "historical-elkhorncoral:4",
+      "id": "elkhorncoral",
+      "x": 21.90146387331199,
+      "z": 11.820633048635242,
+      "screenX": 886.3606043876122,
+      "screenY": 827.8378746603735
+    },
+    {
+      "key": "historical-elkhorncoral:5",
+      "id": "elkhorncoral",
+      "x": 17.50803742923272,
+      "z": 11.155722054791502,
+      "screenX": 773.2054601161418,
+      "screenY": 755.682974819389
+    },
+    {
+      "key": "historical-elkhorncoral:6",
+      "id": "elkhorncoral",
+      "x": 20.696563191760763,
+      "z": 11.834537183534366,
+      "screenX": 849.833997784347,
+      "screenY": 811.0209110035438
+    },
+    {
+      "key": "historical-elkhorncoral:7",
+      "id": "elkhorncoral",
+      "x": 18.628669093771798,
+      "z": 13.909224867084532,
+      "screenX": 729.7379097931025,
+      "screenY": 813.2111455796671
+    },
+    {
+      "key": "historical-elkhorncoral:8",
+      "id": "elkhorncoral",
+      "x": 18.639745176417897,
+      "z": 10.175701829456013,
+      "screenX": 834.580910214986,
+      "screenY": 756.8373511833521
+    },
+    {
+      "key": "historical-elkhorncoral:9",
+      "id": "elkhorncoral",
+      "x": 19.576452400129646,
+      "z": 13.41025953522119,
+      "screenX": 772.1311459569117,
+      "screenY": 819.0501142836924
+    },
+    {
+      "key": "historical-elkhorncoral:10",
+      "id": "elkhorncoral",
+      "x": 16.017297688368753,
+      "z": 13.029455574382412,
+      "screenX": 676.0446101524172,
+      "screenY": 762.9867716888393
+    },
+    {
+      "key": "historical-elkhorncoral:11",
+      "id": "elkhorncoral",
+      "x": 18.42233002190925,
+      "z": 9.87587743943121,
+      "screenX": 836.4530398198106,
+      "screenY": 749.2251450090404
+    },
+    {
+      "key": "historical-reeffish:0",
+      "id": "reeffish",
+      "x": 19.02095885050319,
+      "z": 13.069951439135396,
+      "screenX": 764.9968665220504,
+      "screenY": 805.9941350955285
+    },
+    {
+      "key": "historical-reeffish:1",
+      "id": "reeffish",
+      "x": 19.31209861103544,
+      "z": 14.783976826292927,
+      "screenX": 725.748803034629,
+      "screenY": 836.0610213933949
+    },
+    {
+      "key": "historical-reeffish:2",
+      "id": "reeffish",
+      "x": 22.689724006226673,
+      "z": 10.732591854380745,
+      "screenX": 940.4591515423383,
+      "screenY": 822.4500002965739
+    },
+    {
+      "key": "historical-reeffish:3",
+      "id": "reeffish",
+      "x": 21.245169754252057,
+      "z": 9.718833674717102,
+      "screenX": 925.5117345687,
+      "screenY": 786.6861619706544
+    },
+    {
+      "key": "historical-reeffish:4",
+      "id": "reeffish",
+      "x": 22.829967992541757,
+      "z": 11.45814382408817,
+      "screenX": 924.3553055738868,
+      "screenY": 835.4176949350527
+    },
+    {
+      "key": "historical-reeffish:5",
+      "id": "reeffish",
+      "x": 19.16980930793512,
+      "z": 12.437934369594524,
+      "screenX": 787.1529564573433,
+      "screenY": 798.52812139195
+    },
+    {
+      "key": "historical-reeffish:6",
+      "id": "reeffish",
+      "x": 21.892689441219073,
+      "z": 9.646818880107574,
+      "screenX": 946.9480294243397,
+      "screenY": 794.7464245657525
+    },
+    {
+      "key": "historical-reeffish:7",
+      "id": "reeffish",
+      "x": 21.193082916050283,
+      "z": 13.135135273700003,
+      "screenX": 828.3185740684479,
+      "screenY": 837.6772592062925
+    },
+    {
+      "key": "historical-reeffish:8",
+      "id": "reeffish",
+      "x": 21.340702292099746,
+      "z": 11.557101264791116,
+      "screenX": 876.9191618232373,
+      "screenY": 815.8699400669307
+    },
+    {
+      "key": "historical-reeffish:9",
+      "id": "reeffish",
+      "x": 17.78606062190271,
+      "z": 11.828392153501257,
+      "screenX": 762.7141877007147,
+      "screenY": 769.7439262694501
+    },
+    {
+      "key": "historical-reeffish:10",
+      "id": "reeffish",
+      "x": 19.029238871810325,
+      "z": 10.484767231753356,
+      "screenX": 837.6110826630552,
+      "screenY": 766.9681476383346
+    },
+    {
+      "key": "historical-reeffish:11",
+      "id": "reeffish",
+      "x": 19.4902362055821,
+      "z": 10.760906658549269,
+      "screenX": 843.7074748252281,
+      "screenY": 777.6640028623834
+    },
+    {
+      "key": "historical-seaturtle:0",
+      "id": "seaturtle",
+      "x": 18.79519293103513,
+      "z": 16.340271645659715,
+      "screenX": 666.6811115989946,
+      "screenY": 852.4090127374204
+    },
+    {
+      "key": "historical-seaturtle:1",
+      "id": "seaturtle",
+      "x": 17.676886730186503,
+      "z": 16.46825274716485,
+      "screenX": 629.5583431519304,
+      "screenY": 838.5430616906467
+    },
+    {
+      "key": "historical-seaturtle:2",
+      "id": "seaturtle",
+      "x": 16.25786313892179,
+      "z": 14.501754785515343,
+      "screenX": 642.046251926258,
+      "screenY": 788.714318726336
+    },
+    {
+      "key": "historical-amurleopard:0",
+      "id": "amurleopard",
+      "x": -4.119849536599156,
+      "z": 0.3443333401089857,
+      "screenX": 427.1799062466637,
+      "screenY": 223.18420674391723
+    },
+    {
+      "key": "historical-amurleopard:1",
+      "id": "amurleopard",
+      "x": -2.2917848557329386,
+      "z": 1.7384374268887222,
+      "screenX": 442.9827228343427,
+      "screenY": 273.21552100822004
+    },
+    {
+      "key": "historical-sumatranorangutan:0",
+      "id": "sumatranorangutan",
+      "x": -4.092980245246074,
+      "z": 1.4384749170380806,
+      "screenX": 397.35796452691886,
+      "screenY": 241.46030135354715
+    },
+    {
+      "key": "historical-sumatranorangutan:1",
+      "id": "sumatranorangutan",
+      "x": -4.196107926924883,
+      "z": 2.7908806254293834,
+      "screenX": 356.4076821999686,
+      "screenY": 260.76306162088923
+    },
+    {
+      "key": "historical-sumatranorangutan:2",
+      "id": "sumatranorangutan",
+      "x": -3.2486721666518723,
+      "z": 1.623490646625793,
+      "screenX": 417.5014008335829,
+      "screenY": 256.9102913035784
+    },
+    {
+      "key": "historical-sumatranorangutan:3",
+      "id": "sumatranorangutan",
+      "x": -5.898038763421066,
+      "z": 1.8005676862879667,
+      "screenX": 333.0847319533358,
+      "screenY": 219.0291154159343
+    },
+    {
+      "key": "historical-sumatranorangutan:4",
+      "id": "sumatranorangutan",
+      "x": -2.254899852558992,
+      "z": 4.312422019845712,
+      "screenX": 372.03660229975526,
+      "screenY": 309.7408527899076
+    },
+    {
+      "key": "historical-sumatranorangutan:5",
+      "id": "sumatranorangutan",
+      "x": -3.9818176117760404,
+      "z": 4.770414199829765,
+      "screenX": 307.4224997921417,
+      "screenY": 291.49097325958854
+    },
+    {
+      "key": "historical-sumatranorangutan:6",
+      "id": "sumatranorangutan",
+      "x": -2.7982819994856647,
+      "z": 3.290971563889356,
+      "screenX": 384.33247539750755,
+      "screenY": 287.9114295722576
+    },
+    {
+      "key": "historical-sumatranorangutan:7",
+      "id": "sumatranorangutan",
+      "x": -6.101574669018946,
+      "z": 3.2340128815373657,
+      "screenX": 286.85450370006606,
+      "screenY": 238.75186401296332
+    },
+    {
+      "key": "historical-vaquita:0",
+      "id": "vaquita",
+      "x": 13.692469040501829,
+      "z": 11.887099958509836,
+      "screenX": 638.2957631504089,
+      "screenY": 712.605697748614
+    },
+    {
+      "key": "historical-vaquita:1",
+      "id": "vaquita",
+      "x": 15.925538463496984,
+      "z": 9.632995482136762,
+      "screenX": 768.3681237034434,
+      "screenY": 710.0330980483175
+    },
+    {
+      "key": "historical-vaquita:2",
+      "id": "vaquita",
+      "x": 15.035529351275283,
+      "z": 10.437285104509067,
+      "screenX": 719.1608482903719,
+      "screenY": 709.6335870456973
+    },
+    {
+      "key": "historical-kakapo:0",
+      "id": "kakapo",
+      "x": -9.658909311564766,
+      "z": 7.606709874402819,
+      "screenX": 57.75997271083838,
+      "screenY": 264.67366280854804
+    },
+    {
+      "key": "historical-kakapo:1",
+      "id": "kakapo",
+      "x": -8.72034007580951,
+      "z": 6.069834321780667,
+      "screenX": 128.9306074798963,
+      "screenY": 252.1317239238522
+    },
+    {
+      "key": "historical-kakapo:2",
+      "id": "kakapo",
+      "x": -7.220451464620367,
+      "z": 4.680808539104168,
+      "screenX": 212.7976480020738,
+      "screenY": 250.35312753394484
+    },
+    {
+      "key": "historical-kakapo:3",
+      "id": "kakapo",
+      "x": -6.260654777056365,
+      "z": 8.713137370177376,
+      "screenX": 128.70874018634532,
+      "screenY": 323.26599496537784
+    },
+    {
+      "key": "historical-kakapo:4",
+      "id": "kakapo",
+      "x": -7.454948993581711,
+      "z": 5.855380289334991,
+      "screenX": 172.8853445978926,
+      "screenY": 265.3440505131679
+    },
+    {
+      "key": "historical-kakapo:5",
+      "id": "kakapo",
+      "x": -8.355868356165255,
+      "z": 6.5675237036512595,
+      "screenX": 125.93025558290236,
+      "screenY": 264.8593427310792
+    },
+    {
+      "key": "historical-kakapo:6",
+      "id": "kakapo",
+      "x": -8.27640546432177,
+      "z": 5.230424110032963,
+      "screenX": 165.74232618748533,
+      "screenY": 244.46780446240356
+    },
+    {
+      "key": "historical-kakapo:7",
+      "id": "kakapo",
+      "x": -8.616754385013348,
+      "z": 4.446521009070874,
+      "screenX": 177.47801934801402,
+      "screenY": 226.8499909500863
+    }
+  ]
 }

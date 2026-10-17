@@ -704,22 +704,6 @@
     ]
   },
   {
-    "id": "trilobite",
-    "bones": 5,
-    "skins": 4,
-    "actions": [
-      "Idle",
-      "Walk",
-      "Run",
-      "Forage",
-      "Rest",
-      "Swim",
-      "Fly",
-      "Birth",
-      "Death"
-    ]
-  },
-  {
     "id": "arthropleura",
     "bones": 5,
     "skins": 4,
@@ -915,6 +899,22 @@
     "id": "desmatosuchus",
     "bones": 15,
     "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
+  },
+  {
+    "id": "trilobite",
+    "bones": 7,
+    "skins": 5,
     "actions": [
       "Idle",
       "Walk",

@@ -1,0 +1,311 @@
+{
+  "results": [
+    {
+      "year": -504899999,
+      "region": "North America",
+      "era": "cambrian",
+      "calls": 8,
+      "triangles": 40176,
+      "geometries": 46,
+      "textures": 5,
+      "frameMs": 21.400000035762787,
+      "rendered": 23,
+      "inFrame": 14,
+      "animalsInFrame": 14,
+      "bySpecies": {
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "populations": {
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "medianMs": 16.699999999999818,
+      "p95Ms": 33.400000000000546
+    },
+    {
+      "year": -224899999,
+      "region": "North America",
+      "era": "triassic",
+      "calls": 59,
+      "triangles": 88962,
+      "geometries": 67,
+      "textures": 44,
+      "frameMs": 89.09999996423721,
+      "rendered": 28,
+      "inFrame": 28,
+      "animalsInFrame": 8,
+      "bySpecies": {
+        "fern": 10,
+        "conifer": 10,
+        "desmatosuchus": 8
+      },
+      "populations": {
+        "fern": 50,
+        "conifer": 24,
+        "desmatosuchus": 8
+      },
+      "medianMs": 100,
+      "p95Ms": 116.60000000000036
+    },
+    {
+      "year": -84899999,
+      "region": "North America",
+      "era": "cretaceous",
+      "calls": 24,
+      "triangles": 30804,
+      "geometries": 77,
+      "textures": 18,
+      "frameMs": 49.90000003576279,
+      "rendered": 2,
+      "inFrame": 2,
+      "animalsInFrame": 2,
+      "bySpecies": {
+        "pteranodon": 2
+      },
+      "populations": {
+        "pteranodon": 3
+      },
+      "medianMs": 50,
+      "p95Ms": 66.70000000000073
+    },
+    {
+      "year": -4899999,
+      "region": "North America",
+      "era": "neogene",
+      "calls": 51,
+      "triangles": 46322,
+      "geometries": 95,
+      "textures": 42,
+      "frameMs": 59.60000002384186,
+      "rendered": 5,
+      "inFrame": 5,
+      "animalsInFrame": 5,
+      "bySpecies": {
+        "groundsloth": 5
+      },
+      "populations": {
+        "groundsloth": 5
+      },
+      "medianMs": 66.59999999999854,
+      "p95Ms": 66.70000000000073
+    },
+    {
+      "year": -1799999,
+      "region": "North America",
+      "era": "earlypleistocene",
+      "calls": 51,
+      "triangles": 50496,
+      "geometries": 95,
+      "textures": 42,
+      "frameMs": 73.60000002384186,
+      "rendered": 6,
+      "inFrame": 6,
+      "animalsInFrame": 6,
+      "bySpecies": {
+        "groundsloth": 6
+      },
+      "populations": {
+        "groundsloth": 8
+      },
+      "medianMs": 66.69999999999709,
+      "p95Ms": 100
+    },
+    {
+      "year": 1892,
+      "region": "North America",
+      "era": "holocene",
+      "calls": 114,
+      "triangles": 176362,
+      "geometries": 119,
+      "textures": 86,
+      "frameMs": 120.30000001192093,
+      "rendered": 46,
+      "inFrame": 37,
+      "animalsInFrame": 37,
+      "bySpecies": {
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 2,
+        "seaotter": 3,
+        "bison": 6,
+        "graywolf": 2,
+        "beaver": 8,
+        "menhaden": 8,
+        "passengerpigeon": 6
+      },
+      "populations": {
+        "passengerpigeon": 6,
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "medianMs": 116.69999999999709,
+      "p95Ms": 133.40000000000146
+    },
+    {
+      "year": 2026,
+      "region": "North America",
+      "era": "present",
+      "calls": 112,
+      "triangles": 168526,
+      "geometries": 117,
+      "textures": 85,
+      "frameMs": 139.10000002384186,
+      "rendered": 40,
+      "inFrame": 31,
+      "animalsInFrame": 31,
+      "bySpecies": {
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 2,
+        "seaotter": 3,
+        "bison": 6,
+        "graywolf": 2,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "populations": {
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "medianMs": 133.3000000000029,
+      "p95Ms": 150
+    },
+    {
+      "year": 2030,
+      "region": "North America",
+      "era": "future",
+      "calls": 117,
+      "triangles": 225150,
+      "geometries": 122,
+      "textures": 87,
+      "frameMs": 153.60000002384186,
+      "rendered": 107,
+      "inFrame": 91,
+      "animalsInFrame": 31,
+      "bySpecies": {
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 1,
+        "condor": 2,
+        "seaotter": 4,
+        "bison": 6,
+        "graywolf": 2,
+        "beaver": 12,
+        "menhaden": 12,
+        "grass": 30,
+        "oak": 30
+      },
+      "populations": {
+        "grass": 126.39066631591895,
+        "oak": 55.586456998761314,
+        "baldeagle": 2.735182871640361,
+        "deer": 8,
+        "redfox": 1,
+        "condor": 4.0232057438454545,
+        "seaotter": 4.022746229082822,
+        "bison": 22.913111514362377,
+        "graywolf": 11.94180807437019,
+        "beaver": 27.264213356724884,
+        "menhaden": 27.491678357533416
+      },
+      "medianMs": 150,
+      "p95Ms": 166.60000000000582
+    },
+    {
+      "year": 2050,
+      "region": "North America",
+      "era": "future",
+      "calls": 63,
+      "triangles": 178604,
+      "geometries": 122,
+      "textures": 33,
+      "frameMs": 80.19999998807907,
+      "rendered": 91,
+      "inFrame": 14,
+      "animalsInFrame": 14,
+      "bySpecies": {
+        "seaotter": 7,
+        "baldeagle": 2,
+        "redfox": 1,
+        "condor": 2,
+        "graywolf": 2,
+        "beaver": 12,
+        "menhaden": 5,
+        "grass": 30,
+        "oak": 30
+      },
+      "populations": {
+        "grass": 240,
+        "oak": 240,
+        "baldeagle": 6.036310763146692,
+        "deer": 0,
+        "redfox": 1,
+        "condor": 6.853205832239711,
+        "seaotter": 6.523528580854129,
+        "bison": 0,
+        "graywolf": 11.835218686950109,
+        "beaver": 54.53324533362582,
+        "menhaden": 4.532251633247656
+      },
+      "medianMs": 83.30000000000291,
+      "p95Ms": 83.40000000000873
+    },
+    {
+      "year": 2100,
+      "region": "North America",
+      "era": "future",
+      "calls": 63,
+      "triangles": 151884,
+      "geometries": 122,
+      "textures": 33,
+      "frameMs": 113.89999997615814,
+      "rendered": 72,
+      "inFrame": 64,
+      "animalsInFrame": 12,
+      "bySpecies": {
+        "beaver": 12,
+        "grass": 30,
+        "oak": 30
+      },
+      "populations": {
+        "grass": 163.7932218019308,
+        "oak": 163.7932218019308,
+        "baldeagle": 0,
+        "deer": 0,
+        "redfox": 0,
+        "condor": 0,
+        "seaotter": 0,
+        "bison": 0,
+        "graywolf": 0,
+        "beaver": 17.229944607817032,
+        "menhaden": 0
+      },
+      "medianMs": 116.69999999999709,
+      "p95Ms": 133.39999999999418
+    }
+  ],
+  "errors": []
+}

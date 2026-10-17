@@ -1,0 +1,39 @@
+{
+  "query": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Arthropleura&show=coords,time,ref&cc=US,CA&limit=100",
+  "data": {
+    "elapsed_time": 0.00443,
+    "records": [
+      {
+        "oid": "occ:1648291",
+        "cid": "col:11188",
+        "tna": "Arthropleura cristata",
+        "rnk": 3,
+        "tid": "txn:485546",
+        "oei": "Stephanian A",
+        "eag": 305,
+        "lag": 301.4,
+        "rid": "ref:87746",
+        "lng": "-80.650002",
+        "lat": "40.695000",
+        "cxi": "int:27",
+        "ref": "J. T. Hannibal. 1997. Remains of Arthropleura, a gigantic myriapod arthropod, from the Pennsylvanian of Ohio and Pennsylvania. Kirtlandia 50:1-9"
+      },
+      {
+        "oid": "occ:1648292",
+        "cid": "col:225177",
+        "idn": "Arthropleura cf. cristata",
+        "tna": "Arthropleura cristata",
+        "rnk": 3,
+        "tid": "txn:485546",
+        "oei": "Westphalian D",
+        "eag": 309.8,
+        "lag": 307.4,
+        "rid": "ref:87746",
+        "lng": "-80.474998",
+        "lat": "40.798000",
+        "cxi": "int:51",
+        "ref": "J. T. Hannibal. 1997. Remains of Arthropleura, a gigantic myriapod arthropod, from the Pennsylvanian of Ohio and Pennsylvania. Kirtlandia 50:1-9"
+      }
+    ]
+  }
+}

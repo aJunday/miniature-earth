@@ -935,13 +935,14 @@
     "pass": true
   },
   "org_trilobite": {
-    "triangles": 1294,
+    "triangles": 1310,
     "parts": [
       "Body",
       "Eye_L",
       "Eye_R",
       "Head",
-      "Root"
+      "Root",
+      "Tail"
     ],
     "pass": true
   },

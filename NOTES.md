@@ -247,3 +247,10 @@
 - Critical overhaul: living species' 1872–2026 continental display continuity is a conservative reconstruction inference, not a local historical census.
 - Critical overhaul: early Pleistocene uses southern North American lowlands; a glacial landscape is not assumed globally.
 - Critical overhaul: a follow camera follows a representative group across simulation changes, not a documented individual life history.
+- Critical overhaul visual QA: removed permanent zero-population animal proxies because they looked alive despite local loss; departure animation remains transient.
+- Critical overhaul visual QA: replaced the fish-like old trilobite with an original three-lobed segmented arthropod, using ROM anatomy descriptions and no copied media.
+- Critical overhaul: fossil oak foliage is a coarse Quercus habitat proxy based on Florida Museum woods, including reworked Pliocene/Pleistocene material; the interval is not a precise species lifespan.
+- Critical overhaul performance: merge distant geometry and update distant animation at at most 30 Hz; selected animals retain deform rigs. Representative population caps were not reduced.
+- Critical overhaul final review: added source-reviewed North American Allosaurus/Brachiosaurus distribution and Arthropleura deposit windows; the Carboniferous preset uses 308 Ma within that reviewed interval.
+- Critical overhaul final acceptance: a local zero-population group is absent from live rendering; the catalogue still lists supported starting taxa so players can inspect the loss.
+- Critical overhaul limits: whole-game software rendering remains below 60 FPS in dense views, and the 357-row coverage report exposes unresolved era/region combinations instead of filling them with unrelated animals.

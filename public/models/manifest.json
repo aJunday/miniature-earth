@@ -1179,13 +1179,14 @@
     "file": "/models/org_trilobite.glb",
     "icon": "/icons/org_trilobite.png",
     "heightUnits": 0.41999998688697815,
-    "triangles": 2704,
+    "triangles": 2736,
     "parts": [
       "Root",
       "Body",
       "Eye_L",
       "Eye_R",
-      "Head"
+      "Head",
+      "Tail"
     ]
   },
   {

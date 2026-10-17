@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "actual canvas animal click opens species ecology and follow controls"
+  ],
+  "point": {
+    "key": "historical-deer:0",
+    "id": "deer",
+    "x": -3.472695202766167,
+    "z": -0.23484907562786184,
+    "screenX": 720.0000000000001,
+    "screenY": 357.82411706460607
+  },
+  "errors": []
+}

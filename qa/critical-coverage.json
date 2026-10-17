@@ -1,0 +1,5607 @@
+{
+  "rows": [
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "mosaic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Hadean",
+      "year": -4300000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Volcanic, highly variable",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 45
+      },
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Archean",
+      "year": -3000000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Early oceans and rocky shores",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 45
+      },
+      "habitat": "Changing oceans and climate",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Proterozoic",
+      "year": -1200000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 45
+      },
+      "habitat": "Major glacial episodes",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cryogenian",
+      "year": -660000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Major glacial episodes",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "charnia"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 65,
+        "charnia": 18
+      },
+      "habitat": "Changing oceans and climate",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Europe",
+      "available": [
+        "charnia"
+      ],
+      "simulatedPopulations": {
+        "charnia": 18
+      },
+      "habitat": "Changing oceans and climate",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ediacaran",
+      "year": -560000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing oceans and climate",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "trilobite",
+        "anomalocaris",
+        "vauxia"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 60,
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "habitat": "Shallow marine showcase",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "North America",
+      "available": [
+        "trilobite",
+        "anomalocaris",
+        "vauxia"
+      ],
+      "simulatedPopulations": {
+        "trilobite": 12,
+        "anomalocaris": 3,
+        "vauxia": 8
+      },
+      "habitat": "Shallow marine showcase",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cambrian",
+      "year": -505000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "trilobite"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 60,
+        "trilobite": 12
+      },
+      "habitat": "Shallow marine showcase",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Ordovician",
+      "year": -460000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "trilobite"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 60,
+        "trilobite": 12
+      },
+      "habitat": "Shallow marine showcase",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Silurian",
+      "year": -430000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "trilobite"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 60,
+        "trilobite": 12
+      },
+      "habitat": "Shallow marine showcase",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Devonian",
+      "year": -390000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Shallow marine showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "trilobite",
+        "arthropleura",
+        "lycophyte",
+        "horsetail"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 60,
+        "trilobite": 12,
+        "fern": 60,
+        "lycophyte": 24,
+        "horsetail": 45,
+        "arthropleura": 8
+      },
+      "habitat": "Humid forested wetlands",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "North America",
+      "available": [
+        "fern",
+        "arthropleura",
+        "lycophyte",
+        "horsetail"
+      ],
+      "simulatedPopulations": {
+        "fern": 60,
+        "lycophyte": 24,
+        "horsetail": 45,
+        "arthropleura": 8
+      },
+      "habitat": "Humid forested wetlands",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Carboniferous",
+      "year": -308000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Humid forested wetlands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "trilobite",
+        "dimetrodon"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 60,
+        "trilobite": 12,
+        "fern": 40,
+        "dimetrodon": 3
+      },
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "North America",
+      "available": [
+        "dimetrodon"
+      ],
+      "simulatedPopulations": {
+        "dimetrodon": 3
+      },
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Permian",
+      "year": -275000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "conifer",
+        "desmatosuchus"
+      ],
+      "simulatedPopulations": {
+        "fern": 50,
+        "stromatolite": 24,
+        "conifer": 24,
+        "desmatosuchus": 8
+      },
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "North America",
+      "available": [
+        "fern",
+        "conifer",
+        "desmatosuchus"
+      ],
+      "simulatedPopulations": {
+        "fern": 50,
+        "conifer": 24,
+        "desmatosuchus": 8
+      },
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Triassic",
+      "year": -225000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Seasonally dry continental interior",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "cycad",
+        "conifer",
+        "stegosaurus",
+        "brachiosaurus",
+        "allosaurus",
+        "ammonite"
+      ],
+      "simulatedPopulations": {
+        "ammonite": 10,
+        "fern": 90,
+        "cycad": 60,
+        "conifer": 50,
+        "stegosaurus": 8,
+        "brachiosaurus": 4,
+        "allosaurus": 2,
+        "stromatolite": 24
+      },
+      "habitat": "Warm conifer woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "North America",
+      "available": [
+        "fern",
+        "cycad",
+        "conifer",
+        "stegosaurus",
+        "brachiosaurus",
+        "allosaurus"
+      ],
+      "simulatedPopulations": {
+        "fern": 90,
+        "cycad": 60,
+        "conifer": 50,
+        "stegosaurus": 8,
+        "brachiosaurus": 4,
+        "allosaurus": 2
+      },
+      "habitat": "Warm conifer woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Jurassic",
+      "year": -150000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm conifer woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "cycad",
+        "conifer",
+        "ammonite",
+        "triceratops"
+      ],
+      "simulatedPopulations": {
+        "ammonite": 10,
+        "fern": 70,
+        "cycad": 40,
+        "triceratops": 8,
+        "stromatolite": 24,
+        "conifer": 24
+      },
+      "habitat": "Warm woodland and flowers",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "North America",
+      "available": [
+        "triceratops"
+      ],
+      "simulatedPopulations": {
+        "triceratops": 8
+      },
+      "habitat": "Warm woodland and flowers",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Cretaceous",
+      "year": -67000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Warm woodland and flowers",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 24,
+        "fern": 24
+      },
+      "habitat": "Changing forests and grasslands",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Paleogene",
+      "year": -40000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "grass",
+        "oak",
+        "groundsloth"
+      ],
+      "simulatedPopulations": {
+        "grass": 90,
+        "groundsloth": 5,
+        "stromatolite": 24,
+        "fern": 24,
+        "oak": 24
+      },
+      "habitat": "Changing forests and grasslands",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "North America",
+      "available": [
+        "oak",
+        "groundsloth"
+      ],
+      "simulatedPopulations": {
+        "groundsloth": 5,
+        "oak": 24
+      },
+      "habitat": "Changing forests and grasslands",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Neogene",
+      "year": -5000000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Changing forests and grasslands",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "grass",
+        "oak",
+        "groundsloth"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 24,
+        "fern": 24,
+        "grass": 24,
+        "oak": 24,
+        "groundsloth": 8
+      },
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "North America",
+      "available": [
+        "oak",
+        "groundsloth"
+      ],
+      "simulatedPopulations": {
+        "oak": 24,
+        "groundsloth": 8
+      },
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Early Pleistocene",
+      "year": -1800000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Wooded lowlands and freshwater",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "grass",
+        "oak",
+        "mammoth",
+        "groundsloth"
+      ],
+      "simulatedPopulations": {
+        "grass": 90,
+        "mammoth": 5,
+        "groundsloth": 3,
+        "stromatolite": 24,
+        "fern": 24,
+        "oak": 24
+      },
+      "habitat": "Glacial tundra showcase",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "North America",
+      "available": [
+        "oak",
+        "mammoth",
+        "groundsloth"
+      ],
+      "simulatedPopulations": {
+        "mammoth": 5,
+        "groundsloth": 3,
+        "oak": 24
+      },
+      "habitat": "Glacial tundra showcase",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Pleistocene",
+      "year": -40000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Glacial tundra showcase",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "grass"
+      ],
+      "simulatedPopulations": {
+        "stromatolite": 24,
+        "fern": 24,
+        "grass": 24
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Europe",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "North America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Africa",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Asia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Atlantic Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Pacific Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Indian Ocean",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Mexico",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "New Zealand",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Madagascar",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Arctic",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Australia",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Antarctica",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Holocene",
+      "year": 1000,
+      "region": "South America",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "cycad",
+        "conifer",
+        "grass",
+        "oak",
+        "wildflower",
+        "seagrass",
+        "rabbit",
+        "deer",
+        "redfox",
+        "honeybee",
+        "seaturtle",
+        "amurleopard",
+        "sumatranorangutan",
+        "vaquita",
+        "kakapo",
+        "axolotl",
+        "sumatranrhino",
+        "rightwhale",
+        "pangolin",
+        "philippineeagle",
+        "condor",
+        "forestelephant",
+        "elkhorncoral",
+        "tiger",
+        "redpanda",
+        "bluewhale",
+        "mountaingorilla",
+        "asianelephant",
+        "whaleshark",
+        "seaotter",
+        "ringtailedlemur",
+        "wilddog",
+        "giantpanda",
+        "snowleopard",
+        "polarbear",
+        "koala",
+        "cheetah",
+        "emperorpenguin",
+        "humpback",
+        "baldeagle",
+        "reeffish",
+        "decomposer",
+        "bison",
+        "graywolf",
+        "beaver",
+        "menhaden",
+        "capybara"
+      ],
+      "simulatedPopulations": {
+        "decomposer": 12,
+        "axolotl": 3,
+        "grass": 90,
+        "oak": 24,
+        "wildflower": 40,
+        "baldeagle": 2,
+        "honeybee": 6,
+        "deer": 6,
+        "rabbit": 8,
+        "redfox": 3,
+        "elkhorncoral": 12,
+        "reeffish": 12,
+        "seaturtle": 3,
+        "seagrass": 60,
+        "stromatolite": 24,
+        "fern": 24,
+        "cycad": 24,
+        "conifer": 24,
+        "amurleopard": 3,
+        "sumatranorangutan": 8,
+        "vaquita": 3,
+        "kakapo": 8
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Europe",
+      "available": [
+        "rabbit",
+        "redfox",
+        "honeybee",
+        "graywolf"
+      ],
+      "simulatedPopulations": {
+        "honeybee": 6,
+        "rabbit": 8,
+        "redfox": 3,
+        "graywolf": 3
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "North America",
+      "available": [
+        "grass",
+        "oak",
+        "deer",
+        "redfox",
+        "condor",
+        "seaotter",
+        "baldeagle",
+        "bison",
+        "graywolf",
+        "beaver",
+        "menhaden"
+      ],
+      "simulatedPopulations": {
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Africa",
+      "available": [
+        "rabbit",
+        "redfox",
+        "honeybee",
+        "forestelephant",
+        "mountaingorilla",
+        "wilddog",
+        "cheetah"
+      ],
+      "simulatedPopulations": {
+        "honeybee": 6,
+        "rabbit": 8,
+        "redfox": 3,
+        "forestelephant": 8,
+        "mountaingorilla": 8,
+        "wilddog": 3,
+        "cheetah": 3
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Asia",
+      "available": [
+        "redfox",
+        "honeybee",
+        "amurleopard",
+        "sumatranorangutan",
+        "sumatranrhino",
+        "pangolin",
+        "philippineeagle",
+        "tiger",
+        "redpanda",
+        "asianelephant",
+        "seaotter",
+        "giantpanda",
+        "cheetah",
+        "reeffish",
+        "graywolf"
+      ],
+      "simulatedPopulations": {
+        "honeybee": 6,
+        "redfox": 3,
+        "reeffish": 12,
+        "amurleopard": 3,
+        "sumatranorangutan": 8,
+        "sumatranrhino": 8,
+        "pangolin": 3,
+        "philippineeagle": 3,
+        "tiger": 3,
+        "redpanda": 8,
+        "asianelephant": 8,
+        "seaotter": 3,
+        "giantpanda": 8,
+        "cheetah": 3,
+        "graywolf": 3
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Atlantic Ocean",
+      "available": [
+        "seaturtle",
+        "rightwhale",
+        "elkhorncoral",
+        "bluewhale",
+        "whaleshark",
+        "humpback",
+        "menhaden"
+      ],
+      "simulatedPopulations": {
+        "elkhorncoral": 12,
+        "seaturtle": 3,
+        "rightwhale": 3,
+        "bluewhale": 3,
+        "whaleshark": 3,
+        "humpback": 3,
+        "menhaden": 8
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Pacific Ocean",
+      "available": [
+        "seaturtle",
+        "bluewhale",
+        "whaleshark",
+        "seaotter",
+        "humpback",
+        "reeffish"
+      ],
+      "simulatedPopulations": {
+        "reeffish": 12,
+        "seaturtle": 3,
+        "bluewhale": 3,
+        "whaleshark": 3,
+        "seaotter": 3,
+        "humpback": 3
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Indian Ocean",
+      "available": [
+        "seaturtle",
+        "bluewhale",
+        "whaleshark"
+      ],
+      "simulatedPopulations": {
+        "seaturtle": 3,
+        "bluewhale": 3,
+        "whaleshark": 3
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Mexico",
+      "available": [
+        "vaquita",
+        "axolotl",
+        "baldeagle"
+      ],
+      "simulatedPopulations": {
+        "axolotl": 3,
+        "baldeagle": 2,
+        "vaquita": 3
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "New Zealand",
+      "available": [
+        "kakapo"
+      ],
+      "simulatedPopulations": {
+        "kakapo": 8
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Madagascar",
+      "available": [
+        "ringtailedlemur"
+      ],
+      "simulatedPopulations": {
+        "ringtailedlemur": 8
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Arctic",
+      "available": [
+        "polarbear"
+      ],
+      "simulatedPopulations": {
+        "polarbear": 3
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Australia",
+      "available": [
+        "koala",
+        "reeffish"
+      ],
+      "simulatedPopulations": {
+        "reeffish": 12,
+        "koala": 8
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Antarctica",
+      "available": [
+        "emperorpenguin"
+      ],
+      "simulatedPopulations": {
+        "emperorpenguin": 3
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Temperate coastal woodland",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Present",
+      "year": 2026,
+      "region": "South America",
+      "available": [
+        "capybara"
+      ],
+      "simulatedPopulations": {
+        "capybara": 8
+      },
+      "habitat": "Temperate coastal woodland",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "mosaic",
+      "available": [
+        "stromatolite",
+        "fern",
+        "cycad",
+        "conifer",
+        "grass",
+        "oak",
+        "wildflower",
+        "seagrass",
+        "rabbit",
+        "deer",
+        "redfox",
+        "honeybee",
+        "seaturtle",
+        "amurleopard",
+        "sumatranorangutan",
+        "vaquita",
+        "kakapo",
+        "axolotl",
+        "sumatranrhino",
+        "rightwhale",
+        "pangolin",
+        "philippineeagle",
+        "condor",
+        "forestelephant",
+        "elkhorncoral",
+        "tiger",
+        "redpanda",
+        "bluewhale",
+        "mountaingorilla",
+        "asianelephant",
+        "whaleshark",
+        "seaotter",
+        "ringtailedlemur",
+        "wilddog",
+        "giantpanda",
+        "snowleopard",
+        "polarbear",
+        "koala",
+        "cheetah",
+        "emperorpenguin",
+        "humpback",
+        "baldeagle",
+        "reeffish",
+        "decomposer",
+        "bison",
+        "graywolf",
+        "beaver",
+        "menhaden",
+        "capybara"
+      ],
+      "simulatedPopulations": {
+        "decomposer": 12,
+        "axolotl": 3,
+        "grass": 90,
+        "oak": 24,
+        "wildflower": 40,
+        "baldeagle": 2,
+        "honeybee": 6,
+        "deer": 6,
+        "rabbit": 8,
+        "redfox": 3,
+        "elkhorncoral": 12,
+        "reeffish": 12,
+        "seaturtle": 3,
+        "seagrass": 60,
+        "stromatolite": 24,
+        "fern": 24,
+        "cycad": 24,
+        "conifer": 24,
+        "amurleopard": 3,
+        "sumatranorangutan": 8,
+        "vaquita": 3,
+        "kakapo": 8
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Europe",
+      "available": [
+        "rabbit",
+        "redfox",
+        "honeybee",
+        "graywolf"
+      ],
+      "simulatedPopulations": {
+        "honeybee": 6,
+        "rabbit": 8,
+        "redfox": 3,
+        "graywolf": 3
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "North America",
+      "available": [
+        "grass",
+        "oak",
+        "deer",
+        "redfox",
+        "condor",
+        "seaotter",
+        "baldeagle",
+        "bison",
+        "graywolf",
+        "beaver",
+        "menhaden"
+      ],
+      "simulatedPopulations": {
+        "grass": 90,
+        "oak": 24,
+        "baldeagle": 2,
+        "deer": 6,
+        "redfox": 3,
+        "condor": 3,
+        "seaotter": 3,
+        "bison": 8,
+        "graywolf": 3,
+        "beaver": 8,
+        "menhaden": 8
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Africa",
+      "available": [
+        "rabbit",
+        "redfox",
+        "honeybee",
+        "forestelephant",
+        "mountaingorilla",
+        "wilddog",
+        "cheetah"
+      ],
+      "simulatedPopulations": {
+        "honeybee": 6,
+        "rabbit": 8,
+        "redfox": 3,
+        "forestelephant": 8,
+        "mountaingorilla": 8,
+        "wilddog": 3,
+        "cheetah": 3
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Asia",
+      "available": [
+        "redfox",
+        "honeybee",
+        "amurleopard",
+        "sumatranorangutan",
+        "sumatranrhino",
+        "pangolin",
+        "philippineeagle",
+        "tiger",
+        "redpanda",
+        "asianelephant",
+        "seaotter",
+        "giantpanda",
+        "cheetah",
+        "reeffish",
+        "graywolf"
+      ],
+      "simulatedPopulations": {
+        "honeybee": 6,
+        "redfox": 3,
+        "reeffish": 12,
+        "amurleopard": 3,
+        "sumatranorangutan": 8,
+        "sumatranrhino": 8,
+        "pangolin": 3,
+        "philippineeagle": 3,
+        "tiger": 3,
+        "redpanda": 8,
+        "asianelephant": 8,
+        "seaotter": 3,
+        "giantpanda": 8,
+        "cheetah": 3,
+        "graywolf": 3
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Atlantic Ocean",
+      "available": [
+        "seaturtle",
+        "rightwhale",
+        "elkhorncoral",
+        "bluewhale",
+        "whaleshark",
+        "humpback",
+        "menhaden"
+      ],
+      "simulatedPopulations": {
+        "elkhorncoral": 12,
+        "seaturtle": 3,
+        "rightwhale": 3,
+        "bluewhale": 3,
+        "whaleshark": 3,
+        "humpback": 3,
+        "menhaden": 8
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Pacific Ocean",
+      "available": [
+        "seaturtle",
+        "bluewhale",
+        "whaleshark",
+        "seaotter",
+        "humpback",
+        "reeffish"
+      ],
+      "simulatedPopulations": {
+        "reeffish": 12,
+        "seaturtle": 3,
+        "bluewhale": 3,
+        "whaleshark": 3,
+        "seaotter": 3,
+        "humpback": 3
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Indian Ocean",
+      "available": [
+        "seaturtle",
+        "bluewhale",
+        "whaleshark"
+      ],
+      "simulatedPopulations": {
+        "seaturtle": 3,
+        "bluewhale": 3,
+        "whaleshark": 3
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Mexico",
+      "available": [
+        "vaquita",
+        "axolotl",
+        "baldeagle"
+      ],
+      "simulatedPopulations": {
+        "axolotl": 3,
+        "baldeagle": 2,
+        "vaquita": 3
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "New Zealand",
+      "available": [
+        "kakapo"
+      ],
+      "simulatedPopulations": {
+        "kakapo": 8
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Madagascar",
+      "available": [
+        "ringtailedlemur"
+      ],
+      "simulatedPopulations": {
+        "ringtailedlemur": 8
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Arctic",
+      "available": [
+        "polarbear"
+      ],
+      "simulatedPopulations": {
+        "polarbear": 3
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Australia",
+      "available": [
+        "koala",
+        "reeffish"
+      ],
+      "simulatedPopulations": {
+        "reeffish": 12,
+        "koala": 8
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Representative subset; not a historical census"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Antarctica",
+      "available": [
+        "emperorpenguin"
+      ],
+      "simulatedPopulations": {
+        "emperorpenguin": 3
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Sparse animal coverage; not a complete community"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Mauritius",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Two possible game scenarios",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "Galápagos",
+      "available": [],
+      "simulatedPopulations": {},
+      "habitat": "Two possible game scenarios",
+      "gaps": "No reviewed playable coverage at this date/region"
+    },
+    {
+      "era": "Future scenarios",
+      "year": 2060,
+      "region": "South America",
+      "available": [
+        "capybara"
+      ],
+      "simulatedPopulations": {
+        "capybara": 8
+      },
+      "habitat": "Two possible game scenarios",
+      "gaps": "Sparse animal coverage; not a complete community"
+    }
+  ],
+  "organisms": [
+    {
+      "id": "stromatolite",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "marine",
+      "regions": [],
+      "coverage": [
+        -3480000000,
+        2026
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/news/2022/november/oldest-evidence-life-earth-could-help-discover-ancient-life-mars.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Ecological group or microbial community; not a single taxonomic species."
+      ],
+      "feedingEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims."
+    },
+    {
+      "id": "charnia",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "marine",
+      "regions": [
+        "Europe"
+      ],
+      "coverage": [
+        -566000000,
+        -560000000
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Charnia&strict=true",
+        "https://earthwise.bgs.ac.uk/index.php/OR/10/041_Guide_to_the_geology_of_Bradgate_Park_and_Swithland_Wood%2C_Charnwood_Forest"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a genus; dates and biology must not be read as those of one species.",
+        "Rangeomorph animal; feeding remains uncertain. Producer-style game growth does not imply photosynthesis."
+      ],
+      "feedingEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims."
+    },
+    {
+      "id": "dickinsonia",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Europe"
+      ],
+      "coverage": [
+        -558000000,
+        -558000000
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Dickinsonia&strict=true",
+        "https://science.anu.edu.au/news-events/news/fat-558-million-years-ago-reveals-earliest-known-animal"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a genus; dates and biology must not be read as those of one species.",
+        "Ediacaran animal; ecological details remain debated."
+      ],
+      "feedingEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims."
+    },
+    {
+      "id": "fern",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -152000000,
+          "last": -145000000
+        },
+        {
+          "region": "North America",
+          "first": -323200000,
+          "last": -298900000
+        },
+        {
+          "region": "North America",
+          "first": -225000000,
+          "last": -205700000
+        }
+      ],
+      "coverage": [
+        -360000000,
+        2026
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Polypodiopsida&strict=true",
+        "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
+        "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+        "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+        "https://www.nps.gov/care/learn/nature/fossils.htm",
+        "https://www.nhm.ac.uk/discover/how-trees-changed-the-world.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a class; dates and biology must not be read as those of one species.",
+        "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval.",
+        "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "cycad",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -152000000,
+          "last": -145000000
+        }
+      ],
+      "coverage": [
+        -201400000,
+        -66000000
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Cycadales&strict=true",
+        "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
+        "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+        "https://www.nhm.ac.uk/discover/the-jurassic-period.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a order; dates and biology must not be read as those of one species.",
+        "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "conifer",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -152000000,
+          "last": -145000000
+        },
+        {
+          "region": "North America",
+          "first": -225000000,
+          "last": -205700000
+        }
+      ],
+      "coverage": [
+        -201400000,
+        -66000000
+      ],
+      "sources": [
+        "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
+        "https://www.nps.gov/subjects/fossils/the-morrison-formation.htm",
+        "https://www.nps.gov/zion/learn/nature/secrets-of-the-chinle-formation.htm",
+        "https://www.nhm.ac.uk/discover/how-to-grow-a-dinosaur-garden.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a genus; dates and biology must not be read as those of one species.",
+        "Araucaria is the chosen representative, not a name for all conifers.",
+        "Historical trees are broad conifer proxies, not modern Araucaria species.",
+        "The North American Late Jurassic scene uses a broad Morrison plant-group proxy, not a claim of modern species identity. The display window is a conservative subset of the existing reviewed Jurassic interval."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "stegosaurus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Stegosaurus&strict=true",
+        "https://www.nhm.ac.uk/discover/dino-directory/Stegosaurus.html"
+      ],
+      "unknownFirstAppearance": false,
+      "uncertainty": [
+        "Represents a genus; dates and biology must not be read as those of one species."
+      ],
+      "feedingEvidence": "source-linked"
+    },
+    {
+      "id": "brachiosaurus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Brachiosaurus&strict=true",
+        "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html"
+      ],
+      "unknownFirstAppearance": false,
+      "uncertainty": [
+        "Represents a genus; dates and biology must not be read as those of one species.",
+        "Reviewed North American Late Jurassic occurrence; a regional illustrative community, not proof of all taxa sharing one locality."
+      ],
+      "feedingEvidence": "source-linked"
+    },
+    {
+      "id": "allosaurus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Allosaurus&strict=true",
+        "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+        "https://www.nps.gov/dino/learn/nature/allosaurus-fragilis.htm"
+      ],
+      "unknownFirstAppearance": false,
+      "uncertainty": [
+        "Represents a genus; dates and biology must not be read as those of one species.",
+        "Reviewed North American Late Jurassic occurrence; a regional illustrative community, not proof of all taxa sharing one locality."
+      ],
+      "feedingEvidence": "source-linked"
+    },
+    {
+      "id": "grass",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 2026,
+          "last": 2026
+        },
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "coverage": [
+        -19000000,
+        2026
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Poaceae&strict=true",
+        "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
+        "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information",
+        "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000032-2/general-information",
+        "https://www.si.edu/newsdesk/factsheets/david-h-koch-hall-fossils-deep-time"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a family; dates and biology must not be read as those of one species.",
+        "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "oak",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 2026,
+          "last": 2026
+        },
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        },
+        {
+          "region": "North America",
+          "first": -16000000,
+          "last": -11700
+        }
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Quercus&strict=true",
+        "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
+        "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2",
+        "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2",
+        "https://www.floridamuseum.ufl.edu/paleobotany/collecting-fossil-plants-florida/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a genus; dates and biology must not be read as those of one species.",
+        "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory.",
+        "Southern North American fossil oak canopy is a broad Quercus proxy based on incompletely dated and sometimes reworked woods. This coarse display interval is not one species range or uninterrupted local occupancy."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "wildflower",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "sources": [
+        "https://www.kew.org/read-and-watch/south-east-asia-early-flowering-plant",
+        "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Ecological group or microbial community; not a single taxonomic species."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "seagrass",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "marine",
+      "regions": [],
+      "sources": [
+        "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/seagrass-west-coast"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Ecological group or microbial community; not a single taxonomic species."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "rabbit",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Europe",
+        "Africa"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Oryctolagus+cuniculus&strict=true",
+        "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "deer",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 2026,
+          "last": 2026
+        },
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Cervidae&strict=true",
+        "https://www.nps.gov/jeca/learn/nature/white-tailed-deer-odocoileus-virginianus.htm",
+        "https://home.nps.gov/yell/learn/nature/upload/Mountain-Ungulates_PART_1.pdf"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a family; dates and biology must not be read as those of one species.",
+        "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Family-level herbivore representation, not one species diet"
+    },
+    {
+      "id": "redfox",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Europe",
+        "Asia",
+        "North America",
+        "Africa"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Vulpes+vulpes&strict=true",
+        "https://animaldiversity.org/accounts/Vulpes_vulpes/",
+        "https://animaldiversity.org/accounts/Vulpes_vulpes/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "honeybee",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Europe",
+        "Asia",
+        "Africa"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Apis+mellifera&strict=true",
+        "https://animaldiversity.org/accounts/Apis_mellifera/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "seaturtle",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Eretmochelys+imbricata&strict=true",
+        "https://www.fisheries.noaa.gov/species/hawksbill-turtle",
+        "https://animaldiversity.org/accounts/Eretmochelys_imbricata/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "amurleopard",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Panthera+pardus+orientalis&strict=true",
+        "https://animaldiversity.org/accounts/Panthera_pardus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a subspecies; dates and biology must not be read as those of one species.",
+        "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "sumatranorangutan",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Pongo+abelii&strict=true",
+        "https://animaldiversity.org/accounts/Pongo_abelii/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "vaquita",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Phocoena+sinus&strict=true",
+        "https://animaldiversity.org/accounts/Phocoena_sinus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted"
+    },
+    {
+      "id": "kakapo",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "New Zealand"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Strigops+habroptila&strict=true",
+        "https://animaldiversity.org/accounts/Strigops_habroptila/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted"
+    },
+    {
+      "id": "axolotl",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "freshwater",
+      "regions": [
+        "Mexico"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Ambystoma+mexicanum&strict=true",
+        "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html",
+        "https://animaldiversity.org/accounts/Ambystoma_mexicanum/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "The current water placement system approximates aquatic habitat and does not model salinity; real axolotls cannot live in seawater."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "sumatranrhino",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Dicerorhinus+sumatrensis&strict=true",
+        "https://animaldiversity.org/accounts/Dicerorhinus_sumatrensis/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "rightwhale",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Atlantic Ocean"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Eubalaena+glacialis&strict=true",
+        "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
+        "https://animaldiversity.org/accounts/Eubalaena_glacialis/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "pangolin",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Manis+javanica&strict=true",
+        "https://animaldiversity.org/accounts/Manis_javanica/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Sunda pangolin is the chosen representative, not all pangolins."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "philippineeagle",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Pithecophaga+jefferyi&strict=true",
+        "https://animaldiversity.org/accounts/Pithecophaga_jefferyi/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "condor",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Gymnogyps+californianus&strict=true",
+        "https://animaldiversity.org/accounts/Gymnogyps_californianus/",
+        "https://www.nps.gov/redw/learn/nature/condors.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted"
+    },
+    {
+      "id": "forestelephant",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Africa"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Loxodonta+cyclotis&strict=true",
+        "https://animaldiversity.org/accounts/Loxodonta_cyclotis/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "elkhorncoral",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "marine",
+      "regions": [
+        "Atlantic Ocean"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Acropora+palmata&strict=true",
+        "https://animaldiversity.org/accounts/Acropora_palmata/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "tiger",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Panthera+tigris&strict=true",
+        "https://animaldiversity.org/accounts/Panthera_tigris/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "redpanda",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Ailurus+fulgens&strict=true",
+        "https://animaldiversity.org/accounts/Ailurus_fulgens/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "bluewhale",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Balaenoptera+musculus&strict=true",
+        "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
+        "https://animaldiversity.org/accounts/Balaenoptera_musculus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "mountaingorilla",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Africa"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Gorilla+beringei+beringei&strict=true",
+        "https://animaldiversity.org/accounts/Gorilla_beringei/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Represents a subspecies; dates and biology must not be read as those of one species.",
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "asianelephant",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Elephas+maximus&strict=true",
+        "https://animaldiversity.org/accounts/Elephas_maximus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "whaleshark",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Rhincodon+typus&strict=true",
+        "https://animaldiversity.org/accounts/Rhincodon_typus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "seaotter",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "North America",
+        "Asia",
+        "Pacific Ocean"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Enhydra+lutris&strict=true",
+        "https://animaldiversity.org/accounts/Enhydra_lutris/",
+        "https://www.fws.gov/species/sea-otter-enhydra-lutris"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "ringtailedlemur",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Madagascar"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Lemur+catta&strict=true",
+        "https://animaldiversity.org/accounts/Lemur_catta/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "wilddog",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Africa"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Lycaon+pictus&strict=true",
+        "https://animaldiversity.org/accounts/Lycaon_pictus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+      ],
+      "feedingEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted"
+    },
+    {
+      "id": "giantpanda",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Ailuropoda+melanoleuca&strict=true",
+        "https://animaldiversity.org/accounts/Ailuropoda_melanoleuca/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "snowleopard",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Panthera+uncia&strict=true",
+        "https://animaldiversity.org/accounts/Uncia_uncia/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+      ],
+      "feedingEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted"
+    },
+    {
+      "id": "polarbear",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Arctic"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Ursus+maritimus&strict=true",
+        "https://animaldiversity.org/accounts/Ursus_maritimus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "koala",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Australia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Phascolarctos+cinereus&strict=true",
+        "https://animaldiversity.org/accounts/Phascolarctos_cinereus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted"
+    },
+    {
+      "id": "cheetah",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Africa",
+        "Asia"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Acinonyx+jubatus&strict=true",
+        "https://animaldiversity.org/accounts/Acinonyx_jubatus/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "emperorpenguin",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Antarctica"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Aptenodytes+forsteri&strict=true",
+        "https://animaldiversity.org/accounts/Aptenodytes_forsteri/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "mammoth",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -120000,
+          "last": -13000
+        }
+      ],
+      "coverage": [
+        -120000,
+        -13000
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Mammuthus+primigenius&strict=true",
+        "https://www.nhm.ac.uk/our-science/research/projects/mammoth-evolution-model-species-origins.html",
+        "https://www.nhm.ac.uk/discover/news/2024/july/woolly-mammoth-genome-rebuilt-from-freeze-dried-skin.html",
+        "https://www.nhm.ac.uk/discover/last-mammoths.html",
+        "https://www.nps.gov/bela/learn/nature/ice-age-mammals.htm",
+        "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species.",
+        "North American display window is a conservative subset of Beringian occurrence, not the full global range or exact extinction date."
+      ],
+      "feedingEvidence": "source-linked"
+    },
+    {
+      "id": "stellerseacow",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Pacific Ocean"
+      ],
+      "coverage": [
+        1741,
+        1768
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Hydrodamalis+gigas&strict=true",
+        "https://animaldiversity.org/accounts/Hydrodamalis_gigas/",
+        "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted"
+    },
+    {
+      "id": "dodo",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Mauritius"
+      ],
+      "coverage": [
+        1598,
+        1662
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Raphus+cucullatus&strict=true",
+        "https://animaldiversity.org/accounts/Raphus_cucullatus/",
+        "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Diet remains uncertain: historical descriptions are incomplete and partly contradictory. Browse is a game assumption, not a verified diet."
+    },
+    {
+      "id": "passengerpigeon",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "coverage": [
+        1850,
+        1914
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Ectopistes+migratorius&strict=true",
+        "https://www.si.edu/spotlight/passenger-pigeon",
+        "https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Smithsonian"
+    },
+    {
+      "id": "thylacine",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Australia"
+      ],
+      "coverage": [
+        1903,
+        1936
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Thylacinus+cynocephalus&strict=true",
+        "https://animaldiversity.org/accounts/Thylacinus_cynocephalus/",
+        "https://www.nhm.ac.uk/discover/remembering-tasmanian-tiger-thylacine.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Deer/rabbit links stand for vertebrate prey guilds in experiments; the global mosaic does not establish natural co-occurrence."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "pintatortoise",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "Galápagos"
+      ],
+      "coverage": [
+        1971,
+        2012
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Chelonoidis+abingdonii&strict=true",
+        "https://www.galapagos.org/about_galapagos/lonesome-george/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species."
+      ],
+      "feedingEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims."
+    },
+    {
+      "id": "humpback",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Atlantic Ocean",
+        "Pacific Ocean"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Megaptera+novaeangliae&strict=true",
+        "https://naturalhistory.si.edu/education/teaching-resources/life-science/evolution-whales-animation",
+        "https://animaldiversity.org/accounts/Megaptera_novaeangliae/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [],
+      "feedingEvidence": "Broad feeding ecology reviewed in Animal Diversity Web; no quantitative dietary estimate adopted"
+    },
+    {
+      "id": "baldeagle",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America",
+        "Mexico"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Haliaeetus+leucocephalus&strict=true",
+        "https://animaldiversity.org/accounts/Haliaeetus_leucocephalus/",
+        "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "reeffish",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "Asia",
+        "Australia",
+        "Pacific Ocean"
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Amphiprion+ocellaris&strict=true",
+        "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+        "https://animaldiversity.org/accounts/Amphiprion_ocellaris/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Clown anemonefish is the representative for this stylized reef-fish model. Group size is a game setting, not a claim about schooling."
+      ],
+      "feedingEvidence": "Animal Diversity Web; broad feeding guild, not a quantitative diet estimate"
+    },
+    {
+      "id": "trilobite",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -525000000,
+          "last": -505000000
+        },
+        {
+          "region": "North America",
+          "first": -506500000,
+          "last": -497000000
+        }
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Trilobita&strict=true",
+        "https://www.nhm.ac.uk/discover/how-trilobites-conquered-prehistoric-oceans.html",
+        "https://www.nhm.ac.uk/schools/teaching-resources/big-ideas-in-science-evolution/trilobite-fossils-resources-and-class-activities.html",
+        "https://home.nps.gov/grca/learn/nature/fossils.htm",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Olenoides%20serratus&show=coords,time,ref&cc=US,CA&limit=100",
+        "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+      ],
+      "unknownFirstAppearance": false,
+      "uncertainty": [
+        "Represents a class; dates and biology must not be read as those of one species."
+      ],
+      "feedingEvidence": "source-linked"
+    },
+    {
+      "id": "arthropleura",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -309800000,
+          "last": -307400000
+        },
+        {
+          "region": "North America",
+          "first": -305000000,
+          "last": -301400000
+        }
+      ],
+      "sources": [
+        "https://api.gbif.org/v1/species/match?name=Arthropleura&strict=true",
+        "https://www.nhm.ac.uk/discover/news/2024/october/largest-ever-millipede-head-revealed.html",
+        "https://paleobiodb.org/classic/basicCollectionSearch?collection_no=225177"
+      ],
+      "unknownFirstAppearance": false,
+      "uncertainty": [
+        "Represents a genus; dates and biology must not be read as those of one species.",
+        "North American genus proxy uses A. cristata occurrences (PBDB 1648291/1648292), bounded by uncertain deposit ages; not a precise species lifespan."
+      ],
+      "feedingEvidence": "source-linked"
+    },
+    {
+      "id": "anomalocaris",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "North America"
+      ],
+      "coverage": [
+        -506500000,
+        -497000000
+      ],
+      "sources": [
+        "https://ocean.si.edu/through-time/ocean-through-time",
+        "https://api.gbif.org/v1/species/match?name=Anomalocaris&strict=true",
+        "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Anomalocaris%20canadensis&show=coords,time,ref&cc=US,CA&limit=100"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+        "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction."
+      ],
+      "feedingEvidence": "Royal Ontario Museum functional reconstruction"
+    },
+    {
+      "id": "ammonite",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [],
+      "coverage": [
+        -200000000,
+        -66000000
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html",
+        "https://www.nhm.ac.uk/discover/what-is-an-ammonite.html"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      ],
+      "feedingEvidence": "Unresolved at this taxonomic scope; resource-guild links are explicit teaching approximations, not empirical dietary claims."
+    },
+    {
+      "id": "dimetrodon",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "coverage": [
+        -275000000,
+        -275000000
+      ],
+      "sources": [
+        "https://www.si.edu/object/nmnhpaleobiology_3451032",
+        "https://api.gbif.org/v1/species/match?name=Dimetrodon&strict=true",
+        "https://sciencemuseum.utexas.edu/exhibit/paleontology-gallery/",
+        "https://whatsinaname.hmnh.harvard.edu/dimetrodon"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      ],
+      "feedingEvidence": "Harvard Museum of Natural History"
+    },
+    {
+      "id": "triceratops",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "coverage": [
+        -68000000,
+        -66000000
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+        "https://api.gbif.org/v1/species/match?name=Triceratops&strict=true",
+        "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+        "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html"
+      ],
+      "unknownFirstAppearance": false,
+      "uncertainty": [
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality."
+      ],
+      "feedingEvidence": "Natural History Museum"
+    },
+    {
+      "id": "pteranodon",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "coverage": [
+        -85700000,
+        -83600000
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html",
+        "https://www.si.edu/object/nmnhpaleobiology_3447928",
+        "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps",
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Pteranodon%20longiceps&show=coords,time,ref&cc=US,CA&limit=100"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+        "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction."
+      ],
+      "feedingEvidence": "Natural History Museum pterosaur overview"
+    },
+    {
+      "id": "groundsloth",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -9000000,
+          "last": -13000
+        }
+      ],
+      "coverage": [
+        -9000000,
+        -13000
+      ],
+      "sources": [
+        "https://www.floridamuseum.ufl.edu/vertpaleo/aucilla-river-prehistory-project/",
+        "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/sites/mixsons-bone-bed/",
+        "https://www.nhm.ac.uk/our-science/services/collections/digital/programme/darwins-ground-sloths.html",
+        "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/eremotherium-eomigrans/",
+        "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/eremotherium-eomigrans/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+        "Resource guilds in the miniature are finite biomass proxies, not claims that this animal eats the displayed oak, grass or seagrass species.",
+        "Broad ground-sloth silhouette, not one species lasting 9 million years. Early Pleistocene Florida includes Eremotherium eomigrans; Neogene represents earlier sloth families."
+      ],
+      "feedingEvidence": "Natural History Museum"
+    },
+    {
+      "id": "lycophyte",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -323200000,
+          "last": -298900000
+        }
+      ],
+      "coverage": [
+        -323200000,
+        -298900000
+      ],
+      "sources": [
+        "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
+        "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
+        "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+        "https://www.nps.gov/articles/000/pennsylvanian-period.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+        "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "horsetail",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": -323200000,
+          "last": -298900000
+        }
+      ],
+      "coverage": [
+        -323200000,
+        -298900000
+      ],
+      "sources": [
+        "https://www.nps.gov/subjects/fossils/plant-fossils.htm",
+        "https://endeavour.kew.org/challenge/ks-4/photosynthesis-power/watch-and-learn",
+        "https://www.nps.gov/articles/000/pennsylvanian-period.htm",
+        "https://www.nps.gov/articles/000/pennsylvanian-period.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Stylised proportions and colours; broad-group scene assemblages are illustrative, not a single fossil locality.",
+        "Pennsylvanian regional display uses a broad plant-group proxy, not a modern species identity."
+      ],
+      "feedingEvidence": "Plant functional role; model uptake rates are teaching parameters"
+    },
+    {
+      "id": "decomposer",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "terrestrial",
+      "regions": [],
+      "sources": [
+        "https://growwild.kew.org/blog/uk-fungi-work"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Fruiting bodies represent a saprotrophic guild, not one fungal species.",
+        "Modern-only display coverage; historical species composition is not verified."
+      ],
+      "feedingEvidence": "Kew"
+    },
+    {
+      "id": "bison",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://animaldiversity.org/accounts/Bison_bison/",
+        "https://api.gbif.org/v1/species/match?name=Bison+bison&strict=true",
+        "https://www.nps.gov/parkhistory/online_books/bison/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions"
+    },
+    {
+      "id": "graywolf",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://animaldiversity.org/accounts/Canis_lupus/",
+        "https://api.gbif.org/v1/species/match?name=Canis+lupus&strict=true",
+        "https://home.nps.gov/yell/learn/historyculture/wolf-management.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions"
+    },
+    {
+      "id": "beaver",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "freshwater",
+      "regions": [
+        "North America"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://animaldiversity.org/accounts/Castor_canadensis/",
+        "https://api.gbif.org/v1/species/match?name=Castor+canadensis&strict=true",
+        "https://www.nps.gov/yell/learn/nature/beaver.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions"
+    },
+    {
+      "id": "menhaden",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "marine",
+      "regions": [
+        "North America",
+        "Atlantic Ocean"
+      ],
+      "regionalCoverage": [
+        {
+          "region": "North America",
+          "first": 1872,
+          "last": 2026
+        }
+      ],
+      "sources": [
+        "https://www.fisheries.noaa.gov/species/atlantic-menhaden",
+        "https://api.gbif.org/v1/species/match?name=Brevoortia+tyrannus&strict=true",
+        "https://www.fisheries.noaa.gov/species/atlantic-menhaden"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+        "1872–2026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      ],
+      "feedingEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions"
+    },
+    {
+      "id": "capybara",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "freshwater",
+      "regions": [
+        "South America"
+      ],
+      "sources": [
+        "https://animals.sandiegozoo.org/animals/capybara",
+        "https://sdzwildlifeexplorers.org/animals/capybara",
+        "https://api.gbif.org/v1/species/match?name=Hydrochoerus+hydrochaeris&strict=true"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Present-day representative only; historical arrival and current global population/status are not verified. Model dimensions and all ecological rates are game parameters.",
+        "This freshwater game representative stays in shallow wetland habitat; amphibious land-to-water transitions are not modeled. Only the present-day baseline is reviewed, not the species origin."
+      ],
+      "feedingEvidence": "Source-linked feeding guild; numerical rates are teaching assumptions"
+    },
+    {
+      "id": "desmatosuchus",
+      "model": true,
+      "rig": true,
+      "animation": "rig + procedural LOD",
+      "habitat": "terrestrial",
+      "regions": [
+        "North America"
+      ],
+      "coverage": [
+        -227300000,
+        -205700000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Desmatosuchus%20spurensis&show=coords,time,ref&cc=US,CA&limit=100",
+        "https://www.nps.gov/pefo/learn/pseudosuchians.htm"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Original stylized asset; colours and scale are artistic choices. Deposit ages define uncertain display coverage, not an exact species lifespan."
+      ],
+      "feedingEvidence": "Source-reviewed feeding guild; numeric rates are teaching assumptions"
+    },
+    {
+      "id": "vauxia",
+      "model": true,
+      "rig": false,
+      "animation": "sessile / environmental movement",
+      "habitat": "marine",
+      "regions": [
+        "North America"
+      ],
+      "coverage": [
+        -506500000,
+        -497000000
+      ],
+      "sources": [
+        "https://paleobiodb.org/data1.2/occs/list.json?base_name=Vauxia%20gracilenta&show=coords,time,ref&cc=US,CA&limit=100",
+        "https://burgess-shale.rom.on.ca/fossils/vauxia-gracilenta/"
+      ],
+      "unknownFirstAppearance": true,
+      "uncertainty": [
+        "Original stylized asset; colours and scale are artistic choices. Deposit ages define uncertain display coverage, not an exact species lifespan."
+      ],
+      "feedingEvidence": "Source-reviewed feeding guild; numeric rates are teaching assumptions"
+    }
+  ]
+}

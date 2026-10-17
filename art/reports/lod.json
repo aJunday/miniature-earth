@@ -774,13 +774,14 @@
     ]
   },
   "org_trilobite": {
-    "full": 2704,
-    "distant": 1294,
+    "full": 2736,
+    "distant": 1310,
     "parts": [
       "Body",
       "Eye_L",
       "Eye_R",
-      "Head"
+      "Head",
+      "Tail"
     ]
   },
   "org_vaquita": {

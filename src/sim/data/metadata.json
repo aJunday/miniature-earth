@@ -382,7 +382,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a genus; dates and biology must not be read as those of one species."
+      "Represents a genus; dates and biology must not be read as those of one species.",
+      "Reviewed North American Late Jurassic occurrence; a regional illustrative community, not proof of all taxa sharing one locality."
     ],
     "sources": [
       {
@@ -397,7 +398,9 @@
       }
     ],
     "checked": "2026-10-16",
-    "regions": [],
+    "regions": [
+      "North America"
+    ],
     "coverageReview": {
       "taxonomy": "source-linked",
       "dates": "reviewed dated occurrence",
@@ -424,7 +427,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a genus; dates and biology must not be read as those of one species."
+      "Represents a genus; dates and biology must not be read as those of one species.",
+      "Reviewed North American Late Jurassic occurrence; a regional illustrative community, not proof of all taxa sharing one locality."
     ],
     "sources": [
       {
@@ -436,10 +440,17 @@
         "field": "habitat and resources; fossil range",
         "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
         "label": "Natural History Museum"
+      },
+      {
+        "field": "regional distribution",
+        "url": "https://www.nps.gov/dino/learn/nature/allosaurus-fragilis.htm",
+        "label": "NPS \u00b7 North American Morrison Formation"
       }
     ],
     "checked": "2026-10-16",
-    "regions": [],
+    "regions": [
+      "North America"
+    ],
     "coverageReview": {
       "taxonomy": "source-linked",
       "dates": "reviewed dated occurrence",
@@ -534,7 +545,8 @@
     "notes": [
       "Represents a genus; dates and biology must not be read as those of one species.",
       "North American present-day group proxy; not a claim that every member of this taxon is native or locally co-occurs.",
-      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory."
+      "1872\u20132026 continental display continuity inferred from documented historical/native presence; not a species origin, continuous occupation of one locality, or measured population trajectory.",
+      "Southern North American fossil oak canopy is a broad Quercus proxy based on incompletely dated and sometimes reworked woods. This coarse display interval is not one species range or uninterrupted local occupancy."
     ],
     "sources": [
       {
@@ -556,13 +568,18 @@
         "field": "historical continuity",
         "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:325819-2",
         "label": "Historical range and living native range review"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://www.floridamuseum.ufl.edu/paleobotany/collecting-fossil-plants-florida/",
+        "label": "Florida Museum \u00b7 Miocene/Pliocene oak and mixed Pleistocene woods"
       }
     ],
     "checked": "2026-10-16",
     "regions": [],
     "coverageReview": {
       "taxonomy": "source-linked",
-      "dates": "present baseline / historical documentation; origin unknown",
+      "dates": "Coarse fossil wood display coverage; stratigraphic mixing and genus-level uncertainty; no species origin date.",
       "regions": "North American present-day representative coverage; other regions unresolved",
       "feeding": "reviewed functional role"
     },
@@ -576,6 +593,11 @@
         "region": "North America",
         "first": 1872,
         "last": 2026
+      },
+      {
+        "region": "North America",
+        "first": -16000000,
+        "last": -11700
       }
     ]
   },
@@ -2647,6 +2669,11 @@
         "field": "dated regional group occurrence",
         "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Olenoides%20serratus&show=coords,time,ref&cc=US,CA&limit=100",
         "label": "PBDB Olenoides serratus occurrences; class proxy, not one trilobite species across all ages"
+      },
+      {
+        "field": "anatomy",
+        "url": "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/",
+        "label": "ROM \u00b7 segmented three-lobed anatomy; original broad-group model"
       }
     ],
     "checked": "2026-10-16",
@@ -2689,7 +2716,8 @@
     "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
     "relationships": [],
     "notes": [
-      "Represents a genus; dates and biology must not be read as those of one species."
+      "Represents a genus; dates and biology must not be read as those of one species.",
+      "North American genus proxy uses A. cristata occurrences (PBDB 1648291/1648292), bounded by uncertain deposit ages; not a precise species lifespan."
     ],
     "sources": [
       {
@@ -2701,6 +2729,11 @@
         "field": "habitat and resources; fossil range",
         "url": "https://www.nhm.ac.uk/discover/news/2024/october/largest-ever-millipede-head-revealed.html",
         "label": "Natural History Museum"
+      },
+      {
+        "field": "regionalCoverage",
+        "url": "https://paleobiodb.org/classic/basicCollectionSearch?collection_no=225177",
+        "label": "PBDB \u00b7 Arthropleura cristata occurrence 1648292, North America"
       }
     ],
     "checked": "2026-10-16",
@@ -2710,7 +2743,19 @@
       "dates": "reviewed dated occurrence",
       "regions": "not resolved at this taxonomic scope",
       "feeding": "reviewed functional role"
-    }
+    },
+    "regionalCoverage": [
+      {
+        "region": "North America",
+        "first": -309800000,
+        "last": -307400000
+      },
+      {
+        "region": "North America",
+        "first": -305000000,
+        "last": -301400000
+      }
+    ]
   },
   "anomalocaris": {
     "commonName": "Anomalocaris",

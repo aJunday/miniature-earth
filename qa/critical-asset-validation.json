@@ -1,0 +1,1027 @@
+[
+  {
+    "path": "island_jurassic.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "island_precambrian.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "island_present.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_allosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_ammonite.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_amurleopard.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_anomalocaris.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_arthropleura.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_asianelephant.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_axolotl.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_baldeagle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_beaver.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_bison.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_bluewhale.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_brachiosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_capybara.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_charnia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_cheetah.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_condor.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_conifer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_cycad.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_decomposer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_deer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_desmatosuchus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_dickinsonia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_dimetrodon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_dodo.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_elkhorncoral.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_emperorpenguin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_fern.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_forestelephant.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_giantpanda.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_grass.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_graywolf.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_groundsloth.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_honeybee.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_horsetail.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_humpback.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_kakapo.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_koala.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_lycophyte.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_mammoth.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_mountaingorilla.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_oak.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_pangolin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_passengerpigeon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_philippineeagle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_pintatortoise.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_polarbear.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_pteranodon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_rabbit.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_redfox.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_redpanda.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_reeffish.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_rightwhale.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_ringtailedlemur.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_seagrass.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_seaotter.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_seaturtle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_snowleopard.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_stegosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_stellerseacow.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_stromatolite.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_sumatranorangutan.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_sumatranrhino.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_thylacine.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_tiger.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_triceratops.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_trilobite.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_vaquita.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_vauxia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_whaleshark.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_wilddog.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "org_wildflower.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_allosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_ammonite.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_amurleopard.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_anomalocaris.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_arthropleura.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_asianelephant.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_axolotl.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_baldeagle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_beaver.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_bison.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_bluewhale.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_brachiosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_capybara.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_charnia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_cheetah.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_condor.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_conifer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_cycad.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_decomposer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_deer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_desmatosuchus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_dickinsonia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_dimetrodon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_dodo.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_elkhorncoral.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_emperorpenguin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_fern.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_forestelephant.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_giantpanda.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_grass.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_graywolf.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_groundsloth.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_honeybee.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_horsetail.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_humpback.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_kakapo.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_koala.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_lycophyte.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_mammoth.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_mountaingorilla.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_oak.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_pangolin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_passengerpigeon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_philippineeagle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_pintatortoise.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_polarbear.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_pteranodon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_rabbit.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_redfox.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_redpanda.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_reeffish.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_rightwhale.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_ringtailedlemur.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_seagrass.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_seaotter.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_seaturtle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_snowleopard.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_stegosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_stellerseacow.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_stromatolite.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_sumatranorangutan.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_sumatranrhino.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_thylacine.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_tiger.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_triceratops.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_trilobite.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_vaquita.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_vauxia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_whaleshark.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_wilddog.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "lod/org_wildflower.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_allosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_ammonite.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_amurleopard.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_anomalocaris.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_arthropleura.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_asianelephant.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_axolotl.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_baldeagle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_beaver.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_bison.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_bluewhale.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_brachiosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_capybara.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_cheetah.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_condor.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_deer.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_desmatosuchus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_dickinsonia.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_dimetrodon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_dodo.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_emperorpenguin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_forestelephant.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_giantpanda.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_graywolf.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_groundsloth.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_honeybee.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_humpback.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_kakapo.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_koala.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_mammoth.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_menhaden.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_mountaingorilla.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_pangolin.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_passengerpigeon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_philippineeagle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_pintatortoise.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_polarbear.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_pteranodon.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_rabbit.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_redfox.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_redpanda.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_reeffish.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_rightwhale.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_ringtailedlemur.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_seaotter.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_seaturtle.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_snowleopard.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_stegosaurus.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_stellerseacow.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_sumatranorangutan.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_sumatranrhino.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_thylacine.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_tiger.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_triceratops.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_trilobite.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_vaquita.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_whaleshark.glb",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "path": "rigged/org_wilddog.glb",
+    "errors": 0,
+    "warnings": 0
+  }
+]
