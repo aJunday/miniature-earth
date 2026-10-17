@@ -2642,6 +2642,11 @@
         "field": "dated regional display coverage",
         "url": "https://home.nps.gov/grca/learn/nature/fossils.htm",
         "label": "NPS \u00b7 trilobite group fossils in North America"
+      },
+      {
+        "field": "dated regional group occurrence",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Olenoides%20serratus&show=coords,time,ref&cc=US,CA&limit=100",
+        "label": "PBDB Olenoides serratus occurrences; class proxy, not one trilobite species across all ages"
       }
     ],
     "checked": "2026-10-16",
@@ -2657,6 +2662,11 @@
         "region": "North America",
         "first": -525000000.0,
         "last": -505000000.0
+      },
+      {
+        "region": "North America",
+        "first": -506500000.0,
+        "last": -497000000.0
       }
     ]
   },
@@ -3448,6 +3458,102 @@
     "coverageReview": {
       "taxonomy": "source-linked",
       "dates": "present baseline / historical documentation; origin unknown",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
+  },
+  "desmatosuchus": {
+    "commonName": "Desmatosuchus",
+    "scientificName": "Desmatosuchus spurensis",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "River-margin woodland",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "terrestrial",
+    "food": "Plant material; precise diet uncertain",
+    "foodEvidence": "Source-reviewed feeding guild; numeric rates are teaching assumptions",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Original stylized asset; colours and scale are artistic choices. Deposit ages define uncertain display coverage, not an exact species lifespan."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Desmatosuchus%20spurensis&show=coords,time,ref&cc=US,CA&limit=100",
+        "label": "PBDB occ:406864 \u00b7 W. G. Parker. 2008. Description of new material of the aetosaur Desmatosuchus spuriensis (Archosauria: Suchia) from the Chinle Formation of Arizona and a revision of the genus. PaleoBios 28:1-40"
+      },
+      {
+        "field": "taxonomy, anatomy and ecology",
+        "url": "https://www.nps.gov/pefo/learn/pseudosuchians.htm",
+        "label": "NPS"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -227300000.0,
+      -205700000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
+      "regions": "reviewed broad regions",
+      "feeding": "reviewed functional role"
+    }
+  },
+  "vauxia": {
+    "commonName": "Vauxia sponge",
+    "scientificName": "Vauxia gracilenta",
+    "taxonomicRank": "species",
+    "taxonomicStatus": "ACCEPTED",
+    "firstAppearance": null,
+    "lastOccurrence": null,
+    "dateBasis": "Age interval of a fossil-bearing deposit; compatibility within this interval is an uncertain reconstruction, not continuous documented occupation or exact origination/extinction.",
+    "habitat": "Marine seafloor",
+    "habitatEvidence": "Broad game habitat; finer native range not yet verified",
+    "waterDomain": "marine",
+    "food": "Suspended organic particles",
+    "foodEvidence": "Source-reviewed feeding guild; numeric rates are teaching assumptions",
+    "extinctionStatus": "extinct",
+    "empiricalTemperatureRange": null,
+    "empiricalOxygenThreshold": null,
+    "measurementNote": "No reviewed numeric tolerance; temperature, oxygen fitness and resource links in the simulation are teaching parameters.",
+    "relationships": [],
+    "notes": [
+      "Original stylized asset; colours and scale are artistic choices. Deposit ages define uncertain display coverage, not an exact species lifespan."
+    ],
+    "sources": [
+      {
+        "field": "dated occurrence / display coverage",
+        "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Vauxia%20gracilenta&show=coords,time,ref&cc=US,CA&limit=100",
+        "label": "PBDB occ:1002949 \u00b7 P. A. Johnston, K. J. Johnston, and C. J. Collom, W. G. Powell, R. J. Pollock. 2009. Palaeontology and depositional environments of ancient brine seeps in the Middle Cambrian Burgess Shale at The Monarch, British Columbia, Canada. Palaeogeography, Palaeoclimatology, Palaeoecology 277:86-105"
+      },
+      {
+        "field": "taxonomy, anatomy and ecology",
+        "url": "https://burgess-shale.rom.on.ca/fossils/vauxia-gracilenta/",
+        "label": "Royal Ontario Museum"
+      }
+    ],
+    "checked": "2026-10-16",
+    "coverage": [
+      -506500000.0,
+      -497000000.0
+    ],
+    "regions": [
+      "North America"
+    ],
+    "coverageReview": {
+      "taxonomy": "source-linked",
+      "dates": "reviewed dated occurrence",
       "regions": "reviewed broad regions",
       "feeding": "reviewed functional role"
     }

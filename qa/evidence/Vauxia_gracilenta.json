@@ -1,0 +1,113 @@
+{
+  "url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Vauxia%20gracilenta&show=coords,time,ref&cc=US,CA&limit=100",
+  "data": {
+    "elapsed_time": 0.00375,
+    "records": [
+      {
+        "oid": "occ:719547",
+        "cid": "col:77218",
+        "tna": "Vauxia gracilenta",
+        "rnk": 3,
+        "tid": "txn:206750",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:26137",
+        "lng": "-112.000000",
+        "lat": "42.000000",
+        "cxi": "int:22",
+        "ref": "D. E. G. Briggs and R. A. Robison. 1984. Exceptionally preserved nontrilobite arthropods and Anomalocaris from the Middle Cambrian of Utah. University of Kansas Paleontological Contributions 111:1-23"
+      },
+      {
+        "oid": "occ:1001956",
+        "cid": "col:121960",
+        "tna": "Vauxia gracilenta",
+        "rnk": 3,
+        "tid": "txn:206750",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:38794",
+        "lng": "-116.433334",
+        "lat": "51.400002",
+        "cxi": "int:22",
+        "ref": "J. K. Rigby and D. Collins. 2004. Sponges of the Middle Cambrian Burgess Shale and Stephen Formations, British Columbia. Royal Ontario Museum Contributions in Science 1:1-155"
+      },
+      {
+        "oid": "occ:1001963",
+        "cid": "col:121961",
+        "tna": "Vauxia gracilenta",
+        "rnk": 3,
+        "tid": "txn:206750",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:38794",
+        "lng": "-116.449997",
+        "lat": "51.416668",
+        "cxi": "int:22",
+        "ref": "J. K. Rigby and D. Collins. 2004. Sponges of the Middle Cambrian Burgess Shale and Stephen Formations, British Columbia. Royal Ontario Museum Contributions in Science 1:1-155"
+      },
+      {
+        "oid": "occ:1001995",
+        "cid": "col:121962",
+        "tna": "Vauxia gracilenta",
+        "rnk": 3,
+        "tid": "txn:206750",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:38794",
+        "lng": "-116.466667",
+        "lat": "51.433334",
+        "cxi": "int:22",
+        "ref": "J. K. Rigby and D. Collins. 2004. Sponges of the Middle Cambrian Burgess Shale and Stephen Formations, British Columbia. Royal Ontario Museum Contributions in Science 1:1-155"
+      },
+      {
+        "oid": "occ:1002011",
+        "cid": "col:121963",
+        "tna": "Vauxia gracilenta",
+        "rnk": 3,
+        "tid": "txn:206750",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:38794",
+        "lng": "-116.466667",
+        "lat": "51.433334",
+        "cxi": "int:22",
+        "ref": "J. K. Rigby and D. Collins. 2004. Sponges of the Middle Cambrian Burgess Shale and Stephen Formations, British Columbia. Royal Ontario Museum Contributions in Science 1:1-155"
+      },
+      {
+        "oid": "occ:1002949",
+        "cid": "col:122094",
+        "tna": "Vauxia gracilenta",
+        "rnk": 3,
+        "tid": "txn:206750",
+        "oei": "St Davids",
+        "eag": 506.5,
+        "lag": 497,
+        "rid": "ref:38872",
+        "lng": "-115.833336",
+        "lat": "51.033333",
+        "cxi": "int:1204",
+        "ref": "P. A. Johnston, K. J. Johnston, and C. J. Collom, W. G. Powell, R. J. Pollock. 2009. Palaeontology and depositional environments of ancient brine seeps in the Middle Cambrian Burgess Shale at The Monarch, British Columbia, Canada. Palaeogeography, Palaeoclimatology, Palaeoecology 277:86-105"
+      },
+      {
+        "oid": "occ:1660529",
+        "cid": "col:121959",
+        "tna": "Vauxia gracilenta",
+        "rnk": 3,
+        "tid": "txn:206750",
+        "oei": "Delamaran",
+        "eag": 509.7,
+        "lag": 505.3,
+        "rid": "ref:89050",
+        "lng": "-116.433334",
+        "lat": "51.383331",
+        "cxi": "int:22",
+        "ref": "L. J. O\u2019Brien and J. Caron. 2016. Paleocommunity analysis of the Burgess Shale Tulip Beds, Mount Stephen, British Columbia: Comparison with the Walcott Quarry and implications for community variation in the Burgess Shale. Paleobiology 42(01):27-53"
+      }
+    ]
+  }
+}

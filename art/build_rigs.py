@@ -14,7 +14,7 @@ report=json.loads((BASE/'art/reports/rigs.json').read_text()) if '--new-only' in
 for species in json.loads((BASE/'src/sim/data/species.json').read_text()):
     ident=species['id']
     if '--new-only' in sys.argv and (out/f'org_{ident}.glb').exists(): continue
-    if species['diet'] in ('producer','decomposer') or ident in ('elkhorncoral','charnia'): continue
+    if species['diet'] in ('producer','decomposer') or ident in ('elkhorncoral','charnia','vauxia'): continue
     bpy.ops.wm.read_factory_settings(use_empty=True)
     bpy.ops.import_scene.gltf(filepath=str(BASE/f'public/models/org_{ident}.glb'))
     meshes=[o for o in bpy.context.scene.objects if o.type=='MESH']

@@ -112,6 +112,38 @@
     ],
     "pass": true
   },
+  "org_beaver": {
+    "triangles": 1306,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_bison": {
+    "triangles": 1292,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_bluewhale": {
     "triangles": 1352,
     "parts": [
@@ -139,6 +171,21 @@
       "Leg_FR",
       "Root",
       "Tail"
+    ],
+    "pass": true
+  },
+  "org_capybara": {
+    "triangles": 1300,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root"
     ],
     "pass": true
   },
@@ -211,6 +258,22 @@
   },
   "org_deer": {
     "triangles": 1292,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_desmatosuchus": {
+    "triangles": 1308,
     "parts": [
       "Body",
       "Eye_L",
@@ -341,6 +404,22 @@
     ],
     "pass": true
   },
+  "org_graywolf": {
+    "triangles": 1304,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
   "org_groundsloth": {
     "triangles": 1318,
     "parts": [
@@ -446,6 +525,20 @@
       "Leg_BR",
       "Leg_FL",
       "Leg_FR",
+      "Root",
+      "Tail"
+    ],
+    "pass": true
+  },
+  "org_menhaden": {
+    "triangles": 1050,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Fin_L",
+      "Fin_R",
+      "Head",
       "Root",
       "Tail"
     ],
@@ -863,6 +956,14 @@
       "Head",
       "Root",
       "Tail"
+    ],
+    "pass": true
+  },
+  "org_vauxia": {
+    "triangles": 658,
+    "parts": [
+      "Body",
+      "Root"
     ],
     "pass": true
   },

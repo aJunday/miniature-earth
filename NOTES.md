@@ -243,3 +243,7 @@
 - North America remains a representative continental habitat mosaic, never a single reconstructed fossil locality. Broad trilobite, vegetation and ground-sloth proxies are explicitly group-level.
 - Triassic has a real missing animal asset, addressed in milestone H after existing scene/camera fixes; do not populate it with Jurassic dinosaurs.
 - Use 1872–2026 as a conservative continental display interval for historically documented modern North American residents, not their evolutionary origin or a local census. Stable illustrative founding counts avoid a 2026 loading jump; actual historical abundance is not claimed.
+- Critical overhaul: Desmatosuchus and Vauxia are original stylized models; fossil deposit intervals bound display uncertainty, not exact origin/extinction dates. Colours and game dimensions are artistic assumptions.
+- Critical overhaul: living species' 1872–2026 continental display continuity is a conservative reconstruction inference, not a local historical census.
+- Critical overhaul: early Pleistocene uses southern North American lowlands; a glacial landscape is not assumed globally.
+- Critical overhaul: a follow camera follows a representative group across simulation changes, not a documented individual life history.

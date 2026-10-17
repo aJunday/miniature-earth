@@ -910,5 +910,27 @@
       "Leg_FL",
       "Leg_FR"
     ]
+  },
+  "org_desmatosuchus": {
+    "full": 2738,
+    "distant": 1308,
+    "parts": [
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  "org_vauxia": {
+    "full": 1374,
+    "distant": 658,
+    "parts": [
+      "Body"
+    ]
   }
 }

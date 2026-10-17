@@ -18,7 +18,7 @@ const cambrian=eras.find(e=>e.id==='cambrian')!,permian=eras.find(e=>e.id==='per
 eras.push({...cambrian,id:'ordovician',name:'Ordovician',start:-486.85e6,end:-443.1e6,snap:-460e6,description:'Marine ecosystems diversify; this is a representative coastal landscape.'},
 {...cambrian,id:'silurian',name:'Silurian',start:-443.1e6,end:-419.62e6,snap:-430e6,description:'Early land plants spread, represented conservatively by a mostly bare coastline.'},
 {...cambrian,id:'devonian',name:'Devonian',start:-419.62e6,end:-358.9e6,snap:-390e6,vegetation:.2,description:'Forests emerge during this interval. The sparse woodland is a broad transitional approximation.'},
-{...permian,id:'triassic',name:'Triassic',start:-251.9e6,end:-201.4e6,snap:-230e6,description:'Recovering terrestrial ecosystems in a seasonally dry landscape.'});
+{...permian,id:'triassic',name:'Triassic',start:-251.9e6,end:-201.4e6,snap:-225e6,description:'Recovering terrestrial ecosystems in a seasonally dry landscape.'});
 const protero=eras.find(e=>e.id==='proterozoic')!;
 eras.push({...protero,id:'cryogenian',name:'Cryogenian',start:-720e6,end:-635e6,snap:-660e6,snow:true,ground:'#d2dfdf',water:'#719fb3',sky:'#d6e7ec',climate:'Major glacial episodes',description:'A glacial interval within the Proterozoic; the timing and extent of ice varied.'},
 {...protero,id:'ediacaran',name:'Ediacaran',start:-635e6,end:-538.8e6,snap:-560e6,oxygenFit:.55,description:'Late Proterozoic seas supported diverse large organisms. Land remains without forests.'});

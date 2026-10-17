@@ -1953,5 +1953,51 @@
     "fact": "Capybaras graze beside South American wetlands; their eyes and small ears sit high on their blunt heads.",
     "habitatSensitivity": 0.5,
     "threats": []
+  },
+  {
+    "id": "desmatosuchus",
+    "name": "Desmatosuchus",
+    "era": "Triassic",
+    "zone": "land",
+    "diet": "herbivore",
+    "eats": [],
+    "temp": [
+      5,
+      30
+    ],
+    "rain": null,
+    "height": 0.9,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.12,
+    "K": 80,
+    "need": 0.25,
+    "m": 0.12,
+    "fact": "An armored aetosaur with prominent shoulder spines; a crocodile-line archosaur, not a dinosaur.",
+    "habitatSensitivity": 0.5,
+    "threats": []
+  },
+  {
+    "id": "vauxia",
+    "name": "Vauxia sponge",
+    "era": "Cambrian",
+    "zone": "sea",
+    "diet": "filter feeder",
+    "eats": [],
+    "temp": [
+      5,
+      30
+    ],
+    "rain": null,
+    "height": 0.45,
+    "hardy": false,
+    "tier": 1,
+    "r": 0.12,
+    "K": 80,
+    "need": 0.25,
+    "m": 0.12,
+    "fact": "A branching Cambrian sponge anchored to the seafloor, filtering food from the water.",
+    "habitatSensitivity": 0.5,
+    "threats": []
   }
 ]

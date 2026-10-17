@@ -910,5 +910,21 @@
       "Birth",
       "Death"
     ]
+  },
+  {
+    "id": "desmatosuchus",
+    "bones": 15,
+    "skins": 9,
+    "actions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Forage",
+      "Rest",
+      "Swim",
+      "Fly",
+      "Birth",
+      "Death"
+    ]
   }
 ]

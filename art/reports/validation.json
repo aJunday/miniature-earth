@@ -765,6 +765,42 @@
       "transparent_pixels": 48447
     }
   },
+  "org_desmatosuchus": {
+    "triangles": 2738,
+    "budget": 3000,
+    "bounds_min": [
+      -0.7078153491020203,
+      0.0,
+      -1.4100368022918701
+    ],
+    "bounds_max": [
+      0.7092176675796509,
+      0.8999999761581421,
+      1.0949302911758423
+    ],
+    "height": 0.8999999761581421,
+    "node_tree": [
+      "Root",
+      "  Body",
+      "  Eye_L",
+      "  Eye_R",
+      "  Head",
+      "  Leg_BL",
+      "  Leg_BR",
+      "  Leg_FL",
+      "  Leg_FR",
+      "  Tail"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 46043
+    }
+  },
   "org_dickinsonia": {
     "triangles": 2688,
     "budget": 3000,
@@ -2374,6 +2410,34 @@
         255
       ],
       "transparent_pixels": 49950
+    }
+  },
+  "org_vauxia": {
+    "triangles": 1374,
+    "budget": 1500,
+    "bounds_min": [
+      -0.14419452846050262,
+      0.0,
+      -0.08905273675918579
+    ],
+    "bounds_max": [
+      0.133370041847229,
+      0.44999998062849045,
+      0.06736641377210617
+    ],
+    "height": 0.44999998062849045,
+    "node_tree": [
+      "Root",
+      "  Body"
+    ],
+    "icon": {
+      "width": 256,
+      "height": 256,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 51802
     }
   },
   "org_whaleshark": {

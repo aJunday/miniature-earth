@@ -375,6 +375,25 @@
     ]
   },
   {
+    "id": "desmatosuchus",
+    "file": "/models/org_desmatosuchus.glb",
+    "icon": "/icons/org_desmatosuchus.png",
+    "heightUnits": 0.8999999761581421,
+    "triangles": 2738,
+    "parts": [
+      "Root",
+      "Body",
+      "Eye_L",
+      "Eye_R",
+      "Head",
+      "Leg_BL",
+      "Leg_BR",
+      "Leg_FL",
+      "Leg_FR",
+      "Tail"
+    ]
+  },
+  {
     "id": "dickinsonia",
     "file": "/models/org_dickinsonia.glb",
     "icon": "/icons/org_dickinsonia.png",
@@ -1184,6 +1203,17 @@
       "Fin_R",
       "Head",
       "Tail"
+    ]
+  },
+  {
+    "id": "vauxia",
+    "file": "/models/org_vauxia.glb",
+    "icon": "/icons/org_vauxia.png",
+    "heightUnits": 0.44999998062849045,
+    "triangles": 1374,
+    "parts": [
+      "Root",
+      "Body"
     ]
   },
   {
